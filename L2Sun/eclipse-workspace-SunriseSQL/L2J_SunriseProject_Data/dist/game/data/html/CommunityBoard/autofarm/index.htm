@@ -1,0 +1,346 @@
+<html noscrollbar>
+<title>Community Board</title>
+<body>
+	<br>
+	<table border=0 cellpadding=0 cellspacing=0 width=772 height=500
+		background="l2ui_ct1.Windows_DF_TooltipBG">
+		<tr>
+			<td valign="top" align="center"><br> <br> <br> <br>
+				
+				<table border=0 cellspacing=0 cellpadding=0 width=755>
+					<tr>
+						<td width=755 height=38 align=center valign=top>
+							<font name="hs12">Status: <font color=ae9977>{%}isactive{%}</font></font>
+						</td>
+					</tr>
+				</table>
+			
+				<table border=0 cellspacing=0 cellpadding=0 height=25 width=772>
+					
+					<tr>
+						<td valign="top" align="left">
+							<table width=150 border=0 >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Preferences</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160 height=1></td>
+											</tr>
+										</table>
+										
+										<table cellpadding=3>
+											<tr><td align=right>Target distance: <font color=ae9977>{%}targetdistance{%}</font></td></tr>
+											<tr><td align=right>Target selection: <font color=ae9977>{%}targetchoose{%}</font></td></tr>
+											<tr><td align=right>Low life percent: <font color=ae9977>{%}lowlifepercent{%}%</font></td></tr>
+											<tr><td align=right>Skill priority: <font color=ae9977>{%}skillpriority{%}</font></td></tr>
+											<tr><td align=right>Shortcut page: <font color=ae9977>{%}shortcutpage{%}</font></td></tr>
+											<tr>
+												<td align=right>
+													MP potion: <font color=ae9977 width=45>{%}mppotionpercent{%}%</font>
+													<edit var="mpthreshhold">
+													
+													<button value="Update"
+															action="bypass %command%_mpthreshhold $mpthreshhold" width=74
+															height=25 back="L2UI_CT1.Button_DF_Down"
+															fore="L2UI_ct1.button_df">
+												</td>
+											</tr>
+											<tr>
+												<td align=right>
+													HP potion: <font color=ae9977 width=45>{%}hppotionpercent{%}%</font>
+													<edit var="hpthreshhold">
+													
+													<button value="Update"
+															action="bypass %command%_hpthreshhold $hpthreshhold" width=74
+															height=25 back="L2UI_CT1.Button_DF_Down"
+															fore="L2UI_ct1.button_df">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							
+							<table width=150 border=0 >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Bot actions</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160 height=1></td>
+											</tr>
+										</table>
+										<table>
+											<tr>
+												<td><button value="Start farm"
+														action="bypass -h voice .farmon" width=74 height=25
+														back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Stop farm"
+														action="bypass -h voice .farmoff" width=74 height=25
+														back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+									</td>
+
+								</tr>
+							</table>
+						</td>
+						
+						<td valign="top" align="left">
+
+							<table border=0 width=600 >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Attack skills</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160
+													height=1></td>
+											</tr>
+										</table>
+										<table>
+											<tr>
+												<td><button value="Add skill"
+														action="bypass %command%_show_ATTACK" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Reset skills"
+														action="bypass %command%_reset_ATTACK" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+									</td>
+									<td width=100 align=center ><img
+										src="%attackSkillIcon0%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%attackSkillName0%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%attackSkillIcon1%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%attackSkillName1%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%attackSkillIcon2%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%attackSkillName2%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%attackSkillIcon3%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%attackSkillName3%</font>
+									</td>
+								</tr>
+							</table>
+						
+							<table border=0 width=600 >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Chance Skills</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160
+													height=1></td>
+											</tr>
+										</table>
+										<table>
+											<tr>
+												<td><button value="Add skill"
+														action="bypass %command%_show_CHANCE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Reset skills"
+														action="bypass %command%_reset_CHANCE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+									</td>
+									<td width=100 align=center ><img
+										src="%chanceSkillIcon0%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%chanceSkillName0%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%chanceSkillIcon1%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%chanceSkillName1%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%chanceSkillIcon2%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%chanceSkillName2%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%chanceSkillIcon3%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%chanceSkillName3%</font>
+									</td>
+								</tr>
+							</table>
+
+							<table border=0 width=600  >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Low life Skills</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160
+													height=1></td>
+											</tr>
+										</table>
+										<table>
+											<tr>
+												<td><button value="Add skill"
+														action="bypass %command%_show_LOWLIFE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Reset skills"
+														action="bypass %command%_reset_LOWLIFE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+									</td>
+									<td width=100 align=center ><img
+										src="%lowlifeSkillIcon0%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%lowlifeSkillName0%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%lowlifeSkillIcon1%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%lowlifeSkillName1%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%lowlifeSkillIcon2%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%lowlifeSkillName2%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%lowlifeSkillIcon3%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%lowlifeSkillName3%</font>
+									</td>
+								</tr>
+							</table>
+
+							<table border=0 width=600  >
+								<tr>
+									<td width=150 align=center valign=top>
+										<table>
+											<tr>
+												<td align=center><font name="hs12" color=ae9977>Self Skills</font></td>
+											</tr>
+											<tr>
+												<td align=center><img src="L2UI.SquareGray" width=160
+													height=1></td>
+											</tr>
+										</table>
+										<table>
+											<tr>
+												<td><button value="Add skill"
+														action="bypass %command%_show_SELF" width=74 height=25
+														back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Reset skills"
+														action="bypass %command%_reset_SELF" width=74 height=25
+														back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+									</td>
+									<td width=100 align=center ><img
+										src="%selfSkillIcon0%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%selfSkillName0%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%selfSkillIcon1%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%selfSkillName1%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%selfSkillIcon2%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%selfSkillName2%</font>
+									</td>
+									<td width=100 align=center ><img
+										src="%selfSkillIcon3%" width=32 height=32> <font
+										name="CreditTextSmall" color=ae9977>%selfSkillName3%</font>
+									</td>
+								</tr>
+							</table>
+							
+						</td>
+					</tr>
+				</table></td>
+		</tr>
+		
+		
+		<tr>
+			<td>
+			<table>
+											<tr>
+												<td>
+													<table>
+													<tr>
+														<td align=center><font name="hs12" color=ae9977>Target Preferences</font></td>
+													</tr>
+													<tr>
+														<td align=center><img src="L2UI.SquareGray" width=160
+															height=1></td>
+													</tr>
+												</table>
+												</td>
+												<td><button value="Narrow"
+														action="bypass %command%_targetrange_NARROW" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+												<td><button value="Average"
+														action="bypass %command%_targetrange_AVERAGE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+													<td><button value="Wide"
+														action="bypass %command%_targetrange_WIDE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+													<td><button value="Very wide"
+														action="bypass %command%_targetrange_VERYWIDE" width=74
+														height=25 back="L2UI_CT1.Button_DF_Down"
+														fore="L2UI_ct1.button_df"></td>
+											</tr>
+										</table>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<table>
+				<tr>
+					<td>
+						<table>
+						<tr>
+							<td align=center><font name="hs12" color=ae9977>Target Preferences</font></td>
+						</tr>
+						<tr>
+							<td align=center><img src="L2UI.SquareGray" width=160
+								height=1></td>
+						</tr>
+					</table>
+					</td>
+					<td><button value="Closest"
+							action="bypass %command%_targetselection_CLOSEST" width=74
+							height=25 back="L2UI_CT1.Button_DF_Down"
+							fore="L2UI_ct1.button_df"></td>
+					<td><button value="Random"
+							action="bypass %command%_targetselection_RANDOM" width=74
+							height=25 back="L2UI_CT1.Button_DF_Down"
+							fore="L2UI_ct1.button_df"></td>
+				</tr>
+			</table>
+			</td>
+			</tr>
+		
+	</table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@echo off 
+set config_version=2 
+set cmode=c
+set safe_mode=1 
+set mysqlPath=C:\Program Files\MySQL\MySQL Server 5.6\bin\mysql.exe
+set mysqlBinPath=C:\Program Files\MySQL\MySQL Server 5.6\bin
+set mysqldumpPath=C:\Program Files\MySQL\MySQL Server 5.6\bin\mysqldump.exe
+set lsuser=root
+set lspass=J@c0b1n4
+set lsdb=sunriseSql
+set lshost=localhost 
+set cbuser=
+set cbpass=
+set cbdb=
+set cbhost= 
+set gsuser=root
+set gspass=J@c0b1n4
+set gsdb=sunriseSql
+set gshost=localhost
+set logdir=.
+set backup=.

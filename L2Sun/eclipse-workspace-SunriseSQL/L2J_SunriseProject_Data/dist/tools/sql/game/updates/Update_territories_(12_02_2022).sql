@@ -1,0 +1,1 @@
+ALTER TABLE territories ADD COLUMN `lordId` int(2) NOT NULL DEFAULT '0' AFTER `fortId`;
