@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="AntRunConfiguration" singleton="false">
+    <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="dist" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

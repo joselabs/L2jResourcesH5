@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_3" inherit-compiler-output="true" jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="lib" scope="PROVIDED"/>
+	<levels>
+		<level name="lib" value="project"/>
+	</levels>
+</component>
