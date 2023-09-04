@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="51" nameEn="O'Fulle's Special Bait" nameRu="Особая Наживка О'Фулле">
+		<droplist>
+			<npc id="20552">
+				<item id="7622" min="1" chance="30" rateable="true" /> <!--Lost Bait Ingredient-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7611" min="4" rateable="true" /> <!--Icy Air Fishing Lure-->
+		</rewardlist>
+	</quest>
+</list>

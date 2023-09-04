@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="403" nameEn="Path of the Rogue" nameRu="Путь Разбойника">
+		<droplist>
+			<npc id="20035">
+				<item id="1183" min="1" chance="20" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+			<npc id="20042">
+				<item id="1183" min="1" chance="30" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+			<npc id="20045">
+				<item id="1183" min="1" chance="20" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+			<npc id="20051">
+				<item id="1183" min="1" chance="20" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+			<npc id="20054">
+				<item id="1183" min="1" chance="80" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+			<npc id="20060">
+				<item id="1183" min="1" chance="80" rateable="true" /> <!--Spartoi's Bones-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="163800" rateable="true" /> <!--Adena-->
+			<item id="1190" min="1" rateable="false" /> <!--Bezique's Recommendation-->
+		</rewardlist>
+	</quest>
+</list>

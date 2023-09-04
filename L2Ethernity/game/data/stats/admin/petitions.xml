@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/petitions.xsd">
+	<petition id="0">
+		<name lang="en" val="Quests" />
+		<name lang="ru" val="Квесты" />
+		<descr lang="en" val="Section of report on errors in quests" />
+		<descr lang="ru" val="Раздел отчета об ошибках в квестах" />
+		<section id="0">
+			<name lang="en" val="Nonserviceability" />
+			<name lang="ru" val="Неработоспособность" />
+			<descr lang="en" val="When choosing this subsection it is necessary to specify the name of non-working quest and how to add petitions if the quest completely is absent." />
+			<descr lang="ru" val="При выборе данного подраздела следует указать название нерабочего квеста, а как же дополнить петиции, если квест полностью отсутствует." />
+		</section>
+		<section id="1">
+			<name lang="en" val="Error in process performance" />
+			<name lang="ru" val="Ошибка в процессе выполнения" />
+			<descr lang="en" val="When choosing this subsection specify the name of quest and in what place when performing quest there were problems." />
+			<descr lang="ru" val="При выборе данного подраздела укажите название квеста и в каком месте при выполнении квеста возникли проблемы." />
+		</section>
+		<section id="2">
+			<name lang="en" val="Error when receiving reward" />
+			<name lang="ru" val="Ошибка при получении награды" />
+			<descr lang="en" val="When choosing this subsection specify the name of quest and add petitions having specified absence or abnormality of receiving reward." />
+			<descr lang="ru" val="При выборе данного подраздела укажите название квеста и дополните петиции указав отсутствие или неправильность получения награды." />
+		</section>
+	</petition>
+	<petition id="1">
+		<name lang="en" val="Skills" />
+		<name lang="ru" val="Навыки" />
+		<descr lang="en" val="Section of report on errors with skills" />
+		<descr lang="ru" val="Раздел отчета об ошибках с навыками" />
+		<section id="0">
+			<name lang="en" val="Nonserviceability" />
+			<name lang="ru" val="Неработоспособность" />
+			<descr lang="en" val="When choosing this subsection it is necessary to specify the name of idle skill." />
+			<descr lang="ru" val="При выборе данного подраздела следует указать название неработающего навыка." />
+		</section>
+		<section id="1">
+			<name lang="en" val="Lack of skill" />
+			<name lang="ru" val="Отсутствие навыка" />
+			<descr lang="en" val="When choosing this subsection it is necessary to specify the name of the absent skill and to specify a  character profession in which it has to be present." />
+			<descr lang="ru" val="При выборе данного подраздела следует указать название отсутствующего навыка и указать профессию персонажа, в которой он должен присутствовать." />
+		</section>
+		<section id="2">
+			<name lang="en" val="Not correct work of skill" />
+			<name lang="ru" val="Не правильная работа навыка" />
+			<descr lang="en" val="When choosing this subsection it is necessary to specify the name of not correctly working skill." />
+			<descr lang="ru" val="При выборе данного подраздела следует указать название не правильно работающего навыка." />
+		</section>
+	</petition>
+	<petition id="2">
+		<name lang="en" val="Ill practice" />
+		<name lang="ru" val="Нечестная игра" />
+		<descr lang="en" val="Section of the report about bot programs and cheats" />
+		<descr lang="ru" val="Раздел отчета о бот программах и читах" />
+		<section id="0">
+			<name lang="en" val="Spam bots" />
+			<name lang="ru" val="Спам боты" />
+			<descr lang="en" val="When choosing this subsection enter a player name who in your opinion uses spam bot." />
+			<descr lang="ru" val="При выборе данного подраздела укажите имя игрока, который по вашему мнению использует спам бота." />
+		</section>
+		<section id="1">
+			<name lang="en" val="Game bots" />
+			<name lang="ru" val="Игровые боты" />
+			<descr lang="en" val="When choosing this subsection enter a player name who in your opinion uses game bot." />
+			<descr lang="ru" val="При выборе данного подраздела укажите имя игрока, который по вашему мнению использует игрового бота." />
+		</section>
+		<section id="2">
+			<name lang="en" val="Cheats programs" />
+			<name lang="ru" val="Чит программы" />
+			<descr lang="en" val="When choosing this subsection enter a player name who in your opinion uses сheat program." />
+			<descr lang="ru" val="При выборе данного подраздела укажите имя игрока, который по вашему мнению использует чит программы." />
+		</section>
+	</petition>
+	<petition id="3">
+		<name lang="en" val="Game process" />
+		<name lang="ru" val="Игровой процесс" />
+		<descr lang="en" val="Section of the report on erroes which arose in the game process" />
+		<descr lang="ru" val="Раздел отчета об ошибках возникших в процессе игры" />
+		<section id="0">
+			<name lang="en" val="Instance zones" />
+			<name lang="ru" val="Временные зоны" />
+			<descr lang="en" val="When choosing this subsection specify the name of instance zone and a problem related." />
+			<descr lang="ru" val="При выборе данного подраздела укажите название временной зоны и проблему связанную с ней." />
+		</section>
+		<section id="1">
+			<name lang="en" val="Hunting zones" />
+			<name lang="ru" val="Охотничьи зоны" />
+			<descr lang="en" val="When choosing this subsection specify zone name and a problem related." />
+			<descr lang="ru" val="При выборе данного подраздела укажите название зоны и проблему связанную с ней." />
+		</section>
+		<section id="2">
+			<name lang="en" val="Sieges" />
+			<name lang="ru" val="Осады" />
+			<descr lang="en" val="When choosing this subsection specify specifics of error and at what siege it arose." />
+			<descr lang="ru" val="При выборе данного подраздела укажите специфику ошибки и при какой осаде она возникла." />
+		</section>
+		<section id="3">
+			<name lang="en" val="Other" />
+			<name lang="ru" val="Другое" />
+			<descr lang="en" val="In this section all problems which do not approach the above-stated sections are described." />
+			<descr lang="ru" val="В данном разделе описываются все проблемы, которые не подходят к вышеуказанным разделам." />
+		</section>
+	</petition>
+</list>

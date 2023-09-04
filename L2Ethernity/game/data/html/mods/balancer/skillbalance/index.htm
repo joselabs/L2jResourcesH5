@@ -1,0 +1,59 @@
+<html><body><center>
+<table width=610 height=470 border=0 cellspacing=0 cellpadding=0>
+<tr><td height=15></td></tr>
+<tr>
+<td align=center>
+	<table width=700 height=450 border=0 cellspacing=0 cellpadding=0>
+	<tr>
+	<td align=center>
+		<table width=700 height=30 cellspacing=0 cellpadding=0 border=0>
+		<tr><td FIXWIDTH=35 align=center>#</td>
+			<td FIXWIDTH=50 align=center>Skill Id</td>
+			<td FIXWIDTH=110 align=center>Name</td>
+			<td FIXWIDTH=70 align=center></td>
+			<td FIXWIDTH=100 align=center>Change Type</td>
+			<td FIXWIDTH=50></td>
+			<td FIXWIDTH=100 align=center>Value</td>
+			<td FIXWIDTH=50></td>
+			<td FIXWIDTH=136 align=center>Target</td>
+			<td FIXWIDTH=10></td>
+			<td FIXWIDTH=30 align=center>Skill</td>
+			<td FIXWIDTH=80 align=center><table cellpadding=0 cellspacing=0><tr><td height=12></td></tr></table><Edit var="val" width=60 height=12/></td>
+			<td FIXWIDTH=45 align=center><table cellpadding=0 cellspacing=0><tr><td height=10></td></tr></table><button value="Search" action="bypass -h _bbs_search_skillbalance $val <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+		</tr>
+		</table>
+		<table width=700 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+		%info%
+		<table width=700 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+		
+		<table width=500 height=30 cellspacing=0 cellpadding=0>
+		<tr>
+		<td align=right width=190><br>
+			<button value="Prev" action="bypass -h _bbs_skillbalance %previousPage% <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td>
+		<td align=center width=190><br>
+			%pageID% / %totalPages%
+		</td>
+		<td width=190><br>
+			<button value="Next" action="bypass -h _bbs_skillbalance %nextPage% <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td>
+		</tr>
+		</table>
+		<table width=700 height=30 cellspacing=0 cellpadding=0>
+		<tr><td><img src="L2UI.SquareBlank" width=40 height=20></td></tr>
+		<tr><td></td><td></td>
+		<td width="45" align="center"><br><br><br>
+			<button value="Save" action="bypass -h _bbs_save_skillbalance %pageID% <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td><td width="250"></td><td></td><td></td>
+		<td width="45" align="center"><br><br><br>
+			<button value="Add" action="bypass -h _bbs_add_menu_skillbalance %pageID% 0 <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td><td width="40"></td></tr><tr><td><img src="L2UI.SquareBlank" width=40 height=20></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td></tr>
+</table>
+<button value="Back" action="bypass -h admin_balancer" width=80 height=26 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</center></body></html>

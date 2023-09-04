@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10" nameEn="Into the World" nameRu="Большой мир">
+		<rewardlist>
+			<item id="7126" min="1" rateable="true" /> <!--Scroll of Escape: Town of Giran-->
+			<item id="7570" min="1" rateable="false" /> <!--Mark of Traveler-->
+		</rewardlist>
+	</quest>
+</list>

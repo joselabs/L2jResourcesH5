@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="4" name="Coffer Of Shadows" activate="false">
+	<time pattern="0 18 1 5 *" period="168" />
+	<spawnlist>
+		<!-- Omega's Cat -->
+		<npc id="32091" x="-14823" y="123567" z="-3143" heading="8192" />
+		<npc id="32091" x="-83159" y="150914" z="-3155" heading="49152" />
+		<npc id="32091" x="18600" y="145971" z="-3095" heading="40960" />
+		<npc id="32091" x="82158" y="148609" z="-3493" heading="60" />
+		<npc id="32091" x="110992" y="218753" z="-3568" heading="0" />
+		<npc id="32091" x="116339" y="75424" z="-2738" heading="0" />
+		<npc id="32091" x="81140" y="55218" z="-1551" heading="32768" />
+		<npc id="32091" x="147148" y="27401" z="-2231" heading="2300" />
+		<npc id="32091" x="43532" y="-46807" z="-823" heading="31471" />
+		<npc id="32091" x="87765" y="-141947" z="-1367" heading="6500" />
+		<npc id="32091" x="147154" y="-55527" z="-2807" heading="61300" />
+	</spawnlist>
+	<rewardlist>
+		<variant id="1">
+			<!-- Request Items -->
+			<request id="57" min="50000" />
+			<!-- Reward Items -->
+			<reward id="8659" min="1" />
+		</variant>
+		<variant id="2">
+			<!-- Request Items -->
+			<request id="57" min="250000" />
+			<!-- Reward Items -->
+			<reward id="8659" min="5" />
+		</variant>
+		<variant id="3">
+			<!-- Request Items -->
+			<request id="57" min="500000" />
+			<!-- Reward Items -->
+			<reward id="8659" min="10" />
+		</variant>
+		<variant id="4">
+			<!-- Request Items -->
+			<request id="57" min="2500000" />
+			<!-- Reward Items -->
+			<reward id="8659" min="50" />
+		</variant>
+	</rewardlist>
+</event>

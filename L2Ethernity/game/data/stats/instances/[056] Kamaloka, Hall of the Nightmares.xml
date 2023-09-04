@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<!-- Town of Schuttgart: NPC Pathfinder (Level 75) -->
+	<instance id="56" name="Rim Kamaloka (Level 75)" maxChannels="10" collapseIfEmpty="10" timelimit="30" dispelBuffs="false">
+		<level min="70" max="80" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<teleport x="48137" y="-219716" z="-8752" />
+		<reenter setUponEntry="true" sharedReuseGroup="2">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<spawns>
+			<!-- Sword Kanabion -->
+			<spawn mobId="22482" count="6" respawn="30" type="loc">
+				<coords loc="48152 -218792 -8752 -8752"/>
+				<coords loc="49896 -218792 -8752 -8752"/>
+				<coords loc="49896 -220696 -8752 -8752"/>
+				<coords loc="48152 -220696 -8752 -8752"/>
+			</spawn>
+		</spawns>
+	</instance>
+</list>

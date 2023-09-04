@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="npc" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="set" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" />
+									<xs:attribute name="value" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ai_params" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="set" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" />
+												<xs:attribute name="value" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="equip" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="rhand" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="itemId" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="lhand" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="itemId" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="faction" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="ignore" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="npcId" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" />
+									<xs:attribute name="range" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="teach_classes" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="class" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="skills" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="skill" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:integer" />
+												<xs:attribute name="level" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="minions" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="random" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="minion" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="list" type="xs:string" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="minion" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="npcId" type="xs:integer" />
+												<xs:attribute name="count" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="absorblist" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="absorb" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="chance" type="xs:integer" />
+												<xs:attribute name="min_level" type="xs:integer" />
+												<xs:attribute name="max_level" type="xs:integer" />
+												<xs:attribute name="type" type="xs:string" />
+												<xs:attribute name="skill" type="xs:string" />
+												<xs:attribute name="cursed_chance" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="attributes" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="attack" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="attribute" type="xs:string" />
+												<xs:attribute name="value" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="defence" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="attribute" type="xs:string" />
+												<xs:attribute name="value" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="rewardlist" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="group" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="reward" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="itemId" type="xs:integer" />
+															<xs:attribute name="min" type="xs:integer" />
+															<xs:attribute name="max" type="xs:integer" />
+															<xs:attribute name="chance" type="xs:decimal" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="chance" type="xs:decimal" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="reward" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="itemId" type="xs:integer" />
+												<xs:attribute name="min" type="xs:integer" />
+												<xs:attribute name="max" type="xs:integer" />
+												<xs:attribute name="chance" type="xs:decimal" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="type" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer" />
+						<xs:attribute name="templateId" type="xs:integer" />
+						<xs:attribute name="nameEn" type="xs:string" />
+						<xs:attribute name="nameRu" type="xs:string" />
+						<xs:attribute name="titleEn" type="xs:string" />
+						<xs:attribute name="titleRu" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

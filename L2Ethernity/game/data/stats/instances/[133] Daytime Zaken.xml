@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="133" name="Daytime Zaken" maxChannels="20" collapseIfEmpty="300" timelimit="60" dispelBuffs="true">
+		<level min="55" max="65" />
+		<party min="9" max="9" />
+		<allowSummon val="false" />
+		<return x="52212" y="218998" z="-3208" />
+		<teleport x="52680" y="219992" z="-3522" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset day="Monday" hour="6" minute="30" />
+			<reset day="Wednesday" hour="6" minute="30" />
+			<reset day="Friday" hour="6" minute="30" />
+		</reenter>
+		<add_parameters>
+			<set name="checkValidTime" value="true" />
+			<set name="burnCandleDelay" value="10" />
+			<set name="zakenSpawnDelay" value="20" />
+		</add_parameters>
+	</instance>
+</list>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?><!-- DYES -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/multisell.xsd">
+	<!-- Facelifting Potion A for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5235" count="1"/>
+  </item>
+
+  <!-- Facelifting Potion B for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5236" count="1"/>
+  </item>
+
+  <!-- Facelifting Potion C for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5237" count="1"/>
+  </item>
+
+  <!-- Hair Dye Potion A for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5238" count="1"/>
+  </item>
+
+  <!-- Hair Dye Potion B for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5239" count="1"/>
+  </item>
+
+  <!-- Hair Dye Potion C for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5240" count="1"/>
+  </item>
+
+  <!-- Hair Dye Potion D for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5241" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion A for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5242" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion B for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5243" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion C for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5244" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion D for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5245" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion E for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5246" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion F for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5247" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion G for 24000 Ancient Adena -->
+  <item>
+    <ingredient id="5575" count="24000"/>
+    <production id="5248" count="1"/>
+  </item>
+	<item>
+		<!-- Adena -->
+		<ingredient count="100000" id="57"/>
+
+		<!-- Mammon's Varnish Enhancer -->
+		<production count="1" id="12374"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="240000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="480" id="5965"/>
+
+		<!-- Scroll: Enchant Armor (A-Grade) -->
+		<production count="1" id="730"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="80000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="160" id="5965"/>
+
+		<!-- Scroll: Enchant Armor (B-Grade) -->
+		<production count="1" id="948"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="15000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="30" id="5965"/>
+
+		<!-- Scroll: Enchant Armor (C-Grade) -->
+		<production count="1" id="952"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="6000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="12" id="5965"/>
+
+		<!-- Scroll: Enchant Armor (D-Grade) -->
+		<production count="1" id="956"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="50000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="100" id="5965"/>
+
+		<!-- Scroll: Enchant Weapon (D-Grade) -->
+		<production count="1" id="955"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="110000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="220" id="5965"/>
+
+		<!-- Scroll: Enchant Weapon (C-Grade) -->
+		<production count="1" id="951"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="500000" id="5575"/>
+		<!-- Blank Scroll -->
+		<ingredient count="1000" id="5965"/>
+
+		<!-- Scroll: Enchant Weapon (B-Grade) -->
+		<production count="1" id="947"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="30000" id="5575"/>
+
+		<!-- Gemstone A -->
+		<production count="1" id="2133"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="100000" id="5575"/>
+
+		<!-- Gemstone S -->
+		<production count="1" id="2134"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="15000" id="5575"/>
+
+		<!-- Crystal (A-Grade) -->
+		<production count="1" id="1461"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="25000" id="5575"/>
+
+		<!-- Crystal (S-Grade) -->
+		<production count="1" id="1462"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="150000" id="5575"/>
+
+		<!-- Blessed Scroll of Escape -->
+		<production count="1" id="1538"/>
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="400000" id="5575"/>
+
+		<!-- Blessed Scroll of Resurrection -->
+		<production count="1" id="3936"/>
+	</item>
+</list>

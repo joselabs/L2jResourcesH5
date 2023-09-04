@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10275" nameEn="Containing the Attribute Power" nameRu="Сила Стихий">
+		<expirience>
+			<rewardExp val="202160" rateable="true" />
+			<rewardSp val="20375" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="27381">
+				<item id="13862" min="1" chance="30" rateable="false" /> <!--Reckless Soul Piece - Air-->
+			</npc>
+			<npc id="27380">
+				<item id="13861" min="1" chance="30" rateable="false" /> <!--Reckless Soul Piece - Water-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

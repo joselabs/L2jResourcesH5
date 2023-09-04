@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="8" name="Grand Wedding" activate="false">
+	<time pattern="30 9 * * *" period="168" />
+	<spawnlist>
+		<!-- Event Manager -->
+		<npc id="102510" x="146364" y="27322" z="-2205" heading="62980" />
+		<npc id="102510" x="147982" y="-56568" z="-2781" heading="20998" />
+		<npc id="102510" x="83486" y="149328" z="-3405" heading="47599" />
+	</spawnlist>
+	<rewardlist>
+		<variant id="1">
+			<!-- Reward Items -->
+			<reward id="4037" min="10" />
+		</variant>
+	</rewardlist>
+</event>

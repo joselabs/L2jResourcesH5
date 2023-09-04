@@ -1,0 +1,140 @@
+<html><body><center>
+<table width=710 height=470 border=0 cellspacing=0 cellpadding=0>
+	<tr><td height=15></td></tr>
+	<tr>
+		<td align=center>
+		<table width=700 height=30 border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td align=center>
+					<table width=700 height=30 cellspacing=0 cellpadding=0 border=0>
+						<tr>
+							<td FIXWIDTH=110>Attacker Race</td>
+							<td FIXWIDTH=140>Attacker Class Id</td>
+							<td align="center" FIXWIDTH=150>Attack Type</td>
+							<td align="center" FIXWIDTH=100>Value</td>
+							<td align="center" FIXWIDTH=130>Target Class Id</td>
+							<td align="center" FIXWIDTH=130>Target Race</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width=700 height=200 border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td FIXWIDTH=100 align=center>
+					<table width=100 height=90 cellpadding=0 cellspacing=0>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 0 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race0Checked?>" fore="L2UI.CheckBox<?race0Checked?>"/>
+							</td><td>Human</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 1 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race1Checked?>" fore="L2UI.CheckBox<?race1Checked?>"/>
+							</td><td>Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 2 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race2Checked?>" fore="L2UI.CheckBox<?race2Checked?>"/>
+							</td><td>Dark Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 3 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race3Checked?>" fore="L2UI.CheckBox<?race3Checked?>"/>
+							</td><td>Orc</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 4 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race4Checked?>" fore="L2UI.CheckBox<?race4Checked?>"/>
+							</td><td>Dwarf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 5 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?race5Checked?>" fore="L2UI.CheckBox<?race5Checked?>"/>
+							</td><td>Kamael</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+									<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> 7 <?tRace?> true" width=12 height=12 back="L2UI.CheckBox<?trace7Checked?>" fore="L2UI.CheckBox<?trace7Checked?>"/>
+							</td><td>All</td>
+						</tr>
+					</table>
+				</td>
+				<td FIXWIDTH=700 align=center>
+					<table width=500 height=30 cellpadding=0 cellspacing=0 border=0>
+						<tr>
+							<td FIXWIDTH=100><combobox var="classId" list="<?classes?>" width=110></td>				
+							<td align="center" FIXWIDTH=100><combobox var="attackType" list="Normal;Magic;Crit;MCrit;Blow;PSkillDamage;PSkillCritical" width=100/></td>
+							<td align="center" FIXWIDTH=50><Edit var="val" width=30 height=12/></td>
+							<td align="center" FIXWIDTH=110><combobox var="tClassId" list="<?tClasses?>" width=110/></td>
+						</tr>
+					</table>
+				</td>
+				<td FIXWIDTH=130 align=center>
+					<table width=100 height=90 cellpadding=0 cellspacing=0>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 0 true" width=12 height=12 back="L2UI.CheckBox<?trace0Checked?>" fore="L2UI.CheckBox<?trace0Checked?>"/>
+							</td><td>Human</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 1 true" width=12 height=12 back="L2UI.CheckBox<?trace1Checked?>" fore="L2UI.CheckBox<?trace1Checked?>"/>
+							</td><td>Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 2 true" width=12 height=12 back="L2UI.CheckBox<?trace2Checked?>" fore="L2UI.CheckBox<?trace2Checked?>"/>
+							</td><td>Dark Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 3 true" width=12 height=12 back="L2UI.CheckBox<?trace3Checked?>" fore="L2UI.CheckBox<?trace3Checked?>"/>
+							</td><td>Orc</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 4 true" width=12 height=12 back="L2UI.CheckBox<?trace4Checked?>" fore="L2UI.CheckBox<?trace4Checked?>"/>
+							</td><td>Dwarf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 5 true" width=12 height=12 back="L2UI.CheckBox<?trace5Checked?>" fore="L2UI.CheckBox<?trace5Checked?>"/>
+							</td><td>Kamael</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_classbalance <?pageId?> <?race?> 7 true" width=12 height=12 back="L2UI.CheckBox<?trace7Checked?>" fore="L2UI.CheckBox<?trace7Checked?>"/>
+							</td><td>All</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width=710 height=30 border=0 cellspacing=0 cellpadding=0>
+			<tr><td height=15></td></tr>
+			<tr>
+				<td align=center>
+					<button value="Add" action="bypass -h _bbs_add_classbalance $classId $attackType $val $tClassId true" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+					<button value="Back" action="bypass -h _bbs_classbalance <?pageId?> true" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</center></body></html>

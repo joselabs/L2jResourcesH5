@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="230" nameEn="Test of the Summoner" nameRu="Испытание призывателя">
+		<expirience>
+			<rewardExp val="1664494" rateable="true" />
+			<rewardSp val="114220" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<variant id="1"><!--Given at the beginning of quest-->
+				<item id="7562" min="122" rateable="true" /> <!--Dimensional Diamond-->
+			</variant>
+			<variant id="2"><!--Given by finish quest-->
+				<item id="57" min="300960" rateable="true" /> <!--Adena-->
+				<item id="3336" min="1" rateable="false" /> <!--Mark of Summoner-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

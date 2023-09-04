@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="603" nameEn="Daimon the White-Eyed - Part 1" nameRu="Белоглазый Демон - ч. 1">
+		<droplist>
+			<npc id="21297">
+				<item id="7190" min="1" chance="50" rateable="true" /> <!--Evil Spirit of Darkness-->
+			</npc>
+			<npc id="21299">
+				<item id="7190" min="1" chance="52" rateable="true" /> <!--Evil Spirit of Darkness-->
+			</npc>
+			<npc id="21304">
+				<item id="7190" min="1" chance="67" rateable="true" /> <!--Evil Spirit of Darkness-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7192" min="1" rateable="false" /> <!--Unfinished Summon Crystal-->
+		</rewardlist>
+	</quest>
+</list>

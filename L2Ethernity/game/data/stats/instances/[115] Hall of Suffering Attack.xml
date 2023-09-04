@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="115" name="Seed of Infinity (Hall of Suffering)" maxChannels="20" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+		<level min="75" max="82" />
+       		<party min="2" max="9" />
+		<allowSummon val="false" />
+        	<return x="-183352" y="206008" z="-12896" />
+        	<teleport x="-187816" y="205576" z="-9528" />
+        	<quest name="_694_BreakThroughTheHallOfSuffering" type="STARTED" />
+		<showTimer val="true" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset hour="6" minute="30" />
+		</reenter>
+       	 	<spawns>
+			<group name="soi_hos_attack_1" spawned="false" />
+			<group name="soi_hos_attack_2" spawned="false" />
+			<group name="soi_hos_attack_3" spawned="false" />
+			<group name="soi_hos_attack_4" spawned="false" />
+			<group name="soi_hos_attack_5" spawned="false" />
+			<group name="soi_hos_attack_6" spawned="false" />
+			<group name="soi_hos_attack_7" spawned="false" />
+		</spawns>
+	</instance>
+</list>

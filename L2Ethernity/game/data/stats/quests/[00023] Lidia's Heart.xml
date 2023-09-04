@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="23" nameEn="Lidia's Heart" nameRu="Сердце Лидии">
+		<expirience>
+			<rewardExp val="456893" rateable="true" />
+			<rewardSp val="42112" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="300000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

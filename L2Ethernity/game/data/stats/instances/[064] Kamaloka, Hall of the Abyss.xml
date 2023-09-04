@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="64" name="Kamaloka, Hall of the Abyss (Level 46)" maxChannels="10" collapseIfEmpty="10" timelimit="30" dispelBuffs="true">
+		<level min="41" max="51" />
+		<party min="2" max="6" />
+		<allowSummon val="false" />
+		<return x="108453" y="221646" z="-3592" />
+		<teleport x="-81415" y="-206078" z="-8107" />
+		<reenter setUponEntry="false" sharedReuseGroup="1">
+			<reset hour="6" minute="30" />
+		</reenter>
+	</instance>
+</list>

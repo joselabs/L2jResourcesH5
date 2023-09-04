@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="instance" maxOccurs="9999" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="level" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="min" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="max" type="xs:positiveInteger" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="party" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="min" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="max" type="xs:positiveInteger" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="allowSummon" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:boolean" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="return" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="teleport" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="remove" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="itemId" type="xs:integer" use="required" />
+									<xs:attribute name="count" type="xs:integer" use="required" />
+									<xs:attribute name="necessary" type="xs:boolean" use="required" />
+									<xs:attribute name="type">
+										<xs:simpleType>
+											<xs:restriction base="xs:token">
+												<xs:enumeration value="NONE" />
+												<xs:enumeration value="LEADER" />
+												<xs:enumeration value="ALL" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="give" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="itemId" type="xs:integer" use="required" />
+									<xs:attribute name="count" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="quest" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:normalizedString" use="required" />
+									<xs:attribute name="type">
+										<xs:simpleType>
+											<xs:restriction base="xs:token">
+												<xs:enumeration value="STARTED" />
+												<xs:enumeration value="COMPLETED" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="isPvP" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:boolean" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="showTimer" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:boolean" use="required" />
+									<xs:attribute name="increase" type="xs:boolean" />
+									<xs:attribute name="text" type="xs:normalizedString" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="geodata" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="mapX" type="xs:integer" use="required" />
+									<xs:attribute name="mapY" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="reenter" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="reset" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="day">
+													<xs:simpleType>
+														<xs:restriction base="xs:token">
+															<xs:enumeration value="Monday" />
+															<xs:enumeration value="Tuesday" />
+															<xs:enumeration value="Wednesday" />
+															<xs:enumeration value="Thursday" />
+															<xs:enumeration value="Friday" />
+															<xs:enumeration value="Saturday" />
+															<xs:enumeration value="Sunday" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="time" type="xs:long" />
+												<xs:attribute name="hour" type="xs:positiveInteger" />
+												<xs:attribute name="minute" type="xs:positiveInteger" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="setUponEntry" type="xs:boolean" use="required" />
+									<xs:attribute name="sharedReuseGroup" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="add_parameters" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="set" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" />
+												<xs:attribute name="value" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="doorlist" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="door" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="doorId" type="xs:positiveInteger" use="required" />
+												<xs:attribute name="default_status">
+													<xs:simpleType>
+														<xs:restriction base="xs:token">
+															<xs:enumeration value="open" />
+															<xs:enumeration value="close" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="random_time" type="xs:integer" />
+												<xs:attribute name="open_time" type="xs:integer" />
+												<xs:attribute name="close_time" type="xs:integer" />
+												<xs:attribute name="level" type="xs:nonNegativeInteger" />
+												<xs:attribute name="open_method" type="xs:nonNegativeInteger" />
+												<xs:attribute name="targetable" type="xs:boolean" />
+												<xs:attribute name="check_collision" type="xs:boolean" />
+												<xs:attribute name="clanhall_id" type="xs:positiveInteger" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="spawns" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="group" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:normalizedString" use="required" />
+												<xs:attribute name="spawned" type="xs:boolean" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="spawn" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="1" maxOccurs="1">
+													<xs:element name="coords" minOccurs="1" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="loc" type="xs:string" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="mobId" type="xs:string" use="required" />
+												<xs:attribute name="count" type="xs:positiveInteger" />
+												<xs:attribute name="respawn" type="xs:integer" />
+												<xs:attribute name="respawnRnd" type="xs:integer" />
+												<xs:attribute name="type" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="name" type="xs:normalizedString" use="required" />
+						<xs:attribute name="maxChannels" type="xs:positiveInteger" />
+						<xs:attribute name="collapseIfEmpty" type="xs:integer" />
+						<xs:attribute name="timelimit" type="xs:integer" />
+						<xs:attribute name="dispelBuffs" type="xs:boolean" />
+						<xs:attribute name="respawn" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

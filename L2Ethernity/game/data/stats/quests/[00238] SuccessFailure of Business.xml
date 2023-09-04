@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="238" nameEn="Success/Failure of Business" nameRu="Успех в бизнесе">
+		<expirience>
+			<rewardExp val="1319736" rateable="true" />
+			<rewardSp val="103553" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="18806">
+				<item id="14867" min="1" chance="100" rateable="true" /> <!--Damaged Torch Fragment-->
+			</npc>
+			<npc id="22659">
+				<item id="14868" min="1" chance="100" rateable="true" /> <!--Guardian Spirit Fragment-->
+			</npc>
+			<npc id="22658">
+				<item id="14868" min="1" chance="100" rateable="true" /> <!--Guardian Spirit Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="283346" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

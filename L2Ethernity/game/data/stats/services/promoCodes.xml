@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/promoCodes.xsd">
+<!--
+limit - amount of usage
+limitByAccount - code, with an account restriction
+limitByHWID - code, with hwid restriction
+-->
+	<code name="HELLO" limit="100" limitByAccount="true" limitByHWID="false">
+		<limit minLvl="1" maxLvl="10" canUseSubClass="true" /> <!-- levels limit for use and check subclass active or not -->
+		<date from="13:45 24.02.2014" to="13:50 24.05.2021" /> <!-- format HH:mm dd.MM.yyyy -->
+		<item id="57" count="10000" />
+		<exp val="200000" icon="icon.etc_exp_point_i00" />
+		<sp val="200000" icon="icon.etc_sp_point_i00" />
+		<setLevel val="40" icon="icon.etc_exp_point_i00" /> <!-- or can use addLevel -->
+		<premium id="1" icon="branchsys2.br_vitality_day_i00" /> 
+	</code>
+	<code name="eternity" limit="100" limitByAccount="true" limitByHWID="true">
+		<limit minLvl="1" maxLvl="85" canUseSubClass="false" /> <!-- levels limit for use and check subclass active or not -->
+		<date from="13:45 24.02.2014" to="13:50 24.05.2021" /> <!-- format HH:mm dd.MM.yyyy -->
+		<item id="57" count="50000" /> <!-- Min: 1 Max: 9223372036854775807 -->
+		<pcPoint val="100" /> <!-- pcPoints -->
+		<reputation val="100" /> <!-- clan reputation -->
+		<fame val="100" /> <!-- fame -->
+		<setLevel val="85" icon="icon.etc_exp_point_i00" /> <!-- Min: 1 Max: 85 -->
+	</code>
+</list>

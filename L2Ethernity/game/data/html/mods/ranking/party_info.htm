@@ -1,0 +1,63 @@
+<html noscrollbar><title>Party Ranking</title><body>
+<table width=298 cellpadding="2" bgcolor=1F1818>
+	<tr>
+		<td width=70>
+			Leader
+		</td>
+		<td width=10>
+			:
+		</td>
+		<td width=100>
+			{leader}
+		</td>
+		<td width=60 height=26>
+			{bypass}
+		</td>
+	</tr>
+	<tr>
+		<td width=70>
+			Сomposition
+		</td>
+		<td width=10>
+			:
+		</td>
+		<td width=100>
+			{members} members.
+		</td>
+		<td width=60>
+			 <button value="Refresh" action="{refresh}" width="75" height="26" back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td>
+	</tr>
+	<tr>
+		<td width=70>
+			Statistic
+		</td>
+		<td width=10>
+			:
+		</td>
+		<td width=100>
+			<font color="1291BF">{totalKills}</font> / <font color="F9626B">{totalDeaths}</font>
+		</td>
+		<td width=60 height=26>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br>
+<img src="L2UI_CT1.Gauge_DF_CP_Center" width=298 height=2>
+<table width=298 border=0 cellspacing=0 cellpadding=0>
+	<tr>
+		<td width=140>
+			<button value="Name" action="" width=140 height=20 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+		</td>
+		<td width=80>
+			<button value="Kills" action="" width=80 height=20 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+		</td>
+		<td width=80>
+			<button value="Deaths" action="" width=80 height=20 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+		</td>
+	</tr>
+</table>
+<img src="L2UI_CT1.Gauge_DF_CP_Center" width=298 height=2>
+{list}
+</body></html>

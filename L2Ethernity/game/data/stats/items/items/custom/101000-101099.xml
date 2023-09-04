@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+
+	<item id="101000" type="Weapon" nameRu="Valakas Buster-Fragment" nameEn="Valakas Buster-Fragment">
+		<set name="icon" val="dragon_icon.val_bus_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	
+	<item id="101001" type="Weapon" nameRu="Valakas Caster-Fragment" nameEn="Valakas Caster-Fragment">
+		<set name="icon" val="dragon_icon.val_cas_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="101002" type="Weapon" nameRu="Valakas Cutter-Fragment" nameEn="Valakas Cutter-Fragment">
+		<set name="icon" val="dragon_icon.val_cut_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="101003" type="Weapon" nameRu="Valakas Retributer-Fragment" nameEn="Valakas Retributer-Fragment">
+		<set name="icon" val="dragon_icon.val_ret_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1157" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="101004" type="Weapon" nameRu="Valakas Shaper-Fragment" nameEn="Valakas Shaper-Fragment">
+		<set name="icon" val="dragon_icon.val_sha_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1039" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="101005" type="Weapon" nameRu="Valakas Slasher-Fragment" nameEn="Valakas Slasher-Fragment">
+		<set name="icon" val="dragon_icon.val_sla_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="101006" type="Weapon" nameRu="Valakas Thrower-Fragment" nameEn="Valakas Thrower-Fragment">
+		<set name="icon" val="dragon_icon.val_bow_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2339" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	
+	<item id="101010" type="Weapon" nameRu="Valakas Buster-Standard" nameEn="Valakas Buster-Standard">
+		<set name="icon" val="dragon_icon.val_bus_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2050" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	
+	<item id="101011" type="Weapon" nameRu="Valakas Caster-Standard" nameEn="Valakas Caster-Standard">
+		<set name="icon" val="dragon_icon.val_cas_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2050" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101012" type="Weapon" nameRu="Valakas Cutter-Standard" nameEn="Valakas Cutter-Standard">
+		<set name="icon" val="dragon_icon.val_cut_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2188" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101013" type="Weapon" nameRu="Valakas Retributer-Standard" nameEn="Valakas Retributer-Standard">
+		<set name="icon" val="dragon_icon.val_ret_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2157" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101014" type="Weapon" nameRu="Valakas Shaper-Standard" nameEn="Valakas Shaper-Standard">
+		<set name="icon" val="dragon_icon.val_sha_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2039" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101015" type="Weapon" nameRu="Valakas Slasher-Standard" nameEn="Valakas Slasher-Standard">
+		<set name="icon" val="dragon_icon.val_sla_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101016" type="Weapon" nameRu="Valakas Thrower-Standard" nameEn="Valakas Thrower-Standard">
+		<set name="icon" val="dragon_icon.val_bow_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4898" />
+			<set order="0x08" stat="mAtk" val="1017" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	<item id="101020" type="Weapon" nameRu="Valakas Buster-High-Grade" nameEn="Valakas Buster-High-Grade">
+		<set name="icon" val="dragon_icon.val_bus_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3050" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	
+	<item id="101021" type="Weapon" nameRu="Valakas Caster-High-Grade" nameEn="Valakas Caster-High-Grade">
+		<set name="icon" val="dragon_icon.val_cas_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3050" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101022" type="Weapon" nameRu="Valakas Cutter-High-Grade" nameEn="Valakas Cutter-High-Grade">
+		<set name="icon" val="dragon_icon.val_cut_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3188" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101023" type="Weapon" nameRu="Valakas Retributer-High-Grade" nameEn="Valakas Retributer-High-Grade">
+		<set name="icon" val="dragon_icon.val_ret_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3157" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101024" type="Weapon" nameRu="Valakas Shaper-High-Grade" nameEn="Valakas Shaper-High-Grade">
+		<set name="icon" val="dragon_icon.val_sha_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3039" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101025" type="Weapon" nameRu="Valakas Slasher-High-Grade" nameEn="Valakas Slasher-High-Grade">
+		<set name="icon" val="dragon_icon.val_sla_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3445" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101026" type="Weapon" nameRu="Valakas Thrower-High-Grade" nameEn="Valakas Thrower-High-Grade">
+		<set name="icon" val="dragon_icon.val_bow_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5336" />
+			<set order="0x08" stat="mAtk" val="1017" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	
+	<item id="101030" type="Weapon" nameRu="Valakas Buster-ToP-Grade" nameEn="Valakas Buster-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_bus_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4050" />
+			<set order="0x08" stat="mAtk" val="4690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	
+	<item id="101031" type="Weapon" nameRu="Valakas Caster-ToP-Grade" nameEn="Valakas Caster-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_cas_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4050" />
+			<set order="0x08" stat="mAtk" val="4690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101032" type="Weapon" nameRu="Valakas Cutter-ToP-Grade" nameEn="Valakas Cutter-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_cut_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4188" />
+			<set order="0x08" stat="mAtk" val="4690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101033" type="Weapon" nameRu="Valakas Retributer-ToP-Grade" nameEn="Valakas Retributer-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_ret_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4157" />
+			<set order="0x08" stat="mAtk" val="4690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101034" type="Weapon" nameRu="Valakas Shaper-ToP-Grade" nameEn="Valakas Shaper-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_sha_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4039" />
+			<set order="0x08" stat="mAtk" val="4517" />
+			<set order="0x08" stat="rCrit" val="420" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101035" type="Weapon" nameRu="Valakas Slasher-ToP-Grade" nameEn="Valakas Slasher-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_sla_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4445" />
+			<set order="0x08" stat="mAtk" val="4517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="425" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+
+	<item id="101036" type="Weapon" nameRu="Valakas Thrower-ToP-Grade" nameEn="Valakas Thrower-ToP-Grade">
+		<set name="icon" val="dragon_icon.val_bow_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="4" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="4520" />
+		<set name="price" val="443356000" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="4" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="20336" />
+			<set order="0x08" stat="mAtk" val="4017" />
+			<set order="0x08" stat="rCrit" val="420" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="firePower" val="450" />
+		</for>
+	</item>
+	
+</list>

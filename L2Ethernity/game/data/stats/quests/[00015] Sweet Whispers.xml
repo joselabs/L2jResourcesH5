@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="15" nameEn="Sweet Whispers" nameRu="Сладкий шепот">
+		<expirience>
+			<rewardExp val="350531" rateable="true" />
+			<rewardSp val="28204" rateable="true" />
+		</expirience>
+	</quest>
+</list>

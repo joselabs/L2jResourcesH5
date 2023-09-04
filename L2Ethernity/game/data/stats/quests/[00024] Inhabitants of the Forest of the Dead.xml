@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="24" nameEn="Inhabitants of the Forest of the Dead" nameRu="Обитатели Леса Неупокоенных">
+		<expirience>
+			<rewardExp val="242105" rateable="true" />
+			<rewardSp val="22529" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="21557">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21558">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21560">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21563">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21564">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21565">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21566">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+			<npc id="21567">
+				<item id="7151" min="1" chance="30" rateable="false" /> <!--Suspicious Totem Doll-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

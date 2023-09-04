@@ -1,0 +1,99 @@
+<html><body><center>
+<table width=710 height=470 border=0 cellspacing=0 cellpadding=0>
+	<tr><td height=15></td></tr>
+	<tr>
+		<td align=center>
+		<table width=700 height=30 border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td align=center>
+					<table width=700 height=30 cellspacing=0 cellpadding=0 border=0>
+						<tr>
+							<td align="center"FIXWIDTH=140>Skill Id</td>
+							<td align="center" FIXWIDTH=100>Change Type</td>
+							<td align="center" FIXWIDTH=100>Value</td>
+							<td align="center" FIXWIDTH=120>Target Class</td>
+							<td align="center" FIXWIDTH=130>Target Race</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width=700 height=200 border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td FIXWIDTH=550 align=center>
+					<table width=550 height=30 cellpadding=0 cellspacing=0 border=0>
+						<tr>
+							<td align="center"FIXWIDTH=130><Edit var="skillId" width=50 height=12/></td>
+							<td align="center" FIXWIDTH=100><combobox var="changeType" list="Power;CastTime;Reuse;Chance;SkillBlow;MCrit;PCrit" width=100/></td>
+							<td align="center" FIXWIDTH=110><Edit var="val" width=50 height=12/></td>
+							<td align="center" FIXWIDTH=120><combobox var="tClassId" list="<?tClasses?>" width=130/></td>
+						</tr>
+					</table>
+				</td>
+				<td FIXWIDTH=130 align=center>
+					<table width=100 height=120 cellpadding=0 cellspacing=0>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 0 false" width=12 height=12 back="L2UI.CheckBox<?trace0Checked?>" fore="L2UI.CheckBox<?trace0Checked?>"/>
+							</td><td>Human</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 1 false" width=12 height=12 back="L2UI.CheckBox<?trace1Checked?>" fore="L2UI.CheckBox<?trace1Checked?>"/>
+							</td><td>Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 2 false" width=12 height=12 back="L2UI.CheckBox<?trace2Checked?>" fore="L2UI.CheckBox<?trace2Checked?>"/>
+							</td><td>Dark Elf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 3 false" width=12 height=12 back="L2UI.CheckBox<?trace3Checked?>" fore="L2UI.CheckBox<?trace3Checked?>"/>
+							</td><td>Orc</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 4 false" width=12 height=12 back="L2UI.CheckBox<?trace4Checked?>" fore="L2UI.CheckBox<?trace4Checked?>"/>
+							</td><td>Dwarf</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 5 false" width=12 height=12 back="L2UI.CheckBox<?trace5Checked?>" fore="L2UI.CheckBox<?trace5Checked?>"/>
+							</td><td>Kamael</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 6 false" width=12 height=12 back="L2UI.CheckBox<?trace6Checked?>" fore="L2UI.CheckBox<?trace6Checked?>"/>
+							</td><td>Monster</td>
+						</tr>
+						<tr>
+							<td align=center>
+								<table width=12 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+								<button value="" action="bypass -h _bbs_add_menu_skillbalance <?pageId?> 7 false" width=12 height=12 back="L2UI.CheckBox<?trace7Checked?>" fore="L2UI.CheckBox<?trace7Checked?>"/>
+							</td><td>All</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width=700 height=30 border=0 cellspacing=0 cellpadding=0>
+			<tr><td height=15></td></tr>
+			<tr>
+				<td align=center>
+					<button value="Add" action="bypass -h _bbs_add_skillbalance $skillId ; $changeType ; $val ; $tClassId ; false" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+					<button value="Back" action="bypass -h _bbs_skillbalance <?pageId?> false" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</center></body></html>

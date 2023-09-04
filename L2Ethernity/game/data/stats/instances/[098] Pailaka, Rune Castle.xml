@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="98" name="Pailaka (Rune Castle)" maxChannels="31" collapseIfEmpty="10" timelimit="30" dispelBuffs="true">
+		<level min="70" max="85" />
+		<party min="2" max="9" />
+		<allowSummon val="false" />
+		<teleport x="48200" y="-12232" z="-9128" />
+		<reenter setUponEntry="true" sharedReuseGroup="0">
+			<reset time="14400000" />
+		</reenter>
+		<add_parameters>
+			<set name="checkFortConditions" value="true" />
+			<set name="firstWaveDelay" value="20000" />
+			<set name="secondWaveDelay" value="480000" />
+			<set name="thirdWaveDelay" value="480000" />
+		</add_parameters>
+	</instance>
+</list>

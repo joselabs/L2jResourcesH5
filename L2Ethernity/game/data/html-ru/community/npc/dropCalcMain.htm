@@ -1,0 +1,278 @@
+﻿<html noscrollbar>
+<title>База Знаний Сообщества</title>
+<body>
+<table width=755>
+	<tr>
+		<center><td>
+			<table border=0 cellpadding=0 cellspacing=0 width=769 height=472 >
+				<tr>
+					<td valign="top" align="center">
+						<table width=755 height=415 border=0>
+							<tr>
+								<td align=center width=755><br>
+									<center>
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											<td>
+												<img src="L2UI_CT1.Frame_DF_Hor_Large_Left" width="32" height="44">
+											</td>
+											<td>
+												<img src="L2UI_CT1.Frame_DF_Hor_Large_Tile" width="243" height="44">
+											</td>
+											<td align=center width="128" height="44" background=L2UI_CT1.Frame_DF_Hor_Large_Center>
+												<br><br>
+												<font name="hs12">База Знаний</font>
+											</td>
+											<td>
+												<img src="L2UI_CT1.Frame_DF_Hor_Large_Tile" width="243" height="44">
+											</td>
+											<td>
+												<img src="L2UI_CT1.Frame_DF_Hor_Large_Right" width="32" height="44">
+											</td>
+										</tr>
+									</table>
+									<table width=680 height=350 background="L2UI_CT1.Windows_DF_Large_Bg_Darker">
+										<tr>
+											<td align=center>
+												<br><br>
+												<table border=0 width=580 height=50>
+													<tr>
+														<td valign="top" align="center">
+															<table border=0 width=600 height=46 cellspacing=4 cellpadding=3 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td width=40 align=right valign=top>
+																		<img src="icon.skill0319" width=32 height=32>
+																	</td>
+																	<td width=460 align=left valign=top>
+																		<font color="ff751a">Информация о дропе</font><br1> <font color=669900>Показывает точную информацию о дропе и спойле всех монстров</font>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<table width=480 height=94>
+													<tr>
+														<td valign="top" align="center">
+															<table border=0 width=298 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td valign=top align=center>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><font color="FFCC00" name="CreditTextNormal">Поиск Предмета</font></td>
+																			</tr>
+																		</table>
+																		<table width=250 height=25>
+																			<tr>
+																				<td valign="top" align="center"><edit var="item" type="text" width=160 length=20></td>
+																			</tr>
+																		</table>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><button value="Поиск" action="bypass _bbsdropItemsByName_ $item _1" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td valign="top" align="center">
+															<table border=0 width=297 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td valign=top align=center>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><font color="FF3333" name="CreditTextNormal">Поиск Монстра</font></td>
+																			</tr>
+																		</table>
+																		<table width=250 height=25>
+																			<tr>
+																				<td valign="top" align="center"><edit var="monster" type="text" width=160 length=20></td>
+																			</tr>
+																		</table>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><button value="Поиск" action="bypass _bbsdropMonstersByName_ $monster _1" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<table width=580 height=50>
+													<tr>
+														<td valign="top" align="center">
+															<table border=0 width=600 height=46 cellspacing=4 cellpadding=3 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td width=40 align=right valign=top>
+																		<img src="icon.skill0219" width=32 height=32>
+																	</td>
+																	<td width=460 align=left valign=top>
+																		<font color="ff751a">Как это работает?</font><br1> <font color="669900">Просто введите имя предмета или монстра в поле и нажмите кнопку </font><font color="BCB3A9">'Поиск'</font>.
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<table width=580 height=94>
+													<tr>
+														<td valign="top" align="center">
+															<table border=0 width=298 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td valign=top align=center>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><font color="33ccff" name="hs8">Популярные запросы по предметам</font></td>
+																			</tr>
+																		</table>
+																		<table border=0 width=280 height=25>
+																			<tr>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.etc_adena_i00">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropItemsByName_ Adena _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Адена
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.armor_t94_u_i00">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropItemsByName_ Vesper _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Венера
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.armor_t94_u_i03">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropItemsByName_ Vorpal _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Веспер
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.etc_water_crystal_i00">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropItemsByName_ Crystal _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Кристалл
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.energy_condenser_i01">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropItemsByName_ Enhancement _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Камни
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td valign="top" align="center">
+															<table border=0 width=297 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+																<tr>
+																	<td valign=top align=center>
+																		<table width=250>
+																			<tr>
+																				<td valign="top" align="center"><font color="33ccff" name="hs8">Популярные запросы по Монстрам</font></td>
+																			</tr>
+																		</table>
+																		<table width=280 height=25>
+																			<tr>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4295">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropMonstersByName_ Knoriks _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Конорикс
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4298">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropMonstersByName_ Karik _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Карик
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4299">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropMonstersByName_ Drakos _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Дракос
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4292">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropMonstersByName_ Tyrannosaurus _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Т-Рекс
+																				</td>
+																				<td width=60 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4291">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<button action="bypass _bbsdropMonstersByName_ Chest _1" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																							</td>
+																						</tr>
+																					</table><br>
+																					Сундук
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									</center>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td></center>
+	</tr>
+</table>
+<table width=770 border=0 height=40>
+	<tr>
+		<td width=600 align=center valign=top>
+			<button action="bypass  _bbshome" width=32 height=32 back="L2UI_CT1.MiniMap_DF_MinusBtn_Red_Down" fore="L2UI_CT1.MiniMap_DF_MinusBtn_Red" />
+		</td>
+	</tr>
+</table>
+</body></html>

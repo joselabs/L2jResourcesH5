@@ -1,0 +1,12 @@
+ALTER TABLE `accounts` DROP COLUMN `created_time`;
+ALTER TABLE `accounts` DROP COLUMN `lastactive`;
+ALTER TABLE `accounts` DROP COLUMN `pcIp`;
+ALTER TABLE `accounts` DROP COLUMN `hop1`;
+ALTER TABLE `accounts` DROP COLUMN `hop2`;
+ALTER TABLE `accounts` DROP COLUMN `hop3`;
+ALTER TABLE `accounts` DROP COLUMN `hop4`;
+ALTER TABLE `accounts` ADD `lastAccess` int(11) NOT NULL DEFAULT '0' AFTER `email`;
+ALTER TABLE `accounts` ADD `banExpire` int(11) NOT NULL DEFAULT '0' AFTER `lastServer`;
+ALTER TABLE `accounts` ADD `allowIp` varchar(255) NOT NULL DEFAULT '' AFTER `banExpire`;
+ALTER TABLE `accounts` ADD `allowHwid` varchar(255) NOT NULL DEFAULT '' AFTER `allowIp`;
+ALTER TABLE `accounts` MODIFY COLUMN `password` varchar(255) NOT NULL;

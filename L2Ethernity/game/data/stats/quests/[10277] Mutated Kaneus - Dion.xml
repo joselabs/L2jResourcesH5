@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10277" nameEn="Mutated Kaneus - Dion" nameRu="Мутант Канеус - Дион">
+		<droplist>
+			<npc id="18558">
+				<item id="13832" min="1" chance="100" rateable="false" /> <!--Crimson Hatu Otis' Cellular Tissue-->
+			</npc>
+			<npc id="18559">
+				<item id="13833" min="1" chance="100" rateable="false" /> <!--Seer Flouros' Cellular Tissue-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="20000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

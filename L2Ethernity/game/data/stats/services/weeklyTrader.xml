@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/weeklyTrader.xsd">
+
+	<spawnlist isAlwaysSpawn="True">
+		<!-- Weekly Trader -->
+		<npc id="50032" x="82170" y="149329" z="-3405" heading="48319" />
+	</spawnlist>
+	<!-- Example List-->
+
+	<category chance="100">		
+		<item>
+			
+			<!--  Moirai Heavy Helmet Foundation -->
+
+			<production itemId="16289" count="1" />
+			<!-- Gold Bars -->
+
+			<ingredient itemId="3470" minCount="5" maxCount="10" />
+
+		</item>
+		<item>
+			<!--  Moirai Heavy Helmet Foundation -->
+			<production itemId="16289" count="1" />
+			<!-- Apiga -->
+			<ingredient itemId="9142" minCount="500" maxCount="1000" />
+		</item>
+
+	</category>
+	<category chance="20"> <!-- 20% chance to have a raid jewel -->
+		<item>
+			<!--  Valakas -->
+			<production itemId="6657" count="1" />
+			<!-- Gold Bars -->
+			<ingredient itemId="3470" minCount="50" maxCount="100" />
+		</item>
+		<item>
+			<!--  Valakas -->
+			<production itemId="6657" count="1" />
+			<!-- Gold Bars -->
+			<ingredient itemId="3470" minCount="25" maxCount="50" />
+			<!-- Apiga -->
+			<ingredient itemId="9142" minCount="2000" maxCount="3000" />
+		</item>
+	</category>
+
+</list>

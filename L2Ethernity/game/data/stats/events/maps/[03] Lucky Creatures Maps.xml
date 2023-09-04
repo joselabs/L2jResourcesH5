@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/fight_event_maps.xsd">
+	<map name="Tiat's Room">
+		<parameter name="events" value="LuckyCreatures"/>
+		<parameter name="teamsCount" value="-1"/>
+		<parameter name="minAllPlayers" value="1"/>
+		<parameter name="maxAllPlayers" value="500"/>
+		<objects name="teamSpawns">
+			<point x="-250392" y="210504" z="-11952"/>
+		</objects>
+		<objects name="territory">
+			<zone id="200034" />
+		</objects>
+	</map>
+</list>

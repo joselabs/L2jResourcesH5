@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="11" name="L2Day" activate="false">
+	<time pattern="0 18 1 9 *" period="168" />
+	<spawnlist>
+		<!-- Angel Cat -->
+		<npc id="4313" x="-119492" y="44877" z="363" heading="23321" />
+		<npc id="4313" x="-117242" y="46843" z="363" heading="48137" />
+		<npc id="4313" x="-84415" y="244813" z="-3737" heading="57343" />
+		<npc id="4313" x="-84021" y="243049" z="-3734" heading="2902" />
+		<npc id="4313" x="9924" y="16328" z="-4578" heading="63027" />
+		<npc id="4313" x="11548" y="17597" z="-4589" heading="46936" />
+		<npc id="4313" x="115087" y="-178360" z="-890" heading="0" />
+		<npc id="4313" x="116198" y="-182696" z="-1513" heading="63635" />
+		<npc id="4313" x="46907" y="50860" z="-3000" heading="7497" />
+		<npc id="4313" x="45542" y="48348" z="-3064" heading="49816" />
+		<npc id="4313" x="-45273" y="-112764" z="-244" heading="0" />
+		<npc id="4313" x="-45368" y="-114106" z="-244" heading="15612" />
+		<npc id="4313" x="-81028" y="150037" z="-3048" heading="62180" />
+		<npc id="4313" x="-83158" y="150994" z="-3133" heading="65142" />
+		<npc id="4313" x="-13726" y="122116" z="-2993" heading="16383" />
+		<npc id="4313" x="-14133" y="123862" z="-3121" heading="39765" />
+		<npc id="4313" x="16110" y="142851" z="-2714" heading="18106" />
+		<npc id="4313" x="17273" y="144997" z="-3039" heading="22165" />
+		<npc id="4313" x="82143" y="148614" z="-3475" heading="612" />
+		<npc id="4313" x="83037" y="149328" z="-3473" heading="32199" />
+		<npc id="4313" x="81757" y="146487" z="-3541" heading="32767" />
+		<npc id="4313" x="111003" y="218924" z="-3547" heading="14661" />
+		<npc id="4313" x="108423" y="221873" z="-3602" heading="48655" />
+		<npc id="4313" x="81986" y="53725" z="-1500" heading="65051" />
+		<npc id="4313" x="81081" y="56116" z="-1564" heading="32767" />
+		<npc id="4313" x="115883" y="76384" z="-2717" heading="64055" />
+		<npc id="4313" x="117350" y="76703" z="-2699" heading="45557" />
+		<npc id="4313" x="147198" y="25615" z="-2017" heading="14613" />
+		<npc id="4313" x="148558" y="26803" z="-2209" heading="32024" />
+		<npc id="4313" x="148210" y="-55784" z="-2785" heading="60699" />
+		<npc id="4313" x="147415" y="-55432" z="-2741" heading="47429" />
+		<npc id="4313" x="43962" y="-47707" z="-801" heading="48698" />
+		<npc id="4313" x="43165" y="-48465" z="-801" heading="17559" />
+		<npc id="4313" x="86863" y="-142917" z="-1345" heading="27497" />
+		<npc id="4313" x="87791" y="-142236" z="-1348" heading="43140" />
+	</spawnlist>
+	<droplist>
+		<item id="3875" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3876" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3877" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3878" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3879" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3881" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3882" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3883" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3884" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3886" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3887" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="3888" min="1" max="1" chance="70" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+	</droplist>
+	<rewardlist>
+		<variant id="1">
+			<!-- Request Items -->
+			<request id="3882" min="1" />
+			<request id="3881" min="1" />
+			<request id="3883" min="1" />
+			<request id="3877" min="2" />
+			<request id="3875" min="1" />
+			<request id="3879" min="1" />
+			<request id="3888" min="1" />
+			<!-- Reward Items -->
+			<random>
+				<reward id="6658" min="1" chance="1" />
+				<reward id="52" min="1" chance="2" />
+				<reward id="13457" min="1" chance="2" />
+				<reward id="13458" min="1" chance="2" />
+				<reward id="13459" min="1" chance="2" />
+				<reward id="13460" min="1" chance="2" />
+				<reward id="13461" min="1" chance="2" />
+				<reward id="13462" min="1" chance="2" />
+				<reward id="13463" min="1" chance="2" />
+				<reward id="13464" min="1" chance="2" />
+				<reward id="13465" min="1" chance="2" />
+				<reward id="13466" min="1" chance="2" />
+				<reward id="13467" min="1" chance="2" />
+				<reward id="13468" min="1" chance="2" />
+				<reward id="13884" min="1" chance="2" />
+				<reward id="13071" min="1" chance="5" />
+				<reward id="13072" min="1" chance="5" />
+				<reward id="13073" min="1" chance="5" />
+				<reward id="10480" min="1" chance="10" />
+				<reward id="10481" min="1" chance="10" />
+				<reward id="10482" min="1" chance="10" />
+				<reward id="9570" min="1" chance="20" />
+				<reward id="9571" min="1" chance="20" />
+				<reward id="9572" min="1" chance="20" />
+				<reward id="3959" min="1" chance="35" />
+				<reward id="3958" min="1" chance="40" />
+				<reward id="21730" min="1" chance="50" />
+				<reward id="14701" min="5" chance="100" />
+			</random>
+		</variant>
+		<variant id="2">
+			<!-- Request Items -->
+			<request id="3883" min="1" />
+			<request id="3876" min="1" />
+			<request id="3886" min="1" />
+			<request id="3884" min="1" />
+			<request id="3878" min="1" />
+			<request id="3887" min="1" />
+			<!-- Reward Items -->
+			<random>
+				<reward id="6660" min="1" chance="2" />
+				<reward id="13143" min="1" chance="2" />
+				<reward id="13144" min="1" chance="2" />
+				<reward id="13145" min="1" chance="2" />
+				<reward id="14105" min="1" chance="2" />
+				<reward id="14106" min="1" chance="2" />
+				<reward id="14107" min="1" chance="2" />
+				<reward id="14108" min="1" chance="2" />
+				<reward id="14109" min="1" chance="2" />
+				<reward id="14110" min="1" chance="2" />
+				<reward id="14112" min="1" chance="2" />
+				<reward id="14113" min="1" chance="2" />
+				<reward id="14114" min="1" chance="2" />
+				<reward id="14115" min="1" chance="2" />
+				<reward id="14116" min="1" chance="2" />
+				<reward id="14117" min="1" chance="2" />
+				<reward id="13887" min="1" chance="2" />
+				<reward id="14111" min="1" chance="2" />
+				<reward id="9552" min="1" chance="10" />
+				<reward id="9553" min="1" chance="10" />
+				<reward id="9554" min="1" chance="10" />
+				<reward id="9555" min="1" chance="10" />
+				<reward id="9556" min="1" chance="10" />
+				<reward id="9557" min="1" chance="10" />
+				<reward id="3959" min="1" chance="35" />
+				<reward id="3958" min="1" chance="40" />
+				<reward id="21730" min="1" chance="50" />
+				<reward id="14701" min="5" chance="100" />
+			</random>
+		</variant>
+	</rewardlist>
+</event>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="726" nameEn="Light within the Darkness" nameRu="Луч света во тьме">
+		<level min="70" max="85" />
+		<rewardlist>
+			<item id="9912" min="152" rateable="true" /> <!--Knight's Epaulette-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="190" nameEn="Lost Dream" nameRu="Утерянная мечта">
+		<expirience>
+			<rewardExp val="309467" rateable="true" />
+			<rewardSp val="20614" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="109427" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

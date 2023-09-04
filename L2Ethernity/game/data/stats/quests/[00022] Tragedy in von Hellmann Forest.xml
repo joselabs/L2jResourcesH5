@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="22" nameEn="Tragedy in von Hellmann Forest" nameRu="Трагедия в лесу">
+		<expirience>
+			<rewardExp val="345966" rateable="true" />
+			<rewardSp val="31578" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="21553">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+			<npc id="21554">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+			<npc id="21555">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+			<npc id="21556">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+			<npc id="21557">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+			<npc id="21561">
+				<item id="7142" min="1" chance="10" rateable="false" /> <!--Lost Skull of Elf-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

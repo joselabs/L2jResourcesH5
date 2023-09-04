@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="product" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="component" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="itemId" type="xs:positiveInteger" />
+									<xs:attribute name="count" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:nonNegativeInteger" use="required" />
+						<xs:attribute name="name" type="xs:normalizedString" use="required" />
+						<xs:attribute name="category" type="xs:nonNegativeInteger" />
+						<xs:attribute name="price" type="xs:nonNegativeInteger" />
+						<xs:attribute name="isEvent" type="xs:boolean" />
+						<xs:attribute name="isBest" type="xs:boolean" />
+						<xs:attribute name="isNew" type="xs:boolean" />
+						<xs:attribute name="sale_start_date" type="xs:normalizedString" />
+						<xs:attribute name="sale_end_date" type="xs:normalizedString" />
+						<xs:attribute name="daysOfWeek" type="xs:integer" />
+						<xs:attribute name="stock" type="xs:integer" />
+						<xs:attribute name="maxStock" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

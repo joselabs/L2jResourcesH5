@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="spawn" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="debug" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" />
+									<xs:attribute name="val" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="point" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" />
+									<xs:attribute name="y" type="xs:integer" />
+									<xs:attribute name="z" type="xs:integer" />
+									<xs:attribute name="h" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="npc" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="set" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" />
+												<xs:attribute name="value" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:integer" />
+									<xs:attribute name="count" type="xs:integer" />
+									<xs:attribute name="respawn" type="xs:integer" />
+									<xs:attribute name="respawn_random" type="xs:integer" />
+									<xs:attribute name="respawn_pattern" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="territory" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="add" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="x" type="xs:integer" />
+												<xs:attribute name="y" type="xs:integer" />
+												<xs:attribute name="zmin" type="xs:integer" />
+												<xs:attribute name="zmax" type="xs:integer" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="banned_territory" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="1" maxOccurs="unbounded">
+													<xs:element name="add" minOccurs="1" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="x" type="xs:integer" />
+															<xs:attribute name="y" type="xs:integer" />
+															<xs:attribute name="zmin" type="xs:integer" />
+															<xs:attribute name="zmax" type="xs:integer" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="count" type="xs:integer" />
+						<xs:attribute name="respawn" type="xs:integer" />
+						<xs:attribute name="respawn_random" type="xs:integer" />
+						<xs:attribute name="respawn_pattern" type="xs:string" />
+						<xs:attribute name="period_of_day" type="xs:normalizedString" />
+						<xs:attribute name="group" type="xs:normalizedString" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

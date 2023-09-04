@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="627" nameEn="Heart in Search of Power" nameRu="Сердце в поисках силы">
+		<droplist>
+			<npc id="21520">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21521">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21522">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21523">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21524">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21525">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21526">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21527">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21528">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21529">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21530">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21531">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21532">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21533">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21534">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21535">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21536">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21537">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21538">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21539">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21540">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+			<npc id="21541">
+				<item id="7171" min="1" chance="100" rateable="true" /> <!--Bead of Obedience-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="57" min="100000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="2">
+				<item id="4043" min="13" rateable="true" /> <!--Asofe-->
+				<item id="57" min="6400" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="3">
+				<item id="4044" min="13" rateable="true" /> <!--Thons-->
+				<item id="57" min="6400" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="4">
+				<item id="4042" min="6" rateable="true" /> <!--Enria-->
+				<item id="57" min="6400" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="5">
+				<item id="4041" min="3" rateable="true" /> <!--Mold Hardener-->
+				<item id="57" min="6400" rateable="true" /> <!--Adena-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

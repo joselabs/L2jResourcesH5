@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="310" nameEn="Only What Remains" nameRu="Что за предмет?">
+		<droplist>
+			<npc id="22617">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22618">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22619">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22620">
+				<item id="14880" min="1" chance="66" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22621">
+				<item id="14880" min="1" chance="63" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22622">
+				<item id="14880" min="1" chance="94" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22623">
+				<item id="14880" min="1" chance="62" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22624">
+				<item id="14880" min="1" chance="63" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22625">
+				<item id="14880" min="1" chance="67" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22626">
+				<item id="14880" min="1" chance="94" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22627">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22628">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22629">
+				<item id="14880" min="1" chance="64" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22630">
+				<item id="14880" min="1" chance="63" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22631">
+				<item id="14880" min="1" chance="88" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22632">
+				<item id="14880" min="1" chance="72" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+			<npc id="22633">
+				<item id="14880" min="1" chance="63" rateable="true" /> <!--Dirty Bead-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="14832" min="1" rateable="false" /> <!--Growth Accelerator-->
+			<item id="14835" min="1" rateable="false" /> <!--Multi-colored Jewel-->
+		</rewardlist>
+	</quest>
+</list>

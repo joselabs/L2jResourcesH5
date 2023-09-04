@@ -1,0 +1,31 @@
+<table width=680 height=40 cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td FIXWIDTH=35 align="center"><?pos?>.</td>
+<td FIXWIDTH=50><?skillId?></td>
+<td FIXWIDTH=150 align="center"><?skillName?></td>
+<td FIXWIDTH=32 align="center">
+	<table width=50 cellspacing=0 cellpadding=0 border=0>
+	<tr><td height=9></td></tr></table>
+	<button value="" action="bypass -h _bbs_get_skillbalance <?skillId?>" width=32 height=32 back="icon.skill<?skillIcon?>" fore="icon.skill<?skillIcon?>"/>		
+</td>
+<td FIXWIDTH=100 align=center><?type?></td>
+<td FIXWIDTH=50 align=center>
+	<table width=750 cellspacing=0 cellpadding=0 border=0>
+	<tr><td height=9></td></tr></table>
+	<button action="bypass -h _bbs_modify_skillbalance <?skillId?>;<?targetId?>;<?editedType?>;<?removedValue?>;<?pageId?>;<?search?>;<?isoly?>"  width=32 height=32 back="L2UI_CH3.mapbutton_zoomout2" fore="L2UI_CH3.mapbutton_zoomout1"/>
+</td>
+<td FIXWIDTH=130 align=center><?value?> (<?percents?><?percentValue?> %)</td>
+<td FIXWIDTH=50 align=center>
+	<table width=750 cellspacing=0 cellpadding=0 border=0>
+	<tr><td height=9></td></tr></table>
+	<button action="bypass -h _bbs_modify_skillbalance <?skillId?>;<?targetId?>;<?editedType?>;<?addedValue?>;<?pageId?>;<?search?>;<?isoly?>" width=32 height=32 back="L2UI_CH3.mapbutton_zoomin2" fore="L2UI_CH3.mapbutton_zoomin1"/>
+</td>
+<td FIXWIDTH=140 align="center"><?targetClassName?></td>
+<td FIXWIDTH=100 align="center">
+	<table width=750 cellspacing=0 cellpadding=0 border=0>
+	<tr><td height=15></td></tr></table>
+	<button value="Remove" action="bypass -h _bbs_remove_skillbalance <?key?> <?pageId?> <?editedType?> <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</td>
+<td FIXWIDTH=60></td>
+</tr>
+</table>

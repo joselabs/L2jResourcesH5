@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="3" name="Christmas" activate="false">
+	<time pattern="0 18 25 12 *" period="168" />
+	<spawnlist>
+		<!-- Santa Trainee -->
+		<npc id="31863" x="81921" y="148921" z="-3467" heading="16384" />
+		<npc id="31863" x="146405" y="28360" z="-2269" heading="49648" />
+		<npc id="31863" x="19319" y="144919" z="-3103" heading="31135" />
+		<npc id="31863" x="-82805" y="149890" z="-3129" heading="16384" />
+		<npc id="31863" x="-12347" y="122549" z="-3104" heading="16384" />
+		<npc id="31863" x="110642" y="220165" z="-3655" heading="61898" />
+		<npc id="31863" x="116619" y="75463" z="-2721" heading="20881" />
+		<npc id="31863" x="85513" y="16014" z="-3668" heading="23681" />
+		<npc id="31863" x="81999" y="53793" z="-1496" heading="61621" />
+		<npc id="31863" x="148159" y="-55484" z="-2734" heading="44315" />
+		<npc id="31863" x="44185" y="-48502" z="-797" heading="27479" />
+		<npc id="31863" x="86899" y="-143229" z="-1293" heading="8192" />
+		<!-- Christmas Tree -->
+		<npc id="13006" x="81961" y="148921" z="-3467" heading="0" />
+		<npc id="13006" x="146445" y="28360" z="-2269" heading="0" />
+		<npc id="13006" x="19319" y="144959" z="-3103" heading="0" />
+		<npc id="13006" x="-82845" y="149890" z="-3129" heading="0" />
+		<npc id="13006" x="-12387" y="122549" z="-3104" heading="0" />
+		<npc id="13006" x="110602" y="220165" z="-3655" heading="0" />
+		<npc id="13006" x="116659" y="75463" z="-2721" heading="0" />
+		<npc id="13006" x="85553" y="16014" z="-3668" heading="0" />
+		<npc id="13006" x="81999" y="53743" z="-1496" heading="0" />
+		<npc id="13006" x="148199" y="-55484" z="-2734" heading="0" />
+		<npc id="13006" x="44185" y="-48542" z="-797" heading="0" />
+		<npc id="13006" x="86859" y="-143229" z="-1293" heading="0" />
+	</spawnlist>
+	<droplist>
+		<item id="5556" min="1" max="2" chance="20" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="5557" min="1" max="2" chance="20" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="5558" min="1" max="2" chance="50" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+		<item id="5559" min="1" max="2" chance="5" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+	</droplist>
+	<rewardlist>
+		<variant id="1">
+			<!-- Request Items -->
+			<request id="5556" min="4" />
+			<request id="5557" min="4" />
+			<request id="5558" min="10" />
+			<request id="5559" min="1" />
+			<!-- Reward Items -->
+			<reward id="5560" min="1" />
+		</variant>
+		<variant id="2">
+			<!-- Request Items -->
+			<request id="5560" min="10" />
+			<!-- Reward Items -->
+			<reward id="5561" min="1" />
+		</variant>
+		<variant id="3">
+			<!-- Request Items -->
+			<request id="5560" min="10" />
+			<!-- Reward Items -->
+			<reward id="7836" min="1" />
+		</variant>
+		<variant id="4">
+			<!-- Request Items -->
+			<request id="5560" min="10" />
+			<!-- Reward Items -->
+			<reward id="8936" min="1" />
+		</variant>
+		<variant id="5">
+			<!-- Request Items -->
+			<request id="5560" min="20" />
+			<!-- Reward Items -->
+			<reward id="10606" min="1" />
+		</variant>
+	</rewardlist>
+</event>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10280" nameEn="Mutated Kaneus - Schuttgart" nameRu="Мутант Канеус - Шутгарт">
+		<droplist>
+			<npc id="18571">
+				<item id="13838" min="1" chance="100" rateable="false" /> <!--Venomous Storace's Cellular Tissue-->
+			</npc>
+			<npc id="18573">
+				<item id="13839" min="1" chance="100" rateable="false" /> <!--Kel Bilette's Cellular Tissue-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="210000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,26 @@
+<table width=680 height=40 cellspacing=2 cellpadding=0 border=0>
+	<tr>
+		<td FIXWIDTH=40 align=center><?pos?>.</td>
+		<td FIXWIDTH=130><?classId?> <?className?></td>
+		<td FIXWIDTH=100 align=center><?type?></td>
+		<td FIXWIDTH=30 align=center>
+			<table width=600 cellspacing=0 cellpadding=0 border=0>
+			<tr><td height=9></td></tr></table>
+			<button action="bypass -h _bbs_modify_classbalance <?classId?>;<?targetClassId?>;<?editedType?>;<?removedValue?>;<?pageId?>;<?search?>;<?isoly?>" width=32 height=32 back="L2UI_CH3.mapbutton_zoomout2" fore="L2UI_CH3.mapbutton_zoomout1"/>
+		</td>
+		<td FIXWIDTH=120 align=center><?value?> (<?percents?><?percentValue?>%)</td>
+		<td FIXWIDTH=50 align=center>
+			<table width=750 cellspacing=0 cellpadding=0 border=0>
+			<tr><td height=9></td></tr></table>
+			<button action="bypass -h _bbs_modify_classbalance <?classId?>;<?targetClassId?>;<?editedType?>;<?addedValue?>;<?pageId?>;<?search?>;<?isoly?>" width=32 height=32 back="L2UI_CH3.mapbutton_zoomin2" fore="L2UI_CH3.mapbutton_zoomin1"/>
+		</td>
+		<td FIXWIDTH=20 align=center></td>
+		<td FIXWIDTH=140><?targetClassId?> <?targetClassName?></td>
+		<td FIXWIDTH=100 align="center">
+			<table width=600 cellspacing=0 cellpadding=0 border=0>
+			<tr><td height=15></td></tr></table>
+			<button value="Remove" action="bypass -h _bbs_remove_classbalance <?key?> <?pageId?> <?editedType?> <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+		</td>
+		<td FIXWIDTH=50 align=center></td>
+	</tr>
+</table>

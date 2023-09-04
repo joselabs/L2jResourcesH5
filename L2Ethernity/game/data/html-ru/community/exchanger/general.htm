@@ -1,0 +1,126 @@
+<html noscrollbar><title>Обмен Экипировки</title>
+<body>
+<center>
+	<table border=0 cellpadding=0 cellspacing=0 width=270 height=325 background="l2ui_ct1.Windows_DF_TooltipBG">
+		<tr>
+			<td valign="top">
+				<table width=300 align="center">
+					<tr>
+						<td valign="top" align="center">
+							<table width=270 height=35>
+								<tr>
+									<td width=270 height=50 align=center valign=top>
+										<center>
+										<table border=0 width=270 height=56 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=280 height=22 cellspacing=1 cellpadding=1 bgcolor=111111>
+														<tr>
+															<td width=270 align=center valign=center>
+																<font color=FF6600>Вы отдаете</font>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign=top align=center>
+													<table width=280 height=36 cellspacing=1 cellpadding=1 bgcolor=666666>
+														<tr>
+															<td FIXWIDTH=40 align=center valign=top>
+																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="%my_icon%">
+																	<tr>
+																		<td width=32 align=center valign=top>
+																			<img src="L2UI.item_click" width="34" height="34">
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td FIXWIDTH=170 align=left valign=center>
+																<font color="99CC33">%my_name%</font>
+																<br1>*Зачарование:* %my_ench%
+															</td>
+															<td valign="top" align="center">
+																<button value="Изменить" action="bypass  _bbsservice:exchangerPage 1 1" width=60 height=32 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table><br>
+										<table border=0 width=270 height=56 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=280 height=22 cellspacing=1 cellpadding=1 bgcolor=111111>
+														<tr>
+															<td width=270 align=center valign=center>
+																<font color=FF6600>Вы получаете</font>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign=top align=center>
+													<table width=280 height=36 cellspacing=1 cellpadding=1 bgcolor=666666>
+														<tr>
+															<td FIXWIDTH=40 align=center valign=top>
+																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="%new_icon%">
+																	<tr>
+																		<td width=32 align=center valign=top>
+																			<img src="L2UI.item_click" width="34" height="34">
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td FIXWIDTH=170 align=left valign=center>
+																<font color="99CC33">%new_name%</font>
+																<br1>*Зачарование:* %my_ench%
+															</td>
+															<td valign="top" align="center">
+																<button value="Другое" action="bypass  _bbsservice:exchangerList %new_id% %is_upgrade% 1" width=60 height=32 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table><br>
+										%att_info%<br>
+										<table border=0 width=270 height=24 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=280 height=22 cellspacing=1 cellpadding=1 bgcolor=111111>
+														<tr>
+															<td width=270 align=center valign=center>
+																<font color=4ACACC>Цена Обмена:</font> %cost%
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table><br>
+										<table width=270 height=35>
+											<tr>
+												<td width=94 height=30 align=center valign=top>
+													<table width=90 height=28 background="l2ui_ct1.Windows_DF_TooltipBG">
+														<tr>
+															<td width=88 height=26 align=center valign=top>
+																<button value="Обменять" action="bypass  _bbsservice:exchange %is_upgrade%" width=86 height=24 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table><br><br>
+										</center>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</center>
+</body></html>

@@ -1,0 +1,2 @@
+ALTER TABLE `olympiad_data` ADD COLUMN `comp_start` bigint(13) unsigned NOT NULL DEFAULT '0' AFTER `period`;
+ALTER TABLE `olympiad_data` ADD COLUMN `comp_end` bigint(13) unsigned NOT NULL DEFAULT '0' AFTER `comp_start`;

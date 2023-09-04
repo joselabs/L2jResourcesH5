@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="136" name="Frintezza" maxChannels="5" collapseIfEmpty="5" timelimit="120" dispelBuffs="false">
+		<level min="80" max="85" />
+		<party min="36" max="45" />
+		<allowSummon val="false" />
+		<return x="181384" y="-80840" z="-2757" />
+		<teleport x="-88015" y="-141153" z="-9168" />
+		<remove itemId="8073" count="1" necessary="true" type="LEADER" />
+		<geodata mapX="17" mapY="13" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset day="Wednesday" hour="6" minute="30" />
+			<reset day="Saturday" hour="6" minute="30" />
+		</reenter>
+		<doorlist>
+			<door doorId="17130045" />
+			<door doorId="17130051" />
+			<door doorId="17130046" />
+			<door doorId="17130043" />
+			<door doorId="17130042" />
+			<door doorId="17130052" />
+			<door doorId="17130053" />
+			<door doorId="17130054" />
+			<door doorId="17130055" />
+			<door doorId="17130056" />
+			<door doorId="17130057" />
+			<door doorId="17130058" />
+			<door doorId="17130061" />
+			<door doorId="17130062" />
+			<door doorId="17130063" />
+			<door doorId="17130064" />
+			<door doorId="17130065" />
+			<door doorId="17130066" />
+			<door doorId="17130067" />
+			<door doorId="17130068" />
+			<door doorId="17130069" />
+			<door doorId="17130070" />
+		</doorlist>
+	</instance>
+</list>

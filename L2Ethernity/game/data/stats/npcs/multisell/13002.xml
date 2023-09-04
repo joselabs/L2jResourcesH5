@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?><!-- Свитки -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/multisell.xsd">
+<item><ingredient id="57" count="70000000"/><production id="6572" count="1"/></item><!-- Безопасная Заточка Б Брони -->
+<item><ingredient id="57" count="50000000"/><production id="6574" count="1"/></item><!-- Безопасная Заточка Ц Брони -->
+<item><ingredient id="57" count="5000000"/><production id="6576" count="1"/></item><!-- Безопасная Заточка Д Брони -->
+<item><ingredient id="57" count="80000000"/><production id="6571" count="1"/></item><!-- Безопасная Заточка Б Пушки -->
+<item><ingredient id="57" count="60000000"/><production id="6573" count="1"/></item><!-- Безопасная Заточка Ц Пушки -->
+<item><ingredient id="57" count="10000000"/><production id="6575" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="30000000"/><production id="947" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="20000000"/><production id="948" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="10000000"/><production id="951" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="6000000"/><production id="952" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="3000000"/><production id="955" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+<item><ingredient id="57" count="1000000"/><production id="956" count="1"/></item><!-- Безопасная Заточка Д Пушки -->
+</list>

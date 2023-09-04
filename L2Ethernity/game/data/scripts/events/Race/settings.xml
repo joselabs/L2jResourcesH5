@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="15" name="Race" activate="false">
+	<time pattern="0 21 * * 6" period="10" /><!-- Period calc in minutes -->
+	<spawnlist>
+		<!-- Event Manager -->
+		<npc id="900103" x="18429" y="145861" z="-3090" heading="0" />
+		<!-- Finish Locations -->
+		<location name="Heretic catacomb enterance" x="39177" y="144345" z="-3650" h="0" />
+		<location name="Dion castle bridge" x="22294" y="155892" z="-2950" h="0" />
+		<location name="Floran village enterance" x="16537" y="169937" z="-3500" h="0" />
+		<location name="Floran fort gate" x="7644" y="150898" z="-2890" h="0" />
+	</spawnlist>
+	<add_parameters>
+		<set name="regTime" value="5" />
+		<set name="transformSkill" value="6201" />
+	</add_parameters>
+	<rewardlist>
+		<variant id="1"><!-- Random one Item -->
+			<!-- Reward Items -->
+			<random>
+				<reward id="6622" min="2" />
+				<reward id="9625" min="2" />
+				<reward id="9626" min="2" />
+				<reward id="9627" min="2" />
+				<reward id="9546" min="5" />
+				<reward id="9547" min="5" />
+				<reward id="9548" min="5" />
+				<reward id="9549" min="5" />
+				<reward id="9550" min="5" />
+				<reward id="9551" min="5" />
+				<reward id="9574" min="3" />
+				<reward id="9575" min="2" />
+				<reward id="9576" min="1" />
+				<reward id="20034" min="1" />
+			</random>
+		</variant>
+	</rewardlist>
+</event>

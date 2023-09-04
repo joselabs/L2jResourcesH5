@@ -1,0 +1,55 @@
+<html><body><center>
+<table width=710 height=470 border=0 cellspacing=0 cellpadding=0>
+	<tr><td height=15></td></tr>
+	<tr>
+		<td align=center>
+		<table width=710 height=450 border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td align=center>
+					<table width=700 height=30 cellspacing=0 cellpadding=0 border=0>
+						<tr><td FIXWIDTH=40 align=center>#</td>
+							<td FIXWIDTH=130 align=center>Attacker Class Id</td>
+							<td FIXWIDTH=100 align=center>Attack Type</td>
+							<td FIXWIDTH=30></td>
+							<td FIXWIDTH=100 align=center>Value</td>
+							<td FIXWIDTH=40></td>
+							<td FIXWIDTH=130 align=center>Target Class Id</td>
+							<td FIXWIDTH=70 align=right>Class Id:&nbsp;</td>
+							<td FIXWIDTH=50 align=center><table cellpadding=0 cellspacing=0><tr><td height=12></td></tr></table><Edit var="val" width=30 height=12/></td>
+							<td FIXWIDTH=45 align=center><table cellpadding=0 cellspacing=0><tr><td height=10></td></tr></table><button value="Search" action="bypass -h _bbs_search_classbalance $val <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+						</tr>
+					</table>
+					<table width=700 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+					%info%
+					<table width=700 cellspacing=0 cellpadding=0><tr><td height=10></td></tr></table>
+					<table width=700 height=30 cellspacing=0 cellpadding=0>
+						<tr><td><img src="L2UI.SquareBlank" width=40 height=20></td></tr>
+						<tr><td></td><td></td>
+							<td width="45" align="center">
+								<button value="Back" action="bypass -h _bbs_classbalance 1 <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+							</td><td></td><td></td><td></td>
+							<td width="45" align="center">
+								<button value="Add" action="bypass -h _bbs_add_menu_classbalance %pageID% 0 0 <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+							</td><td width="40"></td></tr><tr><td><img src="L2UI.SquareBlank" width=40 height=20></td>
+						</tr>
+					</table>
+					<table width=500 height=30 cellspacing=0 cellpadding=0>
+						<tr>
+							<td align=right width=190>
+								<button value="Prev" action="bypass -h _bbs_search_nav_classbalance %classID% %previousPage% <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+							</td>
+							<td align=center width=190>
+								%pageID% / %totalPages%
+							</td>
+							<td width=190>
+								<button value="Next" action="bypass -h _bbs_search_nav_classbalance %classID% %nextPage% <?isoly?>" width=75 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</center></body></html>

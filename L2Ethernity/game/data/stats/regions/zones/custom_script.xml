@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<!-- Custom Script Zones -->
+	<zone name="Emerald Square 1st Secret Room" id="20105" type="ScriptZone" shape="Cuboid" minZ="-11900" maxZ="-11800">
+		<node X="144175" Y="142396" />
+		<node X="144251" Y="142588" />
+	</zone>
+	<zone name="Emerald Square 2nd Secret Room" id="20106" type="ScriptZone" shape="Cuboid" minZ="-12250" maxZ="-12150">
+		<node X="147400" Y="143631" />
+		<node X="147484" Y="143828" />
+	</zone>
+	<zone name="Emerald Square 3rd Secret Room" id="20107" type="ScriptZone" shape="Cuboid" minZ="-12150" maxZ="-12000">
+		<node X="149396" Y="143473" />
+		<node X="149559" Y="143584" />
+	</zone>
+	<zone name="Pailaka (Forgotten Temple)" id="20108" type="ScriptZone" shape="NPoly" minZ="-5050" maxZ="-3900">
+		<node X="-62840" Y="178808" />
+		<node X="-62840" Y="184568" />
+		<node X="-60792" Y="184568" />
+		<node X="-60792" Y="188792" />
+		<node X="-57976" Y="191224" />
+		<node X="-53000" Y="190840" />
+		<node X="-52360" Y="190200" />
+		<node X="-52360" Y="178808" />
+	</zone>
+	<zone name="Pailaka (Devil's Isle)" id="20109" type="ScriptZone" shape="NPoly" minZ="-3770" maxZ="-3700">
+		<node X="76650" Y="-221310" />
+		<node X="76630" Y="-221880" />
+		<node X="75490" Y="-221480" />
+		<node X="75630" Y="-221140" />
+	</zone>
+	<zone name="Nornil's Garden Warrior's Gate" id="20110" type="ScriptZone" shape="Cuboid" minZ="-12650" maxZ="-12600">
+		<node X="-109864" Y="76184" />
+		<node X="-109544" Y="76392" />
+	</zone>
+	<zone name="Nornil's Garden Midway Gate" id="20111" type="ScriptZone" shape="Cuboid" minZ="-12930" maxZ="-12900">
+		<node X="-107560" Y="80488" />
+		<node X="-107240" Y="80808" />
+	</zone>
+	<zone name="Nornil's Garden Gate" id="20112" type="ScriptZone" shape="Cuboid" minZ="-12990" maxZ="-12960">
+		<node X="-111016" Y="83944" />
+		<node X="-110696" Y="84264" />
+	</zone>
+	<zone name="Hellbound" id="40101" type="ScriptZone" shape="NPoly" minZ="-30000" maxZ="30000">
+		<node X="-32768" Y="229376" />
+		<node X="32768" Y="229376" />
+		<node X="32768" Y="262143" />
+		<node X="-32768" Y="262143" />
+	</zone>
+	<zone name="Hellbound Dolmen" id="40107" type="ScriptZone" shape="Cuboid" minZ="-3200" maxZ="-3000">
+		<node X="-6230" Y="249000" />
+		<node X="-5230" Y="249880" />
+	</zone>
+
+	<zone name="Hellbound Quarry" id="40108" type="ScriptZone" shape="NPoly" minZ="-2509" maxZ="-1509">
+		<node X="-9675" Y="240402" />
+		<node X="-2401" Y="240307" />
+		<node X="-2393" Y="246927" />
+		<node X="-9590" Y="246820" />
+	</zone>
+	<zone name="Seed of Infinity AirShips dock" id="50600" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="2900">
+		<node X="-212855" Y="209819" />
+	</zone>
+	<zone name="Seed of Destruction AirShips dock" id="50601" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="4300">
+		<node X="-249460" Y="249282" />
+	</zone>
+	<zone name="Keucereus Base North" id="50602" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-193315" Y="240184" />
+		<node X="-188053" Y="235278" />
+		<node X="-179811" Y="238353" />
+		<node X="-178407" Y="242454" />
+		<node X="-178685" Y="244665" />
+	</zone>
+	<zone name="Keucereus Base South" id="50603" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-178685" Y="244664" />
+		<node X="-180120" Y="246779" />
+		<node X="-185598" Y="249572" />
+		<node X="-193009" Y="245647" />
+		<node X="-193315" Y="240185" />
+	</zone>
+	<zone name="Seed of Annihilation 1" id="60002" type="ScriptZone" shape="Cylinder" minZ="-10600" maxZ="-10500" rad="260">
+		<node X="-182488" Y="186655" />
+	</zone>
+	<zone name="Seed of Annihilation 2" id="60003" type="ScriptZone" shape="Cylinder" minZ="-11050" maxZ="-10950" rad="260">
+		<node X="-212755" Y="184380" />
+	</zone>
+	<zone name="Seed of Annihilation 3" id="60004" type="ScriptZone" shape="Cylinder" minZ="-10800" maxZ="-10700" rad="360">
+		<node X="-178458" Y="188167" />
+	</zone>
+	<zone name="Seed of Annihilation 4" id="60005" type="ScriptZone" shape="Cylinder" minZ="-15250" maxZ="-15100" rad="360">
+		<node X="-179430" Y="183844" />
+	</zone>
+	<zone name="Seed of Destruction" id="60009" type="ScriptZone" shape="Cuboid" minZ="-14065" maxZ="-6500">
+		<node X="-237600" Y="221168" />
+		<node X="-253900" Y="204849" />
+	</zone>
+	<!-- Custom zones for Tully Workshop 6th and 8th floors spawn control -->
+	<!-- Tully Workshop 6th floor room 1 -->
+	<zone name="tully_workshop_floor_6th_room_1" id="200012" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-13143" Y="278159" />
+		<node X="-11984" Y="278155" />
+		<node X="-12247" Y="278817" />
+		<node X="-12877" Y="278817" />
+		<node X="-13301" Y="279233" />
+		<node X="-13948" Y="278959" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 2 -->
+	<zone name="tully_workshop_floor_6th_room_2" id="200013" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-12135" Y="280544" />
+		<node X="-11708" Y="280111" />
+		<node X="-11029" Y="280377" />
+		<node X="-11881" Y="281242" />
+		<node X="-13044" Y="281234" />
+		<node X="-12767" Y="280546" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 3 -->
+	<zone name="tully_workshop_floor_6th_room_3" id="200014" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-13376" Y="279405" />
+		<node X="-13380" Y="280048" />
+		<node X="-12930" Y="280494" />
+		<node X="-13219" Y="281137" />
+		<node X="-14027" Y="280321" />
+		<node X="-14034" Y="279128" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 4 -->
+	<zone name="tully_workshop_floor_6th_room_4" id="200015" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-10980" Y="279062" />
+		<node X="-10975" Y="280217" />
+		<node X="-11688" Y="279905" />
+		<node X="-11642" Y="279320" />
+		<node X="-12056" Y="278883" />
+		<node X="-11808" Y="278212" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 1 -->
+	<zone name="tully_workshop_floor_8th_room_1" id="200016" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-13143" Y="278159" />
+		<node X="-11984" Y="278155" />
+		<node X="-12247" Y="278817" />
+		<node X="-12877" Y="278817" />
+		<node X="-13301" Y="279233" />
+		<node X="-13948" Y="278959" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 2 -->
+	<zone name="tully_workshop_floor_8th_room_2" id="200017" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-12135" Y="280544" />
+		<node X="-11708" Y="280111" />
+		<node X="-11029" Y="280377" />
+		<node X="-11881" Y="281242" />
+		<node X="-13044" Y="281234" />
+		<node X="-12767" Y="280546" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 3 -->
+	<zone name="tully_workshop_floor_8th_room_3" id="200018" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-13376" Y="279405" />
+		<node X="-13380" Y="280048" />
+		<node X="-12930" Y="280494" />
+		<node X="-13219" Y="281137" />
+		<node X="-14027" Y="280321" />
+		<node X="-14034" Y="279128" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 4 -->
+	<zone name="tully_workshop_floor_8th_room_4" id="200019" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-10980" Y="279062" />
+		<node X="-10975" Y="280217" />
+		<node X="-11688" Y="279905" />
+		<node X="-11642" Y="279320" />
+		<node X="-12056" Y="278883" />
+		<node X="-11808" Y="278212" />
+	</zone>
+	<!-- Custom zones for Tower of Naia rooms for characters control -->
+	<!-- Tower of Naia room 1 -->
+	<zone name="tower_of_naia_room_1" id="200020" type="ScriptZone" shape="Cuboid" minZ="-9156" maxZ="-9056">
+		<node X="-46940" Y="246865" />
+		<node X="-45466" Y="245370" />
+	</zone>
+	<!-- Tower of Naia room 2 -->
+	<zone name="tower_of_naia_room_2" id="200021" type="ScriptZone" shape="Cuboid" minZ="-9168" maxZ="-8818">
+		<node X="-49908" Y="248440" />
+		<node X="-47912" Y="249896" />
+	</zone>
+	<!-- Tower of room 3 -->
+	<zone name="tower_of_naia_room_3" id="200022" type="ScriptZone" shape="Cuboid" minZ="-10032" maxZ="-9682">
+		<node X="-52362" Y="245375" />
+		<node X="-50880" Y="246866" />
+	</zone>
+	<!-- Tower of Naia room 4 -->
+	<zone name="tower_of_naia_room_4" id="200023" type="ScriptZone" shape="Cuboid" minZ="-10032" maxZ="-9682">
+		<node X="-49954" Y="242680" />
+		<node X="-47958" Y="244136" />
+	</zone>
+	<!-- Tower of Naia room 5 -->
+	<zone name="tower_of_naia_room_5" id="200024" type="ScriptZone" shape="Cuboid" minZ="-10044" maxZ="-9694">
+		<node X="-46953" Y="245376" />
+		<node X="-45479" Y="246871" />
+	</zone>
+	<!-- Tower of Naia room 6 -->
+	<zone name="tower_of_naia_room_6" id="200025" type="ScriptZone" shape="Cuboid" minZ="-10036" maxZ="-9686">
+		<node X="-49444" Y="247736" />
+		<node X="-48412" Y="248708" />
+	</zone>
+	<!-- Tower of Naia room 7 -->
+	<zone name="tower_of_naia_room_7" id="200026" type="ScriptZone" shape="Cuboid" minZ="-10880" maxZ="-10530">
+		<node X="-52371" Y="245374" />
+		<node X="-50889" Y="246865" />
+	</zone>
+	<!-- Tower of Naia room 8 -->
+	<zone name="tower_of_naia_room_8" id="200027" type="ScriptZone" shape="Cuboid" minZ="-10876" maxZ="-10526">
+		<node X="-49447" Y="243547" />
+		<node X="-48415" Y="244519" />
+	</zone>
+	<!-- Tower of Naia room 9 -->
+	<zone name="tower_of_naia_room_9" id="200028" type="ScriptZone" shape="Cuboid" minZ="-11748" maxZ="-11398">
+		<node X="-46970" Y="245369" />
+		<node X="-45496" Y="246864" />
+	</zone>
+	<!-- Tower of Naia room 10 -->
+	<zone name="tower_of_naia_room_10" id="200029" type="ScriptZone" shape="Cuboid" minZ="-11760" maxZ="-11410">
+		<node X="-49440" Y="247736" />
+		<node X="-48412" Y="248708" />
+	</zone>
+	<!-- Tower of Naia room 11 -->
+	<zone name="tower_of_naia_room_11" id="200030" type="ScriptZone" shape="Cuboid" minZ="-12650" maxZ="-12300">
+		<node X="-52347" Y="245404" />
+		<node X="-50865" Y="246895" />
+	</zone>
+	<!-- Tower of Naia room 12 -->
+	<zone name="tower_of_naia_room_12" id="200031" type="ScriptZone" shape="Cuboid" minZ="-13444" maxZ="-13094">
+		<node X="-49004" Y="242907" />
+		<node X="-47530" Y="244402" />
+	</zone>
+	<!-- Ekimus room zone -->
+	<zone name="soi_hoi_attack_echmusroom" id="200032" type="ScriptZone" shape="NPoly" minZ="-15590" maxZ="-15090">
+		<node X="-177965" Y="208655" />
+		<node X="-177964" Y="210478" />
+		<node X="-178652" Y="211086" />
+		<node X="-180438" Y="211085" />
+		<node X="-181117" Y="210460" />
+		<node X="-181116" Y="208656" />
+		<node X="-180437" Y="208028" />
+		<node X="-178666" Y="208025" />
+	</zone>
+	<!-- Seed of Infinity zone -->
+	<zone name="full_soi_zone" id="200033" type="ScriptZone" shape="NPoly" minZ="-16233" maxZ="-6233">
+		<node X="-182265" Y="204880" />
+		<node X="-171874" Y="204865" />
+		<node X="-171884" Y="220348" />
+		<node X="-188714" Y="220333" />
+		<node X="-188581" Y="204678" />
+		<node X="-184537" Y="204665" />
+		<node X="-184536" Y="206967" />
+		<node X="-182259" Y="206962" />
+	</zone>
+	<!-- Custom Event zones -->
+	<zone name="tiat_zone" id="200034" type="ScriptZone" shape="NPoly" minZ="-12000" maxZ="-11800">
+		<node X="-248584" Y="210408" />
+		<node X="-250072" Y="210568" />
+		<node X="-250328" Y="210984" />
+		<node X="-250472" Y="211000" />
+		<node X="-250648" Y="210632" />
+		<node X="-252104" Y="210440" />
+		<node X="-252424" Y="210232" />
+		<node X="-252408" Y="206136" />
+		<node X="-251992" Y="205928" />
+		<node X="-250696" Y="206888" />
+		<node X="-250072" Y="206856" />
+		<node X="-248968" Y="206056" />
+		<node X="-248360" Y="206216" />
+	</zone>
+    	<zone name="annihilation_airstrip" id="200035" type="ScriptZone" shape="NPoly" minZ="2800" maxZ="2400">
+		<node X="-181912" Y="154584" />
+		<node X="-181896" Y="154808" />
+		<node X="-181096" Y="155064" />
+		<node X="-180472" Y="154072" />
+		<node X="-179960" Y="153848" />
+		<node X="-178504" Y="154744" />
+		<node X="-177576" Y="154200" />
+		<node X="-177272" Y="153944" />
+		<node X="-176968" Y="153848" />
+		<node X="-176456" Y="154056" />
+		<node X="-176040" Y="154888" />
+		<node X="-175848" Y="155080" />
+		<node X="-175064" Y="154840" />
+		<node X="-175176" Y="152488" />
+		<node X="-176056" Y="152088" />
+		<node X="-176456" Y="152344" />
+		<node X="-177944" Y="152440" />
+		<node X="-179016" Y="152376" />
+		<node X="-180824" Y="151992" />
+		<node X="-181672" Y="152456" />
+		<node X="-181832" Y="153384" />
+    	</zone>
+    	<zone name="fc_seed_of_annihilation" id="200036" type="ScriptZone" shape="NPoly" minZ="-16000" maxZ="-14000">
+		<node X="-181640" Y="177800" />
+		<node X="-181128" Y="176808" />
+		<node X="-179880" Y="176808" />
+		<node X="-179672" Y="177224" />
+		<node X="-179816" Y="179112" />
+		<node X="-179624" Y="180040" />
+		<node X="-178824" Y="181640" />
+		<node X="-178568" Y="182584" />
+		<node X="-179048" Y="182808" />
+		<node X="-179976" Y="182088" />
+		<node X="-180728" Y="182120" />
+		<node X="-181336" Y="183016" />
+		<node X="-182232" Y="182616" />
+		<node X="-182728" Y="181672" />
+		<node X="-182712" Y="180120" />
+		<node X="-181720" Y="178168" />
+    	</zone>
+    	<zone name="fc_plains_of_glory" id="200037" type="ScriptZone" shape="NPoly" minZ="-2000" maxZ="-900">
+            	<node X="144904" Y="9864" />
+            	<node X="143608" Y="12168" />
+            	<node X="143224" Y="12328" />
+            	<node X="143240" Y="18040" />
+            	<node X="144584" Y="20040" />
+            	<node X="146632" Y="20104" />
+            	<node X="148280" Y="20120" />
+            	<node X="149960" Y="20136" />
+            	<node X="151496" Y="18856" />
+            	<node X="151704" Y="18280" />
+            	<node X="151704" Y="12312" />
+            	<node X="151320" Y="12152" />
+            	<node X="150040" Y="9880" />
+    	</zone>
+	<zone name="fc_monastery_of_silence" id="200038" type="ScriptZone" shape="NPoly" minZ="-3400" maxZ="-3320">
+		<node X="116104" Y="-86808" />
+		<node X="116328" Y="-86584" />
+		<node X="117160" Y="-85416" />
+		<node X="117464" Y="-85032" />
+		<node X="117176" Y="-81768" />
+		<node X="117160" Y="-81048" />
+		<node X="116312" Y="-79880" />
+		<node X="116088" Y="-79544" />
+		<node X="115800" Y="-79592" />
+		<node X="115544" Y="-79880" />
+		<node X="114712" Y="-81048" />
+		<node X="114680" Y="-81768" />
+		<node X="114696" Y="-84696" />
+		<node X="114712" Y="-85400" />
+		<node X="115544" Y="-86584" />
+		<node X="115768" Y="-86824" />
+	</zone>
+	<zone name="fc_emerald_square" id="200039" type="ScriptZone" shape="NPoly" minZ="-12300" maxZ="-11800">
+		<node X="143928" Y="144664" />
+		<node X="145208" Y="146568" />
+		<node X="145384" Y="146840" />
+		<node X="145384" Y="147704" />
+		<node X="144408" Y="147960" />
+		<node X="142440" Y="146824" />
+		<node X="142216" Y="146488" />
+		<node X="141672" Y="145576" />
+		<node X="141304" Y="144840" />
+		<node X="141640" Y="143432" />
+		<node X="142344" Y="142584" />
+		<node X="143256" Y="142168" />
+		<node X="144024" Y="142168" />
+		<node X="147512" Y="142408" />
+		<node X="148568" Y="142168" />
+		<node X="148952" Y="142264" />
+		<node X="149272" Y="142424" />
+		<node X="150536" Y="143976" />
+		<node X="150600" Y="144936" />
+		<node X="150008" Y="146744" />
+		<node X="149528" Y="147416" />
+		<node X="147752" Y="147432" />
+		<node X="147096" Y="147592" />
+		<node X="146456" Y="147672" />
+		<node X="146328" Y="147464" />
+		<node X="146360" Y="146600" />
+	</zone>
+	<zone name="fc_western_fort" id="200040" type="ScriptZone" shape="NPoly" minZ="-3005" maxZ="1995">
+		<node X="108868" Y="-17066" />
+		<node X="113839" Y="-17070" />
+		<node X="114512" Y="-16375" />
+		<node X="114500" Y="-14135" />
+		<node X="113857" Y="-13478" />
+		<node X="108890" Y="-13459" />
+		<node X="108192" Y="-14135" />
+		<node X="108181" Y="-16382" />
+	</zone>
+    	<zone name="fc_tully_last_floor" id="200041" type="ScriptZone" shape="NPoly" minZ="12000" maxZ="11000">
+            	<node X="22872" Y="244760" />
+            	<node X="22296" Y="245144" />
+            	<node X="21624" Y="245160" />
+            	<node X="21064" Y="244872" />
+            	<node X="20712" Y="244312" />
+            	<node X="20680" Y="243656" />
+            	<node X="20984" Y="243048" />
+            	<node X="21528" Y="242696" />
+            	<node X="22200" Y="242664" />
+            	<node X="22792" Y="242968" />
+            	<node X="23160" Y="243528" />
+            	<node X="23160" Y="244264" />
+    	</zone>
+	<zone name="fc_devastated_castle" id="200042" type="ScriptZone" shape="NPoly" minZ="-2514" maxZ="486">
+		<node X="176793" Y="-19176" />
+		<node X="179892" Y="-19176" />
+		<node X="179892" Y="-15276" />
+		<node X="179417" Y="-14511" />
+		<node X="177270" Y="-14511" />
+		<node X="176793" Y="-15276" />
+	</zone>
+	<zone name="fc_heart_of_infinity" id="200043" type="ScriptZone" shape="NPoly" minZ="-13000" maxZ="-12000">
+		<node X="-179928" Y="208440" />
+		<node X="-181256" Y="208936" />
+		<node X="-181016" Y="211016" />
+		<node X="-179528" Y="211080" />
+		<node X="-178008" Y="210952" />
+		<node X="-177720" Y="208696" />
+		<node X="-179208" Y="208424" />
+	</zone>
+    	<zone name="fc_bandit_stronghold" id="200044" type="ScriptZone" shape="NPoly" minZ="-2100" maxZ="-1700">
+            	<node X="85208" Y="-18424" />
+            	<node X="85592" Y="-18120" />
+            	<node X="85752" Y="-17976" />
+            	<node X="85496" Y="-17672" />
+            	<node X="85720" Y="-17160" />
+            	<node X="85640" Y="-16024" />
+            	<node X="85208" Y="-15544" />
+            	<node X="84072" Y="-15032" />
+            	<node X="83624" Y="-14600" />
+            	<node X="82680" Y="-14600" />
+            	<node X="81832" Y="-14328" />
+            	<node X="80760" Y="-14344" />
+            	<node X="80344" Y="-14440" />
+		<node X="80488" Y="-14872" />
+            	<node X="80824" Y="-15352" />
+            	<node X="80824" Y="-15512" />
+            	<node X="80664" Y="-16056" />
+            	<node X="79768" Y="-16072" />
+            	<node X="79800" Y="-16920" />
+            	<node X="80536" Y="-17256" />
+            	<node X="81304" Y="-17304" />
+            	<node X="81816" Y="-17848" />
+           	<node X="82584" Y="-18056" />
+            	<node X="83352" Y="-18152" />
+            	<node X="84104" Y="-18312" />
+            	<node X="84792" Y="-18248" />
+            	<node X="85032" Y="-18632" />
+    	</zone>
+   	<zone name="fc_giran_throne_room" id="200045" type="ScriptZone" shape="NPoly" minZ="-2700" maxZ="-2300">
+           	<node X="117016" Y="144680" />
+            	<node X="117192" Y="145016" />
+            	<node X="117208" Y="145176" />
+            	<node X="117016" Y="145528" />
+            	<node X="116424" Y="145624" />
+            	<node X="115560" Y="145608" />
+            	<node X="115416" Y="145224" />
+            	<node X="115416" Y="144968" />
+            	<node X="115560" Y="144712" />
+            	<node X="116424" Y="144568" />
+    	</zone>
+    	<zone name="fc_rune_castle" id="200046" type="ScriptZone" shape="NPoly" minZ="-600" maxZ="1900">
+            	<node X="18616" Y="-48808" />
+            	<node X="18408" Y="-48824" />
+            	<node X="18360" Y="-48344" />
+            	<node X="18264" Y="-47768" />
+            	<node X="17704" Y="-46760" />
+            	<node X="16792" Y="-46056" />
+            	<node X="15096" Y="-45624" />
+            	<node X="12872" Y="-45816" />
+            	<node X="10312" Y="-44152" />
+            	<node X="7128" Y="-43368" />
+            	<node X="4024" Y="-44952" />
+            	<node X="3256" Y="-48536" />
+            	<node X="3416" Y="-53432" />
+            	<node X="6824" Y="-55800" />
+            	<node X="9736" Y="-55608" />
+            	<node X="13144" Y="-55144" />
+            	<node X="13000" Y="-52648" />
+            	<node X="15112" Y="-52680" />
+            	<node X="16792" Y="-52248" />
+            	<node X="17704" Y="-51528" />
+            	<node X="18280" Y="-50520" />
+            	<node X="18632" Y="-49480" />
+    	</zone>
+	<zone name="fc_school_of_dark_arts" id="200047" type="ScriptZone" shape="NPoly" minZ="-6300" maxZ="-3200">
+		<node X="-46824" Y="58216" />
+		<node X="-45400" Y="57864" />
+		<node X="-45336" Y="55736" />
+		<node X="-43752" Y="55048" />
+		<node X="-43144" Y="54392" />
+		<node X="-43144" Y="52872" />
+		<node X="-43976" Y="52632" />
+		<node X="-44008" Y="50568" />
+		<node X="-43480" Y="50152" />
+		<node X="-43688" Y="48472" />
+		<node X="-43464" Y="46024" />
+		<node X="-43432" Y="44264" />
+		<node X="-43992" Y="42856" />
+		<node X="-47048" Y="42536" />
+		<node X="-51176" Y="42584" />
+		<node X="-51400" Y="43976" />
+		<node X="-51352" Y="45944" />
+		<node X="-50712" Y="46088" />
+		<node X="-51112" Y="46984" />
+		<node X="-51288" Y="50232" />
+		<node X="-50760" Y="50424" />
+		<node X="-50776" Y="52648" />
+		<node X="-51640" Y="52728" />
+		<node X="-51624" Y="54408" />
+		<node X="-49944" Y="55944" />
+		<node X="-49928" Y="57944" />
+		<node X="-47352" Y="58120" />
+	</zone>
+    	<zone name="fc_necropolis_of_sacrifice" id="200048" type="ScriptZone" shape="NPoly" minZ="-5200" maxZ="-4900">
+           	<node X="-41000" Y="220950" />
+            	<node X="-52350" Y="220950" />
+            	<node X="-52350" Y="209500" />
+            	<node X="-41000" Y="209500" />
+    	</zone>
+   	<zone name="fc_sea_of_spores" id="200049" type="ScriptZone" shape="NPoly" minZ="-5700" maxZ="-3600">
+            	<node X="58328" Y="31336" />
+            	<node X="58328" Y="31336" />
+            	<node X="59544" Y="31256" />
+            	<node X="61688" Y="29736" />
+            	<node X="62056" Y="29048" />
+            	<node X="63192" Y="26616" />
+            	<node X="63464" Y="25784" />
+            	<node X="63656" Y="23160" />
+            	<node X="63720" Y="21880" />
+            	<node X="63656" Y="19320" />
+            	<node X="64776" Y="16248" />
+            	<node X="64344" Y="12088" />
+            	<node X="64472" Y="9960" />
+            	<node X="63240" Y="7560" />
+            	<node X="62632" Y="7032" />
+            	<node X="59672" Y="7560" />
+            	<node X="57640" Y="9592" />
+            	<node X="56008" Y="10584" />
+            	<node X="54584" Y="11640" />
+            	<node X="47656" Y="14216" />
+            	<node X="45096" Y="15640" />
+            	<node X="42936" Y="15768" />
+            	<node X="42104" Y="17208" />
+            	<node X="42200" Y="18280" />
+            	<node X="43272" Y="19608" />
+            	<node X="44616" Y="19976" />
+            	<node X="42824" Y="21752" />
+            	<node X="40408" Y="23272" />
+            	<node X="42120" Y="26728" />
+            	<node X="43784" Y="26872" />
+            	<node X="47272" Y="26376" />
+            	<node X="53912" Y="28648" />
+            	<node X="55112" Y="30200" />
+    	</zone>
+	<zone name="fc_salle_throne" id="200050" type="ScriptZone" shape="NPoly" minZ="-9390" maxZ="-9300">
+		<node X="16440" Y="210856" />
+		<node X="17304" Y="210936" />
+		<node X="18488" Y="212152" />
+		<node X="18616" Y="213080" />
+		<node X="18504" Y="214120" />
+		<node X="17240" Y="215368" />
+		<node X="16584" Y="215496" />
+		<node X="16200" Y="215432" />
+		<node X="15384" Y="215352" />
+		<node X="14168" Y="214104" />
+		<node X="14056" Y="213208" />
+		<node X="14088" Y="212312" />
+		<node X="15368" Y="211000" />
+		<node X="16296" Y="210920" />
+	</zone>
+	<zone name="fc_hellbound_town" id="200051" type="ScriptZone" shape="NPoly" minZ="-2200" maxZ="-1800">
+		<node X="13752" Y="256568" />
+		<node X="20360" Y="256584" />
+		<node X="21272" Y="255208" />
+		<node X="23400" Y="254056" />
+		<node X="21624" Y="249928" />
+		<node X="13720" Y="249928" />
+	</zone>
+    	<zone name="fc_ruins_of_despair" id="200052" type="ScriptZone" shape="NPoly" minZ="-4100" maxZ="-3400">
+            	<node X="-12952" Y="140200" />
+            	<node X="-13128" Y="139976" />
+            	<node X="-14408" Y="139016" />
+            	<node X="-14952" Y="138584" />
+            	<node X="-15880" Y="138232" />
+            	<node X="-17016" Y="138136" />
+            	<node X="-17896" Y="138312" />
+            	<node X="-19192" Y="138040" />
+            	<node X="-19576" Y="137960" />
+            	<node X="-19976" Y="138216" />
+            	<node X="-20024" Y="138040" />
+            	<node X="-20504" Y="138440" />
+            	<node X="-21288" Y="138632" />
+            	<node X="-21944" Y="139048" />
+            	<node X="-22120" Y="139272" />
+            	<node X="-22488" Y="139976" />
+            	<node X="-22696" Y="140952" />
+            	<node X="-22856" Y="141768" />
+            	<node X="-23176" Y="142440" />
+            	<node X="-23192" Y="143176" />
+            	<node X="-22872" Y="143928" />
+            	<node X="-22056" Y="145288" />
+            	<node X="-21720" Y="146072" />
+            	<node X="-21240" Y="146680" />
+            	<node X="-20376" Y="146936" />
+            	<node X="-19592" Y="146936" />
+            	<node X="-18936" Y="146648" />
+            	<node X="-18008" Y="146504" />
+            	<node X="-16344" Y="146312" />
+            	<node X="-15576" Y="146328" />
+		<node X="-14328" Y="146632" />
+            	<node X="-13176" Y="146632" />
+            	<node X="-12456" Y="146168" />
+            	<node X="-11784" Y="145304" />
+            	<node X="-11864" Y="144376" />
+            	<node X="-12200" Y="143448" />
+            	<node X="-12344" Y="142712" />
+            	<node X="-12328" Y="141864" />
+            	<node X="-12456" Y="141352" />
+    	</zone>
+	<zone name="Pailaka Injured Dragon 01" id="200001" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="117769" Y="-46202" /> 
+		<node X="117828" Y="-46590" /> 
+		<node X="121923" Y="-46364" /> 
+		<node X="121763" Y="-44674" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 02" id="200002" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="115970" Y="-45694" /> 
+		<node X="115620" Y="-46220" /> 
+		<node X="115593" Y="-46683" /> 
+		<node X="116477" Y="-47716" /> 
+		<node X="115839" Y="-46610" /> 
+		<node X="115819" Y="-46203" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 03" id="200003" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="116346" Y="-49927" /> 
+		<node X="115202" Y="-50560" /> 
+		<node X="115330" Y="-50608" /> 
+		<node X="116347" Y="-50083" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 04" id="200004" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="117275" Y="-51185" /> 
+		<node X="116018" Y="-51776" /> 
+		<node X="116278" Y="-52213" /> 
+		<node X="117526" Y="-51052" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 05" id="200005" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="111137" Y="-43445" /> 
+		<node X="111187" Y="-44394" /> 
+		<node X="111392" Y="-44275" /> 
+		<node X="111355" Y="-43370" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 06" id="200006" type="ScriptZone" shape="NPoly" minZ="-3000" maxZ="-1500"> 
+		<node X="108768" Y="-45613" /> 
+		<node X="109882" Y="-47555" /> 
+		<node X="110229" Y="-47049" /> 
+		<node X="108917" Y="-45580" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 07" id="200007" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="115979" Y="-55112" /> 
+		<node X="115753" Y="-56598" /> 
+		<node X="116242" Y="-56532" /> 
+	<node X="116211" Y="-55042" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 08" id="200008" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000"> 
+		<node X="108467" Y="-40835" /> 
+		<node X="108533" Y="-41590" /> 
+		<node X="108666" Y="-41584" /> 
+		<node X="108623" Y="-40839" /> 
+	</zone> 
+	<zone name="Pailaka Injured Dragon 09" id="200009" type="ScriptZone" shape="NPoly" minZ="-2500" maxZ="-1500"> 
+		<node X="110456" Y="-39399" /> 
+		<node X="109835" Y="-39410" /> 
+		<node X="109830" Y="-39550" /> 
+		<node X="110457" Y="-39540" /> 
+	</zone>
+	<zone name="Vangara" id="20201" type="ScriptZone" shape="Cuboid" minZ="-7660" maxZ="7340">
+		<node X="73241" Y="-102671" /> 
+		<node X="75229" Y="-101174" />
+	</zone>
+	<zone name="soi_hoi_soulwagon_finish" id="200010" type="ScriptZone" shape="NPoly" minZ="-15590" maxZ="-15090">
+		<node X="-179400" Y="211544" />		
+		<node X="-179640" Y="211576" />
+		<node X="-179656" Y="211112" />
+		<node X="-179416" Y="211128" />
+	</zone>
+	<zone name="Seven Sign 01" id="20500" type="ScriptZone" shape="NPoly" minZ="-7600" maxZ="-7300">
+		<node X="-75096" Y="209528" />
+		<node X="-75096" Y="209048" />
+		<node X="-74824" Y="209048" />
+		<node X="-74824" Y="209528" />
+	</zone>
+	<zone name="Seven Sign 02" id="20501" type="ScriptZone" shape="NPoly" minZ="-7800" maxZ="-7500">
+		<node X="-77848" Y="209128" />
+		<node X="-77848" Y="208728" />
+		<node X="-77560" Y="208728" />
+		<node X="-77560" Y="209144" />
+	</zone>
+	<zone name="Seven Sign 03" id="20502" type="ScriptZone" shape="NPoly" minZ="-8000" maxZ="-7700">
+		<node X="-80184" Y="205944" />
+		<node X="-80328" Y="205944" />
+		<node X="-80328" Y="205768" />
+		<node X="-80184" Y="205784" />
+	</zone>
+</list>

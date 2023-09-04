@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/fight_events.xsd">
+	<event id="7" nameEn="Team VS Team Round" nameRu="Раундная Командная Битва" impl="TeamVSTeamRound">
+		<parameter name="icon" value="L2UI_CT1.clan_DF_TerritoryWarIcon_Oren"/>
+		<parameter name="descEn" value="Kill all players of the enemy team. The event lasts 3 rounds!"/>
+		<parameter name="descRu" value="Убить всех игроков вражеской команды. Ивент длится 3 раунда!"/>
+		<parameter name="roundRunTime" value="-1"/>
+		<parameter name="roundEvent" value="true"/>
+		<parameter name="rounds" value="3"/>
+		<parameter name="isAutoTimed" value="true"/>
+		<parameter name="autoTimes" value="06:00,18:00"/>
+		<parameter name="teamed" value="true"/>
+		<parameter name="canTargetTeam" value="false"/>
+		<parameter name="useBuffs" value="true"/>
+		<parameter name="fighterBuffs" value="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="mageBuffs" value="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="givePvpPoints" value="false"/>
+		<parameter name="canUseScrolls" value="false"/>
+		<parameter name="canUsePotions" value="false"/>
+		<parameter name="canItemSummons" value="false"/>
+		<parameter name="rootBetweenRounds" value="true"/>
+		<parameter name="loseBuffsOnDeath" value="false"/>
+		<parameter name="excludedClasses" value=""/>
+		<parameter name="respawnTime" value="-1"/>
+		<parameter name="ressAllowed" value="false"/>
+		<!-- better to make different rewards for different positions -->
+		<!-- can use several items in one position -->
+		<parameter name="rewardByParticipation" value="57,100000" />
+		<parameter name="rewardByWinner" value="4037,6" />
+		<parameter name="rewardByTopKiller" value="4037,3" />
+		<parameter name="instanced" value="true"/>
+	</event>
+</list>

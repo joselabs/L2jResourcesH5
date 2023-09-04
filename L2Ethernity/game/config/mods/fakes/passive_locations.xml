@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../data/xsd/passive_locations.xsd">
+	<location id="1" amount="40">
+		<level min="40" max="75" />
+		<territory name="Giran">
+			<add x="83032" y="149560" zmin="-3480" zmax="-3400" />
+			<add x="80888" y="149560" zmin="-3480" zmax="-3400" />
+			<add x="80888" y="147608" zmin="-3480" zmax="-3400" />
+			<add x="83000" y="147592" zmin="-3480" zmax="-3400" />
+		</territory>
+		<delay min="1200" max="2400" />
+		<respawn min="30" max="60" />
+	</location>
+</list>

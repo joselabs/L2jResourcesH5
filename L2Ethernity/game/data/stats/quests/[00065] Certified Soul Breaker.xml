@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="65" nameEn="Certified Soul Breaker" nameRu="Путь Палача">
+		<expirience>
+			<rewardExp val="196875" rateable="false" />
+			<rewardSp val="13510" rateable="false" />
+		</expirience>
+		<droplist>
+			<npc id="20176">
+				<item id="9804" min="1" chance="25" rateable="false" /> <!--Wyrm Heart-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="35597" rateable="false" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10281" nameEn="Mutated Kaneus - Rune" nameRu="Мутант Канеус - Руна">
+		<droplist>
+			<npc id="18577">
+				<item id="13840" min="1" chance="100" rateable="false" /> <!--White Allosce's Cellular Tissue-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="360000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

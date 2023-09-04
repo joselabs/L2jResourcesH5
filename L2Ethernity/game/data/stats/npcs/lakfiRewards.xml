@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<lakfi level="52">
+		<npc id="2502">
+			<item id="8755" min="2" chance="50" />	<!-- Top-Grade Life Stone - Level 52 -->
+			<item id="8755" min="1" chance="100" />	<!-- Top-Grade Life Stone - Level 52 -->
+		</npc>
+		<npc id="2503">
+			<item id="14678" min="1" chance="100" /><!-- Neolithic Crystal - B -->
+		</npc>
+	</lakfi>
+	<lakfi level="70">
+		<npc id="2502">
+			<item id="5577" min="2" chance="10" />	<!-- Red Soul Crystal - Stage 11 -->
+			<item id="5578" min="2" chance="15" />	<!-- Green Soul Crystal - Stage 11 -->
+			<item id="5579" min="2" chance="30" />	<!-- Blue Soul Crystal - Stage 11 -->
+			<item id="5577" min="1" chance="50" />	<!-- Red Soul Crystal - Stage 11 -->
+			<item id="5578" min="1" chance="70" />	<!-- Green Soul Crystal - Stage 11 -->
+			<item id="5579" min="1" chance="100" />	<!-- Red Soul Crystal - Stage 11 -->
+		</npc>
+		<npc id="2503">			
+			<item id="14679" min="1" chance="100" /><!-- Neolithic Crystal - A -->
+		</npc>
+	</lakfi>
+	<lakfi level="80">
+		<npc id="2502">
+			<item id="9552" min="2" chance="5" />	<!-- Fire Crystal -->
+			<item id="9552" min="1" chance="10" />	<!-- Fire Crystal -->
+			<item id="9554" min="2" chance="15" />	<!-- Earth Crystal -->
+			<item id="9554" min="1" chance="20" />	<!-- Earth Crystal -->
+			<item id="9556" min="2" chance="30" />	<!-- Dark Crystal -->
+			<item id="9556" min="1" chance="40" />	<!-- Dark Crystal -->
+			<item id="9553" min="2" chance="50" />	<!-- Water Crystal -->
+			<item id="9553" min="1" chance="60" />	<!-- Water Crystal -->
+			<item id="9555" min="2" chance="70" />	<!-- Wind Crystal -->
+			<item id="9555" min="1" chance="80" />	<!-- Wind Crystal -->
+			<item id="9557" min="2" chance="90" />	<!-- Holy Crystal -->
+			<item id="9557" min="1" chance="100" />	<!-- Holy Crystal -->
+		</npc>
+		<npc id="2503">			
+			<item id="14680" min="1" chance="100" /><!-- Neolithic Crystal - S -->
+		</npc>
+	</lakfi>
+</list>

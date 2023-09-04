@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="32" nameEn="An Obvious Lie" nameRu="Очевидная ложь">
+		<droplist>
+			<npc id="20135">
+				<item id="7166" min="1" chance="30" rateable="true" /> <!--Medicinal Herb-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="6843" min="1" rateable="false" /> <!--Cat Ears-->
+			</variant>
+			<variant id="2">
+				<item id="7680" min="1" rateable="false" /> <!--Raccoon Ears-->
+			</variant>
+			<variant id="3">
+				<item id="7683" min="1" rateable="false" /> <!--Rabbit Ears-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

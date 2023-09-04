@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="252" nameEn="It Smells Delicious" nameRu="Аппетитный Запах">
+		<expirience>
+			<rewardExp val="56787" rateable="true" />
+			<rewardSp val="160578" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="18908">
+				<item id="15501" min="1" chance="40" rateable="true" /> <!--Sel Mahum Cookbook Page-->
+			</npc>
+			<npc id="22786">
+				<item id="15500" min="1" chance="60" rateable="true" /> <!--Sel Mahum Diary-->
+			</npc>
+			<npc id="22787">
+				<item id="15500" min="1" chance="60" rateable="true" /> <!--Sel Mahum Diary-->
+			</npc>
+			<npc id="22788">
+				<item id="15500" min="1" chance="60" rateable="true" /> <!--Sel Mahum Diary-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="313355" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

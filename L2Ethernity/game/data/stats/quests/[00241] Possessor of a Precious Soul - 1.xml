@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="241" nameEn="Possessor of a Precious Soul - 1" nameRu="Драгоценная душа, ч. 1">
+		<expirience>
+			<rewardExp val="263043" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="27113">
+				<item id="7587" min="1" chance="100" rateable="true" /> <!--Legend of Seventeen-->
+			</npc>
+			<npc id="20244">
+				<item id="7597" min="1" chance="15" rateable="true" /> <!--Malruk Succubus Claw-->
+			</npc>
+			<npc id="20245">
+				<item id="7597" min="1" chance="15" rateable="true" /> <!--Malruk Succubus Claw-->
+			</npc>
+			<npc id="20283">
+				<item id="7597" min="1" chance="15" rateable="true" /> <!--Malruk Succubus Claw-->
+			</npc>
+			<npc id="20284">
+				<item id="7597" min="1" chance="15" rateable="true" /> <!--Malruk Succubus Claw-->
+			</npc>
+			<npc id="20669">
+				<item id="7598" min="1" chance="10" rateable="true" /> <!--Crimson Moss-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7677" min="1" rateable="false" /> <!--Virgil's Letter-->
+		</rewardlist>
+	</quest>
+</list>

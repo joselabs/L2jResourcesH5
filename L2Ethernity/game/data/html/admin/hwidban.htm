@@ -1,0 +1,48 @@
+<html><title>Punishment Information Panel</title><body>
+<center>
+<table width=288 border=0 bgcolor="444444">
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Char" action="bypass -h admin_admin6" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Game" action="bypass -h admin_admin2" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="GM" action="bypass -h admin_admin7" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<font color="LEVEL">[ Hwid Ban Settings ]</font><br1>
+<table width=280 bgcolor="666666" cellspacing="2" cellpadding="6">
+	<tr>
+		<td>Name:</td>
+		<td><edit var="name" width="130" height="12"></td>
+	</tr>
+	<tr>
+		<td>Time:</td>
+		<td><edit var="expiration" width="130" height="12" type="number"></td>
+	</tr>
+	<tr>
+		<td>Reason:</td>
+		<td><multiedit var="reason" width=130 height=32></td>
+	</tr>
+</table>
+<br>
+<table width=288 border=0>
+<tr>
+<td><button value="Ban by Target" action="bypass -h admin_hwid_ban $expiration $reason" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ban by Name" action="bypass -h admin_hwid_ban $name $expiration $reason" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br><br>
+<font color="LEVEL">[ Hwid UnBan Settings ]</font><br1>
+<table width=280 bgcolor="666666" cellspacing="2" cellpadding="6">
+	<tr>
+		<td>HWID:</td>
+		<td><edit var="unban" width="130" height="12"></td>
+	</tr>
+</table>
+<table width=288 border=0>
+<tr>
+<td align=center><button value="Unban" action="bypass -h admin_unban_hwid $unban" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center>
+</html>

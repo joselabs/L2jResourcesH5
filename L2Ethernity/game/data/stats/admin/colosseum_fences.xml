@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/colosseum_fences.xsd">
+<!-- Fence Format -->
+<!-- x position -->
+<!-- y position  -->
+<!-- z position  -->
+<!-- minZ position -->
+<!-- maxZ position -->
+<!-- width fence -->
+<!-- type fence 0,1,2 -->
+<!-- <colosseum_fence x="" y="" z="" minZ="" maxZ="" width="" height="" type=""> -->
+</list>

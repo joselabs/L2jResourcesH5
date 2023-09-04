@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="634" nameEn="In Search of Fragments of Dimension" nameRu="Частицы Разлома">
+		<droplist>
+			<npc id="21208">
+				<item id="7079" min="4" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21209">
+				<item id="7079" min="4" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21210">
+				<item id="7079" min="4" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21211">
+				<item id="7079" min="4" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21212">
+				<item id="7079" min="5" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21213">
+				<item id="7079" min="5" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21214">
+				<item id="7079" min="5" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21215">
+				<item id="7079" min="5" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21216">
+				<item id="7079" min="6" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21217">
+				<item id="7079" min="6" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21218">
+				<item id="7079" min="6" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21219">
+				<item id="7079" min="6" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21220">
+				<item id="7079" min="6" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21221">
+				<item id="7079" min="7" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21222">
+				<item id="7079" min="7" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21223">
+				<item id="7079" min="7" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21224">
+				<item id="7079" min="7" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21225">
+				<item id="7079" min="7" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21226">
+				<item id="7079" min="8" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21227">
+				<item id="7079" min="8" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21228">
+				<item id="7079" min="8" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21229">
+				<item id="7079" min="8" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21230">
+				<item id="7079" min="8" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21231">
+				<item id="7079" min="9" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21232">
+				<item id="7079" min="9" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21233">
+				<item id="7079" min="9" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21234">
+				<item id="7079" min="9" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21235">
+				<item id="7079" min="9" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21236">
+				<item id="7079" min="10" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21237">
+				<item id="7079" min="10" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21238">
+				<item id="7079" min="10" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21239">
+				<item id="7079" min="10" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21240">
+				<item id="7079" min="10" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21241">
+				<item id="7079" min="11" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21242">
+				<item id="7079" min="11" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21243">
+				<item id="7079" min="11" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21244">
+				<item id="7079" min="11" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21245">
+				<item id="7079" min="11" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21246">
+				<item id="7079" min="12" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21247">
+				<item id="7079" min="12" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21248">
+				<item id="7079" min="12" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21249">
+				<item id="7079" min="12" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21250">
+				<item id="7079" min="12" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21251">
+				<item id="7079" min="13" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21252">
+				<item id="7079" min="13" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21253">
+				<item id="7079" min="13" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21254">
+				<item id="7079" min="13" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+			<npc id="21255">
+				<item id="7079" min="13" chance="60" rateable="true" /> <!--Dimensional Fragment-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

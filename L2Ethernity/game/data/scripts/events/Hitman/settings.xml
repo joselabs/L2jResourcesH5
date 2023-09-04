@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="10" name="Hitman" activate="false">
+	<time pattern="* * * * *" period="-1" />
+	<spawnlist>
+		<!-- Hitman Manager -->
+		<npc id="51" x="83062" y="148397" z="-3461" heading="33035" />
+		<npc id="51" x="147225" y="27361" z="-2197" heading="47422" />
+		<npc id="51" x="147286" y="-55480" z="-2726" heading="63306" />
+		<npc id="51" x="18957" y="145780" z="-3086" heading="46562" />
+		<npc id="51" x="-13926" y="121933" z="-2981" heading="31830" />
+		<npc id="51" x="87781" y="-143231" z="-1298" heading="32589" />
+		<npc id="51" x="117187" y="76770" z="-2700" heading="36092" />
+		<npc id="51" x="43966" y="-47710" z="-802" heading="49446" />
+		<npc id="51" x="82332" y="53285" z="-1501" heading="15947" />
+		<npc id="51" x="111339" y="219419" z="-3551" heading="49676" />
+	</spawnlist>
+</event>

@@ -1,0 +1,378 @@
+﻿<html noscrollbar>
+<body>
+<title>База Знаний Сообщества</title>
+<br>
+<center>&nbsp;
+<table width=760 height=500  border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<td>
+			<br1>
+			<table width=760 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td>
+						<table width=510>
+							<tr>
+								<td width=50>
+									<center><img src="Icon.etc_scroll_of_memory_i00" width=32 height=32></center>
+								</td>
+								<td width=460>
+									<table>
+										<tr>
+											<td>
+												<font color="ff751a" name="__SYSTEMWORLDFONT">Информация о Дропе</font>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<font color="669900">Показывает точную информацию о дропе и спойле всех монстров</font>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table width=250 border=0 cellpadding=0 cellspacing=0>
+							<tr>
+								<td height=20>
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td width=250>
+									<center><button value="Назад" action="bypass _bbsdropCalc" width=200 height=32 back="L2UI_CT1.OlympiadWnd_DF_Back_Down" fore="L2UI_ct1.OlympiadWnd_DF_Back"></center>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<br><br><br>
+			<table width=760 height=20 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=50>
+						<button value="Иконка" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=50 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+					<td width=230>
+						<button value="Название" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=230 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+					<td width=60>
+						<button value="Ранг" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=60 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+					<td width=140>
+						<button value="Дроп" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=140 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+					<td width=140>
+						<button value="Спойл" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=140 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+					<td width=140>
+						<button value="Действие" action="bypass _bbsdropItemsByName_%searchItem%_%page%" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=140 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0 bgcolor=23201E>
+				<tr>
+					<td width=50>
+						<center>%itemIcon0%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=996633>%itemName0%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=996633>%itemGrade0%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%dropLists0%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%spoilLists0%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters0%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=50>
+						<center>%itemIcon1%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=cc0066>%itemName1%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=cc0066>%itemGrade1%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%dropLists1%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%spoilLists1%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters1%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0 bgcolor=23201E>
+				<tr>
+					<td width=50>
+						<center>%itemIcon2%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=996633>%itemName2%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=996633>%itemGrade2%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%dropLists2%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%spoilLists2%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters2%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=50>
+						<center>%itemIcon3%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=cc0066>%itemName3%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=cc0066>%itemGrade3%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%dropLists3%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%spoilLists3%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters3%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0 bgcolor=23201E>
+				<tr>
+					<td width=50>
+						<center>%itemIcon4%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=996633>%itemName4%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=996633>%itemGrade4%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%dropLists4%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%spoilLists4%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters4%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=50>
+						<center>%itemIcon5%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=cc0066>%itemName5%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=cc0066>%itemGrade5%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%dropLists5%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%spoilLists5%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters5%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0 bgcolor=23201E>
+				<tr>
+					<td width=50>
+						<center>%itemIcon6%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=996633>%itemName6%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=996633>%itemGrade6%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%dropLists6%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=996633>%spoilLists6%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters6%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=760 height=45 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=50>
+						<center>%itemIcon7%</center>
+					</td>
+					<td fixwidth=230>
+						<center><font color=cc0066>%itemName7%</font></center>
+					</td>
+					<td width=60>
+						<center><font color=cc0066>%itemGrade7%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%dropLists7%</font></center>
+					</td>
+					<td width=140>
+						<center><font color=cc0066>%spoilLists7%</font></center>
+					</td>
+					<td width=140>
+						<table width=140 height=45>
+							<tr>
+								<td height=1>
+									<br1>
+								</td>
+							</tr>
+							<tr>
+								<td height=44>
+									<center>
+									%showMonsters7%
+									</center>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<center>
+			<table width=760 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=380 align=right>
+						%previousButton%
+					</td>
+					<td width=380 align=left>
+						%nextButton%
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body></html>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/reflectionNames.xsd">
+	<instance id="1" nameEn="Party Duel" nameRu="Зона Дуэли Группы" />
+	<instance id="2" nameEn="Urban Area" nameRu="Площадь Тьмы" />
+	<instance id="3" nameEn="Tower of Infinitum Demon Prince" nameRu="Башня Вечности Принца Демона" />
+	<instance id="4" nameEn="Tower of Infinitum Ranku" nameRu="Башня Вечности Ранку" />
+	<instance id="5" nameEn="Tully's Workshop 1st Floor" nameRu="Мастерская Тулли, 1 этаж" />
+	<instance id="6" nameEn="Tully's Workshop 3rd Floor" nameRu="Мастерская Тулли, 3 этаж" />
+	<instance id="7" nameEn="Tully's Workshop 5th Floor" nameRu="Мастерская Тулли, 5 этаж" />
+	<instance id="8" nameEn="Tully's Workshop 7th Floor" nameRu="Мастерская Тулли, 7 этаж" />
+	<instance id="9" nameEn="Dark Cloud Mansion" nameRu="Особняк Темного Облака" />
+	<instance id="10" nameEn="Crystal Caverns" nameRu="Кристальная Пещера" />
+	<instance id="11" nameEn="Nornil's Garden" nameRu="Сад Норнил" />
+	<instance id="12" nameEn="Nornil's Garden Quest" nameRu="Сад Норнил" />
+	<instance id="13" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="14" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="15" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="16" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="17" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="18" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="19" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="20" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="21" nameEn="Dungeon" nameRu="Подземелье Замка" />
+	<instance id="22" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="23" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="24" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="25" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="26" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="27" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="28" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="29" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="30" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="31" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="32" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="33" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="34" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="35" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="36" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="37" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="38" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="39" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="40" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="41" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="42" nameEn="Monster Dungeon" nameRu="Подземелье Монстров" />
+	<instance id="43" nameEn="Pailaka (Forgotten Temple)" nameRu="Пайлака (Забытый Храм)" />
+	<instance id="44" nameEn="Pailaka (Devil's Isle)" nameRu="Пайлака (Остров Дьявола)" />
+	<instance id="45" nameEn="Pailaka (Varka Silenos Barracks)" nameRu="Пайлака (Лагерь Фавнов Варка)" />
+	<instance id="46" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="47" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="48" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="49" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="50" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="51" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="52" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="53" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="54" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="55" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="56" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+	<instance id="57" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="58" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="59" nameEn="Near Kamaloka" nameRu="Земли Камалоки" />
+	<instance id="60" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="61" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="62" nameEn="Near Kamaloka" nameRu="Земли Камалоки" />
+	<instance id="63" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="64" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="65" nameEn="Near Kamaloka" nameRu="Земли Камалоки" />
+	<instance id="66" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="67" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="68" nameEn="Near Kamaloka" nameRu="Земли Камалоки" />
+	<instance id="69" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="70" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="71" nameEn="Near Kamaloka" nameRu="Земли Камалоки" />
+	<instance id="72" nameEn="Kamaloka (Hall of the Abyss)" nameRu="Камалока (Зал Бездны)" />
+	<instance id="73" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="74" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="75" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="76" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="77" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="78" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="79" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="80" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="81" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="82" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="83" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="84" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="85" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="86" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="87" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="88" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="89" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="90" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="91" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="92" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="93" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="94" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="95" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="96" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="97" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="98" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="99" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="100" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="101" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="102" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="103" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="104" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="105" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="106" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="107" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="108" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="109" nameEn="Pailaka (Rune Castle)" nameRu="Замок Пайлаки" />
+	<instance id="110" nameEn="Seed of Destruction" nameRu="Семя Разрушения" />
+	<instance id="111" nameEn="Sanctum of the Lords of Dawn" nameRu="Святая Обитель Правителей Рассвета" />
+	<instance id="112" nameEn="Disciple's Necropolis (Past)" nameRu="Некрополь Апостолов (Прошлое)" />
+	<instance id="113" nameEn="Hideout of the Dawn" nameRu="Холл Рассвета" />
+	<instance id="114" nameEn="Cavern of the Pirate Captain (Nightmare)" nameRu="Логово Короля Пиратов (Ночь)" />
+	<instance id="115" nameEn="Seed of Infinity (Hall of Suffering)" nameRu="Семя Бессмертия (Зал Страданий)" />
+	<instance id="116" nameEn="Seed of Infinity (Hall of Suffering)" nameRu="Семя Бессмертия (Зал Страданий)" />
+	<instance id="117" nameEn="Secret Area in the Keucereus Fortress" nameRu="Секретный Зал Крепости Кецеруса" />
+	<instance id="118" nameEn="Secret Area in the Keucereus Fortress" nameRu="Секретный Зал Крепости Кецеруса" />
+	<instance id="119" nameEn="Seed of Infinity (Hall of Erosion)" nameRu="Семя Бессмертия (Зал Гибели)" />
+	<instance id="120" nameEn="Seed of Infinity (Hall of Erosion)" nameRu="Семя Бессмертия (Зал Гибели)" />
+	<instance id="121" nameEn="Seed of Infinity (Heart of Infinity)" nameRu="Семя Бессмертия (Источник Бессмертия)" />
+	<instance id="122" nameEn="Seed of Infinity (Heart of Infinity)" nameRu="Семя Бессмертия (Источник Бессмертия)" />
+	<instance id="123" nameEn="Seed of Destruction (Chamblain's Mounted Troop)" nameRu="Семя Разрушения (Жрец Армии Дракона)" />
+	<instance id="124" nameEn="Seed of Destruction (Soldier's Mounted Troop)" nameRu="Семя Разрушения (Воитель Армии Дракона)" />
+	<instance id="125" nameEn="Seed of Destruction (Warrior's Mounted Troop)" nameRu="Семя Разрушения (Воин Армии Дракона)" />
+	<instance id="126" nameEn="Seed of Destruction (Great Warrior's Mounted Troop)" nameRu="Семя Разрушения (Рыцарь Армии Дракона)" />
+	<instance id="127" nameEn="Delusion Chamber (Eastern Seal)" nameRu="Грань Реальности (Восток)" />
+	<instance id="128" nameEn="Delusion Chamber (Western Seal)" nameRu="Грань Реальности (Запад)" />
+	<instance id="129" nameEn="Delusion Chamber (Eastern Seal)" nameRu="Грань Реальности (Юг)" />
+	<instance id="130" nameEn="Delusion Chamber (Northern  Seal)" nameRu="Грань Реальности (Север)" />
+	<instance id="131" nameEn="Delusion Chamber (Great Seal)" nameRu="Грань Реальности (Площадь)" />
+	<instance id="132" nameEn="Delusion Chamber (Tower of Seal)" nameRu="Грань Реальности (Башня)" />
+	<instance id="133" nameEn="Cavern of the Pirate Captain (Daydream)" nameRu="Логово Короля Пиратов (День)" />
+	<instance id="134" nameEn="Kamaloka (Labyrinth of the Abyss)" nameRu="Камалока (Лабиринт Бездны)" />
+	<instance id="135" nameEn="Cavern of the Pirate Captain (Daydream)" nameRu="Логово Короля Пиратов (100 дн.)" />
+	<instance id="136" nameEn="Final Emperial Tomb" nameRu="Последнее Пристанище Короля" />
+	<instance id="137" nameEn="Ice Queen's Castle" nameRu="Замок Снежной Королевы" />
+	<instance id="138" nameEn="Mithril Mine" nameRu="Мифриловая Шахта" />
+	<instance id="139" nameEn="Ice Queen's Castle" nameRu="Замок Снежной Королевы" />
+	<instance id="140" nameEn="Jinia Guild Hideout" nameRu="Холл Гильдии Зинии" />
+	<instance id="141" nameEn="Jinia Guild Hideout" nameRu="Холл Гильдии Зинии" />
+	<instance id="142" nameEn="Tower of Infinitum (5th Floor)" nameRu="Башня Вечности (5-й этаж)" />
+	<instance id="143" nameEn="Tower of Infinitum (10th Floor)" nameRu="Башня Вечности (10-й этаж)" />
+	<instance id="144" nameEn="Ice Queen's Castle (Ultimate Battle)" nameRu="Замок Снежной Королевы (финальное сражение)" />
+	<instance id="145" nameEn="Jinia Guild Hideout" nameRu="Холл Гильдии Зинии" />
+	<instance id="146" nameEn="Jinia Guild Hideout" nameRu="Холл Гильдии Зинии" />
+	<instance id="147" nameEn="Olympiad" nameRu="Олимпиада" />
+	<instance id="148" nameEn="Olympiad" nameRu="Олимпиада" />
+	<instance id="149" nameEn="Olympiad" nameRu="Олимпиада" />
+	<instance id="150" nameEn="Olympiad" nameRu="Олимпиада" />
+	<instance id="151" nameEn="Monastery of Silence" nameRu="Монастырь Безмолвия" />
+	<instance id="152" nameEn="Monastery of Silence" nameRu="Монастырь Безмолвия" />
+	<instance id="153" nameEn="Monastery of Silence" nameRu="Монастырь Безмолвия" />
+	<instance id="154" nameEn="Monastery of Silence" nameRu="Монастырь Безмолвия" />
+	<instance id="155" nameEn="Monastery of Silence" nameRu="Монастырь Безмолвия" />
+	<instance id="156" nameEn="Library of Sages" nameRu="Библиотека Мудрецов" />
+	<instance id="157" nameEn="Underground Library of Sages" nameRu="Подземная Библиотека Мудрецов" />
+	<instance id="158" nameEn="Elcadia's Tent" nameRu="Временная Обитель Элькардии" />
+	<instance id="159" nameEn="Penal Colony of Darkness Raid" nameRu="Рейд в Тюрьму Изгнанников Тьмы" />
+	<instance id="160" nameEn="Rim Kamaloka" nameRu="Окрестности Камалоки" />
+</list>

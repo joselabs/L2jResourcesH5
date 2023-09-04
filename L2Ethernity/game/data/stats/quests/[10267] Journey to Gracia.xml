@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10267" nameEn="Journey to Gracia" nameRu="Путешествие в Грацию">
+		<expirience>
+			<rewardExp val="75480" rateable="true" />
+			<rewardSp val="7570" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="92500" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

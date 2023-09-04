@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="crystal" maxOccurs="unbounded" minOccurs="1">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="level" type="xs:integer" use="required" />
+								<xs:attribute name="itemId" type="xs:integer" use="required" />
+								<xs:attribute name="next_itemId" type="xs:integer" use="required" />
+								<xs:attribute name="cursed_next_itemId" type="xs:integer" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

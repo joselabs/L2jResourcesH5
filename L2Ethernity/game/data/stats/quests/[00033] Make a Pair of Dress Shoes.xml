@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="33" nameEn="Make a Pair of Dress Shoes" nameRu="Обувь для свадьбы">
+		<rewardlist>
+			<item id="7113" min="1" rateable="false" /> <!--Dress Shoe Box-->
+		</rewardlist>
+	</quest>
+</list>

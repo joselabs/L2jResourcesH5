@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?><!-- Банки -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/multisell.xsd">
+<item><ingredient id="57" count="1500000"/><production id="1374" count="10"/></item><!-- Большое Зелье Ускорения (Бега) -->
+<item><ingredient id="57" count="1500000"/><production id="1375" count="10"/></item><!-- Большое Зелье Стремительной Атаки -->
+<item><ingredient id="57" count="1500000"/><production id="6036" count="10"/></item><!-- Большое Зелье Ускорения Магии -->
+<item><ingredient id="57" count="700000"/><production id="8786" count="10"/></item><!-- Перврбытное Зелье (Увеличивает сопротивление к отравлению и анестезии) -->
+<item><ingredient id="57" count="20000"/><production id="1539" count="1"/></item><!-- Перврбытное Зелье (Увеличивает сопротивление к отравлению и анестезии) -->
+<item><ingredient id="57" count="3000"/><production id="728" count="1"/></item><!-- Перврбытное Зелье (Увеличивает сопротивление к отравлению и анестезии) -->
+</list>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="694" nameEn="Break Through the Hall of Suffering" nameRu="Захват Зала Страданий">
+		<level min="75" max="82" />
+		<rewardlist>
+			<variant id="1">
+				<item id="13777" min="1" rateable="true" /><!--Jewel Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="2">
+				<item id="13778" min="1" rateable="true" /><!--Mother-of-Pearl Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="3">
+				<item id="13779" min="1" rateable="true" /><!--Gold-Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="4">
+				<item id="13780" min="1" rateable="true" /><!--Silver-Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="5">
+				<item id="13781" min="1" rateable="true" /><!--Bronze-Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="6">
+				<item id="13782" min="1" rateable="true" /><!--Non-Ornamented Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="7">
+				<item id="13783" min="1" rateable="true" /><!--Weak-Looking Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="8">
+				<item id="13784" min="1" rateable="true" /><!--Sad-Looking Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="9">
+				<item id="13785" min="1" rateable="true" /><!--Poor-Looking Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+			<variant id="10">
+				<item id="13786" min="1" rateable="true" /><!--Worthless Duel Supplies-->
+				<item id="736" min="1" rateable="true" /><!--Scroll of Escape--> 
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

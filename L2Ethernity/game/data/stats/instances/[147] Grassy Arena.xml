@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="147" name="Olympiad Grassy Arena" maxChannels="40" collapseIfEmpty="-1" timelimit="0" dispelBuffs="true">
+		<level min="1" max="85" />
+		<party min="1" max="1" />
+		<geodata mapX="17" mapY="10" />
+		<doorlist>
+			<door doorId="17100001" />
+			<door doorId="17100002" />
+		</doorlist>
+		<spawns>
+			<spawn mobId="36402" type="point" respawn="60">
+				<coords loc="-89400 -252843 -3341 0" />
+			</spawn>
+			<spawn mobId="36402" type="point" respawn="60">
+				<coords loc="-86763 -252843 -3341 0" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

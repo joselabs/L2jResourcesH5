@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="605" nameEn="Alliance with Ketra Orcs" nameRu="Союз с Орками Кетра">
+		<droplist>
+			<npc id="21350">
+				<item id="7216" min="1" chance="50" rateable="true" /> <!--Varka's Badge - Soldier-->
+			</npc>
+			<npc id="21351">
+				<item id="7216" min="1" chance="50" rateable="true" /> <!--Varka's Badge - Soldier-->
+			</npc>
+			<npc id="21353">
+				<item id="7216" min="1" chance="51" rateable="true" /> <!--Varka's Badge - Soldier-->
+			</npc>
+			<npc id="21354">
+				<item id="7216" min="1" chance="52" rateable="true" /> <!--Varka's Badge - Soldier-->
+			</npc>
+			<npc id="21355">
+				<item id="7216" min="1" chance="52" rateable="true" /> <!--Varka's Badge - Soldier-->
+			</npc>
+			<npc id="21357">
+				<item id="7217" min="1" chance="50" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21358">
+				<item id="7217" min="1" chance="50" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21360">
+				<item id="7217" min="1" chance="51" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21361">
+				<item id="7217" min="1" chance="52" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21362">
+				<item id="7217" min="1" chance="52" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21364">
+				<item id="7217" min="1" chance="53" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21365">
+				<item id="7218" min="1" chance="50" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21366">
+				<item id="7218" min="1" chance="50" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21368">
+				<item id="7218" min="1" chance="51" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21369">
+				<item id="7217" min="1" chance="63" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21370">
+				<item id="7217" min="1" chance="60" rateable="true" /> <!--Varka's Badge - Captain-->
+			</npc>
+			<npc id="21371">
+				<item id="7218" min="1" chance="62" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21372">
+				<item id="7218" min="1" chance="60" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21373">
+				<item id="7218" min="1" chance="64" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21374">
+				<item id="7218" min="1" chance="62" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+			<npc id="21375">
+				<item id="7218" min="1" chance="62" rateable="true" /> <!--Varka's Badge - General-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

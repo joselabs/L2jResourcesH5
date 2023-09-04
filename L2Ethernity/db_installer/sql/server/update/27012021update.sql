@@ -1,0 +1,1 @@
+ALTER TABLE `heroes` ADD COLUMN `active` decimal(1,0) NOT NULL default 0 AFTER `played`;

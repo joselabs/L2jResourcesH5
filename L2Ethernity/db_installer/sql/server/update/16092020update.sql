@@ -1,0 +1,1 @@
+ALTER TABLE `character_offline_buffs` ADD COLUMN `itemId` int(10) unsigned NOT NULL DEFAULT '0' AFTER `level`;

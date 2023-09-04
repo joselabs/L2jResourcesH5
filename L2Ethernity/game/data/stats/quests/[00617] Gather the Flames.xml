@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="617" nameEn="Gather the Flames" nameRu="Горящие факелы">
+		<droplist>
+			<npc id="22634">
+				<item id="7264" min="1" chance="58" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22635">
+				<item id="7264" min="1" chance="58" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22636">
+				<item id="7264" min="1" chance="58" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22637">
+				<item id="7264" min="1" chance="58" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22638">
+				<item id="7264" min="1" chance="58" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22639">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22640">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22641">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22642">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22643">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22644">
+				<item id="7264" min="1" chance="61" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22645">
+				<item id="7264" min="1" chance="63" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22646">
+				<item id="7264" min="1" chance="63" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22647">
+				<item id="7264" min="1" chance="63" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22648">
+				<item id="7264" min="1" chance="66" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="22649">
+				<item id="7264" min="1" chance="66" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="18799">
+				<item id="7264" min="1" chance="66" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="18800">
+				<item id="7264" min="1" chance="66" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="18801">
+				<item id="7264" min="1" chance="66" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="18802">
+				<item id="7264" min="1" chance="74" rateable="true" /> <!--Torch-->
+			</npc>
+			<npc id="18803">
+				<item id="7264" min="1" chance="74" rateable="true" /> <!--Torch-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="6881" min="1" rateable="false" /> <!--Recipe: Forgotten Blade (60%)-->
+			</variant>
+			<variant id="2">
+				<item id="6883" min="1" rateable="false" /> <!--Recipe: Basalt Battlehammer (60%)-->
+			</variant>
+			<variant id="3">
+				<item id="6885" min="1" rateable="false" /> <!--Recipe: Imperial Staff (60%)-->
+			</variant>
+			<variant id="4">
+				<item id="6887" min="1" rateable="false" /> <!--Recipe: Angel Slayer (60%)-->
+			</variant>
+			<variant id="5">
+				<item id="6891" min="1" rateable="false" /> <!--Recipe: Dragon Hunter Axe (60%)-->
+			</variant>
+			<variant id="6">
+				<item id="6893" min="1" rateable="false" /> <!--Recipe: Saint Spear (60%)-->
+			</variant>
+			<variant id="7">
+				<item id="6895" min="1" rateable="false" /> <!--Recipe: Demon Splinter (60%)-->
+			</variant>
+			<variant id="8">
+				<item id="6897" min="1" rateable="false" /> <!--Recipe: Heavens Divider (60%)-->
+			</variant>
+			<variant id="9">
+				<item id="6899" min="1" rateable="false" /> <!--Recipe: Arcana Mace (60%)-->
+			</variant>
+			<variant id="10">
+				<item id="7580" min="1" rateable="false" /> <!--Recipe: Draconic Bow (60%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

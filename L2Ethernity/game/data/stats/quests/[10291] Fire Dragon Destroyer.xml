@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10291" nameEn="Fire Dragon Destroyer" nameRu="Убить Огненного Дракона">
+		<expirience>
+			<rewardExp val="717291" rateable="true" />
+			<rewardSp val="77397" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="29028">
+				<item id="15525" min="1" chance="100" rateable="false" /> <!--Valor Necklace-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="126549" rateable="true" /> <!--Adena-->
+			<item id="8567" min="1" rateable="false" /> <!--Valakas Slayer Circlet-->
+		</rewardlist>
+	</quest>
+</list>

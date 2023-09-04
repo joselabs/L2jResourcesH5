@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<!-- Level Limit Zones -->
+       	<zone name="Ant Queen Custom Zone" type="LevelLimitZone" shape="NPoly" minZ="-5947" maxZ="-5547">
+		<stat name="default_enabled" val="false" />
+		<stat name="avaliableLvls" val="35,45" /> <!-- Avaliable levels -->
+		<stat name="exitLocation" val="-14417,123749,-3117" /> <!-- Return points where players will be teleported from zone -->
+		<node X="-23176" Y="185080" />
+		<node X="-20104" Y="185080" />
+		<node X="-20104" Y="177928" />
+		<node X="-23176" Y="177928" />
+       	</zone>
+</list>

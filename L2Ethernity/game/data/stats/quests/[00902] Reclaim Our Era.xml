@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="902" nameEn="Reclaim Our Era" nameRu="Начало новой битвы">
+		<droplist>
+			<npc id="25309">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25312">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25315">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25299">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25302">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25305">
+				<item id="21997" min="1" chance="100" rateable="false" /> <!--Shattered Bones-->
+			</npc>
+			<npc id="25667">
+				<item id="21998" min="1" chance="100" rateable="false" /> <!--Cannibalistic Stakato Leader Claw-->
+			</npc>
+			<npc id="25668">
+				<item id="21998" min="1" chance="100" rateable="false" /> <!--Cannibalistic Stakato Leader Claw-->
+			</npc>
+			<npc id="25669">
+				<item id="21998" min="1" chance="100" rateable="false" /> <!--Cannibalistic Stakato Leader Claw-->
+			</npc>
+			<npc id="25670">
+				<item id="21998" min="1" chance="100" rateable="false" /> <!--Cannibalistic Stakato Leader Claw-->
+			</npc>
+			<npc id="25701">
+				<item id="21999" min="1" chance="100" rateable="false" /> <!--Anais Scroll-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="21750" min="1" rateable="true" /><!--Proof of Challenge-->
+				<item id="57" min="134038" rateable="true" /><!--Adena--> 
+			</variant>
+			<variant id="2">
+				<item id="21750" min="3" rateable="true" /><!--Proof of Challenge-->
+				<item id="57" min="210119" rateable="true" /><!--Adena--> 
+			</variant>
+			<variant id="3">
+				<item id="21750" min="3" rateable="true" /><!--Proof of Challenge-->
+				<item id="57" min="348155" rateable="true" /><!--Adena--> 
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

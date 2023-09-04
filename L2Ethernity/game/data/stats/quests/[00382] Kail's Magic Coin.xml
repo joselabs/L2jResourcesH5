@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="382" nameEn="Kail's Magic Coin" nameRu="Волшебная монета Кайла">
+		<droplist>
+			<npc id="21017">
+				<item id="5961" min="1" chance="10" rateable="true" /> <!--Kail's Silver Basilisk-->
+			</npc>
+			<npc id="21019">
+				<item id="5962" min="1" chance="10" rateable="true" /> <!--Kail's Gold Golem-->
+			</npc>
+			<npc id="21020">
+				<item id="5963" min="1" chance="10" rateable="true" /> <!--Kail's Blood Dragon-->
+			</npc>
+			<npc id="21022">
+				<item id="5961" min="1" chance="10" rateable="true" /> <!--Kail's Silver Basilisk-->
+				<item id="5962" min="1" chance="10" rateable="true" /> <!--Kail's Gold Golem-->
+				<item id="5963" min="1" chance="10" rateable="true" /> <!--Kail's Blood Dragon-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

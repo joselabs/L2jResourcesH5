@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="101" nameEn="Sword of Solidarity" nameRu="Меч Единства">
+		<expirience>
+			<rewardExp val="25747" rateable="true" />
+			<rewardSp val="2171" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20361">
+				<item id="740" min="1" chance="30" rateable="false" /> <!--Broken Blade Bottom-->
+				<item id="741" min="1" chance="30" rateable="false" /> <!--Broken Blade Top-->
+			</npc>
+			<npc id="20362">
+				<item id="740" min="1" chance="30" rateable="false" /> <!--Broken Blade Bottom-->
+				<item id="741" min="1" chance="30" rateable="false" /> <!--Broken Blade Top-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="10981" rateable="true" /> <!--Adena-->
+			<item id="738" min="1" rateable="false" /> <!--Sword of Solidarity-->
+			<item id="1060" min="100" rateable="true" /> <!--Lesser Healing Potion-->
+			<item id="4412" min="10" rateable="true" /> <!--Echo Crystal - Theme of Battle-->
+			<item id="4413" min="10" rateable="true" /> <!--Echo Crystal - Theme of Love-->
+			<item id="4414" min="10" rateable="true" /> <!--Echo Crystal - Theme of Solitude-->
+			<item id="4415" min="10" rateable="true" /> <!--Echo Crystal - Theme of the Feast-->
+			<item id="4416" min="10" rateable="true" /> <!--Echo Crystal - Theme of Celebration-->
+			<item id="4417" min="10" rateable="true" /> <!--Echo Crystal - Theme of Comedy-->
+		</rewardlist>
+	</quest>
+</list>

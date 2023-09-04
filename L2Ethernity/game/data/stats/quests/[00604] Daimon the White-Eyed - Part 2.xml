@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="604" nameEn="Daimon the White-Eyed - Part 2" nameRu="Белоглазый Демон - ч. 2">
+		<rewardlist>
+			<variant id="1">
+				<item id="4595" min="5" rateable="false" /><!--Greater Dye of INT-->
+			</variant>
+			<variant id="2">
+				<item id="4596" min="5" rateable="false" /><!--Greater Dye of INT-->
+			</variant>
+			<variant id="3">
+				<item id="4597" min="5" rateable="false" /><!--Greater Dye of MEN-->
+			</variant>
+			<variant id="4">
+				<item id="4598" min="5" rateable="false" /><!--Greater Dye of MEN-->
+			</variant>
+			<variant id="5">
+				<item id="4599" min="5" rateable="false" /><!--Greater Dye of WIT-->
+			</variant>
+			<variant id="6">
+				<item id="4600" min="5" rateable="false" /><!--Greater Dye of WIT-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

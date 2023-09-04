@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="6" name="Freya Celebration" activate="false">
+	<time pattern="0 18 1 4 *" period="168" />
+	<spawnlist>
+		<!-- Freya -->
+		<npc id="13296" x="-119494" y="44882" z="360" heading="24576" />
+		<npc id="13296" x="-84023" y="243051" z="-3728" heading="4096" />
+		<npc id="13296" x="45538" y="48357" z="-3056" heading="18000" />
+		<npc id="13296" x="-45372" y="-114104" z="-240" heading="16384" />
+		<npc id="13296" x="11546" y="17599" z="-4584" heading="46900" />
+		<npc id="13296" x="115096" y="-178370" z="-880" heading="0" />
+		<npc id="13296" x="-14129" y="123869" z="-3112" heading="40959" />
+		<npc id="13296" x="-83156" y="150994" z="-3120" heading="0" />
+		<npc id="13296" x="17275" y="145000" z="-3032" heading="25000" />
+		<npc id="13296" x="111004" y="218928" z="-3536" heading="16384" />
+		<npc id="13296" x="81755" y="146487" z="-3528" heading="32768" />
+		<npc id="13296" x="83037" y="149324" z="-3464" heading="44000" />
+		<npc id="13296" x="81987" y="53723" z="-1488" heading="0" />
+		<npc id="13296" x="147200" y="25614" z="-2008" heading="16384" />
+		<npc id="13296" x="147421" y="-55435" z="-2728" heading="49151" />
+		<npc id="13296" x="86865" y="-142915" z="-1336" heading="26000" />
+		<npc id="13296" x="43966" y="-47709" z="-792" heading="49999" />
+		<npc id="13296" x="117293" y="76740" z="-2694" heading="0" />
+		<npc id="13296" x="17614" y="170147" z="-3508" heading="0" />
+	</spawnlist>
+	<rewardlist>
+		<variant id="1">
+			<!-- Request Items -->
+			<request id="57" min="1" />
+			<!-- Reward Items -->
+			<reward id="15440" min="1" />
+		</variant>
+		<variant id="2">
+			<!-- Check Valid Skills for Reward -->
+			<reward id="17138" min="1" />
+		</variant>
+	</rewardlist>
+</event>

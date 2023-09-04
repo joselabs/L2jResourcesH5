@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10283" nameEn="Request Of Ice Merchant" nameRu="Просьба Торговца Льдом">
+		<expirience>
+			<rewardExp val="627000" rateable="true" />
+			<rewardSp val="50300" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="190000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

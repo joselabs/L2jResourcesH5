@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/fight_events.xsd">
+	<event id="6" nameEn="Korean Style" nameRu="Корейский Стиль" impl="KoreanStyle">
+		<parameter name="icon" value="Icon.skill5074" />
+		<parameter name="descEn" value="You will need to defeat enemy Team in 1 VS 1 Fights!" />
+		<parameter name="descRu" value="Вам нужно будет победить вражескую команду в боях 1 на 1!" />
+		<parameter name="roundRunTime" value="-1" />
+		<parameter name="roundEvent" value="false" />
+		<parameter name="isAutoTimed" value="true" />
+		<parameter name="autoTimes" value="05:00,17:00" />
+		<parameter name="teamed" value="true" />
+		<parameter name="canTargetTeam" value="false" />
+		<parameter name="useBuffs" value="false" />
+		<parameter name="givePvpPoints" value="false" />
+		<parameter name="canUseScrolls" value="false" />
+		<parameter name="canUsePotions" value="false" />
+		<parameter name="canItemSummons" value="false" />
+		<parameter name="rootBetweenRounds" value="true" />
+		<parameter name="loseBuffsOnDeath" value="false" />
+		<parameter name="excludedClasses" value="HEALERS" />
+		<parameter name="excludedSkills" value="1410;438;21090;23118" /> <!-- Salvation-type skills -->
+		<parameter name="respawnTime" value="-1" />
+		<parameter name="ressAllowed" value="false" />
+		<parameter name="winnerByDamage" value="true" /> <!-- duel winner if players survived -->
+		<!-- better to make different rewards for different positions -->
+		<!-- can use several items in one position -->
+		<parameter name="rewardByParticipation" value="57,100000" />
+		<parameter name="rewardByKillPlayer" value="4037,1" />
+		<parameter name="rewardByWinner" value="4037,6" />
+		<parameter name="rewardByTopKiller" value="4037,3" />
+		<parameter name="instanced" value="true"/>
+ 	</event>
+</list>

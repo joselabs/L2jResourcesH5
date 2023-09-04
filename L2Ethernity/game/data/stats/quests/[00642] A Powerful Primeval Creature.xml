@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="642" nameEn="A Powerful Primeval Creature" nameRu="Охота на динозавров">
+		<level min="75" max="85" />
+		<droplist>
+			<npc id="18344">
+				<item id="8775" min="1" chance="10" rateable="true" /> <!--Dinosaur Egg-->
+			</npc>
+			<npc id="22196">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22197">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22198">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22199">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22215">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22216">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22217">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22218">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+			<npc id="22223">
+				<item id="8774" min="1" chance="50" rateable="true" /> <!--Dinosaur Tissue-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Reward per one item-->
+				<item id="57" min="5000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8690">
+				<item id="8690" min="1" rateable="false" /> <!--Recipe: Sirra's Blade (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8692">
+				<item id="8692" min="1" rateable="false" /> <!--Recipe: Sword of Ipos (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8694">
+				<item id="8694" min="1" rateable="false" /> <!--Recipe: Barakiel's Axe (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8696">
+				<item id="8696" min="1" rateable="false" /> <!--Recipe: Behemoth's Tuning Fork (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8698">
+				<item id="8698" min="1" rateable="false" /> <!--Recipe: Naga Storm (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8700">
+				<item id="8700" min="1" rateable="false" /> <!--Recipe: Tiphon's Spear (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8702">
+				<item id="8702" min="1" rateable="false" /> <!--Recipe: Shyeed's Bow (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8704">
+				<item id="8704" min="1" rateable="false" /> <!--Recipe: Sobekk's Hurricane (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8706">
+				<item id="8706" min="1" rateable="false" /> <!--Recipe: Themis' Tongue (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8708">
+				<item id="8708" min="1" rateable="false" /> <!--Recipe: Cabrio's Hand (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8710">
+				<item id="8710" min="1" rateable="false" /> <!--Recipe: Daimon Crystal (60%)-->
+				<item id="57" min="44000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="9967">
+				<item id="9967" min="1" rateable="false" /> <!--Recipe - Dynasty Sword (60%)-->
+			</variant>
+			<variant id="9968">
+				<item id="9968" min="1" rateable="false" /> <!--Recipe - Dynasty Blade (60%)-->
+			</variant>
+			<variant id="9969">
+				<item id="9969" min="1" rateable="false" /> <!--Recipe - Dynasty Phantom (60%)-->
+			</variant>
+			<variant id="9970">
+				<item id="9970" min="1" rateable="false" /> <!--Recipe - Dynasty Bow (60%)-->
+			</variant>
+			<variant id="9971">
+				<item id="9971" min="1" rateable="false" /> <!--Recipe - Dynasty Knife (60%)-->
+			</variant>
+			<variant id="9972">
+				<item id="9972" min="1" rateable="false" /> <!--Recipe - Dynasty Halberd (60%)-->
+			</variant>
+			<variant id="9973">
+				<item id="9973" min="1" rateable="false" /> <!--Recipe - Dynasty Cudgel (60%)-->
+			</variant>
+			<variant id="9974">
+				<item id="9974" min="1" rateable="false" /> <!--Recipe - Dynasty Mace (60%)-->
+			</variant>
+			<variant id="9975">
+				<item id="9975" min="1" rateable="false" /> <!--Recipe - Dynasty Bagh-Nakh (60%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="112" name="Disciples Necropolis (Past)" maxChannels="20" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+		<level min="79" max="85" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<return x="171864" y="-17480" z="-4896" />
+		<teleport x="-89560" y="215784" z="-7488" />
+		<geodata mapX="17" mapY="24" />
+		<doorlist>
+			<door doorId="17240101" />
+			<door doorId="17240102" />
+			<door doorId="17240103" />
+			<door doorId="17240104" />
+			<door doorId="17240105" />
+			<door doorId="17240106" />
+			<door doorId="17240107" />
+			<door doorId="17240108" />
+			<door doorId="17240109" />
+			<door doorId="17240110" />
+			<door doorId="17240111" />
+		</doorlist>
+	</instance>
+</list>

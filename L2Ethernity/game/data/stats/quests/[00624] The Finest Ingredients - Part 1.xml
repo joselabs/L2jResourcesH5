@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="624" nameEn="The Finest Ingredients - Part 1" nameRu="Лучшие ингредиенты - ч. 1">
+		<droplist>
+			<npc id="21319">
+				<item id="7202" min="1" chance="100" rateable="true" /> <!--Trunk of Nepenthes-->
+			</npc>
+			<npc id="21317">
+				<item id="7204" min="1" chance="100" rateable="true" /> <!--Secret Spice-->
+			</npc>
+			<npc id="21321">
+				<item id="7204" min="1" chance="100" rateable="true" /> <!--Secret Spice-->
+			</npc>
+			<npc id="21314">
+				<item id="7203" min="1" chance="100" rateable="true" /> <!--Foot of Bandersnatchling-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7080" min="1" rateable="false" /> <!--Ice Crystal-->
+			<item id="7205" min="1" rateable="false" /> <!--Soy Sauce Jar-->
+		</rewardlist>
+	</quest>
+</list>

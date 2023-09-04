@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="144" nameEn="Pailaka - Injured Dragon" nameRu="Пайлака - Дракон">
+		<expirience>
+			<rewardExp val="28000000" rateable="true" />
+			<rewardSp val="2850000" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="736" min="1" rateable="false" /> <!--Scroll of Escape-->
+			<item id="13296" min="1" rateable="false" /> <!--Pailaka Shirt-->
+		</rewardlist>
+	</quest>
+</list>

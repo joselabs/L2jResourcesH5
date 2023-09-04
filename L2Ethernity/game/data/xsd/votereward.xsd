@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="vote" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="parameter" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" />
+									<xs:attribute name="value" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="rewards" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="group" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="reward" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="itemId" type="xs:integer" />
+															<xs:attribute name="min" type="xs:integer" />
+															<xs:attribute name="max" type="xs:integer" />
+															<xs:attribute name="chance" type="xs:decimal" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="chance" type="xs:decimal" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="reward" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="itemId" type="xs:integer" />
+												<xs:attribute name="min" type="xs:integer" />
+												<xs:attribute name="max" type="xs:integer" />
+												<xs:attribute name="chance" type="xs:decimal" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="impl" type="xs:string" />
+						<xs:attribute name="enabled" type="xs:string" />
+						<xs:attribute name="run_delay" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="minLevel" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

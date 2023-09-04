@@ -1,0 +1,10 @@
+<center>
+	Select Item:
+	<combobox width=180 height=20 var=items list=%items%><br>
+	Amount: <edit var="price" type="number" width=180 height=15 length="15"><br><br>
+	Minimum: %min%
+	<br1>
+	Maximum: %max%
+	<button value="Invite To Academy" action="bypass _bbsInviteToAcademy %name% $items $price" width=140 height=30 back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator"><br>
+	<button value="Back" action="bypass _bbsShowAcademyList %page%" width=140 height=30 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+</center>

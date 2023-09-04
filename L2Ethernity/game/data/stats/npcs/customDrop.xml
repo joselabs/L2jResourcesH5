@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- 
+* System for quickly adding a drop to the NPCs you are interested in
+* Valid types: RATED_GROUPED, NOT_RATED_GROUPED, SWEEP
+* lvlDiff - if you remove this param server auto generate lvldiff="1-85"
+* Valid npcType ALL(for all npcs) or by types(see npc types in npcs folder). If remove this param server auto generate npcType="ALL"
+* npcId group drop by npc id. if param empty or removed check npcType -> if npcId not empty reads it in priority!
+* forbiddenList - disables drop on IDs that are in list
+* Examples:
+	<rewardlist id="1" type="NOT_RATED_GROUPED" lvlDiff="36-85" npcType="ALL">
+		<group chance="100.0">
+			<reward itemId="4037" min="1" max="10" chance="55.0000" />
+		</group>
+	</rewardlist>
+	<rewardlist id="2" type="RATED_GROUPED" lvlDiff="35-80" npcType="RaidBoss;Monster" forbiddenList="29001;29020">
+		<group chance="100.0">
+			<reward itemId="5575" min="10" max="20" chance="100.0000" />
+		</group>
+	</rewardlist>
+	<rewardlist id="3" type="SWEEP" npcId="22815;22858">
+		<reward itemId="10639" min="1" max="10" chance="90.0000" />
+	</rewardlist>
+-->
+</list>

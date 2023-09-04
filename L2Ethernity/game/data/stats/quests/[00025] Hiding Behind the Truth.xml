@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="25" nameEn="Hiding Behind the Truth" nameRu="Поиски правды">
+		<expirience>
+			<rewardExp val="572277" rateable="true" />
+			<rewardSp val="53750" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<variant id="1">
+				<item id="905" min="2" rateable="false" /> <!--Ring of Blessing-->
+				<item id="874" min="1" rateable="false" /> <!--Earring of Blessing-->
+			</variant>
+			<variant id="2">
+				<item id="936" min="1" rateable="false" /> <!--Necklace of Blessing-->
+				<item id="874" min="1" rateable="false" /> <!--Earring of Blessing-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

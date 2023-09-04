@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="122" nameEn="Ominous News" nameRu="Тревожные новости">
+		<level min="20" max="36" />
+		<expirience>
+			<rewardExp val="45151" rateable="true" />
+			<rewardSp val="2310" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="8923" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

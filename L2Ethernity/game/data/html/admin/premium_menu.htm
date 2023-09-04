@@ -1,0 +1,38 @@
+<html><title>Premium Account Menu</title><body>
+<center>
+<table width=270 border=0 bgcolor="444444">
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Char" action="bypass -h admin_admin6" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Game" action="bypass -h admin_admin2" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="GM" action="bypass -h admin_admin7" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+To receive a premium account, it is necessary to specify char name and to choose premium id which the premium account will be issued.<br>
+<table width=250>
+	<tr>
+		<td width=150>Enter character name:</td>
+		<td><edit var="char_name" width=100></td>
+	</tr>
+	<tr>
+		<td><br></td>
+	</tr>
+	<tr>
+		<td width=150>Choose premium id:</td>
+		<td><combobox width=100 var=selectid list="1;2;3;4;5;6;7"></td>
+	</tr>
+</table>
+<br>
+<table width=250>
+<tr>
+	<td><button value="Give premium" action="bypass -h admin_premium_give $char_name $selectid" width=140 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+	<td><button value="Give premium for Clan" action="bypass -h admin_premium_clan_give $char_name $selectid" width=140 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+	<td><button value="Remove Premium" action="bypass -h admin_clean_premium $char_name" width=140 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+</center>
+</body></html>

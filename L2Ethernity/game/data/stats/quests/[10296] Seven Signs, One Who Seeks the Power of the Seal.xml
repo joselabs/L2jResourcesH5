@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10296" nameEn="Seven Signs, One Who Seeks the Power of the Seal" nameRu="Семь Печатей, Ищущий силу печати">
+		<expirience>
+			<rewardExp val="125000000" rateable="true" />
+			<rewardSp val="125000000" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="17265" min="1" rateable="false" /> <!--Certificate of Dawn-->
+		</rewardlist>
+	</quest>
+</list>

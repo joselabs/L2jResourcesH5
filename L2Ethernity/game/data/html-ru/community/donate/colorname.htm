@@ -1,0 +1,84 @@
+﻿<html noscrollbar><title>Изменение Цвета Имени</title></head>
+<body>
+<br>
+<center>
+<table width="295" cellpadding="4" bgcolor="452822">
+    	<tr>
+      		<td width="45" valign="top" align="center"><img src="icon.skill0373" width="32" height="32"></td>
+      		<td valign="top">
+			<font color="FF6600">Изменение цвета имени</font><br1>
+			Функция, изменяет текущий цвет имени
+		</td>
+    	</tr>
+  </table>
+<br1>
+<img src="l2ui.SquareGray" width="292" height="1"><br1>
+<table width="295" cellpadding="4">
+	<tr>
+      		<td>
+			<font color="FF6600">Выберите Цвет:</font>
+		</td>
+      		<td>
+			<center><combobox var="scolor" list="Зеленый;Желтый;Оранжевый;Синий;Черный;Карий;Светло-Розовый;Розовый;Голубой;Бирюзовый;Лайм;Серый;Темно-Зеленый;Пурпурный" width="100" height="21"/></center>
+		</td>
+    	</tr>
+	<tr>
+      		<td>
+			<font color="FF6600">Количество дней:</font>
+		</td>
+      		<td>
+			<center><combobox var="sdays" list="1;3;7;14;30" width="100" height="21"/></center>
+		</td>
+    	</tr>
+  </table>
+<br>
+<img src="l2ui.SquareGray" width="292" height="1"><br1>
+<table width="295" cellpadding="4" bgcolor="303030">
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=00FF00>Зеленый</font></td>
+		<td width=100><font color=FFFF00>Желтый</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=FF9900>Оранжевый</font></td>
+		<td width=100><font color=0000FF>Синий</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=000000>Черный</font></td>
+		<td width=100><font color=996600>Карий</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=FF66FF>Светло-Розовый</font></td>
+		<td width=100><font color=FF00FF>Розовый</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=66FFFF>Голубой</font></td>
+		<td width=100><font color=009999>Бирюзовый</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=99FF99>Лайм</font></td>
+		<td width=100><font color=999999>Серый</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=009933>Темно-Зеленый</font></td>
+		<td width=100><font color=9933FF>Пурпурный</font></td>
+	</tr>
+</table>
+<img src="l2ui.SquareGray" width="292" height="1"><br>
+<table width="278" cellpadding="3">
+  	<tr>    
+    		<td align="center">
+       			<button value="Изменить цвет имени" action="bypass -h _bbs_service;changenickcolor $scolor $sdays" width="130" height="26" back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+    		</td>                
+  	</tr>    
+</table>
+<br>
+<font color=b02e31>Цена на разное количество дней, отличается!</font>
+</center>
+</body></html>

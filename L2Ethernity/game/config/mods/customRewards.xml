@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- General PvP Rewards -->
+	<pvp allowReward="false" allowForParty="false">
+		<reward itemId="57" count="10000" chance="100" />
+		<reward itemId="4037" count="5" chance="50" />
+	</pvp>
+	<!-- Castle Rewards -->
+	<!-- If onlyForLeader false rewards get all online members -->
+	<castle>
+		<pvp allowReward="false" allowForParty="false">
+			<reward itemId="57" count="10000" chance="100" />
+			<reward itemId="4037" count="5" chance="50" />
+		</pvp>
+		<capture allowReward="false" onlyForLeader="true">
+			<reward itemId="57" count="1000000" chance="100" />
+			<reward itemId="4037" count="10" chance="50" />
+		</capture>
+		<defence allowReward="false" onlyForLeader="true">
+			<reward itemId="57" count="1000000" chance="100" />
+			<reward itemId="4037" count="10" chance="50" />
+		</defence>
+	</castle>
+	<!-- Fortress Rewards -->
+	<!-- If onlyForLeader false rewards get all online members -->
+	<fort>
+		<pvp allowReward="false" allowForParty="false">
+			<reward itemId="57" count="10000" chance="100" />
+			<reward itemId="4037" count="1" chance="50" />
+		</pvp>
+		<capture allowReward="false" onlyForLeader="true">
+			<reward itemId="57" count="100000" chance="100" />
+			<reward itemId="4037" count="5" chance="50" />
+		</capture>
+		<defence allowReward="false" onlyForLeader="true">
+			<reward itemId="57" count="100000" chance="100" />
+			<reward itemId="4037" count="5" chance="50" />
+		</defence>
+	</fort>
+	<!-- Clan War Rewards -->
+	<clanWar allowReward="false" allowForParty="false">
+		<reward itemId="57" count="50000" chance="100" />
+		<reward itemId="4037" count="1" chance="10" />
+	</clanWar>
+	<!-- Territory War Rewards -->
+	<territoryWar>
+		<pvp allowReward="false" allowForParty="false">
+			<reward itemId="57" count="20000" chance="100" />
+			<reward itemId="4037" count="1" chance="30" />
+		</pvp>
+	</territoryWar>
+</list>

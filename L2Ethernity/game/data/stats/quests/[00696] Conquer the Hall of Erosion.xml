@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="696" nameEn="Conquer the Hall of Erosion" nameRu="Захват Зала Гибели">
+		<level min="75" max="85" />
+		<rewardlist>
+			<item id="13692" min="1" rateable="false" /> <!--Mark of Keucereus - Stage 2-->
+		</rewardlist>
+	</quest>
+</list>

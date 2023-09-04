@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/premiumAccount.xsd">
+	<!--	Description for premium account support
+		<rate type="EXP" value="1.50" /> 				RateXp * bonus
+		<rate type="SP" value="1.50" /> 				RateSp * bonus
+		<rate type="SIEGE" value="1.30" />				RateSiegeGuard * bonus
+		<rate type="ADENA" value="1.30" />				RateDropAdena * bonus
+		<rate type="DROP" value="1.30" />				RateDropItems * bonus
+		<rate type="DROP_RAID" value="1.30" />				RateRaidBoss * bonus
+		<rate type="DROP_EPIC" value="1.30" />				RateEpicBoss * bonus
+		<rate type="QUEST_REWARD" value="1.30" />			questReward * bonus
+		<rate type="QUEST_DROP" value="1.30" />				questDropItems * bonus
+		<rate type="FISHING" value="1.30" />				RateFishing * bonus
+		<rate type="ELEMENT_STONES" value="1.0" />			RateDropItems * DROP * bonus	
+		<rate type="SEAL_STONES" value="1.0" />				RateDropItems * RateSealStones * DROP * bonus	
+		<rate type="SPOIL" value="1.30" />				RateDropSpoil * bonus
+		<rate type="WEIGHT_LIMIT" value="1.50" />			player.getMaxLoad() * bonus
+		<rate type="CRAFT" value="10" />				recipeChance + bonus
+		<rate type="MASTERWORK_CRAFT" value="3" />			masterWorkChance + bonus
+		<rate type="ENCHANT" value="5" />				(scrollChance + bonus) or (attConfigs + bonus)
+		<rate type="FAME" value="1.1" />				fameAmountConfigs * bonus
+		<rate type="REFLECTION_REDUCE" value="0.9" />			instanceTime * bonus
+		<rate type="MODIFIER_SEAL_STONES" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_LIFE_STONES" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ENCHANT_SCROLLS" value="1.0-1.0" />	[min-max]
+		<rate type="MODIFIER_FORGOTTEN_SCROLLS" value="1.0-1.0" /> 	[min-max]
+		<rate type="MODIFIER_MATERIALS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_RECIPES" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_BELTS" value="1.0-1.0" /> 			[min-max]
+		<rate type="MODIFIER_BRACELETS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_CLOAKS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_CODEX" value="1.0-1.0" /> 			[min-max]
+		<rate type="MODIFIER_ATT_STONES" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ATT_CRYSTALS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ATT_JEWELS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ATT_ENERGY" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ARMORS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_WEAPONS" value="1.0-1.0" /> 		[min-max]
+		<rate type="MODIFIER_ACCESSORYES" value="1.0-1.0" /> 		[min-max]
+		<rate type="MAX_SPOIL_PER_ONE_GROUP" value="2" /> 		replaces param from configs
+		<rate type="MAX_DROP_PER_ONE_GROUP" value="2" />		replaces param from configs
+		<rate type="MAX_DROP_RAID_PER_ONE_GROUP" value="2" />		replaces param from configs
+	-->
+
+	<premium id="1" nameEn="1 Day" nameRu="1 День" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="true">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />		
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="1" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="15" />
+		</price>
+	</premium>
+	<premium id="2" nameEn="7 Days" nameRu="7 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="7" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="30" />
+		</price>
+	</premium>
+	<premium id="3" nameEn="30 Days" nameRu="30 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="30" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="60" />
+		</price>
+	</premium>
+	<premium id="4" nameEn="60 Days" nameRu="60 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="60" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="110" />
+		</price>
+	</premium>
+	<premium id="5" nameEn="90 Days" nameRu="90 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="90" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="200" />
+		</price>
+	</premium>
+	<premium id="6" nameEn="180 Days" nameRu="180 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="180" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="280" />
+		</price>
+	</premium>
+	<premium id="7" nameEn="365 Days" nameRu="365 Дней" icon="branchsys2.br_vitality_day_i00" onlineType="false" isPersonal="false">
+		<rate type="EXP" value="1.50" />
+		<rate type="SP" value="1.50" />
+		<rate type="SIEGE" value="1.30" />
+		<rate type="ADENA" value="1.30" />
+		<rate type="DROP" value="1.30" />
+		<rate type="DROP_RAID" value="1.30" />
+		<rate type="DROP_EPIC" value="1.30" />
+		<rate type="QUEST_REWARD" value="1.30" />
+		<rate type="QUEST_DROP" value="1.30" />
+		<rate type="FISHING" value="1.30" />
+		<rate type="ELEMENT_STONES" value="1.0" />
+		<rate type="SPOIL" value="1.30" />
+		<rate type="WEIGHT_LIMIT" value="1.50" />
+		<rate type="CRAFT" value="10" />
+		<rate type="MASTERWORK_CRAFT" value="3" />
+		<rate type="ENCHANT" value="5" />
+		<gifts>
+			<gift id="20970" count="1" removable="true" />
+			<gift id="20340" count="1" removable="false" />
+			<gift id="20346" count="1" removable="false" />
+		</gifts>
+		<time days="365" hours="0" minutes="0" />
+		<price>
+			<item id="4037" count="350" />
+		</price>
+	</premium>
+</list>

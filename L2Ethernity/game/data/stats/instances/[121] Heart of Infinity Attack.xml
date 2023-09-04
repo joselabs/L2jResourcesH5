@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="121" name="Seed of Infinity (Heart of Infinity)" maxChannels="3" collapseIfEmpty="10" timelimit="40" dispelBuffs="false">
+		<level min="75" max="85" />
+		<party min="18" max="27" />
+		<allowSummon val="false" />
+		<return x="-183656" y="206264" z="-12928" />
+		<teleport x="-179284" y="205990" z="-15520" />
+		<showTimer val="true" />
+		<geodata mapX="14" mapY="24" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<doorlist>
+			<door doorId="14240102" />
+		</doorlist>
+		<spawns>
+			<group name="soi_hoi_attack_init" spawned="false" />
+			<group name="soi_hoi_attack_mob_1" spawned="false" />
+			<group name="soi_hoi_attack_mob_2" spawned="false" />
+			<group name="soi_hoi_attack_mob_3" spawned="false" />
+			<group name="soi_hoi_attack_mob_4" spawned="false" />
+			<group name="soi_hoi_attack_mob_5" spawned="false" />
+			<group name="soi_hoi_attack_mob_6" spawned="false" />
+			<group name="soi_hoi_attack_tumors" spawned="false" />
+			<group name="soi_hoi_attack_wards" spawned="false" />
+			<group name="soi_hoi_attack_bosses" spawned="false" />
+		</spawns>
+	</instance>
+</list>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="36" nameEn="Make a Sewing Kit" nameRu="Швейный набор">
+		<droplist>
+			<npc id="20566">
+				<item id="7163" min="1" chance="50" rateable="true" /> <!--Enchanted Iron-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7078" min="1" rateable="false" /> <!--Sewing Kit-->
+		</rewardlist>
+	</quest>
+</list>

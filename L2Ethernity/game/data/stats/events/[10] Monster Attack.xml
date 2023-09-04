@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/fight_events.xsd">
+	<event id="10" nameEn="Monster Attack" nameRu="Атака Монстров" impl="MonsterAttack">
+		<parameter name="icon" value="L2UI_CT1.clan_DF_TerritoryWarIcon_Aden"/>
+        	<parameter name="descEn" value="Hold back the monsters attack on town and not to die defender!"/>
+        	<parameter name="descRu" value="Сдерживайте нападение монстров на город и защитите стража!"/>
+		<parameter name="roundRunTime" value="20"/>
+        	<parameter name="roundEvent" value="false"/>
+		<parameter name="isAutoTimed" value="true"/>
+		<parameter name="autoTimes" value="09:00,21:00"/>
+		<parameter name="teamed" value="false"/>
+		<parameter name="canAttackPlayers" value="false"/>
+		<parameter name="useBuffs" value="true"/>
+		<parameter name="fighterBuffs" value="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="mageBuffs" value="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="givePvpPoints" value="false"/>
+		<parameter name="canUseScrolls" value="false"/>
+		<parameter name="canUsePotions" value="false"/>
+		<parameter name="canItemSummons" value="false"/>
+		<parameter name="rootBetweenRounds" value="true"/>
+		<parameter name="loseBuffsOnDeath" value="false"/>
+		<parameter name="excludedClasses" value=""/>
+		<parameter name="respawnTime" value="0"/>
+		<parameter name="ressAllowed" value="true"/>
+		<parameter name="mobsInWaveCount" value="15;30;45"/>
+		<parameter name="wavesInterval" value="30;180;300"/>
+		<parameter name="monstersId" value="53007;53008;53009;53010;53011;53012;53013;53014"/>
+		<!-- better to make different rewards for different positions -->
+		<!-- can use several items in one position -->
+		<parameter name="rewardByParticipation" value="57,100000" />
+		<parameter name="rewardByKillPlayer" value="4037,1" /> <!-- reward for mob killing -->
+		<parameter name="instanced" value="true"/>
+	</event>
+</list>

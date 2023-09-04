@@ -1,0 +1,1 @@
+ALTER TABLE `olympiad_nobles` ADD COLUMN `olympiad_points_past` int(10) unsigned NOT NULL DEFAULT 0 AFTER `olympiad_points`;

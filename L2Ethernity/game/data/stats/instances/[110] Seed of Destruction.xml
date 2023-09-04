@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="110" name="Seed of Destruction" maxChannels="3" collapseIfEmpty="20" timelimit="130" dispelBuffs="false">
+		<level min="75" max="85" />
+		<party min="36" max="45" />
+		<allowSummon val="false" />
+		<return x="-248376" y="250440" z="4344" />
+		<teleport x="-242738" y="219995" z="-9984" />
+		<geodata mapX="12" mapY="24" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset day="Wednesday" hour="6" minute="30" />
+			<reset day="Saturday" hour="6" minute="30" />
+		</reenter>
+		<doorlist>
+			<door doorId="12240001" />
+			<door doorId="12240002" />
+			<door doorId="12240003" />
+			<door doorId="12240004" />
+			<door doorId="12240005" />
+			<door doorId="12240006" />
+			<door doorId="12240007" />
+			<door doorId="12240008" />
+			<door doorId="12240009" />
+			<door doorId="12240010" />
+			<door doorId="12240011" />
+			<door doorId="12240012" />
+			<door doorId="12240013" />
+			<door doorId="12240014" />
+			<door doorId="12240015" />
+			<door doorId="12240016" />
+			<door doorId="12240017" />
+			<door doorId="12240018" />
+			<door doorId="12240019" />
+			<door doorId="12240020" />
+			<door doorId="12240021" />
+			<door doorId="12240022" />
+			<door doorId="12240023" />
+			<door doorId="12240024" />
+			<door doorId="12240025" />
+			<door doorId="12240026" />
+			<door doorId="12240027" />
+			<door doorId="12240028" />
+			<door doorId="12240029" />
+			<door doorId="12240030" />
+			<door doorId="12240031" />
+		</doorlist>
+	</instance>
+</list>

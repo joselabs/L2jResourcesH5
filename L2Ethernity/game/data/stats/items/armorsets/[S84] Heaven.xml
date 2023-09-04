@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/armorSets.xsd">
+	<!-- S84 Heaven Armor Sets -->
+	<set id="706">
+		<chest id="48203" /> <!-- Heaven Breastplate -->
+		<legs id="48206" /> <!-- Heaven Gaiter -->
+		<head id="48200" /> <!-- Heaven Helmet -->
+		<gloves id="48209" /> <!-- Heaven Gauntlet -->
+		<feet id="48212" /> <!-- Heaven Boots -->
+		<shield id="48220" /> <!-- Heaven Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60100" level="1" /> <!-- Heaven Heavy Armor Set -->
+		<shield_skill id="60103" level="1" /> <!-- Heaven Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="5" />
+		<con val="5" />
+	</set>
+	<set id="707">
+		<chest id="48204" /> <!-- Heaven Leather Breastplate -->
+		<legs id="48207" /> <!-- Heaven Leather Legging -->
+		<head id="48201" /> <!-- Heaven Leather Helmet -->
+		<gloves id="48210" /> <!-- Heaven Leather Gloves -->
+		<feet id="48213" /> <!-- Heaven Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60101" level="1" /> <!-- Heaven Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="2" />
+		<con val="5" />
+		<dex val="5" />
+	</set>
+	<set id="708">
+		<chest id="48205" /> <!-- Heaven Tunic -->
+		<legs id="48208" /> <!-- Heaven Stockings -->
+		<head id="48202" /> <!-- Heaven Circlet -->
+		<gloves id="48211" /> <!-- Heaven Gloves -->
+		<feet id="48214" /> <!-- Heaven Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60102" level="1" /> <!-- Heaven Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="5" />
+		<men val="5" />
+		<wit val="3" />
+	</set>
+	<!-- S84 Heaven PVP Armor Sets -->
+	<set id="709">
+		<chest id="48217" /> <!-- Heaven Breastplate {PvP} -->
+		<legs id="48206" /> <!-- Heaven Gaiter -->
+		<head id="48200" /> <!-- Heaven Helmet -->
+		<gloves id="48209" /> <!-- Heaven Gauntlet -->
+		<feet id="48212" /> <!-- Heaven Boots -->
+		<shield id="48220" /> <!-- Heaven Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="3659" level="1" />
+		<skill id="3662" level="1" />
+		<skill id="60100" level="1" /> <!-- Heaven Heavy Armor Set - PVP -->
+		<shield_skill id="60103" level="1" /> <!-- Heaven Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="5" />
+		<con val="5" />
+	</set>
+	<set id="710">
+		<chest id="48218" /> <!-- Heaven Leather Breastplate {PvP} -->
+		<legs id="48207" /> <!-- Heaven Leather Legging -->
+		<head id="48201" /> <!-- Heaven Leather Helmet -->
+		<gloves id="48210" /> <!-- Heaven Leather Gloves -->
+		<feet id="48213" /> <!-- Heaven Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60101" level="1" /> <!-- Heaven Leather Armor Set - PVP -->
+		<skill id="3663" level="1" />
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="2" />
+		<con val="5" />
+		<dex val="5" />
+	</set>
+	<set id="711">
+		<chest id="48219" /> <!-- Heaven Tunic {PvP} -->
+		<legs id="48208" /> <!-- Heaven Stockings -->
+		<head id="48202" /> <!-- Heaven Circlet -->
+		<gloves id="48211" /> <!-- Heaven Gloves -->
+		<feet id="48214" /> <!-- Heaven Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="3660" level="1" />
+		<skill id="60102" level="1" /> <!-- Heaven Robe Set - PVP -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="5" />
+		<men val="5" />
+		<wit val="3" />
+	</set>
+</list>

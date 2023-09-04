@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="377" nameEn="Exploration of Giants Cave, Part 2" nameRu="Исследование Пещеры Гигантов, ч. 2">
+		<droplist>
+			<npc id="22661">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22662">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22663">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22664">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22665">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22666">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22667">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22668">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+			<npc id="22669">
+				<item id="14847" min="1" chance="20" rateable="true" /> <!--Titan Ancient Book-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--One item by random-->
+				<item id="9625" min="1" rateable="false" /> <!--Giant's Codex - Oblivion-->
+				<item id="9626" min="1" rateable="false" /> <!--Giant's Codex - Discipline-->
+			</variant>
+			<variant id="2"> <!--One item by random-->
+				<item id="9628" min="6" rateable="true" /> <!--Leonard-->
+				<item id="9629" min="3" rateable="true" /> <!--Adamantine-->
+				<item id="9630" min="4" rateable="true" /> <!--Orichalcum-->
+			</variant>
+			<variant id="3">
+				<item id="9628" min="6" rateable="true" /> <!--Leonard-->
+			</variant>
+			<variant id="4">
+				<item id="9629" min="3" rateable="true" /> <!--Adamantine-->
+			</variant>
+			<variant id="5">
+				<item id="9630" min="4" rateable="true" /> <!--Orichalcum-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

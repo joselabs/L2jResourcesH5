@@ -1,0 +1,110 @@
+<html><title>%name% (%level%)</title><body>
+<center>
+<table width=270>
+<tr>
+<td width=45><button value="Меню" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center><button value="Обновить" action="bypass -h admin_character_info %name%" width=80 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center></td>
+<td width=45><button value="Назад" action="bypass -h admin_admin7" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br1>
+<table width=240>
+<tr>
+<td><button value="Телепорт" action="bypass -h admin_goto_char_menu %name%" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Кикнуть" action="bypass -h admin_kick_menu %name%" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бан Акк." action="bypass -h admin_punishment_add %account% ACCOUNT BAN 60 ban" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бан Перс." action="bypass -h admin_punishment_add %name% CHARACTER BAN 60 ban" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Призвать" action="bypass -h admin_recall_char_menu %name%" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Скилы" action="bypass -h admin_show_skills" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Изменить" action="bypass -h admin_edit_character" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Класс" action="bypass -h admin_setclass" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Lv/Exp/Sp" action="bypass -h admin_add_exp_sp_to_character" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Инстансы" action="bypass -h admin_instancezone %name%" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Эффекты" action="bypass -h admin_getbuffs" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Пати" action="bypass -h admin_partyinfo" width=66 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<table width=285 bgcolor="666666">
+<tr>
+<td>Аккаунт: </td><td><font color="LEVEL"><a action="bypass -h admin_find_account %name%">%account%</a></font></td>
+</tr>
+<tr>
+<td>IP: </td><td><font color="LEVEL"><a action="bypass -h admin_find_ip %ip%">%ip%</a></font></td>
+</tr>
+<tr> 
+<td>Наказания: </td><td><font color="LEVEL"><a action="bypass -h admin_punishment player %name%">Info</a></font><br></td>
+</tr> 
+</table>
+<br>
+<table width=285 bgcolor="666666">
+<tr>
+<td>Имя:</td><td>%name% &nbsp;&nbsp;&nbsp;%clan%</td>
+</tr>
+<tr>
+<td>Класс:</td><td>%class% (<font color=FF0000>%level%</font>)</td>
+</tr>
+<tr>
+<td>ЦП:</td><td> <font color="LEVEL">%currentcp%</font> / %maxcp%</td>
+</tr>
+<tr>
+<td>ХП:</td><td> <font color="LEVEL">%currenthp%</font> / %maxhp%</td>
+</tr>
+<tr>
+<td>МП:</td><td><font color="LEVEL">%currentmp%</font> / %maxmp%</td>
+</tr>
+<tr>
+<td>ВЕС:</td><td>%currentload% / %maxload%</td>
+</tr>
+<tr>
+<td>EXP/SP:</td><td>%xp% / %sp%</td>
+</tr>
+<tr>
+<td>Дворянин:</td><td>%noblesse%</td>
+</tr>
+<tr>
+<td>Инстанс:</td><td>%inst%</td>
+</tr>
+</table>
+<br>
+<table width=285>
+<tr>
+<td>ПвП: </td><td>%pvpkills%</td>
+<td>Карма: </td><td>%karma%</td>
+</tr>
+<tr>
+<td>Пк: </td><td>%pkkills%</td>
+<td>Пвп Флаг: </td><td>%pvpflag%</td>
+</tr>
+</table>
+<br>
+<table width=285 bgcolor="666666">
+<tr>
+<td>Физ. Атк:</td><td>%patk%</td><td>Маг. Атк:</td><td>%matk%</td>
+</tr>
+<tr>
+<td>Физ. Защ:</td><td>%pdef%</td><td>Маг. Защ:</td><td>%mdef%</td>
+</tr>
+<tr>
+<td>Точность:</td><td>%accuracy%</td><td>Уклонение:</td><td>%evasion%</td>
+</tr>
+<tr>
+<td>Крит. Атк:</td><td>%critical%</td><td>Скорость:</td><td>%runspeed%</td>
+</tr>
+<tr>
+<td>Скор. Атк.:</td><td>%patkspd%</td><td>Скор. Маг.:</td><td>%matkspd%</td>
+</tr>
+</table>
+<br>
+<table width=285 bgcolor="666666">
+<tr>
+	<td>Коорд.: %x% %y% %z%</td><td>%region%</td>
+</tr>
+<tr>
+	<td>АИ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=LEVEL>%ai%</font></td><td>%farm%</td>
+</tr>
+</table>
+</center>
+</body></html>

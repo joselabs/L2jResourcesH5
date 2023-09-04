@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="16" name="Squash" activate="false">
+	<time pattern="0 18 1 3 *" period="168" />
+	<spawnlist>
+		<!-- Buzz the Cat -->
+		<npc id="31255" x="-84267" y="243246" z="-3729" heading="0" />
+		<npc id="31255" x="-44813" y="-113364" z="-202" heading="0" />
+		<npc id="31255" x="45235" y="49396" z="3068" heading="0" />
+		<npc id="31255" x="114702" y="-178369" z="-820" heading="0" />
+		<npc id="31255" x="10925" y="15968" z="-4574" heading="0" />
+		<npc id="31255" x="-117156" y="46897" z="367" heading="0" />
+		<npc id="31255" x="83075" y="148394" z="-3472" heading="0" />
+		<npc id="31255" x="148059" y="-56554" z="-2781" heading="0" />
+		<npc id="31255" x="19000" y="145783" z="-3081" heading="0" />
+		<npc id="31255" x="-14052" y="123194" z="-3117" heading="0" />
+		<npc id="31255" x="86979" y="-142163" z="-1343" heading="0" />
+		<npc id="31255" x="116468" y="75321" z="-2712" heading="0" />
+		<npc id="31255" x="147146" y="26536" z="-2205" heading="0" />
+		<npc id="31255" x="43488" y="-48421" z="-797" heading="0" />
+		<npc id="31255" x="81963" y="53937" z="-1496" heading="0" />
+		<npc id="31255" x="-81634" y="150195" z="-3132" heading="0" />
+		<npc id="31255" x="111624" y="219228" z="-3543" heading="0" />
+		<npc id="31255" x="17559" y="170318" z="-3506" heading="0" />
+	</spawnlist>
+	<droplist>
+		<item id="6391" min="1" max="1" chance="100" minLvl="1" maxLvl="85" /> <!-- Monsters avaliable levels -->
+	</droplist>
+	<rewardlist><!-- Use group change reward calc -->
+		<variant id="1"><!-- npcId[12775] -->
+			<!-- Reward Items -->
+			<reward id="6391" min="5" max="10" chance="100" />
+			<reward id="14701" min="2" max="4" chance="90" />
+			<reward id="14700" min="2" max="4" chance="80" />
+			<reward id="1461" min="2" max="4" chance="35" />
+			<reward id="1462" min="1" max="3" chance="30" />
+		</variant>
+		<variant id="2"><!-- npcId[12776] -->
+			<!-- Reward Items -->
+			<reward id="6391" min="15" max="30" chance="100" />
+			<reward id="14701" min="1" max="2" chance="90" />
+			<reward id="14700" min="1" max="2" chance="80" />
+		</variant>
+		<variant id="3"><!-- npcId[13016] -->
+			<!-- Reward Items -->
+			<reward id="729" min="1" max="4" chance="50" />
+			<reward id="730" min="1" max="4" chance="50" />
+			<reward id="6569" min="1" max="2" chance="35" />
+			<reward id="6570" min="1" max="2" chance="35" />
+			<reward id="6622" min="1" chance="30" />
+			<reward id="8750" min="1" chance="10" />
+			<reward id="8751" min="1" chance="10" />
+			<reward id="14700" min="1" max="4" chance="80" />
+			<reward id="14701" min="1" max="4" chance="75" />
+			<reward id="1461" min="2" max="4" chance="55" />
+			<reward id="1462" min="1" max="3" chance="40" />
+			<reward id="2133" min="2" max="4" chance="50" />
+			<reward id="2134" min="1" max="3" chance="35" />
+		</variant>
+		<variant id="4"><!-- npcId[12778] -->
+			<!-- Reward Items -->
+			<reward id="729" min="2" max="4" chance="50" />
+			<reward id="730" min="2" max="4" chance="50" />
+			<reward id="6569" min="2" max="3" chance="35" />
+			<reward id="6570" min="2" max="3" chance="35" />
+			<reward id="6622" min="1" chance="30" />
+			<reward id="8750" min="1" chance="10" />
+			<reward id="8751" min="1" chance="10" />
+			<reward id="14700" min="1" max="4" chance="80" />
+			<reward id="14701" min="1" max="4" chance="75" />
+			<reward id="1461" min="2" max="4" chance="55" />
+			<reward id="1462" min="1" max="3" chance="40" />
+			<reward id="2133" min="2" max="4" chance="50" />
+			<reward id="2134" min="1" max="3" chance="35" />
+		</variant>
+		<variant id="5"><!-- npcId[12779] -->
+			<!-- Reward Items -->
+			<reward id="8750" min="1" chance="10" />
+			<reward id="8751" min="1" chance="10" />
+			<reward id="14700" min="1" max="4" chance="80" />
+			<reward id="14701" min="1" max="4" chance="75" />
+			<reward id="1461" min="2" max="4" chance="55" />
+			<reward id="1462" min="1" max="3" chance="40" />
+			<reward id="2133" min="2" max="4" chance="50" />
+			<reward id="2134" min="1" max="3" chance="35" />
+		</variant>
+		<variant id="6"><!-- npcId[13017] -->
+			<!-- Reward Items -->
+			<reward id="9570" min="1" chance="3" />
+			<reward id="9571" min="1" chance="3" />
+			<reward id="9572" min="1" chance="3" />
+			<reward id="10480" min="1" chance="2" />
+			<reward id="10481" min="1" chance="2" />
+			<reward id="10482" min="1" chance="2" />
+			<reward id="13071" min="1" chance="1" />
+			<reward id="13072" min="1" chance="1" />
+			<reward id="13073" min="1" chance="1" />
+			<reward id="729" min="1" max="4" chance="25" />
+			<reward id="730" min="1" max="4" chance="25" />
+			<reward id="959" min="1" max="3" chance="25" />
+			<reward id="960" min="1" max="3" chance="25" />
+			<reward id="6569" min="1" max="2" chance="10" />
+			<reward id="6570" min="1" max="2" chance="10" />
+			<reward id="6577" min="1" chance="10" />
+			<reward id="6578" min="1" chance="10" />
+			<reward id="6622" min="1" max="3" chance="10" />
+			<reward id="9625" min="1" max="2" chance="5" />
+			<reward id="9626" min="1" max="2" chance="5" />
+			<reward id="9627" min="1" max="2" chance="5" />
+			<reward id="8750" min="1" max="10" chance="15" />
+			<reward id="8751" min="1" max="8" chance="15" />
+			<reward id="8752" min="1" max="6" chance="15" />
+			<reward id="9575" min="1" max="4" chance="15" />
+			<reward id="10485" min="1" max="2" chance="15" />
+			<reward id="14168" min="1" chance="15" />
+			<reward id="8760" min="1" chance="20" />
+			<reward id="8761" min="1" chance="20" />
+			<reward id="8762" min="1" chance="20" />
+			<reward id="9576" min="1" chance="20" />
+			<reward id="10486" min="1" chance="20" />
+			<reward id="14169" min="1" chance="20" />
+			<reward id="14683" min="1" chance="21" />
+			<reward id="14684" min="1" chance="21" />
+			<reward id="14685" min="1" chance="21" />
+			<reward id="14686" min="1" chance="22" />
+			<reward id="14687" min="1" chance="22" />
+			<reward id="14689" min="1" chance="22" />
+			<reward id="14690" min="1" chance="22" />
+			<reward id="14691" min="1" chance="23" />
+			<reward id="14692" min="1" chance="23" />
+			<reward id="14693" min="1" chance="23" />
+			<reward id="14695" min="1" chance="23" />
+			<reward id="14696" min="1" chance="23" />
+			<reward id="14697" min="1" chance="24" />
+			<reward id="14698" min="1" chance="24" />
+			<reward id="14699" min="1" chance="24" />
+			<reward id="14700" min="1" max="9" chance="95" />
+			<reward id="14701" min="1" max="9" chance="90" />
+			<reward id="1461" min="1" max="8" chance="63" />
+			<reward id="1462" min="1" max="5" chance="49" />
+			<reward id="2133" min="1" max="6" chance="64" />
+			<reward id="2134" min="1" max="4" chance="48" />
+		</variant>
+	</rewardlist>
+</event>

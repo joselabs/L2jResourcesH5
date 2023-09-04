@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="129" nameEn="Pailaka - Devil's Legacy" nameRu="Пайлака - Наследие Дьявола">
+		<expirience>
+			<rewardExp val="10800000" rateable="true" />
+			<rewardSp val="950000" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="13129" min="1" rateable="false" /> <!--Scroll of Escape: Pailaka-->
+			<item id="13295" min="1" rateable="false" /> <!--Pailaka Bracelet-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/dressShield.xsd">
+	<shield number="1" id="2497" name="Full Plate Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="2" id="673" name="Avadon Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="3" id="633" name="Zubei's Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="4" id="110" name="Doom Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="5" id="641" name="Dark Crystal Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="6" id="2498" name="Shield of Nightmare">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="7" id="6377" name="Imperial Crusader Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="8" id="9441" name="Dynasty Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="9" id="12811" name="Arcana Sigil">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="10" id="12812" name="Dynasty Sigil">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="11" id="13525" name="Gracian Soldier Shield">
+		<price id="4037" count="50" />
+	</shield>
+	<shield number="12" id="655" name="Sage's Shield">
+		<price id="4037" count="50" />
+	</shield>
+</list>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<!-- Zones Without Check GeoEngine-->
+	<zone name="Skylancer Road" type="NoGeoZone" shape="NPoly" minZ="1200" maxZ="2200">
+		<node X="130248" Y="58024" />
+		<node X="130264" Y="57736" />
+		<node X="131048" Y="57736" />
+		<node X="131576" Y="57864" />
+		<node X="131976" Y="58136" />
+		<node X="132376" Y="58536" />
+		<node X="132216" Y="58744" />
+	</zone>
+	<zone name="Zaken OutSide" type="NoGeoZone" shape="NPoly" minZ="-3900" maxZ="-3300">
+		<node X="52600" Y="211656" />
+		<node X="54191" Y="211767" />
+		<node X="54408" Y="212632" />
+		<node X="54296" Y="212744" />
+		<node X="52584" Y="211928" />
+	</zone>
+	<zone name="Giran Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="48504" Y="190184" />
+		<node X="49016" Y="189944" />
+		<node X="49366" Y="190811" />
+		<node X="49039" Y="190979" />
+	</zone>
+	<zone name="Talking Island Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="-96936" Y="261080" />
+		<node X="-96616" Y="261080" />
+		<node X="-96588" Y="261954" />
+		<node X="-97038" Y="262059" />
+	</zone>
+	<zone name="Glugin Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="-95112" Y="150456" />
+		<node X="-95112" Y="150840" />
+		<node X="-96198" Y="151022" />
+		<node X="-96014" Y="150491" />
+	</zone>
+	<zone name="Rune Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="34767" Y="-38408" />
+		<node X="34936" Y="-38216" />
+		<node X="34036" Y="-37132" />
+		<node X="33900" Y="-37617" />
+	</zone>
+	<zone name="Primeval Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="10536" Y="-26584" />
+		<node X="10392" Y="-26584" />
+		<node X="10256" Y="-27547" />
+		<node X="10552" Y="-27447" />
+	</zone>
+	<zone name="Hein Harbor" type="NoGeoZone" shape="NPoly" minZ="-3700" maxZ="-3500">
+		<node X="111000" Y="225672" />
+		<node X="111256" Y="225704" />
+		<node X="110843" Y="226630" />
+		<node X="111568" Y="226739" />
+	</zone>
+</list>

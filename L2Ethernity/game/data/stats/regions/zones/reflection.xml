@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<zone name="soi_hoe_attack_pc_regen_1" id="20000" type="ReflectionZone" shape="NPoly" minZ="-12112" maxZ="-11912">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-179062" Y="211047" />
+		<node X="-177776" Y="211044" />
+		<node X="-177780" Y="212297" />
+		<node X="-179066" Y="212290" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_2" id="20001" type="ReflectionZone" shape="NPoly" minZ="-12132" maxZ="-11932">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-179055" Y="205880" />
+		<node X="-177787" Y="205878" />
+		<node X="-177770" Y="207195" />
+		<node X="-179060" Y="207178" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_3" id="20002" type="ReflectionZone" shape="NPoly" minZ="-12108" maxZ="-11908">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-181555" Y="205901" />
+		<node X="-180256" Y="205901" />
+		<node X="-180210" Y="207176" />
+		<node X="-181550" Y="207196" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_4" id="20003" type="ReflectionZone" shape="NPoly" minZ="-12116" maxZ="-11916">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-181552" Y="211012" />
+		<node X="-180262" Y="211012" />
+		<node X="-180259" Y="212302" />
+		<node X="-181606" Y="212286" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_5" id="20004" type="ReflectionZone" shape="NPoly" minZ="-12027" maxZ="-11827">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-176304" Y="209293" />
+		<node X="-175395" Y="209697" />
+		<node X="-175860" Y="210713" />
+		<node X="-176708" Y="210363" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_6" id="20005" type="ReflectionZone" shape="NPoly" minZ="-12027" maxZ="-11827">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-176659" Y="207801" />
+		<node X="-175812" Y="207513" />
+		<node X="-175401" Y="208597" />
+		<node X="-176314" Y="208925" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_regen_7" id="20006" type="ReflectionZone" shape="NPoly" minZ="-12027" maxZ="-11817">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-183475" Y="207498" />
+		<node X="-182689" Y="207732" />
+		<node X="-183094" Y="208941" />
+		<node X="-183930" Y="208568" />
+	</zone>
+	<zone name="[soi_hoe_attack_pc_regen_8]" id="20007" type="ReflectionZone" shape="NPoly" minZ="-12029" maxZ="-11829">
+		<stat name="skillIdLvl" val="5940-9;" /> <!-- Energy of Generation -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-183868" Y="209471" />
+		<node X="-182962" Y="209286" />
+		<node X="-182662" Y="210431" />
+		<node X="-183661" Y="210627" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_1" id="20008" type="ReflectionZone" shape="NPoly" minZ="-12515" maxZ="-12315">
+		<stat name="skillIdLvl" val="5941-1;" /> <!-- Energy of Erosion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-179911" Y="208346" />
+		<node X="-179642" Y="208391" />
+		<node X="-179699" Y="209052" />
+		<node X="-180407" Y="208786" />
+		<node X="-180106" Y="208180" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_2" id="20009" type="ReflectionZone" shape="NPoly" minZ="-12508" maxZ="-12308">
+		<stat name="skillIdLvl" val="5942-1;" /> <!-- Energy of Pollution -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-180629" Y="208065" />
+		<node X="-180115" Y="208198" />
+		<node X="-180376" Y="208725" />
+		<node X="-180846" Y="208719" />
+		<node X="-181307" Y="208298" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_3" id="20010" type="ReflectionZone" shape="NPoly" minZ="-12512" maxZ="-12312">
+		<stat name="skillIdLvl" val="5943-1;" /> <!-- Energy of Contamination -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-181487" Y="208667" />
+		<node X="-181269" Y="208349" />
+		<node X="-180890" Y="208698" />
+		<node X="-181062" Y="209119" />
+		<node X="-181585" Y="209113" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_4" id="20011" type="ReflectionZone" shape="NPoly" minZ="-12515" maxZ="-12315">
+		<stat name="skillIdLvl" val="5944-1;" /> <!-- Energy of Oblivion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-181580" Y="209096" />
+		<node X="-181060" Y="209101" />
+		<node X="-180931" Y="209509" />
+		<node X="-181287" Y="209834" />
+		<node X="-181467" Y="209485" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_5" id="20012" type="ReflectionZone" shape="NPoly" minZ="-12507" maxZ="-12307">
+		<stat name="skillIdLvl" val="5941-1;" /> <!-- Energy of Erosion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-180929" Y="209506" />
+		<node X="-180402" Y="209575" />
+		<node X="-180190" Y="210035" />
+		<node X="-180669" Y="210136" />
+		<node X="-181337" Y="209881" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_6" id="20013" type="ReflectionZone" shape="NPoly" minZ="-12514" maxZ="-12314">
+		<stat name="skillIdLvl" val="5942-1;" /> <!-- Energy of Pollution -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-180117" Y="209326" />
+		<node X="-179681" Y="209209" />
+		<node X="-179692" Y="209707" />
+		<node X="-180195" Y="210027" />
+		<node X="-180406" Y="209565" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_7" id="20014" type="ReflectionZone" shape="NPoly" minZ="-12509" maxZ="-12309">
+		<stat name="skillIdLvl" val="5943-1;" /> <!-- Energy of Contamination -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-179268" Y="209291" />
+		<node X="-178964" Y="209538" />
+		<node X="-179209" Y="209975" />
+		<node X="-179692" Y="209701" />
+		<node X="-179682" Y="209215" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_8" id="20015" type="ReflectionZone" shape="NPoly" minZ="-12519" maxZ="-12319">
+		<stat name="skillIdLvl" val="5944-1;" /> <!-- Energy of Oblivion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-178404" Y="209530" />
+		<node X="-178061" Y="209869" />
+		<node X="-178622" Y="210172" />
+		<node X="-179210" Y="209976" />
+		<node X="-178966" Y="209544" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_9" id="20016" type="ReflectionZone" shape="NPoly" minZ="-12514" maxZ="-12314">
+		<stat name="skillIdLvl" val="5941-1;" /> <!-- Energy of Erosion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-177748" Y="209103" />
+		<node X="-177799" Y="209398" />
+		<node X="-178061" Y="209867" />
+		<node X="-178406" Y="209528" />
+		<node X="-178267" Y="209103" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_10" id="20017" type="ReflectionZone" shape="NPoly" minZ="-12512" maxZ="-12312">
+		<stat name="skillIdLvl" val="5942-1;" /> <!-- Energy of Pollution -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-178065" Y="208327" />
+		<node X="-177791" Y="208805" />
+		<node X="-177749" Y="209104" />
+		<node X="-178265" Y="209106" />
+		<node X="-178418" Y="208681" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_11" id="20018" type="ReflectionZone" shape="NPoly" minZ="-12509" maxZ="-12309">
+		<stat name="skillIdLvl" val="5943-1;" /> <!-- Energy of Contamination -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-178658" Y="208043" />
+		<node X="-177984" Y="208244" />
+		<node X="-178424" Y="208687" />
+		<node X="-178956" Y="208667" />
+		<node X="-179286" Y="208168" />
+	</zone>
+	<zone name="soi_hoe_attack_pc_vicera_12" id="20019" type="ReflectionZone" shape="NPoly" minZ="-12516" maxZ="-12316">
+		<stat name="skillIdLvl" val="5944-1;" /> <!-- Energy of Oblivion -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-179437" Y="208327" />
+		<node X="-179285" Y="208171" />
+		<node X="-178890" Y="208764" />
+		<node X="-179697" Y="209048" />
+		<node X="-179641" Y="208377" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_1" id="20020" type="ReflectionZone" shape="NPoly" minZ="-12112" maxZ="-11912">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-179062" Y="211047" />
+		<node X="-177776" Y="211044" />
+		<node X="-177780" Y="212297" />
+		<node X="-179066" Y="212290" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_2" id="20021" type="ReflectionZone" shape="NPoly" minZ="-12132" maxZ="-11932">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-179055" Y="205880" />
+		<node X="-177787" Y="205878" />
+		<node X="-177770" Y="207195" />
+		<node X="-179060" Y="207178" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_3" id="20022" type="ReflectionZone" shape="NPoly" minZ="-12108" maxZ="-11908">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-181555" Y="205901" />
+		<node X="-180256" Y="205901" />
+		<node X="-180210" Y="207176" />
+		<node X="-181550" Y="207196" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_4" id="20023" type="ReflectionZone" shape="NPoly" minZ="-12116" maxZ="-11916">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-181552" Y="211012" />
+		<node X="-180262" Y="211012" />
+		<node X="-180259" Y="212302" />
+		<node X="-181606" Y="212286" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_5" id="20024" type="ReflectionZone" shape="NPoly" minZ="-12027" maxZ="-11827">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-176304" Y="209293" />
+		<node X="-175395" Y="209697" />
+		<node X="-175860" Y="210713" />
+		<node X="-176708" Y="210363" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_6" id="20025" type="ReflectionZone" shape="NPoly" minZ="-12027" maxZ="-11827">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-176659" Y="207801" />
+		<node X="-175812" Y="207513" />
+		<node X="-175401" Y="208597" />
+		<node X="-176314" Y="208925" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_7" id="20026" type="ReflectionZone" shape="NPoly" minZ="-12017" maxZ="-11817">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-183475" Y="207498" />
+		<node X="-182689" Y="207732" />
+		<node X="-183094" Y="208941" />
+		<node X="-183930" Y="208568" />
+	</zone>
+	<zone name="soi_hoe_attack_attackup1_8" id="20027" type="ReflectionZone" shape="NPoly" minZ="-12029" maxZ="-11829">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-183868" Y="209471" />
+		<node X="-182962" Y="209286" />
+		<node X="-182662" Y="210431" />
+		<node X="-183661" Y="210627" />
+	</zone>
+	<zone name="[soi_hoe_attack_attackup1_9]" id="20028" type="ReflectionZone" shape="NPoly" minZ="-12029" maxZ="-11829">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-183868" Y="209471" />
+		<node X="-182962" Y="209286" />
+		<node X="-182662" Y="210431" />
+		<node X="-183661" Y="210627" />
+	</zone>
+	<zone name="soi_hos_attack_attackup_1" id="20029" type="ReflectionZone" shape="NPoly" minZ="-9940" maxZ="-8940">
+		<stat name="skillIdLvl" val="5938-1;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="60000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-186872" Y="209528" />
+		<node X="-187176" Y="207640" />
+		<node X="-185816" Y="207112" />
+		<node X="-185368" Y="208952" />
+	</zone>
+	<zone name="soi_hos_attack_attackup_2" id="20030" type="ReflectionZone" shape="NPoly" minZ="-9940" maxZ="-8940">
+		<stat name="skillIdLvl" val="5938-2;5939-2;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="60000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-185256" Y="210024" />
+		<node X="-183496" Y="210632" />
+		<node X="-183656" Y="212184" />
+		<node X="-185528" Y="211592" />
+	</zone>
+	<zone name="soi_hos_attack_attackup_3" id="20031" type="ReflectionZone" shape="NPoly" minZ="-9940" maxZ="-8940">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="60000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-183192" Y="212744" />
+		<node X="-182184" Y="212808" />
+		<node X="-181608" Y="213656" />
+		<node X="-182200" Y="214920" />
+		<node X="-183416" Y="214968" />
+		<node X="-183944" Y="213832" />
+		<node X="-183736" Y="213112" />
+	</zone>
+	<zone name="soi_hos_attack_attackup_4" id="20032" type="ReflectionZone" shape="NPoly" minZ="-9940" maxZ="-8940">
+		<stat name="skillIdLvl" val="5938-4;5939-4;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="60000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-181896" Y="217272" />
+		<node X="-179896" Y="216280" />
+		<node X="-180152" Y="217864" />
+		<node X="-181944" Y="217176" />
+	</zone>
+	<zone name="soi_hos_attack_attackup_5" id="20033" type="ReflectionZone" shape="NPoly" minZ="-9940" maxZ="-8940">
+		<stat name="skillIdLvl" val="5938-5;5939-5;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="60000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-178456" Y="218360" />
+		<node X="-177784" Y="216878" />
+		<node X="-176120" Y="217304" />
+		<node X="-176756" Y="218812" />
+	</zone>
+	<zone name="soi_hos_attack_pcbuff_6" id="20034" type="ReflectionZone" shape="NPoly" minZ="-9700" maxZ="-9400">
+		<stat name="skillIdLvl" val="5934-1;" /> <!-- Meet the soul of darkness and fight against it -->
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="Playable" />
+		<node X="-175352" Y="216456" />
+		<node X="-172040" Y="216456" />
+		<node X="-172040" Y="219640" />
+		<node X="-175352" Y="219512" />
+	</zone>
+
+	<zone name="soi_hos_defence_attackup_1" id="20035" type="ReflectionZone" shape="NPoly" minZ="-9776" maxZ="-9276">
+		<stat name="skillIdLvl" val="5938-1;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-175364" Y="216507" />
+		<node X="-172165" Y="216535" />
+		<node X="-172222" Y="219751" />
+		<node X="-175316" Y="219782" />
+	</zone>
+	<zone name="soi_hos_defence_attackup_2" id="20036" type="ReflectionZone" shape="NPoly" minZ="-9776" maxZ="-9276">
+		<stat name="skillIdLvl" val="5938-2;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-175364" Y="216507" />
+		<node X="-172165" Y="216535" />
+		<node X="-172222" Y="219751" />
+		<node X="-175316" Y="219782" />
+	</zone>
+	<zone name="soi_hos_defence_attackup_3" id="20037" type="ReflectionZone" shape="NPoly" minZ="-9776" maxZ="-9276">
+		<stat name="skillIdLvl" val="5938-3;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-175364" Y="216507" />
+		<node X="-172165" Y="216535" />
+		<node X="-172222" Y="219751" />
+		<node X="-175316" Y="219782" />
+	</zone>
+	<zone name="soi_hos_defence_attackup_4" id="20038" type="ReflectionZone" shape="NPoly" minZ="-9776" maxZ="-9276">
+		<stat name="skillIdLvl" val="5938-4;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-175364" Y="216507" />
+		<node X="-172165" Y="216535" />
+		<node X="-172222" Y="219751" />
+		<node X="-175316" Y="219782" />
+	</zone>
+	<zone name="soi_hos_defence_attackup_5" id="20039" type="ReflectionZone" shape="NPoly" minZ="-9776" maxZ="-9276">
+		<stat name="skillIdLvl" val="5938-5;5939-1;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-175364" Y="216507" />
+		<node X="-172165" Y="216535" />
+		<node X="-172222" Y="219751" />
+		<node X="-175316" Y="219782" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_1" id="20040" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-178819" Y="212427" />
+		<node X="-178819" Y="213212" />
+		<node X="-179185" Y="213605" />
+		<node X="-179921" Y="213603" />
+		<node X="-180314" Y="213217" />
+		<node X="-180314" Y="212433" />
+		<node X="-179902" Y="212045" />
+		<node X="-179242" Y="212043" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_2" id="20041" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-176050" Y="210757" />
+		<node X="-175888" Y="211267" />
+		<node X="-176229" Y="211880" />
+		<node X="-176744" Y="212007" />
+		<node X="-177459" Y="211628" />
+		<node X="-177526" Y="210986" />
+		<node X="-177313" Y="210618" />
+		<node X="-176688" Y="210363" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_3" id="20042" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-176272" Y="207222" />
+		<node X="-175898" Y="207841" />
+		<node X="-176051" Y="208386" />
+		<node X="-176710" Y="208789" />
+		<node X="-177223" Y="208666" />
+		<node X="-177608" Y="208000" />
+		<node X="-177459" Y="207499" />
+		<node X="-176775" Y="207113" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_4" id="20043" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-178813" Y="205936" />
+		<node X="-178815" Y="206690" />
+		<node X="-179158" Y="207104" />
+		<node X="-179952" Y="207105" />
+		<node X="-180269" Y="206683" />
+		<node X="-180268" Y="205935" />
+		<node X="-179858" Y="205503" />
+		<node X="-179222" Y="205503" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_5" id="20044" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-181657" Y="207504" />
+		<node X="-181487" Y="208000" />
+		<node X="-181884" Y="208679" />
+		<node X="-182408" Y="208791" />
+		<node X="-183050" Y="208360" />
+		<node X="-183201" Y="207811" />
+		<node X="-182867" Y="207245" />
+		<node X="-182348" Y="207127" />
+	</zone>
+	<zone name="soi_hoi_attack_attackup_6" id="20045" type="ReflectionZone" shape="NPoly" minZ="-15550" maxZ="-15450">
+		<stat name="skillIdLvl" val="5938-3;5939-3;" />
+		<stat name="chance" val="100" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="10000" />
+		<stat name="targetClass" val="MonsterInstance" />
+		<node X="-181883" Y="210474" />
+		<node X="-181501" Y="211134" />
+		<node X="-181652" Y="211614" />
+		<node X="-182342" Y="212017" />
+		<node X="-182916" Y="211866" />
+		<node X="-183220" Y="211319" />
+		<node X="-183071" Y="210741" />
+		<node X="-182383" Y="210365" />
+	</zone>
+</list>

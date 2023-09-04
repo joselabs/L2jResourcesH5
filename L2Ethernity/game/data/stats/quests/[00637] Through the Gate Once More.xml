@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="637" nameEn="Through the Gate Once More" nameRu="Языческий Храм">
+		<droplist>
+			<npc id="21565">
+				<item id="8066" min="1" chance="90" rateable="true" /> <!--Necromancer's Heart-->
+			</npc>
+			<npc id="21566">
+				<item id="8066" min="1" chance="90" rateable="true" /> <!--Necromancer's Heart-->
+			</npc>
+			<npc id="21567">
+				<item id="8066" min="1" chance="90" rateable="true" /> <!--Necromancer's Heart-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="8067" min="1" rateable="false" /> <!--Pagan's Mark-->
+			<item id="8273" min="10" rateable="true" /> <!--Anteroom Key-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="19" nameEn="Go to the Pastureland" nameRu="Ферма Диких Зверей">
+		<expirience>
+			<rewardExp val="136766" rateable="true" />
+			<rewardSp val="12688" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="50000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

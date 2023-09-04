@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="119" name="Seed of Infinity (Hall of Erosion)" maxChannels="3" collapseIfEmpty="10" timelimit="40" dispelBuffs="true">
+		<level min="75" max="85" />
+		<party min="18" max="27" />
+		<allowSummon val="false" />
+		<return x="-183656" y="206264" z="-12928" />
+		<teleport x="-179659" y="211061" z="-12784" />
+		<quest name="_696_ConquertheHallofErosion" type="STARTED" />
+		<showTimer val="true" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<spawns>
+			<group name="soi_hoe_attack_tumors" spawned="false" />
+			<group name="soi_hoe_attack_symbols" spawned="false" />
+			<group name="soi_hoe_attack_wards" spawned="false" />
+			<group name="soi_hoe_attack_mob_1" spawned="false" />
+			<group name="soi_hoe_attack_mob_2" spawned="false" />
+			<group name="soi_hoe_attack_mob_3" spawned="false" />
+			<group name="soi_hoe_attack_mob_4" spawned="false" />
+			<group name="soi_hoe_attack_mob_5" spawned="false" />
+			<group name="soi_hoe_attack_mob_6" spawned="false" />
+			<group name="soi_hoe_attack_mob_7" spawned="false" />
+			<group name="soi_hoe_attack_mob_8" spawned="false" />
+		</spawns>
+	</instance>
+</list>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="455" nameEn="Wings of Sand" nameRu="Крылья из песка">
+		<droplist>
+			<npc id="25718">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25719">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25720">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25721">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25722">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25723">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+			<npc id="25724">
+				<item id="17250" min="1" chance="100" rateable="false" /> <!--Large Baby Dragon-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="15634" min="1" max="2" rateable="false" /> <!--Vesper Cutter Piece-->
+				<item id="15635" min="1" max="2" rateable="false" /> <!--Vesper Slasher Piece-->
+				<item id="15636" min="1" max="2" rateable="false" /> <!--Vesper Buster Piece-->
+				<item id="15637" min="1" max="2" rateable="false" /> <!--Vesper Shaper Piece-->
+				<item id="15638" min="1" max="2" rateable="false" /> <!--Vesper Fighter Piece-->
+				<item id="15639" min="1" max="2" rateable="false" /> <!--Vesper Stormer Piece-->
+				<item id="15640" min="1" max="2" rateable="false" /> <!--Vesper Avenger Piece-->
+				<item id="15641" min="1" max="2" rateable="false" /> <!--Vesper Retributer Piece-->
+				<item id="15642" min="1" max="2" rateable="false" /> <!--Vesper Caster Piece-->
+				<item id="15643" min="1" max="2" rateable="false" /> <!--Vesper Singer Piece-->
+				<item id="15644" min="1" max="2" rateable="false" /> <!--Vesper Thrower Piece-->
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="15660" min="1" max="2" rateable="false" /> <!--Sealed Vesper Helmet Piece-->
+				<item id="15661" min="1" max="2" rateable="false" /> <!--Sealed Vesper Leather Helmet Piece-->
+				<item id="15662" min="1" max="2" rateable="false" /> <!--Sealed Vesper Circlet Piece-->
+				<item id="15663" min="1" max="2" rateable="false" /> <!--Sealed Vesper Breastplate Piece-->
+				<item id="15664" min="1" max="2" rateable="false" /> <!--Sealed Vesper Leather Breastplate Piece-->
+				<item id="15665" min="1" max="2" rateable="false" /> <!--Sealed Vesper Tunic Piece-->
+				<item id="15666" min="1" max="2" rateable="false" /> <!--Sealed Vesper Gaiter Piece-->
+				<item id="15667" min="1" max="2" rateable="false" /> <!--Sealed Vesper Gauntlet Piece-->
+				<item id="15668" min="1" max="2" rateable="false" /> <!--Sealed Vesper Boots Piece-->
+				<item id="15669" min="1" max="2" rateable="false" /> <!--Sealed Vesper Verteidiger Piece-->
+				<item id="15670" min="1" max="2" rateable="false" /> <!--Sealed Vesper Leather Legging Piece-->
+				<item id="15671" min="1" max="2" rateable="false" /> <!--Sealed Vesper Leather Gloves Piece-->
+				<item id="15672" min="1" max="2" rateable="false" /> <!--Sealed Vesper Leather Boots Piece-->
+				<item id="15673" min="1" max="2" rateable="false" /> <!--Sealed Vesper Stockings Piece-->
+				<item id="15674" min="1" max="2" rateable="false" /> <!--Sealed Vesper Gloves Piece-->
+				<item id="15675" min="1" max="2" rateable="false" /> <!--Sealed Vesper Shoes Piece-->
+				<item id="15691" min="1" max="2" rateable="false" /> <!--Sealed Vesper Sigil Piece-->
+				<item id="15693" min="1" max="2" rateable="false" /> <!--Sealed Moirai Shield Piece-->
+			</variant>
+			<variant id="3"><!--Given one random item-->
+				<item id="15769" min="1" max="2" rateable="false" /> <!--Sealed Vesper Ring Gem-->
+				<item id="15770" min="1" max="2" rateable="false" /> <!--Sealed Vesper Earring Gem-->
+				<item id="15771" min="1" max="2" rateable="false" /> <!--Sealed Vesper Necklace Gem-->
+			</variant>
+			<variant id="4"><!--Given one random item-->
+				<item id="9552" min="1" rateable="false" /> <!--Fire Crystal-->
+				<item id="9553" min="1" rateable="false" /> <!--Water Crystal-->
+				<item id="9554" min="1" rateable="false" /> <!--Earth Crystal-->
+				<item id="9555" min="1" rateable="false" /> <!--Wind Crystal-->
+				<item id="9556" min="1" rateable="false" /> <!--Dark Crystal-->
+				<item id="9557" min="1" rateable="false" /> <!--Divine Crystal-->
+			</variant>
+			<variant id="5"><!--Given one random item-->
+				<item id="15815" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Cutter (60%)-->
+				<item id="15816" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Slasher (60%)-->
+				<item id="15817" min="1" rateable="false" /> <!--Recipe - Vesper Buster (60%)-->
+				<item id="15818" min="1" rateable="false" /> <!--Recipe - Vesper Shaper (60%)-->
+				<item id="15819" min="1" rateable="false" /> <!--Recipe - Vesper Fighter (60%)-->
+				<item id="15820" min="1" rateable="false" /> <!--Recipe - Vesper Stormer (60%)-->
+				<item id="15821" min="1" rateable="false" /> <!--Recipe - Vesper Avenger (60%)-->
+				<item id="15822" min="1" rateable="false" /> <!--Recipe - Vesper Retributer (60%)-->
+				<item id="15823" min="1" rateable="false" /> <!--Recipe - Vesper Caster (60%)-->
+				<item id="15824" min="1" rateable="false" /> <!--Recipe - Vesper Singer (60%)-->
+				<item id="15825" min="1" rateable="false" /> <!--Recipe - Vesper Thrower (60%)-->
+			</variant>
+			<variant id="6"><!--Given one random item-->
+				<item id="15792" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Helmet (60%)-->
+				<item id="15793" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Helmet (60%)-->
+				<item id="15794" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Circlet (60%)-->
+				<item id="15795" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Breastplate (60%)-->
+				<item id="15796" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Breastplate (60%)-->
+				<item id="15797" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Tunic (60%)-->
+				<item id="15798" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gaiter (60%)-->
+				<item id="15799" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Legging (60%)-->
+				<item id="15800" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Stockings (60%)-->
+				<item id="15801" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gauntlet (60%)-->
+				<item id="15802" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Gloves (60%)-->
+				<item id="15803" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gloves (60%)-->
+				<item id="15804" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Boots (60%)-->
+				<item id="15805" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Boots (60%)-->
+				<item id="15806" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Shoes (60%)-->
+				<item id="15807" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Sigil (60%)-->
+				<item id="15808" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Shield (60%)-->
+			</variant>
+			<variant id="7"><!--Given one random item-->
+				<item id="15809" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Ring (70%)-->
+				<item id="15810" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Earring (70%)-->
+				<item id="15811" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Necklace (70%)-->
+			</variant>
+			<variant id="8"><!--Given one random item-->
+				<item id="9552" min="2" rateable="false" /> <!--Fire Crystal-->
+				<item id="9553" min="2" rateable="false" /> <!--Water Crystal-->
+				<item id="9554" min="2" rateable="false" /> <!--Earth Crystal-->
+				<item id="9555" min="2" rateable="false" /> <!--Wind Crystal-->
+				<item id="9556" min="2" rateable="false" /> <!--Dark Crystal-->
+				<item id="9557" min="2" rateable="false" /> <!--Divine Crystal-->
+			</variant>
+			<variant id="9"><!--Given one random item-->
+				<item id="6577" min="1" rateable="false" /> <!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+				<item id="6578" min="1" rateable="false" /> <!--Blessed Scroll: Enchant Armor (S-Grade)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="petition" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="name" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="lang" type="xs:string" />
+									<xs:attribute name="val" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="descr" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="lang" type="xs:string" />
+									<xs:attribute name="val" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="section" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="name" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="lang" type="xs:string" />
+												<xs:attribute name="val" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="descr" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="lang" type="xs:string" />
+												<xs:attribute name="val" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

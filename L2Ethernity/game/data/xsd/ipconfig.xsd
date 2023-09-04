@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="authserver">
+					<xs:complexType>
+						<xs:attribute name="address" type="xs:string" />
+						<xs:attribute name="port" type="xs:positiveInteger" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="gameserver">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="host" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="advanced" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="address" use="required" type="xs:token" />
+												<xs:attribute name="subnet" use="required" type="xs:token" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:positiveInteger" />
+									<xs:attribute name="address" type="xs:token" />
+									<xs:attribute name="port" type="xs:positiveInteger" />
+									<xs:attribute name="key" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

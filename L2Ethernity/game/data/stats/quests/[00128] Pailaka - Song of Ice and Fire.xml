@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="128" nameEn="Pailaka - Song of Ice and Fire" nameRu="Пайлака - Песня льда и огня">
+		<expirience>
+			<rewardExp val="810000" rateable="true" />
+			<rewardSp val="50000" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="13129" min="1" rateable="false" /> <!--Scroll of Escape: Pailaka-->
+			<item id="13293" min="1" rateable="false" /> <!--Pailaka Earring-->
+			<item id="13294" min="1" rateable="false" /> <!--Pailaka Ring-->
+		</rewardlist>
+	</quest>
+</list>

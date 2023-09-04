@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="4" nameEn="Long live the Pa'agrio Lord" nameRu="Болезнь Лорда Паагрио">
+		<expirience>
+			<rewardExp val="4254" rateable="true" />
+			<rewardSp val="335" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="1850" rateable="true" /> <!--Adena-->
+			<item id="4" min="1" rateable="false" /> <!--Club-->
+		</rewardlist>
+	</quest>
+</list>

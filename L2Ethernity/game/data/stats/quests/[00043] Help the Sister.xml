@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="43" nameEn="Help the Sister!" nameRu="Помощь сестре">
+		<droplist>
+			<npc id="20171">
+				<item id="7551" min="1" chance="100" rateable="true" /> <!--Ivory Colored Map-->
+			</npc>
+			<npc id="20197">
+				<item id="7551" min="1" chance="100" rateable="true" /> <!--Ivory Colored Map-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7584" min="1" rateable="false" /> <!--Pet Exchange Ticket: Cougar-->
+		</rewardlist>
+	</quest>
+</list>

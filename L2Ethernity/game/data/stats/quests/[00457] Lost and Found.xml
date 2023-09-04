@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="457" nameEn="Lost and Found" nameRu="Конца и края нет">
+		<rewardlist>
+			<item id="15716" min="1" rateable="false" /> <!--Packaged Book-->
+		</rewardlist>
+	</quest>
+</list>

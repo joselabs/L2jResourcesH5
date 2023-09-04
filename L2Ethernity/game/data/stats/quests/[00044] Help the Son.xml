@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="44" nameEn="Help the Son!" nameRu="Помощь сыну">
+		<droplist>
+			<npc id="20919">
+				<item id="7552" min="1" chance="100" rateable="true" /> <!--Broken Gemstone Fragment-->
+			</npc>
+			<npc id="20920">
+				<item id="7552" min="1" chance="100" rateable="true" /> <!--Broken Gemstone Fragment-->
+			</npc>
+			<npc id="20921">
+				<item id="7552" min="1" chance="100" rateable="true" /> <!--Broken Gemstone Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7585" min="1" rateable="false" /> <!--Pet Exchange Ticket: Kookaburra-->
+		</rewardlist>
+	</quest>
+</list>

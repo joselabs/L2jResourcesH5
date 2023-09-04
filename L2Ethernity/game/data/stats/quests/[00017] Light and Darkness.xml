@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="17" nameEn="Light and Darkness" nameRu="Свет и Тьма">
+		<expirience>
+			<rewardExp val="697040" rateable="true" />
+			<rewardSp val="54887" rateable="true" />
+		</expirience>
+	</quest>
+</list>

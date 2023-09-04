@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventSpawnList.xsd">
+	<manager>
+		<!-- Fight Event Manager [ id 53015 ] -->
+		<loc x="83448" y="148648" z="-3405" heading="39097" />
+	</manager>
+</list>

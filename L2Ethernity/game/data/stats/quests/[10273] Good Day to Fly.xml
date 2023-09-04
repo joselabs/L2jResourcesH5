@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10273" nameEn="Good Day to Fly" nameRu="Летная погода">
+		<expirience>
+			<rewardExp val="25160" rateable="true" />
+			<rewardSp val="2525" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="22614">
+				<item id="13856" min="1" chance="100" rateable="false" /> <!--Rider's Mark-->
+			</npc>
+			<npc id="22615">
+				<item id="13856" min="1" chance="100" rateable="false" /> <!--Rider's Mark-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="13553" min="1" rateable="false" /> <!--Spellbook - Aurabird Falcon-->
+				<item id="13857" min="1" rateable="false" /> <!--Lekon's Certificate-->
+			</variant>
+			<variant id="2">
+				<item id="13554" min="1" rateable="false" /> <!--Spellbook - Aurabird Owl-->
+				<item id="13857" min="1" rateable="false" /> <!--Lekon's Certificate-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

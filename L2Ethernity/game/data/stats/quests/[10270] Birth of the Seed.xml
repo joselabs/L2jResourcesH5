@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10270" nameEn="Birth of the Seed" nameRu="Изучение Семени">
+		<expirience>
+			<rewardExp val="251602" rateable="true" />
+			<rewardSp val="25244" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="25634">
+				<item id="13870" min="1" chance="100" rateable="false" /> <!--Lich Crystal-->
+			</npc>
+			<npc id="25665">
+				<item id="13868" min="1" chance="100" rateable="false" /> <!--Yehan Klodekus' Badge-->
+			</npc>
+			<npc id="25666">
+				<item id="13869" min="1" chance="100" rateable="false" /> <!--Yehan Klanikus' Badge-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="41677" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

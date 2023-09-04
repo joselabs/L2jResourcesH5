@@ -1,0 +1,44 @@
+<html noscrollbar><title>%name% (%lvl% Lv.)</title><body>
+<center>
+<table width=296 border=0 bgcolor="444444">
+<tr>
+<td><button value="Kill" action="bypass -h admin_kill" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Delete" action="bypass -h admin_delete" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Recall" action="bypass -h admin_recall_npc" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Buffs" action="bypass admin_getbuffs" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Skills" action="bypass admin_show_skill_list_npc %tmplid%" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Drop" action="bypass admin_show_drop_list %tmplid% 1" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Spoil" action="bypass admin_show_spoil_list %tmplid% 1" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Aggro" action="bypass -h aggro 1" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<img src="L2UI.SquareWhite" width=290 height=1><br>
+<table width=280 border=0>
+	<tr>
+	<td align=center><button value="Info" action="bypass admin_show_npc_info" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td align=center><button value="Stats" action="bypass admin_show_npc_stats" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table><br1>
+<table width=280 border=0 cellpadding=2 cellspacing=1>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">ID</font></td><td align=right width=170>%id%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">Type:</font></td><td align=right width=170>%class%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">Territory</font></td><td align=right width=170>%territory%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">Spawn</font></td><td align=right width=170>%spawn%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">Location:</font></td><td align=right width=170>%loc% %heading%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">Region & Ref:</font></td><td align=right width=170>%region% <font color=999999>|</font> %refId%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">Collision:</font></td><td align=right width=170>%collision_radius% / %collision_height%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">Distance:</font></td><td align=right width=170>2D: %loc2d%, 3D: %loc3d%, You: %dist%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">Respawn:</font></td><td align=right width=170>%resp%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">Aggro:</font></td><td align=right width=170><font color=999999>%aggro%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">HP:</font></td><td align=right width=170><font color=FF4040>%hp%/%hpmax%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">MP:</font></td><td align=right width=170><font color=6161FF>%mp%/%mpmax%</font></td></tr></table></td></tr>
+%ai_intention%
+%ai_type%
+%ai_clan%
+%route%
+</table><br>
+<img src="L2UI.SquareWhite" width=290 height=1><br>
+</center>
+</body></html>

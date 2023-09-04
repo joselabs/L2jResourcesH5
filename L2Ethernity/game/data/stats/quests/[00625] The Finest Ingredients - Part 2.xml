@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="625" nameEn="The Finest Ingredients - Part 2" nameRu="Лучшие ингредиенты - ч. 2">
+		<rewardlist>
+			<variant id="1">
+				<item id="4589" min="5" rateable="true" /> <!--Greater Dye of STR-->
+			</variant>
+			<variant id="2">
+				<item id="4590" min="5" rateable="true" /> <!--Greater Dye of STR-->
+			</variant>
+			<variant id="3">
+				<item id="4591" min="5" rateable="true" /> <!--Greater Dye of CON-->
+			</variant>
+			<variant id="4">
+				<item id="4592" min="5" rateable="true" /> <!--Greater Dye of CON-->
+			</variant>
+			<variant id="5">
+				<item id="4593" min="5" rateable="true" /> <!--Greater Dye of DEX-->
+			</variant>
+			<variant id="6">
+				<item id="4594" min="5" rateable="true" /> <!--Greater Dye of DEX-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="62" nameEn="Path of the Trooper" nameRu="Путь Солдата">
+		<expirience>
+			<rewardExp val="8064" rateable="false" />
+			<rewardSp val="2368" rateable="false" />
+		</expirience>
+		<droplist>
+			<npc id="20014">
+				<item id="9749" min="1" chance="100" rateable="false" /> <!--Felim Lizardman Head-->
+			</npc>
+			<npc id="20038">
+				<item id="9750" min="1" chance="100" rateable="false" /> <!--Venomous Spider's Leg-->
+			</npc>
+			<npc id="20062">
+				<item id="9751" min="1" chance="100" rateable="false" /> <!--Tumran Bugbear Heart-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="163800" rateable="false" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

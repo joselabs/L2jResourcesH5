@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="38" nameEn="Dragon Fangs" nameRu="Клыки Дракона">
+		<expirience>
+			<rewardExp val="435117" rateable="true" />
+			<rewardSp val="23977" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20357">
+				<item id="7173" min="1" chance="100" rateable="true" /> <!--Feather Ornament-->
+			</npc>
+			<npc id="21100">
+				<item id="7173" min="1" chance="100" rateable="true" /> <!--Feather Ornament-->
+			</npc>
+			<npc id="20356">
+				<item id="7175" min="1" chance="100" rateable="true" /> <!--Tooth of Dragon-->
+			</npc>
+			<npc id="21101">
+				<item id="7175" min="1" chance="100" rateable="true" /> <!--Tooth of Dragon-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="57" min="1500" rateable="true" /> <!--Adena-->
+				<item id="1123" min="1" rateable="false" /> <!--Blue Buckskin Boots-->
+			</variant>
+			<variant id="2">
+				<item id="57" min="5200" rateable="true" /> <!--Adena-->
+				<item id="45" min="1" rateable="false" /> <!--Bone Helmet-->
+			</variant>
+			<variant id="3">
+				<item id="57" min="1500" rateable="true" /> <!--Adena-->
+				<item id="1125" min="1" rateable="false" /> <!--Assault Boots-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

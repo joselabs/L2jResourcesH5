@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="8" nameEn="An Adventure Begins" nameRu="Начало пути">
+		<rewardlist>
+			<item id="7559" min="1" rateable="true" /> <!--Scroll of Escape: Town of Giran-->
+			<item id="7570" min="1" rateable="false" /> <!--Mark of Traveler-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list minLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../data/xsd/votereward.xsd">
+<!-- Warning!!! Voice command .vote -->
+ 	<!-- HopZone.net -->
+ 	<vote impl="HopZone" enabled="False">
+  		<parameter name="api_key" value=""/>  <!--https://api.hopzone.net/lineage2/vote?token={api_key}&ip_address=192.168.0.1-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   			</group>
+   			<group chance="100">
+    				<reward itemId="4037" min="15" max="20" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- L2TopZone.com -->
+ 	<vote impl="L2TopZone" enabled="False">
+  		<parameter name="api_key" value=""/>  <!--https://api.l2topzone.com/v1/vote?token={api_key}&ip=192.168.0.1-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   			</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="10" max="15" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- L2Network.eu -->
+ 	<vote impl="L2Network" enabled="False">
+  		<parameter name="server_name" value=""/>  <!--https://l2network.eu/index.php?a=in&u={server_name}&ipc=192.168.0.1-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   				</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="10" max="15" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- L2Top.ru -->
+ 	<vote impl="L2Top" enabled="False">
+  		<parameter name="run_delay" value="300"/> <!--Auto reward delay in seconds-->
+  		<parameter name="api_key" value=""/>  <!--http://l2top.ru/editServ/?adminAct=lastVotes&amp;uid= {server_uid} _web&amp;key= {api_key} -->
+  		<parameter name="server_uid" value="0"/>
+  		<parameter name="server_prefix" value=""/>
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   			</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="1" max="2" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- PlayL2.net -->
+ 	<vote impl="PlayL2" enabled="False">
+  		<parameter name="api_key" value=""/>  <!--https://playl2.net/{api_key}/get-ind-vote/192.168.0.1-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   				</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="10" max="15" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- MmoTop.ru -->
+ 	<vote impl="MmoTop" enabled="False">
+  		<parameter name="run_delay" value="300"/> <!--Auto reward delay in seconds-->
+  		<parameter name="votes_link" value=""/>  <!--https://mmotop.ru/votes/ {votes_link} -->
+  		<parameter name="identifier_type" value="IP"/> <!--NICKNAME, IP-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   			</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="1" max="2" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+ 	<!-- MmoVote.ru -->
+ 	<vote impl="MmoVote" enabled="False">
+  		<parameter name="run_delay" value="300"/> <!--Auto reward delay in seconds-->
+  		<parameter name="votes_link" value=""/>  <!--http://stat.mmovote.ru/ru/stat/ {votes_link} -->
+  		<parameter name="identifier_type" value="IP"/> <!--NICKNAME, IP-->
+  		<rewards>
+   			<group chance="100">
+    				<reward itemId="57" min="1000" max="10000" chance="100" /> <!-- Festival Adena -->
+   			</group>
+   			<group chance="10">
+    				<reward itemId="4037" min="1" max="2" chance="100" /> <!-- Festival Adena -->
+   			</group>
+  		</rewards>
+ 	</vote>
+</list>

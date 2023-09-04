@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../data/xsd/fakeSkills.xsd">
+	<!-- All Fake Class Skills | Скиллы для Фейк Плеер -->
+	<!-- Human / Люди -->
+	<!-- Class 0 - Human Fighter \ Класс 0 - Человек Файтер-->
+	<fake classId="0" skillsChance="30">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->	
+		<offensiveSkill id="56" priority="3" /> <!-- Power Shot -->		
+	</fake>
+	<!-- Class 1 - Warrior \ Класс 1 - Воин -->
+	<fake classId="1" skillsChance="30">
+		<offensiveSkill id="100" priority="1" /> <!-- Stun Attack -->	
+		<offensiveSkill id="255" priority="2" /> <!-- Power Smash -->	
+		<offensiveSkill id="245" priority="3" /> <!-- Wild Sweep -->	
+		<supportSkill id="78" cond="NONE" value="0" priority="1" /> <!-- War Cry -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="121" cond="LESSHPPERCENT" value="70" priority="3" /> <!-- Battle Roar -->
+	</fake>
+	<!-- Class 2 - Gladiator \ Класс 1 - Гладиатор (скиллы рассчитаты на парные мечи) -->
+	<fake classId="2" skillsChance="40">
+		<offensiveSkill id="1" priority="1" /> <!-- Triple Slash -->
+		<offensiveSkill id="5" priority="2" /> <!-- Double Sonic Slash -->
+		<offensiveSkill id="6" priority="3" /> <!-- Sonic Blaster -->
+		<offensiveSkill id="9" priority="3" /> <!-- Sonic Buster -->
+		<offensiveSkill id="261" priority="4" /> <!-- Triple Sonic Slash -->
+		<supportSkill id="78" cond="NONE" value="0" priority="1" /> <!-- War Cry -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="121" cond="LESSHPPERCENT" value="70" priority="3" /> <!-- Battle Roar -->
+	</fake>
+	<!-- Class 3 - Warlord \ Класс 3 - Копейщик -->
+	<fake classId="3" skillsChance="40">
+		<offensiveSkill id="36" priority="1" /> <!-- Whirlwind -->
+		<offensiveSkill id="48" priority="2" /> <!-- Thunder Storm -->
+		<offensiveSkill id="920" priority="3" /> <!-- Power Crush -->
+		<offensiveSkill id="452" priority="4" /> <!-- Shock Stomp -->
+		<offensiveSkill id="286" priority="5" /> <!-- Provoke -->
+		<supportSkill id="421" cond="NONE" value="0" priority="1" /> <!-- Fell Swoop -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="121" cond="LESSHPPERCENT" value="70" priority="3" /> <!-- Battle Roar -->
+		<supportSkill id="181" cond="LESSHPPERCENT" value="10" priority="4" /> <!-- Revival -->
+	</fake>
+	<!-- Class 4 - Knight \ Класс 4 - Рыцарь -->
+	<fake classId="4" skillsChance="60">
+		<offensiveSkill id="92" priority="1" /> <!-- Shield Stun -->	<!-- TODO: Нужен щит (Requires a shield.) -->
+		<offensiveSkill id="28" priority="2" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<offensiveSkill id="70" priority="3" /> <!-- Drain Health TODO:\\ нужен ли? -->
+		<supportSkill id="82" cond="NONE" value="0" priority="1" /> <!-- Majesty -->
+		<supportSkill id="112" cond="NONE" value="0" priority="2" /> <!-- Deflect Arrow -->
+		<supportSkill id="45" cond="LESSHPPERCENT" value="20" priority="3" /> <!-- Divine Heal -->	<!-- TODO: Собственный хил, нужен ли? -->
+	</fake>
+	<!-- Class 5 - Paladin \ Класс 5 - Паладин -->
+	<fake classId="5" skillsChance="60">
+		<offensiveSkill id="92" priority="1" /> <!-- Shield Stun -->	<!-- TODO: Нужен щит (Requires a shield.) -->
+		<offensiveSkill id="400" priority="2" /> <!-- Tribunal -->
+		<offensiveSkill id="28" priority="3" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<offensiveSkill id="984" priority="4" /> <!-- Shield Strike -->
+		<supportSkill id="82" cond="NONE" value="0" priority="1" /> <!-- Majesty -->
+		<supportSkill id="112" cond="NONE" value="0" priority="2" /> <!-- Deflect Arrow -->
+		<supportSkill id="72" cond="NONE" value="0" priority="3" /> <!-- Iron Will -->
+		<supportSkill id="982" cond="NONE" value="0" priority="4" /> <!-- Combat Aura -->
+		<supportSkill id="45" cond="LESSHPPERCENT" value="20" priority="5" /> <!-- Divine Heal -->	<!-- TODO: Собственный хил, нужен ли? -->
+		<supportSkill id="406" cond="LESSHPPERCENT" value="20" priority="6" /> <!-- Angelic Icon -->	<!-- TODO: Икона -->
+	</fake>
+	<!-- Class 6 - Dark Avenger \ Класс 6 - Мститель -->
+	<fake classId="6" skillsChance="60">
+		<offensiveSkill id="92" priority="1" /> <!-- Shield Stun -->	<!-- TODO: Нужен щит (Requires a shield.) -->
+		<offensiveSkill id="401" priority="2" /> <!-- Judgment -->
+		<offensiveSkill id="28" priority="3" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<offensiveSkill id="984" priority="4" /> <!-- Shield Strike -->
+		<offensiveSkill id="70" priority="5" /> <!-- Drain Health -->
+		<supportSkill id="82" cond="NONE" value="0" priority="1" /> <!-- Majesty -->
+		<supportSkill id="112" cond="NONE" value="0" priority="2" /> <!-- Deflect Arrow -->
+		<supportSkill id="72" cond="NONE" value="0" priority="3" /> <!-- Iron Will -->
+		<supportSkill id="982" cond="NONE" value="0" priority="4" /> <!-- Combat Aura -->
+		<supportSkill id="45" cond="LESSHPPERCENT" value="20" priority="5" /> <!-- Divine Heal -->	<!-- TODO: Собственный хил, нужен ли? -->
+		<supportSkill id="406" cond="LESSHPPERCENT" value="20" priority="6" /> <!-- Angelic Icon -->	<!-- TODO: Икона -->
+	</fake>
+	<!-- Class 7 - Rogue \ Класс 7 - Разбойник -->
+	<fake classId="7" skillsChance="30">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="56" priority="2" /> <!-- Power Shot -->		
+		<offensiveSkill id="96" priority="3" /> <!-- Bleed -->			
+		<offensiveSkill id="101" priority="4" /> <!-- Stun Shot -->		
+		<supportSkill id="111" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Ultimate Evasion -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+	</fake>
+	<!-- Class 8 - Treasure Hunter \ Класс 8 - Искатель сокровищ -->
+	<fake classId="8" skillsChance="70">
+		<offensiveSkill id="263" priority="1" /> <!-- Deadly Blow -->
+		<offensiveSkill id="409" priority="1" /> <!-- Critical Blow -->
+		<offensiveSkill id="96" priority="3" /> <!-- Bleed -->
+		<offensiveSkill id="30" priority="4" /> <!-- Backstab -->		<!-- Бьёт только сзади -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Ultimate Evasion -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+	</fake>
+	<!-- Class 9 - Hawkeye \ Класс 9 - Стрелок -->
+	<fake classId="9" skillsChance="50">
+		<offensiveSkill id="19" priority="1" /> <!-- Double Shot -->
+		<offensiveSkill id="101" priority="2" /> <!-- Stun Shot -->
+		<offensiveSkill id="24" priority="3" /> <!-- Burst Shot -->
+		<offensiveSkill id="56" priority="4" /> <!-- Power Shot -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Ultimate Evasion -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+	</fake>
+	<!-- Class 10 - Human Mystic \ Класс 10 - Мистик -->
+	<fake classId="10" skillsChance="100">
+		<offensiveSkill id="1177" priority="1" /> <!-- Wind Strike -->
+		<offensiveSkill id="1147" priority="2" /> <!-- Vampiric Touch -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 11 - Wizard \ Класс 11 - Маг -->
+	<fake classId="11" skillsChance="100">
+		<offensiveSkill id="1177" priority="1" /> <!-- Wind Strike -->
+		<offensiveSkill id="1147" priority="2" /> <!-- Vampiric Touch -->
+		<offensiveSkill id="1220" priority="3" /> <!-- Blaze -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 12 - Sorcerer \ Класс 12 - Волшебник -->
+	<fake classId="12" skillsChance="100">
+		<offensiveSkill id="1230" priority="1" /> <!-- Prominence -->
+		<supportSkill id="1232" cond="NONE" value="0" priority="1" /> <!-- Blazing Skin -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="10" priority="2" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 13 - Necromancer \ Класс 13 - Некромант -->
+	<fake classId="13" skillsChance="100">
+		<offensiveSkill id="1248" priority="1" /> <!-- Death Spike -->
+		<offensiveSkill id="1234" priority="2" /> <!-- Vampiric Claw -->
+		<offensiveSkill id="1169" priority="3" /> <!-- Curse Fear -->
+		<offensiveSkill id="1263" priority="4" /> <!-- Curse Gloom -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="10" priority="1" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 14 - Warlock \ Класс 14 - Колдун -->
+	<!-- Class 15 - Cleric \ Класс 15 - Клерик -->
+	<!-- Class 16 - Bishop \ Класс 16 - Епископ -->
+	<!-- Class 17 - Prophet \ Класс 17 - Проповедник -->
+	
+	<!-- Elf / Эльфы -->
+	<!-- Class 18 - Elven Fighter \ Класс 18 - Светлый Воин -->
+	<fake classId="18" skillsChance="30">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->	
+		<offensiveSkill id="56" priority="3" /> <!-- Power Shot -->		
+	</fake>
+	<!-- Class 19 - Elven Knight \ Класс 19 - Светлый Рыцарь -->
+	<fake classId="19" skillsChance="30">
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->	
+		<offensiveSkill id="28" priority="3" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="1" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 20 - Temple Knight \ Класс 20 - Рыцарь Евы -->
+	<fake classId="20" skillsChance="50">
+		<offensiveSkill id="984" priority="1" /> <!-- Shield Strike -->
+		<offensiveSkill id="400" priority="2" /> <!-- Tribunal -->
+		<offensiveSkill id="28" priority="3" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<supportSkill id="10" cond="NONE" value="0" priority="1" /> <!-- Summon Storm Cubic -->
+		<supportSkill id="67" cond="NONE" value="0" priority="2" /> <!-- Summon Life Cubic -->
+		<supportSkill id="112" cond="NONE" value="0" priority="3" /> <!-- Deflect Arrow -->
+		<supportSkill id="982" cond="NONE" value="0" priority="4" /> <!-- Combat Aura -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="5" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 21 - Swordsinger \ Класс 21 - Менестрель -->
+	<!-- Class 22 - Elven Scout \ Класс 22 - Разведчик -->
+	<fake classId="22" skillsChance="50">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="56" priority="3" /> <!-- Power Shot -->		
+		<offensiveSkill id="96" priority="4" /> <!-- Bleed -->			
+		<supportSkill id="312" cond="NONE" value="0" priority="1" /> <!-- Vicious Stance -->
+	</fake>
+	<!-- Class 23 - Plainswalker \ Класс 23 - Следопыт -->
+	<fake classId="23" skillsChance="70">
+		<offensiveSkill id="263" priority="1" /> <!-- Deadly Blow -->
+		<offensiveSkill id="321" priority="1" /> <!-- Blinding Blow -->
+		<offensiveSkill id="96" priority="3" /> <!-- Bleed -->
+		<offensiveSkill id="30" priority="4" /> <!-- Backstab -->		<!-- TODO: Должен бить сзади -->
+		<supportSkill id="410" cond="NONE" value="0" priority="1" /> <!-- Mortal Strike -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+	</fake>
+	<!-- Class 24 - Silver Ranger \ Класс 24 - Серебряный Рейнджер -->
+	<fake classId="24" skillsChance="60">
+		<offensiveSkill id="19" priority="1" /> <!-- Double Shot -->
+		<offensiveSkill id="101" priority="2" /> <!-- Stun Shot -->
+		<offensiveSkill id="24" priority="3" /> <!-- Burst Shot -->
+		<offensiveSkill id="413" priority="4" /> <!-- Rapid Fire -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Ultimate Evasion -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="99" cond="NONE" value="0" priority="3" /> <!-- Rapid Shot -->
+	</fake>
+	<!-- Class 25 - Elven Mystic \ Класс 25 - Светлый Мистик -->
+	<fake classId="25" skillsChance="100">
+		<offensiveSkill id="1177" priority="1" /> <!-- Wind Strike -->
+		<offensiveSkill id="1184" priority="2" /> <!-- Ice Bolt -->
+	</fake>
+	<!-- Class 26 - Elven Wizard \ Класс 26 - Светлый Маг -->
+	<fake classId="26" skillsChance="100">
+		<offensiveSkill id="1177" priority="1" /> <!-- Wind Strike -->
+		<offensiveSkill id="1175" priority="2" /> <!-- Aqua Swirl -->
+		<offensiveSkill id="1184" priority="3" /> <!-- Ice Bolt -->
+	</fake>
+	<!-- Class 27 - Spellsinger \ Класс 27 - Певец Заклинаний -->
+	<fake classId="27" skillsChance="100">
+		<offensiveSkill id="1235" priority="1" /> <!-- Hydro Blast -->
+		<offensiveSkill id="1236" priority="2" /> <!-- Frost Bolt -->
+		<offensiveSkill id="1237" priority="3" /> <!-- Ice Dagger -->
+		<offensiveSkill id="1169" priority="4" /> <!-- Curse Fear -->
+		<supportSkill id="1238" cond="NONE" value="0" priority="1" /> <!-- Freezing Skin -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="10" priority="2" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 28 - Elemental Summoner \ Класс 28 - Последователь Стихий -->
+	<!-- Class 29 - Elven Oracle \ Класс 29 - Оракул Евы -->
+	<!-- Class 30 - Elven Elder \ Класс 30 - Мудрец Евы -->
+	
+	<!-- Dark Elf / Тёмные Эльфы -->
+	<!-- Class 31 - Dark Fighter \ Класс 31 - Темный Воин -->
+	<fake classId="31" skillsChance="30">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->	
+		<offensiveSkill id="56" priority="3" /> <!-- Power Shot -->		
+	</fake>
+	<!-- Class 32 - Palus Knight \ Класс 32 - Темный Рыцарь -->
+	<fake classId="32" skillsChance="30">
+		<offensiveSkill id="223" priority="1" /> <!-- Sting -->
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->
+		<offensiveSkill id="28" priority="3" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="1" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 33 - Shillien Knight \ Класс 33 - Рыцарь Шилен -->
+	<fake classId="33" skillsChance="60">
+		<offensiveSkill id="223" priority="1" /> <!-- Sting -->
+		<offensiveSkill id="401" priority="2" /> <!-- Judgment -->
+		<offensiveSkill id="984" priority="3" /> <!-- Shield Strike -->
+		<offensiveSkill id="28" priority="4" /> <!-- Aggression -->		<!-- TODO: Переагривать на себя, надо ли? -->
+		<supportSkill id="33" cond="NONE" value="0" priority="1" /> <!-- Summon Phantom Cubic -->
+		<supportSkill id="22" cond="NONE" value="0" priority="2" /> <!-- Summon Vampiric Cubic -->
+		<supportSkill id="288" cond="NONE" value="0" priority="3" /> <!-- Guard Stance -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="4" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 34 - Bladedancer \ Класс 34 - Танцор смерти -->
+	<!-- Class 35 - Assassin \ Класс 35 - Ассасин -->
+	<fake classId="35" skillsChance="50">
+		<offensiveSkill id="16" priority="1" /> <!-- Mortal Blow -->	
+		<offensiveSkill id="56" priority="3" /> <!-- Power Shot -->		
+		<offensiveSkill id="96" priority="4" /> <!-- Bleed -->			
+		<offensiveSkill id="223" priority="5" /> <!-- Sting -->			
+		<offensiveSkill id="101" priority="6" /> <!-- Stun Shot -->		
+		<supportSkill id="312" cond="NONE" value="0" priority="1" /> <!-- Vicious Stance -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="25" priority="2" /> <!-- Ultimate Evasion -->
+	</fake>
+	<!-- Class 36 - Abyss Walker \ Класс 36 - Странник Бездны -->
+	<fake classId="36" skillsChance="70">
+		<offensiveSkill id="263" priority="1" /> <!-- Deadly Blow -->
+		<offensiveSkill id="321" priority="2" /> <!-- Blinding Blow -->
+		<offensiveSkill id="223" priority="3" /> <!-- Sting -->
+		<offensiveSkill id="96" priority="4" /> <!-- Bleed -->
+		<offensiveSkill id="30" priority="5" /> <!-- Backstab -->		<!-- Бьёт только сзади -->
+		<supportSkill id="410" cond="NONE" value="0" priority="1" /> <!-- Mortal Strike -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="25" priority="3" /> <!-- Ultimate Evasion -->
+	</fake>
+	<!-- Class 37 - Phantom Ranger \ Класс 37 - Призрачный Рейнджер -->
+	<fake classId="37" skillsChance="60">
+		<offensiveSkill id="19" priority="1" /> <!-- Double Shot -->
+		<offensiveSkill id="101" priority="2" /> <!-- Stun Shot -->
+		<offensiveSkill id="314" priority="4" /> <!-- Fatal Counter -->
+		<supportSkill id="111" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Ultimate Evasion -->
+		<supportSkill id="312" cond="NONE" value="0" priority="2" /> <!-- Vicious Stance -->
+		<supportSkill id="414" cond="NONE" value="0" priority="3" /> <!-- Dead Eye -->
+	</fake>
+	<!-- Class 38 - Dark Mystic \ Класс 38 - Темный Мистик -->
+	<fake classId="38" skillsChance="100">
+		<offensiveSkill id="1177" priority="1" /> <!-- Wind Strike -->
+		<offensiveSkill id="1184" priority="2" /> <!-- Ice Bolt -->
+		<offensiveSkill id="1147" priority="2" /> <!-- Vampiric Touch -->
+	</fake>
+	<!-- Class 39 - Dark Wizard \ Класс 39 - Темный Маг -->
+	<fake classId="39" skillsChance="100">
+		<offensiveSkill id="1178" priority="1" /> <!-- Twister -->
+		<offensiveSkill id="1147" priority="2" /> <!-- Vampiric Touch -->
+		<offensiveSkill id="1266" priority="3" /> <!-- Shadow Spark -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="10" priority="1" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 40 - Spellhowler \ Класс 40 - Заклинатель Ветра -->
+	<fake classId="40" skillsChance="100">
+		<offensiveSkill id="1239" priority="1" /> <!-- Hurricane -->
+		<offensiveSkill id="1234" priority="2" /> <!-- Vampiric Claw -->
+		<offensiveSkill id="1267" priority="3" /> <!-- Shadow Flare -->
+		<offensiveSkill id="1074" priority="4" /> <!-- Surrender To Wind -->
+		<offensiveSkill id="1169" priority="5" /> <!-- Curse Fear -->
+		<offensiveSkill id="1294" priority="6" /> <!-- Elemental Storm -->
+		<supportSkill id="1015" cond="LESSHPPERCENT" value="10" priority="1" /> <!-- Battle Heal -->
+	</fake>
+	<!-- Class 41 - Phantom Summoner \ Класс 41 - Последователь Тьмы -->
+	<!-- Class 42 - Shillien Oracle \ Класс 42 - Оракул Шилен -->
+	<!-- Class 43 - Shillien Elder \ Класс 43 - Мудрец Шилен -->
+	
+	<!-- Orc / Орки -->
+	<!-- Class 44 - Orc Fighter \ Класс 44 - Орк Боец -->
+	<fake classId="44" skillsChance="30">
+		<offensiveSkill id="29" priority="1" /> <!-- Iron Punch -->
+		<offensiveSkill id="3" priority="2" /> <!-- Power Strike -->
+	</fake>
+	<!-- Class 45 - Raider \ Класс 45 - Налетчик -->
+	<fake classId="45" skillsChance="40">
+		<offensiveSkill id="100" priority="1" /> <!-- Stun Attack -->
+		<offensiveSkill id="255" priority="2" /> <!-- Power Smash -->
+		<offensiveSkill id="245" priority="3" /> <!-- Wild Sweep -->
+		<supportSkill id="312" cond="NONE" value="0" priority="1" /> <!-- Vicious Stance -->
+		<supportSkill id="121" cond="LESSHPPERCENT" value="70" priority="2" /> <!-- Battle Roar -->
+		<supportSkill id="139" cond="LESSHPPERCENT" value="30" priority="3" /> <!-- Guts -->
+	</fake>
+	<!-- Class 46 - Destroyer \ Класс 46 - Разрушитель -->
+	<fake classId="46" skillsChance="50">
+		<offensiveSkill id="190" priority="1" /> <!-- Fatal Strike -->
+		<offensiveSkill id="260" priority="2" /> <!-- Hammer Crush -->
+		<offensiveSkill id="36" priority="3" /> <!-- Whirlwind -->
+		<offensiveSkill id="315" priority="4" /> <!-- Crush of Doom -->
+		<supportSkill id="312" cond="NONE" value="0" priority="1" /> <!-- Vicious Stance -->
+		<supportSkill id="121" cond="LESSHPPERCENT" value="70" priority="2" /> <!-- Battle Roar -->
+		<supportSkill id="139" cond="LESSHPPERCENT" value="30" priority="3" /> <!-- Guts -->
+		<supportSkill id="420" cond="LESSHPPERCENT" value="30" priority="4" /> <!-- Zealot -->
+	</fake>
+	<!-- Class 47 - Monk \ Класс 47 - Монах -->
+	<fake classId="47" skillsChance="50">
+		<offensiveSkill id="29" priority="1" /> <!-- Iron Punch -->
+		<offensiveSkill id="120" priority="2" /> <!-- Stunning Fist -->
+		<offensiveSkill id="54" priority="3" /> <!-- Force Blaster -->
+		<offensiveSkill id="284" priority="4" /> <!-- Hurricane Assault -->
+	</fake>
+	<!-- Class 48 - Tyrant \ Класс 48 - Тиран -->
+	<fake classId="48" skillsChance="60">
+		<offensiveSkill id="281" priority="1" /> <!-- Soul Breaker -->
+		<offensiveSkill id="17" priority="2" /> <!-- Force Burst -->
+		<offensiveSkill id="280" priority="3" /> <!-- Burning Fist -->
+		<offensiveSkill id="284" priority="4" /> <!-- Hurricane Assault -->
+		<offensiveSkill id="81" priority="5" /> <!-- Punch of Doom -->
+		<offensiveSkill id="35" priority="6" /> <!-- Force Storm -->
+		<supportSkill id="420" cond="LESSHPPERCENT" value="30" priority="1" /> <!-- Zealot -->
+	</fake>
+	<!-- Class 49 - Orc Mystic \ Класс 49 - Орк Адепт -->
+	<fake classId="49" skillsChance="30">
+		<offensiveSkill id="1090" priority="1" /> <!-- Life Drain -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+	</fake>
+	<!-- Class 50 - Shaman \ Класс 50 - Шаман -->
+	<fake classId="50" skillsChance="30">
+		<offensiveSkill id="100" priority="1" /> <!-- Stun Attack -->
+		<offensiveSkill id="1090" priority="2" /> <!-- Life Drain -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+		<supportSkill id="1229" cond="LESSHPPERCENT" value="20" priority="2" /> <!-- Chant of Life -->
+	</fake>
+	<!-- Class 51 - Overlord \ Класс 51 - Верховный Шаман -->
+	<!-- TODO: Нужны ли массдебафы? Нужны ли бафы? -->
+	<fake classId="51" skillsChance="40">
+		<offensiveSkill id="260" priority="1" /> <!-- Hammer Crush -->
+		<offensiveSkill id="100" priority="2" /> <!-- Stun Attack -->
+		<offensiveSkill id="927" priority="3" /> <!-- Burning Chop -->
+		<offensiveSkill id="1245" priority="4" /> <!-- Steal Essence -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+		<supportSkill id="1283" cond="NONE" value="0" priority="2" /> <!-- Soul Guard -->
+		<supportSkill id="1256" cond="LESSHPPERCENT" value="30" priority="3" /> <!-- The Heart of Pa'agrio -->
+		<supportSkill id="1306" cond="MISSINGCP" value="500" priority="4" /> <!-- Ritual of Life -->
+		<supportSkill id="1305" cond="MISSINGCP" value="1000" priority="5" /> <!-- The Honor of Pa'agrio -->
+	</fake>
+	<!-- Class 52 - Warcryer \ Класс 52 - Вестник Войны -->
+	<!-- TODO: Реализована часть бафов для война -->
+	<fake classId="52" skillsChance="40">
+		<offensiveSkill id="260" priority="1" /> <!-- Hammer Crush -->
+		<offensiveSkill id="100" priority="2" /> <!-- Stun Attack -->
+		<offensiveSkill id="927" priority="3" /> <!-- Burning Chop -->
+		<offensiveSkill id="1245" priority="4" /> <!-- Steal Essence -->
+		<offensiveSkill id="1244" priority="5" /> <!-- Freezing Flame -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+		<supportSkill id="1310" cond="NONE" value="0" priority="2" /> <!-- Chant of Vampire -->
+		<supportSkill id="1390" cond="NONE" value="0" priority="3" /> <!-- War Chant -->
+		<supportSkill id="1284" cond="NONE" value="0" priority="4" /> <!-- Chant of Revenge -->
+		<supportSkill id="1308" cond="NONE" value="0" priority="5" /> <!-- Chant of Predator -->
+		<supportSkill id="1309" cond="NONE" value="0" priority="6" /> <!-- Chant of Eagle -->
+		<supportSkill id="1229" cond="LESSHPPERCENT" value="30" priority="7" /> <!-- Chant of Life -->
+	</fake>
+	
+	<!-- Dwarf / Гномы -->
+	<!-- TODO: Реализованы под одноручный блант и щит -->
+	<!-- TODO: Скилл 444 не реализован на L2OFF -->
+	<!-- Class 53 - Dwarven Fighter \ Класс 53 - Подмастерье -->
+	<fake classId="53" skillsChance="100">
+		<offensiveSkill id="254" priority="1" /> <!-- Spoil -->
+		<offensiveSkill id="42" priority="2" /> <!-- Sweeper -->
+	</fake>
+	<!-- Class 54 - Scavenger \ Класс 54 - Собиратель -->
+	<fake classId="54" skillsChance="90">
+		<offensiveSkill id="254" priority="1" /> <!-- Spoil -->
+		<offensiveSkill id="42" priority="2" /> <!-- Sweeper -->
+		<offensiveSkill id="100" priority="3" /> <!-- Stun Attack -->
+	<!-- <offensiveSkill id="444" priority="4" /> --> <!-- Sweeper Festival -->
+	</fake>
+	<!-- Class 55 - Bounty Hunter \ Класс 55 - Охотник За Наградой -->
+	<fake classId="55" skillsChance="70">
+		<offensiveSkill id="254" priority="1" /> <!-- Spoil -->
+		<offensiveSkill id="42" priority="2" /> <!-- Sweeper -->
+		<offensiveSkill id="997" priority="3" /> <!-- Crushing Strike -->
+		<offensiveSkill id="260" priority="4" /> <!-- Hammer Crush -->
+		<offensiveSkill id="190" priority="5" /> <!-- Fatal Strike -->
+	<!-- <offensiveSkill id="444" priority="1" /> --> <!-- Sweeper Festival -->
+	</fake>
+	<!-- Class 56 - Artisan \ Класс 56 - Ремесленник -->
+	<fake classId="56" skillsChance="50">
+		<offensiveSkill id="100" priority="1" /> <!-- Stun Attack -->
+	</fake>
+	<!-- Class 57 - Warsmith \ Класс 57 - Кузнец -->
+	<fake classId="57" skillsChance="60">
+		<offensiveSkill id="100" priority="1" /> <!-- Stun Attack -->
+		<offensiveSkill id="260" priority="2" /> <!-- Hammer Crush -->
+		<offensiveSkill id="190" priority="3" /> <!-- Fatal Strike -->
+		<supportSkill id="1561" cond="LESSHPPERCENT" value="30" priority="1" /> <!-- Battle Cry -->
+	</fake>
+	
+	<!-- 3 ПРОФНЫЕ БОТЫ -->
+	
+	<!-- Class 88 - Duelist \ Класс 88 - Дуэлист-->
+	<fake classId="88" skillsChance="60">
+		<offensiveSkill id="345" priority="1" /> <!-- Sonic Rage -->
+		<offensiveSkill id="261" priority="2" /> <!-- Triple Sonic Slash -->
+		<offensiveSkill id="5" priority="3" /> <!-- Double Sonic Slash -->
+		<offensiveSkill id="6" priority="4" /> <!-- Sonic Blaster -->
+		<offensiveSkill id="1" priority="5" /> <!-- Triple Slash -->
+		<supportSkill id="297" cond="NONE" value="0" priority="1" /> <!-- Duelist Spirit -->
+		<supportSkill id="440" cond="MISSINGCP" value="1000" priority="2" /> <!-- Braveheart -->
+	</fake>
+	<!-- Class 89 - Dreadnought \ Класс 89 - Полководец-->
+	<fake classId="89" skillsChance="30">
+		<offensiveSkill id="361" priority="1" /> <!-- Shock Blast -->
+		<offensiveSkill id="347" priority="2" /> <!-- Earthquake -->
+		<offensiveSkill id="48" priority="3" /> <!-- Thunder Storm -->
+		<offensiveSkill id="452" priority="4" /> <!-- Shock Stomp -->
+		<offensiveSkill id="36" priority="5" /> <!-- Whirlwind -->
+		<supportSkill id="440" cond="MISSINGCP" value="1000" priority="1" /> <!-- Braveheart -->
+	</fake>
+	<!-- Class 90 - Phoenix Knight \ Класс 89 - Рыцарь Феникса-->
+	<!-- Class 91 - Hell Knight \ Класс 91 - Рыцарь Ада -->
+	<fake classId="91" skillsChance="30">
+		<offensiveSkill id="92" priority="1" /> <!-- Shield Stun -->
+		<offensiveSkill id="401" priority="2" /> <!-- Judgment -->
+		<offensiveSkill id="353" priority="3" /> <!-- Shield Slam -->
+		<offensiveSkill id="984" priority="4" /> <!-- Shield Strike -->
+		<offensiveSkill id="70" priority="5" /> <!-- Drain Health -->
+		<supportSkill id="112" cond="NONE" value="0" priority="1" /> <!-- Deflect Arrow -->
+		<supportSkill id="72" cond="NONE" value="0" priority="2" /> <!-- Iron Will -->
+		<supportSkill id="291" cond="LESSHPPERCENT" value="30" priority="3" /> <!-- Final Fortress -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="4" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 92 - Sagittarius \ Класс 92 - Снайпер-->
+	<fake classId="92" skillsChance="20">
+		<offensiveSkill id="101" priority="1" /> <!-- Stun Shot -->
+		<offensiveSkill id="343" priority="2" /> <!-- Lethal Shot -->
+		<supportSkill id="99" cond="NONE" value="0" priority="1" /> <!-- Rapid Shot -->
+	</fake>
+	<!-- Class 93 - Adventurer \ Класс 93 - Авантюрист-->
+	<fake classId="93" skillsChance="50">
+		<offensiveSkill id="263" priority="4" /> <!-- Deadly Blow -->
+		<offensiveSkill id="12" priority="1" /> <!-- Switch -->
+		<offensiveSkill id="11" priority="2" /> <!-- Trick -->
+		<offensiveSkill id="4" priority="3" /> <!-- Dash -->
+		<offensiveSkill id="409" priority="5" /> <!-- Critical Blow -->
+		<offensiveSkill id="344" priority="6" /> <!-- Lethal Blow -->
+		<offensiveSkill id="358" priority="7" /> <!-- Bluff -->
+	</fake>
+	<!-- Class 94 - Archmage \ Класс 94 - Архимаг -->
+	<fake classId="94" skillsChance="100">
+		<offensiveSkill id="1230" priority="1" /> <!-- Prominence -->
+		<offensiveSkill id="1339" priority="2" /> <!-- Fire Vortex -->
+	</fake>
+	<!-- Class 95 - Soultaker \ Класс 95 - Пожиратель Душ -->
+	<fake classId="95" skillsChance="100">
+		<offensiveSkill id="1234" priority="1" /> <!-- Vampiric Claw -->
+		<offensiveSkill id="1148" priority="2" /> <!-- Death Spike -->
+		<offensiveSkill id="1343" priority="3" /> <!-- Dark Vortex -->
+	</fake>
+	<!-- Class 96 - Arcana Lord \ Класс 96 - Чернокнижник -->
+	<!-- Class 97 - Cardinal \ Класс 97 - Кардинал -->
+	<fake classId="97" skillsChance="100">
+		<healSkill id="1218" value="70" priority="1" /> <!-- Greater Battle Heal -->
+		<healSkill id="1217" value="80" priority="2" /> <!-- Greater Heal -->
+	</fake>
+	<!-- Class 98 - Hierophant \ Класс 98 - Апостол -->
+	<!-- Class 99 - Eva's Templar \ Класс 99 - Храмовник Евы -->
+	<!-- Class 100 - Sword Muse \ Класс 100 - Виртуоз -->
+	<!-- Class 101 - Wind Rider \ Класс 101 - Странник Ветра -->
+	<fake classId="101" skillsChance="60">
+		<offensiveSkill id="263" priority="1" /> <!-- Deadly Blow -->
+		<offensiveSkill id="12" priority="2" /> <!-- Switch -->
+		<offensiveSkill id="410" priority="3" /> <!-- Mortal Strike -->
+		<offensiveSkill id="102" priority="4" /> <!-- Entangle -->
+		<offensiveSkill id="321" priority="5" /> <!-- Blinding Blow -->
+		<offensiveSkill id="344" priority="6" /> <!-- Lethal Blow -->
+		<offensiveSkill id="358" priority="7" /> <!-- Bluff -->
+	</fake>
+	<!-- Class 102 - Moonlight Sentinel \ Класс 102 - Страж Лунного Света -->
+	<fake classId="102" skillsChance="20">
+		<offensiveSkill id="101" priority="1" /> <!-- Stun Shot -->
+		<offensiveSkill id="343" priority="2" /> <!-- Lethal Shot -->
+		<supportSkill id="99" cond="NONE" value="0" priority="1" /> <!-- Rapid Shot -->
+	</fake>
+	<!-- Class 103 - Mystic Muse \ Класс 103 - Магистр Магии -->
+	<fake classId="103" skillsChance="100">
+		<offensiveSkill id="1235" priority="4" /> <!-- Hydro Blast -->
+		<offensiveSkill id="1340" priority="3" /> <!-- Ice Vortex -->
+		<offensiveSkill id="1342" priority="2" /> <!-- Light Vortex -->
+		<offensiveSkill id="1265" priority="1" /> <!-- Solar Flare -->
+	</fake>
+	<!-- Class 104 - Elemental Master \ Класс 104 - Мастер Стихий -->
+	<!-- Class 105 - Eva's Saint \ Класс 105 - Жрец Евы -->
+	<!-- Class 106 - Shillien Templar \ Класс 106 - Храмовник Шилен -->
+	<fake classId="106" skillsChance="30">
+		<offensiveSkill id="223" priority="1" /> <!-- Sting -->
+		<offensiveSkill id="401" priority="2" /> <!-- Judgment -->
+		<offensiveSkill id="984" priority="3" /> <!-- Shield Strike -->
+		<offensiveSkill id="122" priority="4" /> <!-- Hex -->
+		<offensiveSkill id="70" priority="5" /> <!-- Drain Health -->
+		<supportSkill id="112" cond="NONE" value="0" priority="1" /> <!-- Deflect Arrow -->
+		<supportSkill id="291" cond="LESSHPPERCENT" value="30" priority="2" /> <!-- Final Fortress -->
+		<supportSkill id="110" cond="LESSHPPERCENT" value="25" priority="3" /> <!-- Ultimate Defense -->
+	</fake>
+	<!-- Class 107 - Spectral Dancer \ Класс 107 - Призрачный Танцор -->
+	<!-- Class 108 - Ghost Hunter \ Класс 108 - Призрачный охотник -->
+	<fake classId="108" skillsChance="60">
+		<offensiveSkill id="263" priority="4" /> <!-- Deadly Blow -->
+		<offensiveSkill id="122" priority="3" /> <!-- Hex -->
+		<offensiveSkill id="11" priority="2" /> <!-- Trick -->
+		<offensiveSkill id="410" priority="5" /> <!-- Mortal Strike -->
+		<offensiveSkill id="12" priority="1" /> <!-- Switch -->
+		<offensiveSkill id="321" priority="8" /> <!-- Blinding Blow -->
+		<offensiveSkill id="344" priority="7" /> <!-- Lethal Blow -->
+		<offensiveSkill id="358" priority="6" /> <!-- Bluff -->
+	</fake>
+	<!-- Class 109 - Ghost Sentinel \ Класс 109 - Страж Теней -->
+	<fake classId="109" skillsChance="20">
+		<offensiveSkill id="101" priority="1" /> <!-- Stun Shot -->
+		<offensiveSkill id="343" priority="2" /> <!-- Lethal Shot -->
+		<supportSkill id="99" cond="NONE" value="0" priority="1" /> <!-- Rapid Shot -->
+	</fake>
+	<!-- Class 110 - Storm Screamer \ Класс 110 - Повелитель Бури -->
+	<fake classId="110" skillsChance="100">
+		<offensiveSkill id="1341" priority="1" /> <!-- Wind Vortex -->
+		<offensiveSkill id="1343" priority="2" /> <!-- Dark Vortex -->
+		<offensiveSkill id="1234" priority="3" /> <!-- Vampiric Claw -->
+		<offensiveSkill id="1239" priority="4" /> <!-- Hurricane -->
+	</fake>
+	<!-- Class 111 - Spectral Master \ Класс 111 - Владыка Теней -->
+	<!-- Class 112 - Shillien Saint \ Класс 112 - Жрец Шилен -->
+	<!-- Class 113 - Titan \ Класс 113 - Титан -->
+	<fake classId="113" skillsChance="50">
+		<offensiveSkill id="315" priority="1" /> <!-- Crush of Doom -->
+		<offensiveSkill id="190" priority="2" /> <!-- Fatal Strike -->
+		<offensiveSkill id="362" priority="3" /> <!-- Armor Crush -->
+		<supportSkill id="139" cond="LESSHPPERCENT" value="30" priority="1" /> <!-- Guts -->
+		<supportSkill id="176" cond="LESSHPPERCENT" value="30" priority="2" /> <!-- Frenzy -->
+	</fake>
+	<!-- Class 114 - Grand Khavatari \ Класс 114 - Аватар -->
+	<fake classId="114" skillsChance="50">
+		<offensiveSkill id="284" priority="1" /> <!-- Hurricane Assault -->
+		<offensiveSkill id="281" priority="2" /> <!-- Soul Breaker -->
+		<offensiveSkill id="280" priority="3" /> <!-- Burning Fist -->
+		<offensiveSkill id="54" priority="4" /> <!-- Force Blaster -->
+		<offensiveSkill id="346" priority="5" /> <!-- Raging Force -->
+	</fake>
+	<!-- Class 115 - Dominator \ Класс 115 - Деспот -->
+	<!-- TODO Реализовать скиллы -->
+	<fake classId="115" skillsChance="60">
+		<offensiveSkill id="260" priority="1" /> <!-- Hammer Crush -->
+		<offensiveSkill id="100" priority="2" /> <!-- Stun Attack -->
+		<offensiveSkill id="927" priority="3" /> <!-- Burning Chop -->
+		<offensiveSkill id="1245" priority="4" /> <!-- Steal Essence -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+		<supportSkill id="1283" cond="NONE" value="0" priority="2" /> <!-- Soul Guard -->
+		<supportSkill id="1256" cond="LESSHPPERCENT" value="30" priority="3" /> <!-- The Heart of Pa'agrio -->
+		<supportSkill id="1306" cond="MISSINGCP" value="500" priority="4" /> <!-- Ritual of Life -->
+		<supportSkill id="1305" cond="MISSINGCP" value="1000" priority="5" /> <!-- The Honor of Pa'agrio -->
+	</fake>
+	<!-- Class 116 - Doomcryer \ Класс 115 - Глас Судьбы -->
+	<!-- TODO Реализовать скиллы -->
+	<fake classId="115" skillsChance="60">
+		<offensiveSkill id="260" priority="1" /> <!-- Hammer Crush -->
+		<offensiveSkill id="100" priority="2" /> <!-- Stun Attack -->
+		<offensiveSkill id="927" priority="3" /> <!-- Burning Chop -->
+		<offensiveSkill id="1245" priority="4" /> <!-- Steal Essence -->
+		<offensiveSkill id="1244" priority="5" /> <!-- Freezing Flame -->
+		<supportSkill id="1001" cond="NONE" value="0" priority="1" /> <!-- Soul Cry -->
+		<supportSkill id="1310" cond="NONE" value="0" priority="2" /> <!-- Chant of Vampire -->
+		<supportSkill id="1390" cond="NONE" value="0" priority="3" /> <!-- War Chant -->
+		<supportSkill id="1284" cond="NONE" value="0" priority="4" /> <!-- Chant of Revenge -->
+		<supportSkill id="1308" cond="NONE" value="0" priority="5" /> <!-- Chant of Predator -->
+		<supportSkill id="1309" cond="NONE" value="0" priority="6" /> <!-- Chant of Eagle -->
+		<supportSkill id="1229" cond="LESSHPPERCENT" value="30" priority="7" /> <!-- Chant of Life -->
+	</fake>
+	<!-- Class 117 - Fortune Seeker \ Класс 117 - Кладоискатель -->
+	<fake classId="117" skillsChance="40">
+		<offensiveSkill id="263" priority="1" /> <!-- Deadly Blow -->
+		<offensiveSkill id="998" priority="3" /> <!-- Blazing Boost -->
+		<offensiveSkill id="30" priority="2" /> <!-- Backstab -->
+		<supportSkill id="440" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Braveheart -->
+	</fake>
+	<!-- Class 118 - Maestro \ Класс 118 - Мастер -->
+	<fake classId="118" skillsChance="40">
+		<offensiveSkill id="260" priority="1" /> <!-- Hammer Crush -->
+		<offensiveSkill id="190" priority="2" /> <!-- Fatal Strike -->
+		<offensiveSkill id="994" priority="3" /> <!-- Rush -->
+		<offensiveSkill id="362" priority="4" /> <!-- Armor Crush -->
+		<supportSkill id="440" cond="LESSHPPERCENT" value="20" priority="1" /> <!-- Braveheart -->
+		<supportSkill id="1561" cond="LESSHPPERCENT" value="15" priority="2" /> <!-- Battle Cry -->
+	</fake>
+
+	<!-- ################ -->
+	<!-- KAMAEL / КАМАЭЛЬ -->
+	<!-- ################ -->
+	
+	<!-- Class 123 - Kamael Male Soldier \ Класс 123 - Грешник -->
+	<fake classId="123" skillsChance="40">
+		<offensiveSkill id="468" priority="1" /> <!-- Fallen Attack -->
+		<offensiveSkill id="1431" priority="2" /> <!-- Fallen Arrow -->
+	</fake>
+	<!-- Class 124 - Kamael Female Soldier \ Класс 124 - Грешница -->
+	<fake classId="124" skillsChance="40">
+		<offensiveSkill id="468" priority="1" /> <!-- Fallen Attack -->
+		<offensiveSkill id="1431" priority="2" /> <!-- Fallen Arrow -->
+	</fake>
+	<!-- Class 125 - Trooper \ Класс 125 - 3333333333333333 -->
+	<fake classId="125" skillsChance="40">
+		<offensiveSkill id="476" priority="1" /> <!-- Dark Strike -->
+		<offensiveSkill id="1431" priority="2" /> <!-- Fallen Arrow -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="483" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Sword Shield -->
+	</fake>
+	<!-- Class 126 - Warder \ Класс 126 - 33333333333333 -->
+	<fake classId="126" skillsChance="40">
+		<offensiveSkill id="478" priority="1" /> <!-- Double Thrust -->
+		<offensiveSkill id="487" priority="2" /> <!-- Penetrating Shot -->
+		<offensiveSkill id="627" priority="2" /> <!-- Soul Shock -->
+		<offensiveSkill id="1433" priority="5" /> <!-- Abyssal Blaze -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="622" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Ultimate Escape -->
+	</fake>
+	<!-- Class 127 - Berserker \ Класс 125 - Берсерк -->
+	<!-- TODO: Двуручный древний меч -->
+	<fake classId="127" skillsChance="60">
+		<offensiveSkill id="477" priority="1" /> <!-- Dark Smash -->
+		<offensiveSkill id="494" priority="2" /> <!-- Shoulder Charge -->
+		<offensiveSkill id="501" priority="3" /> <!-- Violent Temper -->
+		<offensiveSkill id="496" priority="4" /> <!-- Slashing Blade -->
+		<offensiveSkill id="493" priority="5" /> <!-- Storm Assault -->
+		<offensiveSkill id="497" priority="6" /> <!-- Crush of Pain -->
+		<offensiveSkill id="495" priority="7" /> <!-- Blade Rush -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="500" cond="NONE" value="0" priority="5" /> <!-- True Berserker -->
+		<supportSkill id="626" cond="NONE" value="0" priority="6" /> <!-- Critical Sense -->
+		<supportSkill id="483" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Sword Shield -->
+		<supportSkill id="833" cond="LESSHPPERCENT" value="7" priority="2" /> <!-- Body Reconstruction -->
+	</fake>
+	<!-- Class 128 - Soul Breaker [Male] \ Класс 125 - 3333333333 -->
+	<!-- TODO: Рапира \ войн \ маг -->
+	<fake classId="128" skillsChance="20">
+		<offensiveSkill id="1436" priority="1" /> <!-- Soul of Pain -->
+		<offensiveSkill id="1435" priority="2" /> <!-- Death Mark -->
+		<offensiveSkill id="1437" priority="3" /> <!-- Dark Flame -->
+		<offensiveSkill id="1438" priority="4" /> <!-- Annihilation Circle -->
+		<offensiveSkill id="1439" priority="5" /> <!-- Curse of Divinity -->
+		<offensiveSkill id="1448" priority="6" /> <!-- Blink -->
+		<offensiveSkill id="504" priority="7" /> <!-- Triple Thrust -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="1443" cond="NONE" value="0" priority="5" /> <!-- Dark Weapon -->
+		<supportSkill id="1442" cond="NONE" value="0" priority="6" /> <!-- Protection from Darkness -->
+		<supportSkill id="1444" cond="NONE" value="0" priority="7" /> <!-- Pride of Kamael -->
+		<supportSkill id="626" cond="NONE" value="0" priority="8" /> <!-- Critical Sense -->
+		<supportSkill id="483" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Sword Shield -->
+	</fake>
+	<!-- Class 129 - Soul Breaker [Female] \ Класс 125 - 3333333333 -->
+	<!-- TODO: Рапира \ войн \ маг -->
+	<fake classId="128" skillsChance="70">
+		<offensiveSkill id="1436" priority="1" /> <!-- Soul of Pain -->
+		<offensiveSkill id="1435" priority="2" /> <!-- Death Mark -->
+		<offensiveSkill id="1437" priority="3" /> <!-- Dark Flame -->
+		<offensiveSkill id="1438" priority="4" /> <!-- Annihilation Circle -->
+		<offensiveSkill id="1439" priority="5" /> <!-- Curse of Divinity -->
+		<offensiveSkill id="1448" priority="6" /> <!-- Blink -->
+		<offensiveSkill id="504" priority="7" /> <!-- Triple Thrust -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="1443" cond="NONE" value="0" priority="5" /> <!-- Dark Weapon -->
+		<supportSkill id="1442" cond="NONE" value="0" priority="6" /> <!-- Protection from Darkness -->
+		<supportSkill id="1444" cond="NONE" value="0" priority="7" /> <!-- Pride of Kamael -->
+		<supportSkill id="626" cond="NONE" value="0" priority="8" /> <!-- Critical Sense -->
+		<supportSkill id="622" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Ultimate Escape -->
+	</fake>
+	<!-- Class 130 - Arbalester \ Класс 126 - 33333333333333 -->
+	<!-- TODO: Арбалет -->
+	<fake classId="130" skillsChance="40">
+		<offensiveSkill id="522" priority="1" /> <!-- Real Target -->
+		<offensiveSkill id="627" priority="2" /> <!-- Soul Shock -->
+		<offensiveSkill id="507" priority="3" /> <!-- Twin Shot -->
+		<offensiveSkill id="508" priority="4" /> <!-- Rising Shot -->
+		<supportSkill id="490" cond="NONE" value="0" priority="1" /> <!-- Fast Shot -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="626" cond="NONE" value="0" priority="5" /> <!-- Critical Sense -->
+		<supportSkill id="622" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Ultimate Escape -->
+	</fake>
+	<!-- Class 131 - Doombringer \ Класс 125 - Берсерк -->
+	<!-- TODO: Двуручный древний меч -->
+	<fake classId="131" skillsChance="60">
+		<offensiveSkill id="495" priority="1" /> <!-- Rush Impact -->
+		<offensiveSkill id="501" priority="2" /> <!-- Violent Temper -->
+		<offensiveSkill id="526" priority="3" /> <!-- Enuma Elish -->
+		<offensiveSkill id="497" priority="4" /> <!-- Crush of Pain -->
+		<offensiveSkill id="496" priority="5" /> <!-- Slashing Blade -->
+		<offensiveSkill id="477" priority="6" /> <!-- Dark Smash -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="500" cond="NONE" value="0" priority="5" /> <!-- True Berserker -->
+		<supportSkill id="626" cond="NONE" value="0" priority="6" /> <!-- Critical Sense -->
+		<supportSkill id="483" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Sword Shield -->
+		<supportSkill id="833" cond="LESSHPPERCENT" value="7" priority="2" /> <!-- Body Reconstruction -->
+	</fake>
+	<!-- Class 132 - Soul Breaker [Male] \ Класс 125 - 3333333333 -->
+	<!-- TODO: Рапира \ войн \ маг -->
+	<fake classId="132" skillsChance="20">
+		<offensiveSkill id="1436" priority="1" /> <!-- Soul of Pain -->
+		<offensiveSkill id="1435" priority="2" /> <!-- Death Mark -->
+		<offensiveSkill id="1437" priority="3" /> <!-- Dark Flame -->
+		<offensiveSkill id="791" priority="5" /> <!-- Lightning Shock -->
+		<offensiveSkill id="1438" priority="6" /> <!-- Annihilation Circle -->
+		<offensiveSkill id="1439" priority="7" /> <!-- Curse of Divinity -->
+		<offensiveSkill id="1448" priority="8" /> <!-- Blink -->
+		<offensiveSkill id="504" priority="9" /> <!-- Triple Thrust -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="1515" cond="NONE" value="0" priority="5" /> <!-- Lightning Barrier -->
+		<supportSkill id="1443" cond="NONE" value="0" priority="6" /> <!-- Dark Weapon -->
+		<supportSkill id="1442" cond="NONE" value="0" priority="7" /> <!-- Protection from Darkness -->
+		<supportSkill id="1444" cond="NONE" value="0" priority="8" /> <!-- Pride of Kamael -->
+		<supportSkill id="626" cond="NONE" value="0" priority="9" /> <!-- Critical Sense -->
+		<supportSkill id="483" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Sword Shield -->
+	</fake>
+	<!-- Class 133 - Soul Hound [Female] \ Класс 125 - 3333333333 -->
+	<!-- TODO: Рапира \ войн \ маг -->
+	<fake classId="133" skillsChance="70">
+		<offensiveSkill id="1436" priority="1" /> <!-- Soul of Pain -->
+		<offensiveSkill id="1435" priority="2" /> <!-- Death Mark -->
+		<offensiveSkill id="1437" priority="3" /> <!-- Dark Flame -->
+		<offensiveSkill id="1516" priority="4" /> <!-- Soul Strike -->
+		<offensiveSkill id="791" priority="5" /> <!-- Lightning Shock -->
+		<offensiveSkill id="1438" priority="6" /> <!-- Annihilation Circle -->
+		<offensiveSkill id="1439" priority="7" /> <!-- Curse of Divinity -->
+		<offensiveSkill id="1448" priority="8" /> <!-- Blink -->
+		<offensiveSkill id="1512" priority="9" /> <!-- Soul Vortex -->
+		<supportSkill id="475" cond="NONE" value="0" priority="1" /> <!-- Strike Back -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="1515" cond="NONE" value="0" priority="5" /> <!-- Lightning Barrier -->
+		<supportSkill id="1443" cond="NONE" value="0" priority="6" /> <!-- Dark Weapon -->
+		<supportSkill id="1442" cond="NONE" value="0" priority="7" /> <!-- Protection from Darkness -->
+		<supportSkill id="1444" cond="NONE" value="0" priority="8" /> <!-- Pride of Kamael -->
+		<supportSkill id="626" cond="NONE" value="0" priority="9" /> <!-- Critical Sense -->
+		<supportSkill id="622" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Ultimate Escape -->
+	</fake>
+	<!-- Class 134 - Arbalester \ Класс 126 - 33333333333333 -->
+	<!-- TODO: Арбалет -->
+	<fake classId="134" skillsChance="40">
+		<offensiveSkill id="522" priority="1" /> <!-- Real Target -->
+		<offensiveSkill id="627" priority="2" /> <!-- Soul Shock -->
+		<offensiveSkill id="507" priority="3" /> <!-- Twin Shot -->
+		<offensiveSkill id="508" priority="4" /> <!-- Rising Shot -->
+		<offensiveSkill id="987" priority="5" /> <!-- Multiple Shot -->
+		<offensiveSkill id="990" priority="6" /> <!-- Death Shot -->
+		<supportSkill id="490" cond="NONE" value="0" priority="1" /> <!-- Fast Shot -->
+		<supportSkill id="481" cond="NONE" value="0" priority="2" /> <!-- Dark Armor -->
+		<supportSkill id="480" cond="NONE" value="0" priority="3" /> <!-- Dark Blade -->
+		<supportSkill id="479" cond="NONE" value="0" priority="4" /> <!-- Hard March -->
+		<supportSkill id="626" cond="NONE" value="0" priority="5" /> <!-- Critical Sense -->
+		<supportSkill id="622" cond="LESSHPPERCENT" value="15" priority="1" /> <!-- Ultimate Escape -->
+	</fake>
+</list>

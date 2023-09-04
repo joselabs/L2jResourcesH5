@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10285" nameEn="Meeting Sirra" nameRu="Встреча с Сиррой">
+		<expirience>
+			<rewardExp val="939075" rateable="true" />
+			<rewardSp val="83855" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="283425" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

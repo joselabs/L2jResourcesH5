@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event id="5" name="Elpies" activate="false">
+	<time pattern="0 18 * * 7" period="2" /><!-- Period calc in minutes -->
+	<spawnlist>
+		<territory name="Aden">
+			<add x="148568" y="26584" zmin="-2210" zmax="-2180" />
+			<add x="148584" y="27400" zmin="-2210" zmax="-2180" />
+			<add x="146360" y="27384" zmin="-2210" zmax="-2180" />
+			<add x="146360" y="26568" zmin="-2210" zmax="-2180" />
+		</territory>
+		<territory name="Gludin">
+			<add x="-82888" y="150216" zmin="-3130" zmax="-3100" />
+			<add x="-81256" y="150216" zmin="-3130" zmax="-3100" />
+			<add x="-81256" y="151560" zmin="-3130" zmax="-3100" />
+			<add x="-82872" y="151592" zmin="-3130" zmax="-3100" />
+		</territory>
+		<territory name="Hunters Village">
+			<add x="116680" y="77288" zmin="-2720" zmax="-2670" />
+			<add x="115752" y="76024" zmin="-2720" zmax="-2670" />
+			<add x="116568" y="75336" zmin="-2720" zmax="-2670" />
+			<add x="117576" y="76408" zmin="-2720" zmax="-2670" />
+		</territory>
+		<territory name="Dion">
+			<add x="19224" y="144424" zmin="-3100" zmax="-3050" />
+			<add x="19368" y="145752" zmin="-3100" zmax="-3050" />
+			<add x="17704" y="145784" zmin="-3100" zmax="-3050" />
+			<add x="18616" y="144376" zmin="-3100" zmax="-3050" />
+		</territory>
+		<territory name="Oren">
+			<add x="83000" y="53208" zmin="-1495" zmax="-1475" />
+			<add x="83016" y="54168" zmin="-1495" zmax="-1475" />
+			<add x="81944" y="54184" zmin="-1495" zmax="-1475" />
+			<add x="81912" y="53240" zmin="-1495" zmax="-1475" />
+		</territory>
+	</spawnlist>
+	<droplist>
+		<item id="1540" min="10" max="15" chance="80" /> <!-- Quick Healing Potion -->
+		<item id="1538" min="5" max="10" chance="60" /> <!-- Blessed Scroll of Escape -->
+		<item id="3936" min="5" max="10" chance="40" /> <!-- Blessed Scroll of Resurrection -->
+		<item id="6387" min="5" max="10" chance="25" /> <!-- Blessed Scroll of Resurrection for Pets -->
+		<item id="22025" min="5" max="10" chance="10" /> <!-- Greater Healing Potion -->
+		<item id="6622" min="1" max="1" chance="5" /> <!-- Giant's Codex -->
+		<item id="20034" min="1" max="1" chance="5" /> <!-- Revita-Pop -->
+		<item id="20004" min="1" max="1" chance="5" /> <!-- Vitality Ginseng -->
+		<item id="1458" min="5" max="10" chance="80" /> <!-- Crystal (D-Grade) -->
+		<item id="1459" min="5" max="10" chance="60" /> <!-- Crystal (C-Grade) -->
+		<item id="1460" min="5" max="10" chance="40" /> <!-- Crystal (B-Grade) -->
+		<item id="1461" min="5" max="10" chance="20" /> <!-- Crystal (A-Grade) -->
+		<item id="1462" min="5" max="10" chance="10" /> <!-- Crystal (S-Grade) -->
+	</droplist>
+	<add_parameters>
+		<set name="canUseMagic" value="false" />
+		<set name="totalAmount" value="100" />
+	</add_parameters>
+</event>

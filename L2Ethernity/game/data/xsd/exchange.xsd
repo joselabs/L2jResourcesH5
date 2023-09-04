@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="change" maxOccurs="9999" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="variant" maxOccurs="50" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="number" type="xs:positiveInteger" use="required" />
+											<xs:attribute name="id" type="xs:integer" use="required" />
+											<xs:attribute name="name" type="xs:normalizedString" use="required" />
+											<xs:attribute name="icon" type="xs:normalizedString" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" use="required" type="xs:positiveInteger" />
+						<xs:attribute name="name" use="required" type="xs:normalizedString" />
+						<xs:attribute name="icon" use="required" type="xs:normalizedString" />
+						<xs:attribute name="cost_id" use="required" type="xs:integer" />
+						<xs:attribute name="cost_count" use="required" type="xs:integer" />
+						<xs:attribute name="attribute_change" use="required" type="xs:boolean" />
+						<xs:attribute name="is_upgrade" use="required" type="xs:boolean" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

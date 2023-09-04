@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="312" nameEn="Take Advantage of the Crisis!" nameRu="Используй Кризис своих интересах">
+		<droplist>
+			<npc id="22678">
+				<item id="14875" min="1" chance="30" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22679">
+				<item id="14875" min="1" chance="30" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22680">
+				<item id="14875" min="1" chance="30" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22681">
+				<item id="14875" min="1" chance="30" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22682">
+				<item id="14875" min="1" chance="30" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22683">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22684">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22685">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22686">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22687">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22688">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22689">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+			<npc id="22690">
+				<item id="14875" min="1" chance="20" rateable="true" /> <!--Mineral Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="9487" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Leather Armor (60%)-->
+			</variant>
+			<variant id="2">
+				<item id="9488" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Leather Leggings (60%)-->
+			</variant>
+			<variant id="3">
+				<item id="9489" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Leather Helmet (60%)-->
+			</variant>
+			<variant id="4">
+				<item id="9490" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Leather Gloves (60%)-->
+			</variant>
+			<variant id="5">
+				<item id="9491" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Leather Boots (60%)-->
+			</variant>
+			<variant id="6">
+				<item id="9497" min="1" rateable="false" /> <!--Recipe: Sealed Dynasty Shield (60%)-->
+			</variant>
+			<variant id="7">
+				<item id="9625" min="1" rateable="false" /> <!--Giant's Codex - Oblivion-->
+			</variant>
+			<variant id="8">
+				<item id="9626" min="1" rateable="false" /> <!--Giant's Codex - Discipline-->
+			</variant>
+			<variant id="9">
+				<item id="9628" min="1" rateable="true" /> <!--Leonard-->
+			</variant>
+			<variant id="10">
+				<item id="9629" min="1" rateable="true" /> <!--Adamantine-->
+			</variant>
+			<variant id="11">
+				<item id="9630" min="1" rateable="true" /> <!--Orichalcum-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

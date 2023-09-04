@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../data/xsd/fakeLocations.xsd">
+	<!-- All Spawn Locations -->
+	<!-- Стартовые локации: Люди -->
+	<location id="1" amount="3" distance="3500">
+		<coords x="-74872" y="254424" z="-3305" /> <!-- Говорящий Остров -->
+		<class id="0" /> <!-- Human Fighter -->
+		<level min="1" max="3" />
+	</location>
+	<location id="2" amount="3" distance="4000">
+		<coords x="-85048" y="252280" z="-3645" /> <!-- Говорящий Остров, Пляж -->
+		<class id="10" /> <!-- Human Mystic -->
+		<level min="1" max="3" />
+	</location>
+	<location id="3" amount="3" distance="3500">
+		<coords x="-81448" y="245992" z="-3711" /> <!-- Говорящий Остров, Пляж -->
+		<class id="0;10" />  <!-- Human Mystic -->
+		<level min="1" max="3" />
+	</location>
+	<location id="4" amount="5" distance="9000">
+		<coords x="-102040" y="234888" z="-3376" />	<!-- Говорящий Остров, Обелиск -->
+		<class id="0;10" />	<!-- Human Fighter, Human Mystic -->
+		<level min="7" max="15" />
+	</location>
+	<location id="5" amount="5" distance="5000">
+		<coords x="-104536" y="225864" z="-3616" />	<!-- Говорящий Остров -->
+		<class id="0;10" /> <!-- Human Fighter, Human Mystic -->
+		<level min="12" max="18" />
+	</location>
+	<location id="6" amount="3" distance="5000">
+		<coords x="-103704" y="215192" z="-3440" />	<!-- Говорящий Остров -->
+		<class id="0;10" /> <!-- Human Fighter, Human Mystic -->
+		<level min="12" max="18" />
+	</location>
+	<location id="7" amount="3" distance="5000">
+		<coords x="-117400" y="243608" z="-3168" />	<!-- Говорящий Остров, Поющий Водопад -->
+		<class id="0;10" /> <!-- Human Fighter, Human Mystic -->
+		<level min="14" max="20" />
+	</location>
+	<!-- Стартовые локации: Эльфы -->
+	<location id="8" amount="3" distance="3000">
+		<coords x="49336" y="42472" z="-3488" />	<!-- Деревня эльфов, Дерево Жизни -->
+		<class id="18;25" /> <!-- Elven Fighter, Elven Mystic -->
+		<level min="1" max="3" />
+	</location>
+	<location id="9" amount="3" distance="4000">
+		<coords x="54696" y="51512" z="-3600" />	<!-- Деревня эльфов -->
+		<class id="18;25" /> <!-- Elven Fighter, Elven Mystic -->
+		<level min="5" max="9" />
+	</location>
+	<location id="10" amount="6" distance="4000">
+		<coords x="-6568" y="79320" z="-3392" />	<!-- Нейтральные зоны -->
+		<class id="18;25" /> <!-- Elven Fighter, Elven Mystic -->
+		<level min="14" max="20" />
+	</location>
+	<location id="11" amount="4" distance="8000">
+		<coords x="-6568" y="79320" z="-3392" />	<!-- Нейтральные зоны -->
+		<class id="18;25" /> <!-- Elven Fighter, Elven Mystic -->
+		<level min="14" max="20" />
+	</location>
+	<location id="12" amount="7" distance="10000">
+		<coords x="-2552" y="83048" z="-3632" />	<!-- Нейтральные зоны, все классы -->
+		<level min="14" max="20" />
+	</location>
+	<location id="13" amount="6" distance="5000">
+		<coords x="23416" y="144104" z="-3297" />	<!-- Восточный выход из Диона -->
+		<level min="20" max="25" />
+	</location>
+	
+	<!-- All Spawn Locations -->
+	<!-- Спавн ботов в городах -->
+	<location id="101" amount="18" distance="8000">
+		<coords x="83400" y="147960" z="-3400" />	<!-- Гиран, возле ГК -->
+		<level min="14" max="76" />
+	</location>
+	<location id="102" amount="24" distance="12000">
+		<coords x="146824" y="25816" z="-2016" />	<!-- Аден, возле ГК -->
+		<level min="44" max="76" />
+	</location>
+	<location id="102" amount="35" distance="8000">
+		<coords x="147928" y="-55320" z="-2728" />	<!-- Годдарт, возле ГК -->
+		<level min="66" max="80" />
+	</location>
+	<location id="102" amount="14" distance="8000">
+		<coords x="117064" y="76888" z="-2704" />	<!-- Деревня Охотников, возле ГК -->
+		<level min="40" max="70" />
+	</location>
+</list>

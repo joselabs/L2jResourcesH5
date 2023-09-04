@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="location" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="coords" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" />
+									<xs:attribute name="y" type="xs:integer" />
+									<xs:attribute name="z" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="class" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="level" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="min" type="xs:integer" />
+									<xs:attribute name="max" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer" use="required" />
+						<xs:attribute name="amount" type="xs:integer" use="required" />
+						<xs:attribute name="distance" type="xs:integer" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

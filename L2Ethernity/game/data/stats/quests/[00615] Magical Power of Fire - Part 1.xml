@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="615" nameEn="Magical Power of Fire - Part 1" nameRu="Магия Огня - ч. 1">
+		<rewardlist>
+			<item id="7243" min="1" rateable="false" /> <!--Red Totem-->
+			<item id="7081" min="1" rateable="false" /> <!--Divine Stone of Wisdom-->
+		</rewardlist>
+	</quest>
+</list>

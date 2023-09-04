@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="132" name="Delusion Chamber, Tower Seal" maxChannels="20" collapseIfEmpty="0" timelimit="60" dispelBuffs="false">
+		<level min="80" max="85" />
+		<party min="2" max="9" />
+		<allowSummon val="false" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<add_parameters>
+			<set name="bossRoomChance" value="0" /> <!-- like l2off -->
+		</add_parameters>
+		<spawns>
+			<!-- Room 1 -->
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-108896 -153769 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-108890 -153234 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-109191 -153562 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="60">
+				<coords loc="-109032 -153415 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="60">
+				<coords loc="-108793 -153269 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="60">
+				<coords loc="-109082 -153596 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="60">
+				<coords loc="-108779 -153716 -6688 0" />
+			</spawn>
+			<spawn mobId="32693" type="point" respawn="0">
+				<coords loc="-108976 -153472 -6688 0" />
+			</spawn>
+			<!-- Room 2 -->
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-108794 -152695 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-109160 -152428 -6688 0" />
+			</spawn>
+			<spawn mobId="22731" type="point" respawn="60">
+				<coords loc="-108847 -152479 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="60">
+				<coords loc="-108885 -152913 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="60">
+				<coords loc="-109205 -152543 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="60">
+				<coords loc="-108975 -152575 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="60">
+				<coords loc="-109124 -152923 -6688 0" />
+			</spawn>
+			<spawn mobId="32694" type="point" respawn="0">
+				<coords loc="-108960 -152624 -6688 0" />
+			</spawn>
+			<!-- Room 3 -->
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-106989 -155198 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-107303 -154868 -6688 0" />
+			</spawn>
+			<spawn mobId="22731" type="point" respawn="60">
+				<coords loc="-107239 -155289 -6688 0" />
+			</spawn>
+			<spawn mobId="22732" type="point" respawn="60">
+				<coords loc="-107076 -155060 -6688 0" />
+			</spawn>
+			<spawn mobId="22732" type="point" respawn="60">
+				<coords loc="-107228 -155267 -6688 0" />
+			</spawn>
+			<spawn mobId="22732" type="point" respawn="60">
+				<coords loc="-106814 -155369 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="60">
+				<coords loc="-107088 -155369 -6688 0" />
+			</spawn>
+			<spawn mobId="32695" type="point" respawn="0">
+				<coords loc="-107088 -155152 -6688 0" />
+			</spawn>
+			<!-- Room 4 -->
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-106924 -154450 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="60">
+				<coords loc="-107212 -154346 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="60">
+				<coords loc="-106909 -154223 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="60">
+				<coords loc="-107338 -154514 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="60">
+				<coords loc="-107382 -154017 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="60">
+				<coords loc="-107072 -154257 -6688 0" />
+			</spawn>
+			<spawn mobId="22737" type="point" respawn="60">
+				<coords loc="-107240 -154174 -6688 0" />
+			</spawn>
+			<spawn mobId="32696" type="point" respawn="0">
+				<coords loc="-107104 -154336 -6688 0" />
+			</spawn>
+			<!-- Room 5 -->		
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-107867 -151653 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-108338 -151241 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-108135 -150757 -6688 0" />
+			</spawn>
+			<spawn mobId="22731" type="point" respawn="90">
+				<coords loc="-107914 -151386 -6688 0" />
+			</spawn>
+			<spawn mobId="22731" type="point" respawn="90">
+				<coords loc="-107910 -151997 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="90">
+				<coords loc="-107796 -151247 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="90">
+				<coords loc="-108219 -151175 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-107982 -151140 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-108278 -150860 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-108150 -151723 -6688 0" />
+			</spawn>
+			<spawn mobId="32697" type="point" respawn="0">
+				<coords loc="-108048 -151344 -6688 0" />
+			</spawn>
+			<!-- Room 6 -->
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-107269 -152983 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-107369 -153364 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-107046 -153008 -6688 0" />
+			</spawn>
+			<spawn mobId="22732" type="point" respawn="90">
+				<coords loc="-107130 -153497 -6688 0" />
+			</spawn>
+			<spawn mobId="22732" type="point" respawn="90">
+				<coords loc="-107297 -153527 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="90">
+				<coords loc="-107246 -152682 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="90">
+				<coords loc="-106806 -153375 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="90">
+				<coords loc="-107294 -152454 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="90">
+				<coords loc="-107262 -152873 -6688 0" />
+			</spawn>
+			<spawn mobId="22736" type="point" respawn="90">
+				<coords loc="-106917 -152640 -6688 0" />
+			</spawn>
+			<spawn mobId="32698" type="point" respawn="0">
+				<coords loc="-107088 -153056 -6688 0" />
+			</spawn>
+			<!-- Room 7 -->
+			<spawn mobId="22731" type="point" respawn="90">
+				<coords loc="-109066 -154230 -6688 0" />
+			</spawn>
+			<spawn mobId="22731" type="point" respawn="90">
+				<coords loc="-108726 -154577 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="90">
+				<coords loc="-109184 -154307 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="90">
+				<coords loc="-109209 -154161 -6688 0" />
+			</spawn>
+			<spawn mobId="22735" type="point" respawn="90">
+				<coords loc="-108788 -154579 -6688 0" />
+			</spawn>
+			<spawn mobId="22739" type="point" respawn="90">
+				<coords loc="-108687 -155141 -6688 0" />
+			</spawn>
+			<spawn mobId="22739" type="point" respawn="90">
+				<coords loc="-109082 -155302 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-109154 -154824 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-109278 -154901 -6688 0" />
+			</spawn>
+			<spawn mobId="22740" type="point" respawn="90">
+				<coords loc="-109121 -155386 -6688 0" />
+			</spawn>
+			<spawn mobId="32699" type="point" respawn="0">
+				<coords loc="-108992 -154704 -6688 0" />
+			</spawn>
+			<!-- Room 8 -->
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-108095 -153083 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-108269 -153017 -6688 0" />
+			</spawn>
+			<spawn mobId="22730" type="point" respawn="90">
+				<coords loc="-107745 -153497 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="90">
+				<coords loc="-108003 -152988 -6688 0" />
+			</spawn>
+			<spawn mobId="22733" type="point" respawn="90">
+				<coords loc="-107981 -153395 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="90">
+				<coords loc="-107872 -152592 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="90">
+				<coords loc="-108032 -152341 -6688 0" />
+			</spawn>
+			<spawn mobId="22734" type="point" respawn="90">
+				<coords loc="-107873 -153489 -6688 0" />
+			</spawn>
+			<spawn mobId="22737" type="point" respawn="90">
+				<coords loc="-107745 -153172 -6688 0" />
+			</spawn>
+			<spawn mobId="22737" type="point" respawn="90">
+				<coords loc="-108169 -152616 -6688 0" />
+			</spawn>
+			<spawn mobId="32700" type="point" respawn="0">
+				<coords loc="-108032 -152992 -6688 0" />
+			</spawn>
+			<!-- Room 9 -->
+			<spawn mobId="25695" type="point" respawn="0">
+				<coords loc="-108205 -154318 -6688 0" />
+			</spawn>
+			<spawn mobId="32701" type="point" respawn="0">
+				<coords loc="-108048 -154672 -6688 0" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

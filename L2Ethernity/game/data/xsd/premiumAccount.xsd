@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="premium" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="rate" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="type" type="xs:string" use="required" />
+									<xs:attribute name="value" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="gifts" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="gift" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:integer" use="required" />
+												<xs:attribute name="count" type="xs:decimal" use="required" />
+												<xs:attribute name="removable" type="xs:boolean" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="time" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="days" type="xs:integer" use="required" />
+									<xs:attribute name="hours" type="xs:integer" use="required" />
+									<xs:attribute name="minutes" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="price" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:integer" use="required" />
+												<xs:attribute name="count" type="xs:decimal" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="nameEn" type="xs:normalizedString" use="required" />
+						<xs:attribute name="nameRu" type="xs:normalizedString" use="required" />
+						<xs:attribute name="icon" type="xs:normalizedString" use="required" />
+						<xs:attribute name="onlineType" type="xs:boolean" use="required" />
+						<xs:attribute name="isPersonal" type="xs:boolean" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- 
+* System for quickly adding a skills to the NPCs you are interested in
+* lvlDiff - if you remove this param server auto generate lvldiff="1-85"
+* Valid npcType ALL(for all npcs) or by types(see npc types in npcs folder). If remove this param server auto generate npcType="ALL"
+* npcId group drop by npc id. if param empty or removed check npcType -> if npcId not empty reads it in priority!
+* forbiddenList - disables drop on IDs that are in list
+* Examples:
+	<npclist lvlDiff="36-85" npcType="ALL">
+		<skill id="1201" level="1" />
+		<skill id="1204" level="1" />
+	</npclist>
+-->
+</list>

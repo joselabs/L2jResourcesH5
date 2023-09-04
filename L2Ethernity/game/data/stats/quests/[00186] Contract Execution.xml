@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="186" nameEn="Contract Execution" nameRu="Выполнение условий договора">
+		<expirience>
+			<rewardExp val="285935" rateable="true" />
+			<rewardSp val="18711" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20577">
+				<item id="10367" min="1" chance="40" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+			<npc id="20578">
+				<item id="10367" min="1" chance="44" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+			<npc id="20579">
+				<item id="10367" min="1" chance="46" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+			<npc id="20580">
+				<item id="10367" min="1" chance="88" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+			<npc id="20581">
+				<item id="10367" min="1" chance="50" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+			<npc id="20582">
+				<item id="10367" min="1" chance="100" rateable="true" /> <!--Leto Lizardman Accessory-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="105083" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

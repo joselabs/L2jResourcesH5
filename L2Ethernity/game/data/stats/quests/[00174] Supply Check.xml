@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="174" nameEn="Supply Check" nameRu="Проверка снабжения">
+		<level min="2" max="85" />
+		<expirience>
+			<rewardExp val="5672" rateable="true" />
+			<rewardSp val="446" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<variant id="1"> <!--Mage Classes-->
+				<item id="429" min="1" rateable="false" /> <!--Leather Tunic-->
+				<item id="464" min="1" rateable="false" /> <!--Leather Stockings-->
+				<item id="43" min="1" rateable="false" /> <!--Wooden Helmet-->
+				<item id="37" min="1" rateable="false" /> <!--Leather Shoes-->
+				<item id="49" min="1" rateable="false" /> <!--Gloves-->
+				<item id="57" min="2466" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="2"> <!--Fighter Classes-->
+				<item id="23" min="1" rateable="false" /> <!--Wooden Breastplate-->
+				<item id="2386" min="1" rateable="false" /> <!--Wooden Gaiters-->
+				<item id="43" min="1" rateable="false" /> <!--Wooden Helmet-->
+				<item id="37" min="1" rateable="false" /> <!--Leather Shoes-->
+				<item id="49" min="1" rateable="false" /> <!--Gloves-->
+				<item id="57" min="2466" rateable="true" /> <!--Adena-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

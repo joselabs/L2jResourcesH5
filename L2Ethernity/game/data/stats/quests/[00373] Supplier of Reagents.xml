@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="373" nameEn="Supplier of Reagents" nameRu="Поставщик реагентов">
+		<droplist>
+			<npc id="20813">
+				<item id="6019" min="1" chance="35" rateable="true" /> <!--Quicksilver-->
+				<item id="6014" min="1" chance="55" rateable="true" /> <!--Rotten Bone Piece-->
+			</npc>
+			<npc id="20822">
+				<item id="6018" min="1" chance="35" rateable="true" /> <!--Volcanic Ash-->
+				<item id="6007" min="1" chance="56" rateable="true" /> <!--Reagent Pouch-->
+			</npc>
+			<npc id="21061">
+				<item id="6015" min="1" chance="63" rateable="true" /> <!--Demon's Blood-->
+				<item id="6013" min="1" chance="11" rateable="true" /> <!--Moonstone Shard-->
+			</npc>
+			<npc id="20828">
+				<item id="6008" min="1" chance="54" rateable="true" /> <!--Reagent Pouch-->
+				<item id="6019" min="1" chance="32" rateable="true" /> <!--Quicksilver-->
+			</npc>
+			<npc id="21066">
+				<item id="6010" min="1" chance="44" rateable="true" /> <!--Reagent Box-->
+			</npc>
+			<npc id="21111">
+				<item id="6011" min="1" chance="35" rateable="true" /> <!--Wyrm's Blood-->
+				<item id="6012" min="1" chance="25" rateable="true" /> <!--Lava Stone-->
+			</npc>
+			<npc id="21115">
+				<item id="6019" min="1" chance="32" rateable="true" /> <!--Quicksilver-->
+				<item id="6009" min="1" chance="47" rateable="true" /> <!--Reagent Pouch-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="102" nameEn="Sea of Spores Fever" nameRu="Странная лихорадка">
+		<expirience>
+			<rewardExp val="25747" rateable="true" />
+			<rewardSp val="2171" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20013">
+				<item id="966" min="1" chance="33" rateable="true" /> <!--Dryad's Tears-->
+			</npc>
+			<npc id="20019">
+				<item id="966" min="1" chance="33" rateable="true" /> <!--Dryad's Tears-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="744" min="1" rateable="false" /> <!--Staff of Sentinel-->
+				<item id="5790" min="3000" rateable="false" /> <!--Spiritshot: No Grade for Beginners-->
+				<item id="1060" min="100" rateable="true" /> <!--Lesser Healing Potion-->
+				<item id="4412" min="10" rateable="true" /> <!--Echo Crystal - Theme of Battle-->
+				<item id="4413" min="10" rateable="true" /> <!--Echo Crystal - Theme of Love-->
+				<item id="4414" min="10" rateable="true" /> <!--Echo Crystal - Theme of Solitude-->
+				<item id="4415" min="10" rateable="true" /> <!--Echo Crystal - Theme of the Feast-->
+				<item id="4416" min="10" rateable="true" /> <!--Echo Crystal - Theme of Celebration-->
+				<item id="4417" min="10" rateable="true" /> <!--Echo Crystal - Theme of Comedy-->
+			</variant>
+			<variant id="2">
+				<item id="743" min="1" rateable="false" /> <!--Sword of Sentinel-->
+				<item id="5789" min="6000" rateable="false" /> <!--Soulshot: No Grade for Beginners-->
+				<item id="1060" min="100" rateable="true" /> <!--Lesser Healing Potion-->
+				<item id="4412" min="10" rateable="true" /> <!--Echo Crystal - Theme of Battle-->
+				<item id="4413" min="10" rateable="true" /> <!--Echo Crystal - Theme of Love-->
+				<item id="4414" min="10" rateable="true" /> <!--Echo Crystal - Theme of Solitude-->
+				<item id="4415" min="10" rateable="true" /> <!--Echo Crystal - Theme of the Feast-->
+				<item id="4416" min="10" rateable="true" /> <!--Echo Crystal - Theme of Celebration-->
+				<item id="4417" min="10" rateable="true" /> <!--Echo Crystal - Theme of Comedy-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="417" nameEn="Path to Become a Scavenger" nameRu="Путь Собирателя">
+		<expirience>
+			<rewardExp val="295862" rateable="true" />
+			<rewardSp val="9650" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="27058">
+				<item id="1655" min="1" chance="100" rateable="true" /> <!--Honey Jar-->
+			</npc>
+			<npc id="20403">
+				<item id="1656" min="1" chance="60" rateable="true" /> <!--Bead-->
+			</npc>
+			<npc id="20508">
+				<item id="1656" min="1" chance="50" rateable="true" /> <!--Bead-->
+			</npc>
+		</droplist>
+		<add_parameters>
+			<set name="hunterBearAmount" value="20" />  <!--kills amount for spawn Honey Bear-->
+		</add_parameters>
+		<rewardlist>
+			<item id="57" min="163800" rateable="true" /> <!--Adena-->
+			<item id="1642" min="1" rateable="false" /> <!--Ring of Raven-->
+		</rewardlist>
+	</quest>
+</list>

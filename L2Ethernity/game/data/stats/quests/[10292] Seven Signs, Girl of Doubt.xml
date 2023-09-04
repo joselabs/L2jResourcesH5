@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10292" nameEn="Seven Signs, Girl of Doubt" nameRu="Семь Печатей, Таинственная Дева">
+		<expirience>
+			<rewardExp val="10000000" rateable="true" />
+			<rewardSp val="1000000" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="22801">
+				<item id="17226" min="1" chance="100" rateable="false" /> <!--Elcadia's Mark-->
+			</npc>
+			<npc id="22802">
+				<item id="17226" min="1" chance="100" rateable="false" /> <!--Elcadia's Mark-->
+			</npc>
+			<npc id="22804">
+				<item id="17226" min="1" chance="100" rateable="false" /> <!--Elcadia's Mark-->
+			</npc>
+			<npc id="22805">
+				<item id="17226" min="1" chance="100" rateable="false" /> <!--Elcadia's Mark-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="138" name="Mithril Mine" maxChannels="20" collapseIfEmpty="0" timelimit="30" dispelBuffs="false">
+		<level min="82" max="85" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<return x="172136" y="-173464" z="3444" />
+		<teleport x="186852" y="-173492" z="-3763" />
+		<spawns>
+			<spawn mobId="18846" type="point" respawn="0">
+				<coords loc="185198 -184818 -3288 6800" />
+			</spawn>
+            		<spawn mobId="22766" respawn="0" type="point">
+				<coords loc="186828 -175615 -3500 -1" />
+				<coords loc="187074 -175014 -3500 -1" />
+				<coords loc="187012 -175643 -3500 -1" />
+				<coords loc="186766 -175871 -3500 -1" />
+				<coords loc="186107 -178954 -3500 -1" />
+				<coords loc="186729 -178954 -3500 -1" />
+				<coords loc="185863 -179631 -3500 -1" />
+				<coords loc="186646 -178924 -3500 -1" />
+				<coords loc="186301 -179215 -3500 -1" />
+				<coords loc="186718 -179063 -3500 -1" />
+				<coords loc="186435 -178964 -3500 -1" />
+				<coords loc="186611 -179543 -3500 -1" />
+				<coords loc="186489 -182963 -3100 -1" />
+				<coords loc="185996 -182890 -3100 -1" />
+				<coords loc="185548 -183292 -3100 -1" />
+				<coords loc="186827 -183324 -3100 -1" />
+				<coords loc="187336 -183094 -3100 -1" />
+				<coords loc="186914 -183031 -3100 -1" />
+				<coords loc="187122 -183562 -3100 -1" />
+				<coords loc="185911 -182886 -3100 -1" />
+            		</spawn>
+		</spawns>
+	</instance>
+</list>

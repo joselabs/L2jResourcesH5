@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?><!-- Квесты -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/multisell.xsd">
+<item><ingredient id="57" count="50000000"/><production id="6033" count="1"/></item><!-- Масло для Нублиса -->
+<item><ingredient id="57" count="75000000"/><production id="6029" count="5"/></item><!-- Лунный Камень Для Нублиса -->
+</list>

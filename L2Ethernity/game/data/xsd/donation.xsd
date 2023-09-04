@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="donation" maxOccurs="9999" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="simples" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="simple" maxOccurs="99" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="id" type="xs:integer" use="required" />
+														<xs:attribute name="count" type="xs:integer" use="required" />
+														<xs:attribute name="enchant" type="xs:integer" use="required" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="costId" use="required" type="xs:positiveInteger" />
+									<xs:attribute name="count" use="required" type="xs:positiveInteger" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="foundations" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="foundation" maxOccurs="99" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="id" type="xs:integer" use="required" />
+														<xs:attribute name="count" type="xs:integer" use="required" />
+														<xs:attribute name="enchant" type="xs:integer" use="required" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="costId" use="required" type="xs:positiveInteger" />
+									<xs:attribute name="count" use="required" type="xs:positiveInteger" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="enchant" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="costId" type="xs:integer" use="required" />
+											<xs:attribute name="count" type="xs:integer" use="required" />
+											<xs:attribute name="value" type="xs:integer" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="attribution" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="costId" type="xs:integer" use="required" />
+											<xs:attribute name="count" type="xs:integer" use="required" />
+											<xs:attribute name="value" type="xs:integer" use="required" />
+											<xs:attribute name="size" type="xs:integer" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" use="required" type="xs:positiveInteger" />
+						<xs:attribute name="nameRu" use="required" type="xs:normalizedString" />
+						<xs:attribute name="nameEn" use="required" type="xs:normalizedString" />
+						<xs:attribute name="icon" use="required" type="xs:normalizedString" />
+						<xs:attribute name="group" use="required" type="xs:integer" />
+						<xs:attribute name="found" use="required" type="xs:boolean" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

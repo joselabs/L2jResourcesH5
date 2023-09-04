@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Description:https://l2jeternity.com/index.php?/topic/122-achievements/ -->
+	<categories>
+		<cat id="1" nameEn="Farming" nameRu="Развитие" descEn="Monsters, Epics, Raids." descRu="Монстры, Эпики, Рейды" icon="icon.skill5860"/>
+		<cat id="2" nameEn="PvP" nameRu="Убийца" descEn="Everything related to PvP - kills, deaths" descRu="ПвП и убийства" icon="icon.skilltransform2"/>
+		<cat id="3" nameEn="Clan" nameRu="Клан" descEn="Siege battles, clan wars" descRu="Осады, клановые войны" icon="icon.skill5074"/>
+		<cat id="4" nameEn="Others" nameRu="Другое" descEn="Skills, crafting, materials" descRu="Отдых и удача" icon="icon.skill0818"/>
+	</categories>
+	
+	<!-- Enemy achievements -->
+	<achievement id="1" cat="1" type="monsterKiller" descEn="Defeat %need% monsters" descRu="Убить %need% монстров">
+		<level id="1" nameEn="Farmer" nameRu="Упорный" icon="icon.skill1539" need="10000" fame="100" />
+		<level id="2" nameEn="Farmer" nameRu="Упорный" icon="icon.skill1539" need="50000" fame="500" />
+		<level id="3" nameEn="Farmer" nameRu="Упорный" icon="icon.skill1539" need="100000" fame="800"/>
+		<level id="4" nameEn="Farmer" nameRu="Упорный" icon="icon.skill1539" need="250000" fame="1000"/>
+		<level id="5" nameEn="Farmer" nameRu="Упорный" icon="icon.skill1539" need="500000" fame="2000"/>
+	</achievement>
+	<achievement id="2" cat="1" type="championKiller" descEn="Defeat %need% champion monsters" descRu="Убить %need% монстров чемпионов">
+		<level id="1" nameEn="Champion Farmer" nameRu="Усердный" icon="icon.skill0094" need="1000" fame="100" />
+		<level id="2" nameEn="Champion Farmer" nameRu="Усердный" icon="icon.skill0094" need="5000" fame="500" />
+		<level id="3" nameEn="Champion Farmer" nameRu="Усердный" icon="icon.skill0094" need="10000" fame="800"/>
+		<level id="4" nameEn="Champion Farmer" nameRu="Усердный" icon="icon.skill0094" need="25000" fame="1000"/>
+		<level id="5" nameEn="Champion Farmer" nameRu="Усердный" icon="icon.skill0094" need="50000" fame="2000"/>
+	</achievement>
+	<achievement id="3" cat="1" type="raidKiller" descEn="Defeat %need% raid bossess" descRu="Убить %need% рейдовых боссов">
+		<level id="1" nameEn="Raid Slayer" nameRu="Истребитель Рейдов" icon="icon.skill4289" need="10" fame="200"/>
+		<level id="2" nameEn="Raid Slayer" nameRu="Истребитель Рейдов" icon="icon.skill4289" need="50" fame="200"/>
+		<level id="3" nameEn="Raid Slayer" nameRu="Истребитель Рейдов" icon="icon.skill4289" need="100" fame="200"/>
+		<level id="4" nameEn="Raid Slayer" nameRu="Истребитель Рейдов" icon="icon.skill4289" need="250" fame="200"/>
+	</achievement>
+	<achievement id="4" cat="1" type="epicKiller" descEn="Defeat %need% epic bossess" descRu="Убить %need% эпических боссов">
+		<level id="1" nameEn="Epic Slayer" nameRu="Истребитель Эпиков" icon="icon.skill1129" need="10" fame="100"/>
+		<level id="2" nameEn="Epic Slayer" nameRu="Истребитель Эпиков" icon="icon.skill1129" need="50" fame="100"/>
+		<level id="3" nameEn="Epic Slayer" nameRu="Истребитель Эпиков" icon="icon.skill1129" need="100" fame="100"/>
+		<level id="4" nameEn="Epic Slayer" nameRu="Истребитель Эпиков" icon="icon.skill1129" need="250" fame="100"/>
+	</achievement>
+	<achievement id="5" cat="1" type="killbyId" select="29068" descEn="Defeat Antharas" descRu="Убить Антараса">
+		<level id="1" nameEn="Antharas Raider" nameRu="Истребитель Антараса" icon="icon.accessory_earring_of_antaras_i00" need="1" fame="1000">
+			<reward id="21986" count="1" /> <!-- Agathion Seal Bracelet - Antharas -->
+		</level>
+	</achievement>
+	<achievement id="6" cat="1" type="killbyId" select="29020" descEn="Defeat Baium" descRu="Убить Баюма">
+		<level id="1" nameEn="Baium Raider"  nameRu="Истребитель Баюма" icon="icon.accessory_ring_of_baium_i00" need="1" fame="1000" />
+	</achievement>
+	<achievement id="7" cat="1" type="killbyId" select="29028" descEn="Defeat Valakas" descRu="Убить Валакаса">
+		<level id="1" nameEn="Valakas Raider" nameRu="Истребитель Валакаса" icon="icon.accessory_necklace_of_valakas_i00" need="1" fame="1000">
+			<reward id="20725" count="1" nameEn="Red Flame of Valakas"/>
+		</level>
+	</achievement>
+	<achievement id="8" cat="1" type="killbyId" select="29014" descEn="Defeat Orfen" descRu="Убить Орфена">
+		<level id="1" nameEn="Orfen Raider" nameRu="Истребитель Орфена" icon="icon.accessory_earring_of_orfen_i00" need="1" fame="500"/>
+	</achievement>
+	<achievement id="9" cat="1" type="killbyId" select="29001" descEn="Defeat Queen Ant." descRu="Убить Королеву Муравьев">
+		<level id="1" nameEn="Queen Ant Raider" nameRu="Истребитель Королевы Муравьев" icon="icon.accessory_ring_of_queen_ant_i00" need="1" fame="100"/>
+	</achievement>
+	<achievement id="10" cat="1" type="killbyId" select="29006" descEn="Defeat Core" descRu="Убить Ядро">
+		<level id="1" nameEn="Core Raider" nameRu="Истребитель Ядра" icon="icon.accessory_ring_of_core_i00" need="1" fame="200"/>
+	</achievement>
+	<achievement id="11" cat="1" type="killbyId" select="29118" descEn="Defeat Beleth" descRu="Убить Белефа">
+		<level id="1" nameEn="Beleth Raider" nameRu="Истребитель Белефа" icon="icon.accessary_dynasty_ring_i00" need="1" fame="1000"/>
+	</achievement>
+	<achievement id="12" cat="1" type="killbyId" select="29099" descEn="Defeat Baylor" descRu="Убить Байлора">
+		<level id="1" nameEn="Baylor Raider" nameRu="Истребитель Байлора" icon="icon.accessary_dynasty_earing_i00" need="1" fame="1000"/>
+	</achievement>
+	<achievement id="13" cat="1" type="killbyId" select="29065" descEn="Defeat Sailren" descRu="Убить Сэйлрена">
+		<level id="1" nameEn="Sailren Raider" nameRu="Истребитель Сэйлрена" icon="icon.skill0930" need="1" fame="500" />
+	</achievement>
+	<achievement id="14" cat="1" type="killbyId" select="29181" descEn="Defeat Zaken" descRu="Убить Закена">
+		<level id="1" nameEn="Zaken Raider" nameRu="Истребитель Закена" icon="icon.accessory_earring_of_zaken_i00" need="1" fame="500">
+			<reward id="21165" count="1" /> <!-- Agathion Seal Bracelet - Zaken Spirit Sword -->
+		</level>
+	</achievement>
+	<achievement id="15" cat="1" type="killbyId" select="29163" descEn="Defeat Tiat" descRu="Убить Тиаду">
+		<level id="1" nameEn="Tiat Raider" nameRu="Истребитель Тиады" icon="icon.tiat_breath_i00" need="1" fame="500"/>
+	</achievement>
+	<achievement id="16" cat="1" type="killbyId" select="29179" descEn="Defeat Freya" descRu="Убить Фрею">
+		<level id="1" nameEn="Freya Raider" nameRu="Истребитель Фреи" icon="icon.accessary_queen_of_ice_necklace_i00" need="1" fame="500"/>
+	</achievement>
+	<achievement id="17" cat="1" type="killbyId" select="29047" descEn="Defeat Frintezza" descRu="Убить Фринтезу">
+		<level id="1" nameEn="Frintezza Raider" nameRu="Истребитель Фринтезы" icon="icon.accessory_necklace_of_frintessa_i00" need="1" fame="500" />
+	</achievement>	
+	<!-- Combo achievements -->
+	<achievement id="18" cat="2" type="pvpKills" descEn="Kill %need% players" descRu="Убить в пвп игроков: %need%">
+		<level id="1" nameEn="Cry me a river" nameRu="Слезы рекой" icon="icon.skill0522" need="100" fame="100"/>
+		<level id="2" nameEn="Cry me a river" nameRu="Слезы рекой" icon="icon.skill0522" need="500" fame="500"/>
+		<level id="3" nameEn="Cry me a river" nameRu="Слезы рекой" icon="icon.skill0522" need="1000" fame="1000"/>
+		<level id="4" nameEn="Cry me a river" nameRu="Слезы рекой" icon="icon.skill0522" need="2500" fame="2500"/>
+		<level id="5" nameEn="Cry me a river" nameRu="Слезы рекой" icon="icon.skill0522" need="5000" fame="5000"/>
+	</achievement>
+	<achievement id="19" cat="2" type="olympiadPoints" descEn="Reach %need% olympiad points" descRu="Собрать %need% очков олимпиады">
+		<level id="1" nameEn="Master of the Arena" nameRu="Мастер Арены" icon="icon.accessary_scar_i00" need="100" fame="20"/>
+		<level id="2" nameEn="Master of the Arena" nameRu="Мастер Арены" icon="icon.accessary_scar_i00" need="250" fame="40"/>
+		<level id="3" nameEn="Master of the Arena" nameRu="Мастер Арены" icon="icon.accessary_scar_i00" need="500" fame="60"/>
+		<level id="4" nameEn="Master of the Arena" nameRu="Мастер Арены" icon="icon.accessary_scar_i00" need="1000" fame="100"/>
+	</achievement>
+	<achievement id="20" cat="2" type="olympiadWon" descEn="Win %need% olympiad games" descRu="Выиграть боев олимпиады: %need%">
+		<level id="1" nameEn="Gladiator" nameRu="Гладиатор" icon="icon.skill0118" need="100" fame="100"/>
+		<level id="2" nameEn="Gladiator" nameRu="Гладиатор" icon="icon.skill0118" need="500" fame="200"/>
+		<level id="3" nameEn="Gladiator" nameRu="Гладиатор" icon="icon.skill0118" need="1000" fame="400"/>
+		<level id="4" nameEn="Gladiator" nameRu="Гладиатор" icon="icon.skill0118" need="2500" fame="600"/>
+		<level id="5" nameEn="Gladiator" nameRu="Гладиатор" icon="icon.skill0118" need="5000" fame="800"/>
+	</achievement>
+	<achievement id="21" cat="2" type="pkKills" descEn="Make %need% pk kills" descRu="Совершить убийств: %need%">
+		<level id="1" nameEn="Assassin" nameRu="Ассасин" icon="icon.skill0096" need="100000" fame="100"/>
+		<level id="2" nameEn="Assassin" nameRu="Ассасин" icon="icon.skill0096" need="300000" fame="200"/>
+		<level id="3" nameEn="Assassin" nameRu="Ассасин" icon="icon.skill0096" need="600000" fame="300"/>
+		<level id="4" nameEn="Assassin" nameRu="Ассасин" icon="icon.skill0096" need="900000" fame="500"/>
+		<level id="5" nameEn="Assassin" nameRu="Ассасин" icon="icon.skill0096" need="1000000" fame="700"/>
+	</achievement>
+	<achievement id="22" cat="2" type="clanWarKills" descEn="Make %need% clan war kills." descRu="Убить врагов клана: %need%">
+		<level id="1" nameEn="Berserk" nameRu="Берсерк" icon="icon.skill0212" need="5" fame="50"/>
+		<level id="2" nameEn="Berserk" nameRu="Берсерк" icon="icon.skill0212" need="10" fame="100"/>
+		<level id="3" nameEn="Berserk" nameRu="Берсерк" icon="icon.skill0212" need="25" fame="150"/>
+		<level id="4" nameEn="Berserk" nameRu="Берсерк" icon="icon.skill0212" need="50" fame="200"/>
+		<level id="5" nameEn="Berserk" nameRu="Берсерк" icon="icon.skill0212" need="100" fame="500"/>
+	</achievement>
+	<achievement id="23" cat="2" type="setHero" descEn="Become a hero" descRu="Стать героем олимпиады">
+		<level id="1" nameEn="Hero Inside" nameRu="Герой Внутри" icon="icon.event_hero_treasure_box_i00" need="1" fame="0">
+			<reward id="21720" count="1" /> <!-- Soul Cloak of Freya -->
+		</level>
+	</achievement>
+	<achievement id="24" cat="2" type="setNobless" descEn="Become a Nobless" descRu="Стать Дворянином">
+		<level id="1" nameEn="Vocation from Birth" nameRu="Призвание от Рождения" icon="icon.accessory_noblesse_tiara_i00" need="1" fame="500" />
+	</achievement>
+	<achievement id="25" cat="2" type="duelsWon" descEn="Win %need% duels" descRu="Выиграть дуэлей: %need%">
+		<level id="1" nameEn="Sir" nameRu="Сир" icon="icon.skill3238" need="50" fame="50"/>
+		<level id="2" nameEn="Sir" nameRu="Сир" icon="icon.skill3238" need="250" fame="500"/>
+		<level id="3" nameEn="Sir" nameRu="Сир" icon="icon.skill3238" need="500" fame="700"/>
+	</achievement>
+	<achievement id="26" cat="2" type="fameAcquired" descEn="Acquire %need% fame" descRu="Заработать славы: %need%">
+		<level id="1" nameEn="Big Guy" nameRu="Большой Парень" icon="icon.skill0362" need="10000" fame="500"/>
+		<level id="2" nameEn="Big Guy" nameRu="Большой Парень" icon="icon.skill0362" need="30000" fame="1000"/>
+		<level id="3" nameEn="Big Guy" nameRu="Большой Парень" icon="icon.skill0362" need="40000" fame="1500"/>
+		<level id="4" nameEn="Big Guy" nameRu="Большой Парень" icon="icon.skill0362" need="50000" fame="2000"/>
+	</achievement>
+	<!-- Clan achievements -->
+	<achievement id="27" cat="3" type="castleSiegesWon" descEn="Rule over %need% castle sieges" descRu="Победить в осадах замков: %need%">
+		<level id="1" nameEn="Rule their soul" nameRu="Власть Души" icon="icon.skill0316" need="1" fame="100"/>
+		<level id="2" nameEn="Rule their soul" nameRu="Власть Души" icon="icon.skill0316" need="5" fame="200"/>
+		<level id="3" nameEn="Rule their soul" nameRu="Власть Души" icon="icon.skill0316" need="10" fame="1000"/>
+	</achievement>
+	<achievement id="28" cat="3" type="fortSiegesWon" descEn="Rule over %need% fortress battles" descRu="Захватить крепостей: %need%">
+		<level id="1" nameEn="Outlaw" nameRu="Вне закона" icon="icon.skill5662" need="1" fame="100"/>
+		<level id="2" nameEn="Outlaw" nameRu="Вне закона" icon="icon.skill5662" need="5" fame="200"/>
+		<level id="3" nameEn="Outlaw" nameRu="Вне закона" icon="icon.skill5662" need="10" fame="500"/>
+	</achievement>
+	<achievement id="29" cat="3" type="stealTerritoryWards" descEn="Сapture %need% territory wards" descRu="Захватить знамен территорий: %need%">
+		<level id="1" nameEn="Legionary" nameRu="Легионер" icon="icon.skill1472" need="1" fame="100"/>
+		<level id="2" nameEn="Legionary" nameRu="Легионер" icon="icon.skill1472" need="2" fame="200"/>
+		<level id="3" nameEn="Legionary" nameRu="Легионер" icon="icon.skill1472" need="3" fame="500"/>
+	</achievement>
+	<achievement id="30" cat="3" type="siegePvpKills" descEn="Kill %need% players during siege" descRu="Убить игроков на осаде: %need%">
+		<level id="1" nameEn="Siege Control" nameRu="Управление Осадой" icon="icon.skill1472" need="50" fame="100"/>
+		<level id="2" nameEn="Siege Control" nameRu="Управление Осадой" icon="icon.skill1472" need="100" fame="200"/>
+		<level id="3" nameEn="Siege Control" nameRu="Управление Осадой" icon="icon.skill1472" need="250" fame="400"/>
+		<level id="4" nameEn="Siege Control" nameRu="Управление Осадой" icon="icon.skill1472" need="500" fame="800"/>
+		<level id="5" nameEn="Siege Control" nameRu="Управление Осадой" icon="icon.skill1472" need="1000" fame="1500"/>
+	</achievement>
+	<achievement id="31" cat="4" type="adenaReduced" descEn="Reduce %need% adena" descRu="Потратить аден: %need%">
+		<level id="1" nameEn="I'm an Idiot" nameRu="Я идиот" icon="icon.action041" need="5000000000" fame="1000"/>
+		<level id="2" nameEn="I'm even a bigger idiot" nameRu="Я еще больший идиот" icon="icon.action041" need="25000000000" fame="2000"/>
+		<level id="2" nameEn="I don't care" nameRu="Мне все равно" icon="icon.action041" need="5000000000" fame="5000"/>
+	</achievement>
+	<achievement id="32" cat="4" type="recomHave" descEn="Recommend %need% times" descRu="Получить рекомендаций: %need%">
+		<level id="1" nameEn="Being Friendly" nameRu="Быть Дружелюбным" icon="icon.skill1368" need="100" fame="10"/>
+		<level id="2" nameEn="Being Friendly" nameRu="Быть Дружелюбным" icon="icon.skill1368" need="1000" fame="20"/>
+		<level id="2" nameEn="Being Friendly" nameRu="Быть Дружелюбным" icon="icon.skill1368" need="5000" fame="30"/>
+		<level id="2" nameEn="Being Friendly" nameRu="Быть Дружелюбным" icon="icon.skill1368" need="10000" fame="50"/>
+	</achievement>
+	<achievement id="33" cat="4" type="takeHarvests" descEn="Harvest %need% seeds" descRu="Собрать плодов манора: %need%">
+		<level id="1" nameEn="Seeder" nameRu="Сборщик" icon="icon.etc_reaper_i00" need="100" fame="10"/>
+		<level id="2" nameEn="Seeder" nameRu="Сборщик" icon="icon.etc_reaper_i00" need="500" fame="20"/>
+		<level id="3" nameEn="Seeder" nameRu="Сборщик" icon="icon.etc_reaper_i00" need="1000" fame="30"/>
+		<level id="4" nameEn="Seeder" nameRu="Сборщик" icon="icon.etc_reaper_i00" need="5000" fame="40"/>
+	</achievement>
+	<achievement id="34" cat="4" type="fishCaughts" descEn="Catch %need% fish" descRu="Поймать рыб: %need%">
+		<level id="1" nameEn="Fisherman" nameRu="Рыбак" icon="icon.skill1319" need="50" fame="5"/>
+		<level id="2" nameEn="Fisherman" nameRu="Рыбак" icon="icon.skill1319" need="200" fame="10"/>
+	</achievement>
+	<achievement id="35" cat="4" type="enchantWeaponByLvl" select="16" descEn="Enchant weapon to +16" descRu="Зачаровать оружие на +16 (%need%)">
+		<level id="1" nameEn="Weapon Enchanter" nameRu="Мастер по Оружию" icon="icon.etc_scroll_of_enchant_weapon_i05" need="1" fame="10"/>
+		<level id="2" nameEn="Weapon Enchanter" nameRu="Мастер по Оружию" icon="icon.etc_scroll_of_enchant_weapon_i05" need="2" fame="20"/>
+		<level id="3" nameEn="Weapon Enchanter" nameRu="Мастер по Оружию" icon="icon.etc_scroll_of_enchant_weapon_i05" need="3" fame="30"/>
+	</achievement>
+	<achievement id="36" cat="4" type="enchantArmorByLvl" select="16" descEn="Enchant armor to +16" descRu="Зачаровать броню на +16 (%need%)">
+		<level id="1" nameEn="Armor Enchanter" nameRu="Мастер по Броне" icon="icon.etc_scroll_of_enchant_armor_i05" need="1" fame="10"/>
+		<level id="2" nameEn="Armor Enchanter" nameRu="Мастер по Броне" icon="icon.etc_scroll_of_enchant_armor_i05" need="2" fame="20"/>
+		<level id="3" nameEn="Armor Enchanter" nameRu="Мастер по Броне" icon="icon.etc_scroll_of_enchant_armor_i05" need="3" fame="30"/>
+	</achievement>
+	<achievement id="37" cat="4" type="enchantJewerlyByLvl" select="16" descEn="Enchant jewerly to +16" descRu="Зачаровать бижутерию на +16 (%need%)">
+		<level id="1" nameEn="Jewerly Enchanter" nameRu="Мастер Бижутерии" icon="icon.etc_scroll_of_enchant_armor_i05" need="1" fame="10"/>
+		<level id="2" nameEn="Jewerly Enchanter" nameRu="Мастер Бижутерии" icon="icon.etc_scroll_of_enchant_armor_i05" need="2" fame="20"/>
+		<level id="3" nameEn="Jewerly Enchanter" nameRu="Мастер Бижутерии" icon="icon.etc_scroll_of_enchant_armor_i05" need="3" fame="30"/>
+	</achievement>
+	<achievement id="38" cat="4" type="treasureBoxesOpened" descEn="Open %need% treasure chests." descRu="Открыть сундуков: %need%">
+		<level id="1" nameEn="Cheater" nameRu="Жулик" icon="icon.skill0419" need="10" fame="50"/>
+		<level id="2" nameEn="Cheater" nameRu="Жулик" icon="icon.skill0419" need="50" fame="100"/>
+		<level id="3" nameEn="Cheater" nameRu="Жулик" icon="icon.skill0419" need="100" fame="200"/>
+		<level id="4" nameEn="Cheater" nameRu="Жулик" icon="icon.skill0419" need="500" fame="250"/>
+		<level id="5" nameEn="Cheater" nameRu="Жулик" icon="icon.skill0419" need="1000" fame="300"/>
+	</achievement>
+	<achievement id="39" cat="4" type="timesMarried" descEn="Get Married" descRu="Необходимо пожениться">
+		<level id="1" nameEn="Meet your Love" nameRu="Встретить свою любовь" icon="icon.mysterious_wedding_i00" need="1" fame="10">
+			<reward id="6407" count="1" /> <!-- Fire-Work -->
+		</level>
+	</achievement>
+	<achievement id="40" cat="4" type="pcPointAcquired" descEn="Collect %need% Pc Points" descRu="Собрать очков игрового клуба: %need%">
+		<level id="1" nameEn="Gamer" nameRu="Геймер" icon="icon.etc_pccafe_point_i00" need="1000" fame="100" />
+		<level id="1" nameEn="Gamer" nameRu="Геймер" icon="icon.etc_pccafe_point_i00" need="3000" fame="200" />
+		<level id="1" nameEn="Gamer" nameRu="Геймер" icon="icon.etc_pccafe_point_i00" need="5000" fame="400" />
+		<level id="1" nameEn="Gamer" nameRu="Геймер" icon="icon.etc_pccafe_point_i00" need="10000" fame="600" />
+	</achievement>
+</list>

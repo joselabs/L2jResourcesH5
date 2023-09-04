@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="52" nameEn="Willie's Special Bait" nameRu="Особая Наживка Вилли">
+		<droplist>
+			<npc id="20573">
+				<item id="7623" min="1" chance="30" rateable="true" /> <!--Eye of Tarlk Basilisk-->
+			</npc>
+			<npc id="20574">
+				<item id="7623" min="1" chance="30" rateable="true" /> <!--Eye of Tarlk Basilisk-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7612" min="4" rateable="true" /> <!--Earth Fishing Lure-->
+		</rewardlist>
+	</quest>
+</list>

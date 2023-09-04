@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="639" nameEn="Guardians of the Holy Grail" nameRu="Стражи Святого Грааля">
+		<droplist>
+			<npc id="22789">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22790">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22791">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22792">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22793">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22794">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22795">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22796">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22797">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22798">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22799">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="22800">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="18909">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+			<npc id="18910">
+				<item id="8069" min="1" chance="10" rateable="true" /> <!--Monk's Scripture-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Reward per one item-->
+				<item id="57" min="1625" rateable="false" /> <!--Adena-->
+			</variant>
+			<variant id="2">
+				<item id="959" min="1" rateable="false" /> <!--Scroll: Enchant Weapon (S-Grade)-->
+			</variant>
+			<variant id="3">
+				<item id="960" min="1" rateable="false" /> <!--Scroll: Enchant Armor (S-Grade)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

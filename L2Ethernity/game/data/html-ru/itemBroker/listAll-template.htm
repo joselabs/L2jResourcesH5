@@ -1,0 +1,73 @@
+<table width=280>
+	<tr><td align=center>
+		<font color="FF9900" name="hs12">%name% товары</font><br>
+	</td></tr>
+</table>
+<center>
+<table width=210>
+	<tr>
+		<td align=center>
+			<font color="LEVEL">Поиск</font>
+		</td>
+		<td align=center>
+			<edit var="tofind" width=100>
+		</td>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_find %type% 1 $tofind" value="Найти" width=50 height=24 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+</table>
+</center>
+<table width=280>
+	<tr>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 0 1 0 0" value="Общий Список" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 11 1 0 0" value="Другое" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_Chat %typeE%" value="Cнаряжение" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 10 1 0 0" value="Зачаров. Предметы" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 5 1 0 0" value="Расходники" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 8 1 0 0" value="Рецепты" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 6 1 0 0" value="Материалы" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 7 1 0 0" value="Части Материалов" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+			<button action="bypass -h npc_%objectId%_list %type% 9 1 0 0" value="Книги" width=120 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td align=center>
+			%enchant%
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+			%commons%
+		</td>
+		<td align=center>
+			%rare%
+		</td>
+	</tr>
+</table><br><br>
+<center>
+	<button action="bypass -h npc_%objectId%_Chat 0" value="Назад" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</center>

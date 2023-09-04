@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="code" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="limit" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="minLvl" type="xs:integer" />
+									<xs:attribute name="maxLvl" type="xs:integer" />
+									<xs:attribute name="canUseSubClass" type="xs:boolean" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="date" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="from" type="xs:string" />
+									<xs:attribute name="to" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:integer" use="required" />
+									<xs:attribute name="count" type="xs:integer" use="required" />
+									<xs:attribute name="enchant" type="xs:integer" />
+									<xs:attribute name="augmentId" type="xs:integer" />
+									<xs:attribute name="elementals" type="xs:string" />
+									<xs:attribute name="durability" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="exp" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="sp" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="setLevel" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="addLevel" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="premium" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="pcPoint" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="reputation" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="fame" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:attribute name="val" type="xs:integer" use="required" />
+									<xs:attribute name="icon" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="name" type="xs:normalizedString" use="required" />
+						<xs:attribute name="limit" type="xs:integer" />
+						<xs:attribute name="limitByAccount" type="xs:boolean" />
+						<xs:attribute name="limitByHWID" type="xs:boolean" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

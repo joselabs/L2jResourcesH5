@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="242" nameEn="Possessor of a Precious Soul - 2" nameRu="Драгоценная душа, ч. 2">
+		<expirience>
+			<rewardExp val="455764" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="27317">
+				<item id="7595" min="1" chance="100" rateable="true" /> <!--Orb of Binding-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7678" min="1" rateable="false" /> <!--Caradine's Letter-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,43 @@
+﻿<html noscrollbar><title>Меню Сервера | Управление</title><body>
+<center>
+<table width=300><tr>
+<td width=50><button value="Меню" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>Меню Управления</center></td>
+<td width=50><button value="Назад" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<table width=310>
+<tr>
+	<td width=50>&nbsp;</td>
+	<td><edit var="qbox" width=160 height=15></td>
+	<td width=50>&nbsp;</td>
+</tr>
+</table>
+<br><br>
+<font color="LEVEL">[ Дейстия Управления ]</font><br1>
+<table width=300>
+<tr>
+<td><button value="Открть все двери" action="bypass -h admin_openall" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Закрыть все двери" action="bypass -h admin_closeall" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Системные сообщения" action="bypass -h admin_msg $qbox" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Спавн Debug" action="bypass -h admin_spawn_debug_menu" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br><br>
+<table width=295>
+<tr>
+<td><button value="Скилл Тест" action="bypass -h admin_skill_test $qbox" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Проверка Зоны" action="bypass -h admin_zone_check" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br><br>
+<font color="LEVEL">[ Действия с Геодатой ]<br1>
+<table width=300><tr>
+<td><button value="Z" action="bypass -h admin_geo_z" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Type" action="bypass -h admin_geo_type" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="NSWE" action="bypass -h admin_geo_nswe" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="LoS" action="bypass -h admin_geo_los" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Pos" action="bypass -h admin_geo_position" width=50 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</body></html>

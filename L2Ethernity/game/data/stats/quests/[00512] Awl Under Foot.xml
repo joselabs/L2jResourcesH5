@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="512" nameEn="Awl Under Foot" nameRu="Опасность в подземелье">
+		<level min="70" max="85" />
+		<rewardlist>
+			<variant id="1"><!--for 1 player in instance-->
+				<item id="9797" min="420" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="2"><!--for 2 player in instance-->
+				<item id="9797" min="420" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="3"><!--for 3 player in instance-->
+				<item id="9797" min="420" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="4"><!--for 4 player in instance-->
+				<item id="9797" min="336" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="5"><!--for 5 player in instance-->
+				<item id="9797" min="252" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="6"><!--for 6 player in instance-->
+				<item id="9797" min="224" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="7"><!--for 7 player in instance-->
+				<item id="9797" min="196" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="8"><!--for 8 player in instance-->
+				<item id="9797" min="168" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+			<variant id="9"><!--for 9 player in instance-->
+				<item id="9797" min="140" rateable="true" /> <!--Dungeon Leader Mark-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

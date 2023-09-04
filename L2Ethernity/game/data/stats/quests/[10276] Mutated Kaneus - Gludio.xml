@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10276" nameEn="Mutated Kaneus - Gludio" nameRu="Мутант Канеус - Глудио">
+		<droplist>
+			<npc id="18554">
+				<item id="13830" min="1" chance="100" rateable="false" /> <!--Tomlan Kamos' Cellular Tissue-->
+			</npc>
+			<npc id="18555">
+				<item id="13831" min="1" chance="100" rateable="false" /> <!--Ol Ariosh's Cellular Tissue-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="8500" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

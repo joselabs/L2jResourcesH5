@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="77" name="Kamaloka Labyrinth of the Abyss (Level 69)" maxChannels="4" collapseIfEmpty="10" timelimit="45" dispelBuffs="true">
+		<level min="64" max="74" />
+		<party min="2" max="9" />
+		<allowSummon val="false" />
+		<return x="85962" y="-142187" z="-1344" />
+		<teleport x="-10700" y="-174882" z="-10936" />
+		<reenter setUponEntry="false" sharedReuseGroup="4">
+			<reset hour="6" minute="30" />
+		</reenter>
+	</instance>
+</list>

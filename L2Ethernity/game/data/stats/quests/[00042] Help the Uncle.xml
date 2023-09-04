@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="42" nameEn="Help the Uncle!" nameRu="Помощь дяде">
+		<droplist>
+			<npc id="20068">
+				<item id="7548" min="1" chance="100" rateable="true" /> <!--Map Piece-->
+			</npc>
+			<npc id="20266">
+				<item id="7548" min="1" chance="100" rateable="true" /> <!--Map Piece-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7583" min="1" rateable="false" /> <!--Pet Exchange Ticket: Buffalo-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD `facebook_id` varchar(32) NOT NULL DEFAULT '';

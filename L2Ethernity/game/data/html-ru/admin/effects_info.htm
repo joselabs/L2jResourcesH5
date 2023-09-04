@@ -1,0 +1,38 @@
+<html noscrollbar><body><title>{npc_name}</title>
+<center>
+<table width=270><tr>
+<td width=45><button value="Меню" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>Меню Эффектов</center></td>
+<td width=45><button value="Назад" action="bypass -h admin_character_info %name%" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+<br>
+<table width=290>
+	<tr>
+		<td valign="top" align="center" height=264>
+			<table width=290 height=46 cellspacing=0 cellpadding=0>
+				{list}
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="center">
+			<table width=150 height=20>
+				<tr>
+					{navigation}
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="center">
+			<table width=280 height=20>
+				<tr>
+					<td><br><button value="Обновить Инфо" action="bypass -h admin_getbuffs {page}" width=120 height=24 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+					<td><br><button value="Удалить Все" action="bypass -h admin_stopallbuffs {objId}" width=120 height=24 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body></html>

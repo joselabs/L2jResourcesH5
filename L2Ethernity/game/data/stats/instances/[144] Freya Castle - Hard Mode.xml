@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="144" name="Freya Castle - Hard Mode" maxChannels="10" collapseIfEmpty="10" timelimit="120" dispelBuffs="true">
+		<level min="82" max="85" />
+		<party min="9" max="27" />
+		<allowSummon val="false" />
+		<return x="115576" y="-125688" z="-3456" />
+		<teleport x="113880" y="-112296" z="-11225" />
+		<quest name="_10286_ReunionWithSirra" type="COMPLETED" />
+		<geodata mapX="23" mapY="14" />
+		<reenter setUponEntry="false" sharedReuseGroup="5">
+			<reset day="Wednesday" hour="6" minute="30" />
+			<reset day="Saturday" hour="6" minute="30" />
+		</reenter>
+		<add_parameters>
+			<set name="glakiasTimeLimit" value="360" />
+			<set name="guardsInterval" value="50" />
+			<set name="guardStage1" value="3;4;2;3" />
+			<set name="guardStage2" value="3;5;2;4" />
+			<set name="guardStage3" value="4;9;3;6" />
+		</add_parameters>
+		<doorlist>
+			<door doorId="23140101" />
+		</doorlist>
+		<spawns>
+			<spawn mobId="32762" type="point" respawn="0">
+				<coords loc="114776 -113208 -11225 16384" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

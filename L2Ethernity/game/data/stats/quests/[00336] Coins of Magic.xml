@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="336" nameEn="Coins of Magic" nameRu="Волшебные монеты">
+		<droplist>
+			<npc id="20644">
+				<item id="3812" min="1" chance="10" rateable="true" /> <!--Kaldis Gold Dragon-->
+			</npc>
+			<npc id="20645">
+				<item id="3812" min="1" chance="10" rateable="true" /> <!--Kaldis Gold Dragon-->
+			</npc>
+			<npc id="20584">
+				<item id="3472" min="1" chance="14" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="20585">
+				<item id="3472" min="1" chance="14" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="20587">
+				<item id="3472" min="1" chance="13" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="20604">
+				<item id="3472" min="1" chance="6" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="20678">
+				<item id="3472" min="1" chance="8" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21003">
+				<item id="3472" min="1" chance="9" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21008">
+				<item id="3472" min="1" chance="16" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21282">
+				<item id="3472" min="1" chance="10" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21284">
+				<item id="3472" min="1" chance="9" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21283">
+				<item id="3472" min="1" chance="9" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21526">
+				<item id="3472" min="1" chance="16" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="21531">
+				<item id="3472" min="1" chance="16" rateable="true" /> <!--Blood Medusa-->
+			</npc>
+			<npc id="20583">
+				<item id="3482" min="1" chance="8" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20663">
+				<item id="3482" min="1" chance="7" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20235">
+				<item id="3482" min="1" chance="7" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20146">
+				<item id="3482" min="1" chance="8" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20240">
+				<item id="3482" min="1" chance="10" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20245">
+				<item id="3482" min="1" chance="10" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="21006">
+				<item id="3482" min="1" chance="14" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20674">
+				<item id="3482" min="1" chance="21" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="21287">
+				<item id="3482" min="1" chance="11" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="21288">
+				<item id="3482" min="1" chance="11" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="21286">
+				<item id="3482" min="1" chance="11" rateable="true" /> <!--Gold Wyvern-->
+			</npc>
+			<npc id="20568">
+				<item id="3490" min="1" chance="11" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="20569">
+				<item id="3490" min="1" chance="12" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="20685">
+				<item id="3490" min="1" chance="7" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="20572">
+				<item id="3490" min="1" chance="8" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="20161">
+				<item id="3490" min="1" chance="8" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="20575">
+				<item id="3490" min="1" chance="9" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="21521">
+				<item id="3490" min="1" chance="15" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+			<npc id="21539">
+				<item id="3490" min="1" chance="21" rateable="true" /> <!--Silver Unicorn-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

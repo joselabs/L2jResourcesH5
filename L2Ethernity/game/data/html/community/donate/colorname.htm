@@ -1,0 +1,84 @@
+﻿<html noscrollbar><title>Changing Name Color</title></head>
+<body>
+<br>
+<center>
+<table width="295" cellpadding="4" bgcolor="452822">
+    	<tr>
+      		<td width="45" valign="top" align="center"><img src="icon.skill0373" width="32" height="32"></td>
+      		<td valign="top">
+			<font color="FF6600">Changing name color</font><br1>
+			Function that changes current name color
+		</td>
+    	</tr>
+  </table>
+<br1>
+<img src="l2ui.SquareGray" width="292" height="1"><br1>
+<table width="295" cellpadding="4">
+	<tr>
+      		<td>
+			<font color="FF6600">Selected Color:</font>
+		</td>
+      		<td>
+			<center><combobox var="scolor" list="Green;Yellow;Orange;Blue;Black;Brown;Light-Pink;Pink;Light-Blue;Turquoise;Lime;Gray;Dark-Green;Purple" width="100" height="21"/></center>
+		</td>
+    	</tr>
+	<tr>
+      		<td>
+			<font color="FF6600">Number of days:</font>
+		</td>
+      		<td>
+			<center><combobox var="sdays" list="1;3;7;14;30" width="100" height="21"/></center>
+		</td>
+    	</tr>
+  </table>
+<br>
+<img src="l2ui.SquareGray" width="292" height="1"><br1>
+<table width="295" cellpadding="4" bgcolor="303030">
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=00FF00>Green</font></td>
+		<td width=100><font color=FFFF00>Yellow</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=FF9900>Orange</font></td>
+		<td width=100><font color=0000FF>Blue</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=000000>Black</font></td>
+		<td width=100><font color=996600>Brown</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=FF66FF>Light-Pink</font></td>
+		<td width=100><font color=FF00FF>Pink</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=66FFFF>Light-Blue</font></td>
+		<td width=100><font color=009999>Turquoise</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=99FF99>Lime</font></td>
+		<td width=100><font color=999999>Gray</font></td>
+	</tr>
+	<tr>
+		<td width=30>&nbsp;</td>
+		<td width=100><font color=009933>Dark-Green</font></td>
+		<td width=100><font color=9933FF>Purple</font></td>
+	</tr>
+</table>
+<img src="l2ui.SquareGray" width="292" height="1"><br>
+<table width="278" cellpadding="3">
+  	<tr>    
+    		<td align="center">
+       			<button value="Change name color" action="bypass -h _bbs_service;changenickcolor $scolor $sdays" width="130" height="26" back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+    		</td>                
+  	</tr>    
+</table>
+<br>
+<font color=b02e31>Price for different number of days is different!</font>
+</center>
+</body></html>

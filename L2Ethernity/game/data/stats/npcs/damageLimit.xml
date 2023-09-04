@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/damageLimit.xsd">
+<!-- 
+* This is custom system for control limit damage by monsters and raids
+* damage - this is limit damage by hits
+* physicDamage - this is limit damage by physical skills
+* magicDamage - this is limit damage by magic skills
+* To disable one of limits, use the parameter -1 or remove.
+-->
+	<!-- <npc id="29001" damage="5" physicDamage="2" magicDamage="2" /> --> <!-- Queen Ant -->
+</list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="116" name="Seed of Infinity (Hall of Suffering)" maxChannels="20" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+		<level min="75" max="82" />
+		<party min="2" max="9" />
+		<allowSummon val="false" />
+		<return x="-183656" y="206264" z="-12928" />
+		<teleport x="-174053" y="218075" z="-9560" />
+        	<quest name="_695_DefendTheHallOfSuffering" type="STARTED" />
+		<showTimer val="true" />
+		<reenter setUponEntry="false" sharedReuseGroup="0">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<spawns>
+			<group name="soi_hos_defence_tumor" spawned="false" />
+			<group name="soi_hos_defence_alivetumor" spawned="false" />
+			<group name="soi_hos_defence_brothers" spawned="false" />
+			<group name="soi_hos_defence_mobs_1" spawned="false" />
+			<group name="soi_hos_defence_mobs_2" spawned="false" />
+			<group name="soi_hos_defence_mobs_3" spawned="false" />
+			<group name="soi_hos_defence_mobs_4" spawned="false" />
+			<group name="soi_hos_defence_mobs_5" spawned="false" />
+			<group name="soi_hos_defence_tepios" spawned="false" />
+		</spawns>
+	</instance>
+</list>

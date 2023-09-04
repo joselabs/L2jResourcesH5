@@ -1,0 +1,110 @@
+﻿<html noscrollbar><body>
+<title>Auto-enchanting</title>
+<center><font color=e0e0e0>Auto Enchanting Menu</font> </center>
+<img src=L2UI.SquareGray width=290 height=1>
+<br>
+<font color="LEVEL">Enchanting item:</font>
+<!-- Item table -->
+<img src=L2UI.SquareGray width=289 height=2>
+<table bgcolor=121212 cellpadding=0 cellspacing=0 height=32 border=0>
+	<tr>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=32></td>
+		<td width=33 valign=top>%item_icon%</td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=32></td>
+		<td fixwidth=198 align=center><font color=BCBCBC>%item_name%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=32></td>
+		<td width=55 valign=bottom><button width=55 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h .item_choose 0-0-1" value="Select"></td>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=32></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=289 height=1>
+<table bgcolor=121212 cellpadding=0 cellspacing=0 height=21 border=0>
+	<tr>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=21></td>
+		<td align=center fixwidth=98><font color=BCBCBC>Enchant:</font> <font color=B59A75>%item_enchant_lvl%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=21></td>
+		<td align=center fixwidth=102><font color=BCBCBC>Attribute:</font> %item_att%</td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=21></td>
+		<td align=center fixwidth=111><font color=BCBCBC>Att. Level:</font> <font color=B59A75>%item_att_lvl%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=21></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=289 height=2>
+<!-- Item table end-->
+<br>
+<font color="LEVEL">Item for enchanting:</font>
+<!-- Upgrade item table -->
+<img src=L2UI.SquareGray width=289 height=2>
+<table bgcolor=121212 cellpadding=0 cellspacing=0 height=32 border=0>
+	<tr>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=32></td>
+		<td width=33 valign=top>%ench_icon%</td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=32></td>
+		<td fixwidth=198 align=center><font color=BCBCBC>%ench_name%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=32></td>
+		<td width=55 valign=bottom><button width=55 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h .item_choose 1-0-1" value="Select"></td>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=32></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=289 height=1>
+<table bgcolor=121212 cellpadding=0 cellspacing=0 height=18 border=0>
+	<tr>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=18></td>
+		<td align=center width=98><font color=BCBCBC>%ench_blessed_field%</font> <font color=00c500>%ench_blessed%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=18></td>
+		<td align=center width=102><font color=BCBCBC>Type:</font> <font color=B59A75>%ench_type%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=1 height=18></td>
+		<td align=center width=111><font color=BCBCBC>Amount:</font> <font color=B59A75>%ench_count%</font></td>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=18></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=289 height=2>
+<!-- Upgrade item table end-->
+<br>
+<font color="LEVEL">Configuration:</font>
+<!-- Configuration -->
+<img src=L2UI.SquareGray width=289 height=2>
+<table bgcolor=121212 cellpadding=0 cellspacing=0 border=0>
+	<tr>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=80></td>
+		<td>
+			<!-- Enchant limit -->
+			<table cellpadding=1 cellspacing=1 border=0>
+				<tr>
+					<td width=171><font color=BCBCBC>Try enchanting to:</font></td>
+					<td width=46><font color=B59A75>%max_enchant%</font></td>
+					<td>%max_enchant_button%</td>
+				</tr>
+			</table>
+			<center><img src=L2UI.SquareGray width=285 height=1></center>
+			<!-- Item limit -->
+			<table cellpadding=1 cellspacing=1 border=0>
+				<tr>
+					<td width=171><font color=BCBCBC>Use items amount:</font></td>
+					<td width=46><font color=B59A75>%upgrade_item_limit%</font></td>
+					<td>%item_limit_button%</td>
+				</tr>
+			</table>
+			<center><img src=L2UI.SquareGray width=285 height=1></center>
+			<!-- common scroll -->
+			<table cellpadding=1 cellspacing=1 border=0 height=30>
+				<tr>
+					<td valign=center width=206><font color=BCBCBC>Use normal scrolls before +3:</font></td>
+					<td valign=center align=center width=42><font color=00c500>%common_scrolls_for_safe%</font></td>
+					<td>%common_scrolls_for_safe_button%</td>
+				</tr>
+			</table>
+		</td>
+		<td valign=top><img src=L2UI.SquareGray width=2 height=80></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=289 height=2>
+<!-- Configuration end -->
+<br>
+<table>
+	<tr>
+		<td><button width=132 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h .begin_enchant" value="Enchant"></td>
+		<td><button width=132 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h .enchant_help" value="Help"></td>
+	</tr>
+</table>
+</body></html>

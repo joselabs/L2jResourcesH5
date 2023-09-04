@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!--
+	########## Custom params for buffs ##########
+	premiumLvl   - separate buff level for premium players.  Example format [premiumLvl="315"]
+	buffTime     - separate buff time in minutes. Example format [buffTime="10"]
+	premiumBuffTime - separate buff time for premium players in minutes. Example format [premiumBuffTime="20"]
+ 	requestItems - request item list to get buff. Example format [requestItems="5575,10000;4037,10"]
+	removeItems  - if true request items will removed. Example format [removeItems="true"]
+	needAllItems - if true will check all request item list. Example format [needAllItems="true"]
+	-->
+
+	<!-- Buffs Section Individual -->
+	<skill id="1204" level="2" type="buff" /> <!-- Wind Walk -->
+	<skill id="1040" level="3" type="buff" /> <!-- Shield -->
+	<skill id="1068" level="3" type="buff" /> <!-- Might -->
+	<skill id="1043" level="1" type="buff" /> <!-- Holy Weapon -->
+	<skill id="1045" level="6" type="buff" /> <!-- Blessed Body -->
+	<skill id="1048" level="6" type="buff" /> <!-- Blessed Soul -->
+	<skill id="1078" level="6" type="buff" /> <!-- Concentration -->
+	<skill id="1036" level="2" type="buff" /> <!-- Magic Barrier -->
+	<skill id="1062" level="2" type="buff" /> <!-- Berserker Spirit -->
+	<skill id="1243" level="6" type="buff" /> <!-- Bless Shield -->
+	<skill id="1085" level="3" type="buff" /> <!-- Acumen -->
+	<skill id="1086" level="2" type="buff" /> <!-- Haste -->
+	<skill id="1240" level="3" type="buff" /> <!-- Guidance -->
+	<skill id="1077" level="3" type="buff" /> <!-- Focus -->
+	<skill id="1303" level="2" type="buff" /> <!-- Wild Magic -->
+	<skill id="1304" level="3" type="buff" /> <!-- Advanced Block -->
+	<skill id="1044" level="3" type="buff" /> <!-- Regeneration -->
+	<skill id="1087" level="3" type="buff" /> <!-- Agility -->
+	<skill id="1397" level="3" type="buff" /> <!-- Clarity -->
+	<skill id="1268" level="4" type="buff" /> <!-- Vampiric Rage -->
+	<skill id="1059" level="3" type="buff" /> <!-- Empower -->
+	<skill id="1242" level="3" type="buff" /> <!-- Death Whisper -->
+	<skill id="1047" level="4" type="buff" /> <!-- Regeneration -->
+	<skill id="1460" level="1" type="buff" /> <!-- Mana Gain -->
+
+	<!-- Songs Section Individual -->
+	<skill id="264" level="1" type="song" isDanceSlot="true" /> <!-- Song of Earth -->
+	<skill id="265" level="1" type="song" isDanceSlot="true" /> <!-- Song of Life -->
+	<skill id="266" level="1" type="song" isDanceSlot="true" /> <!-- Song of Water -->
+	<skill id="267" level="1" type="song" isDanceSlot="true" /> <!-- Song of Warding -->
+	<skill id="268" level="1" type="song" isDanceSlot="true" /> <!-- Song of Wind -->
+	<skill id="269" level="1" type="song" isDanceSlot="true" /> <!-- Song of Hunter -->
+	<skill id="270" level="1" type="song" isDanceSlot="true" /> <!-- Song of Invocation -->
+	<skill id="304" level="1" type="song" isDanceSlot="true" /> <!-- Song of Vitality -->
+	<skill id="305" level="1" type="song" isDanceSlot="true" /> <!-- Song of Vengeance -->
+	<skill id="306" level="1" type="song" isDanceSlot="true" /> <!-- Song of Flame Guard -->
+	<skill id="308" level="1" type="song" isDanceSlot="true" /> <!-- Song of Storm Guard -->
+	<skill id="364" level="1" type="song" isDanceSlot="true" /> <!-- Song of Champion -->
+	<skill id="349" level="1" type="song" isDanceSlot="true" /> <!-- Song of Renewal -->
+	<skill id="363" level="1" type="song" isDanceSlot="true" /> <!-- Song of Meditation -->
+	<skill id="529" level="1" type="song" isDanceSlot="true" /> <!-- Song of Elemental -->
+	<skill id="914" level="1" type="song" isDanceSlot="true" /> <!-- Song of Purification -->
+
+	<!-- Dances Section Individual -->
+	<skill id="271" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of the Warrior -->
+	<skill id="272" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Inspiration -->
+	<skill id="273" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of the Mystic -->
+	<skill id="276" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Concentration -->
+	<skill id="365" level="1" type="dance" isDanceSlot="true" /> <!-- Siren's Dance -->
+	<skill id="274" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Fire -->
+	<skill id="275" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Fury -->
+	<skill id="277" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Light -->
+	<skill id="307" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Aqua Guard -->
+	<skill id="309" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Earth Guard -->
+	<skill id="310" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of the Vampire -->
+	<skill id="311" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Protection -->
+	<skill id="366" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Shadows -->
+	<skill id="530" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Alignment -->
+	<skill id="915" level="1" type="dance" isDanceSlot="true" /> <!-- Dance of Berserker -->
+
+	<!-- Resist Section Individual -->
+	<skill id="1035" level="4" type="resist" /> <!-- Mental Shield -->
+	<skill id="1259" level="4" type="resist" /> <!-- Resist Shock -->
+	<skill id="1182" level="3" type="resist" /> <!-- Resist Aqua -->
+	<skill id="1189" level="3" type="resist" /> <!-- Resist Wind -->
+	<skill id="1191" level="3" type="resist" /> <!-- Resist Fire -->
+	<skill id="1548" level="3" type="resist" /> <!-- Resist Earth -->
+	<skill id="1392" level="3" type="resist" /> <!-- Holy Resistance -->
+	<skill id="1393" level="3" type="resist" /> <!-- Unholy Resistance -->
+	<skill id="1352" level="1" type="resist" /> <!-- Elemental Protection -->
+	<skill id="1353" level="1" type="resist" /> <!-- Divine Protection -->
+	<skill id="1354" level="1" type="resist" /> <!-- Arcane Protection -->
+	<skill id="1362" level="1" type="resist" /> <!-- Chant of Spirit -->
+	<skill id="1415" level="1" type="resist" /> <!-- Pa'agrio's Emblem -->
+
+	<!-- Special Section Individual -->
+	<skill id="1388" level="3" type="special" /> <!-- Greater Might -->
+	<skill id="1389" level="3" type="special" /> <!-- Greater Shield -->
+	<skill id="1356" level="1" type="special" /> <!-- Prophecy of Fire -->
+	<skill id="1355" level="1" type="special" /> <!-- Prophecy of Water -->
+	<skill id="1357" level="1" type="special" /> <!-- Prophecy of Wind -->
+	<skill id="1363" level="1" type="special" /> <!-- Chant of Victory -->
+	<skill id="1413" level="1" type="special" /> <!-- Magnus' Chant -->
+	<skill id="1414" level="1" type="special" /> <!-- Victory of Pa'agrio -->
+	<skill id="4702" level="13" type="special" /> <!-- Blessing of Seraphim -->
+	<skill id="4703" level="13" type="special" /> <!-- Gift of Seraphim -->
+	<skill id="4699" level="13" type="special" /> <!-- Blessing of Queen -->
+	<skill id="4700" level="13" type="special" /> <!-- Gift of Queen -->
+	<skill id="1461" level="1" type="special" /> <!-- Chant of Protection -->
+	<skill id="1323" level="1" type="special" /> <!-- Noblesse Blessing -->
+	<skill id="1307" level="3" type="special" /> <!-- Prayer -->
+	<skill id="1232" level="3" type="special" /> <!-- Blazing Skin -->
+	<skill id="1364" level="1" type="special" /> <!-- Eye of Pa'agrio -->
+	<skill id="1365" level="1" type="special" /> <!-- Soul of Pa'agrio -->
+
+	<!-- Other Section Individual -->
+	<skill id="826" level="1" type="special" /> <!-- Spike -->
+	<skill id="825" level="1" type="special" /> <!-- Sharp Edge -->
+	<skill id="827" level="1" type="special" /> <!-- Restring -->
+	<skill id="828" level="1" type="special" /> <!-- Case Harden -->
+	<skill id="829" level="1" type="special" /> <!-- Hard Tanning -->
+	<skill id="830" level="1" type="special" /> <!-- Embroider -->
+
+	<!-- Chants Section Individual -->
+	<skill id="1007" level="3" type="chant" /> <!-- Chant of Battle -->
+	<skill id="1009" level="3" type="chant" /> <!-- Chant of Shielding -->
+	<skill id="1002" level="3" type="chant" /> <!-- Flame Chant -->
+	<skill id="1006" level="3" type="chant" /> <!-- Chant of Fire -->
+	<skill id="1252" level="3" type="chant" /> <!-- Chant of Evasion -->
+	<skill id="1253" level="3" type="chant" /> <!-- Chant of Rage -->
+	<skill id="1308" level="3" type="chant" /> <!-- Chant of Predator -->
+	<skill id="1251" level="2" type="chant" /> <!-- Chant of Fury -->
+	<skill id="1309" level="3" type="chant" /> <!-- Chant of Eagle -->
+	<skill id="1310" level="4" type="chant" /> <!-- Chant of Vampire -->
+	<skill id="1284" level="3" type="chant" /> <!-- Chant of Revenge -->
+	<skill id="1390" level="3" type="chant" /> <!-- War Chant -->
+	<skill id="1391" level="3" type="chant" /> <!-- Earth Chant -->
+
+	<skill id="1250" level="3" type="chant" /> <!-- Protection of Pa'agrio -->
+	<skill id="1260" level="3" type="chant" /> <!-- Tact of Pa'agrio -->
+	<skill id="1004" level="3" type="chant" /> <!-- Wisdom of Pa'agrio -->
+	<skill id="1003" level="3" type="chant" /> <!-- Pa'agrian Gift -->
+	<skill id="1005" level="3" type="chant" /> <!-- Blessings of Pa'agrio -->
+	<skill id="1261" level="2" type="chant" /> <!-- Rage of Pa'agrio -->
+	<skill id="1249" level="3" type="chant" /> <!-- Vision of Pa'agrio -->
+	<skill id="1282" level="2" type="chant" /> <!-- Pa'agrian Haste -->
+
+	<!-- Fighter Buffs Group -->
+	<groups groupId="1">
+		<skill id="1062" /> <!-- Bersercer Spirit -->
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1259" /> <!-- Resist Shock -->
+		<skill id="4699" /> <!-- Blessing of Queen -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1363" /> <!-- Chant of Victory -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="825" /> <!-- Sharp Edge -->
+		<skill id="828" /> <!-- Case Harden -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1388" /> <!-- Greater Might -->
+		<skill id="1519" /> <!-- Chant of Blood Awakening -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1397" /> <!-- Clarity -->
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="271" /> <!-- Dance of the Warrior -->
+		<skill id="274" /> <!-- Dance of Fire -->
+		<skill id="275" /> <!-- Dance of Fury -->
+		<skill id="310" /> <!-- Dance of the Vampire -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="269" /> <!-- Song of Hunter -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="364" /> <!-- Song of Champion -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+	</groups>
+	<!-- Magic Buffs Group -->
+	<groups groupId="2">
+		<skill id="1085" /> <!-- Acumen -->
+		<skill id="830" /> <!-- Embroider -->
+		<skill id="1062" /> <!-- Berserker Spirit -->
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1078" /> <!-- Concentration -->
+		<skill id="1303" /> <!-- Wild Magic -->
+		<skill id="1259" /> <!-- Resist Shock -->
+		<skill id="1397" /> <!-- Clarity -->
+		<skill id="1307" /> <!-- Prayer -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1389" /> <!-- Greater Shield -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="1357" /> <!-- Prophecy of Wind -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="363" /> <!-- Song of Meditation -->
+		<skill id="273" /> <!-- Dance of the Mystic -->
+		<skill id="276" /> <!-- Dance of Concentration -->
+		<skill id="365" /> <!-- Siren's Dance -->
+	</groups>
+	<!-- Support Buffs Group -->
+	<groups groupId="3">
+		<skill id="1085" /> <!-- Acumen -->
+		<skill id="830" /> <!-- Embroider -->
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1078" /> <!-- Concentration -->
+		<skill id="1303" /> <!-- Wild Magic -->
+		<skill id="1259" /> <!-- Resist Shock -->
+		<skill id="1397" /> <!-- Clarity -->
+		<skill id="1307" /> <!-- Prayer -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1389" /> <!-- Greater Shield -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="1363" /> <!-- Chant of Victory -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="363" /> <!-- Song of Meditation -->
+		<skill id="273" /> <!-- Dance of the Mystic -->
+		<skill id="276" /> <!-- Dance of Concentration -->
+		<skill id="365" /> <!-- Siren's Dance -->
+	</groups>
+	<!-- Tank Buffs Group -->
+	<groups groupId="4">
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1259" /> <!-- Resist Shock -->
+		<skill id="1307" /> <!-- Prayer -->
+		<skill id="4699" /> <!-- Blessing of Queen -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1363" /> <!-- Chant of Victory -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="825" /> <!-- Sharp Edge -->
+		<skill id="828" /> <!-- Case Harden -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1519" /> <!-- Chant of Blood Awakening -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1397" /> <!-- Clarity -->		
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="271" /> <!-- Dance of the Warrior -->
+		<skill id="274" /> <!-- Dance of Fire -->
+		<skill id="275" /> <!-- Dance of Fury -->
+		<skill id="310" /> <!-- Dance of the Vampire -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="269" /> <!-- Song of Hunter -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="364" /> <!-- Song of Champion -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="1389" /> <!-- Greater Shield -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+	</groups>
+	<!-- Dagger Buffs Group -->
+	<groups groupId="5">
+		<skill id="1062" /> <!-- Bersercer Spirit -->
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1499" /> <!-- Improved Combat -->
+		<skill id="4699" /> <!-- Blessing of Queen -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1363" /> <!-- Chant of Victory -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="825" /> <!-- Sharp Edge -->
+		<skill id="829" /> <!-- Hard Tanning -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1388" /> <!-- Greater Might -->
+		<skill id="1519" /> <!-- Chant of Blood Awakening -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1397" /> <!-- Clarity -->		
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="271" /> <!-- Dance of the Warrior -->
+		<skill id="274" /> <!-- Dance of Fire -->
+		<skill id="275" /> <!-- Dance of Fury -->
+		<skill id="272" /> <!-- Dance of Inspiration -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="269" /> <!-- Song of Hunter -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="364" /> <!-- Song of Champion -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="266" /> <!-- Song of Water -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+	</groups>
+	<!-- Archer Buffs Group -->
+	<groups groupId="6">
+		<skill id="1062" /> <!-- Bersercer Spirit -->
+		<skill id="1035" /> <!-- Mental Shield -->
+		<skill id="1259" /> <!-- Resist Shock -->
+		<skill id="4699" /> <!-- Blessing of Queen -->
+		<skill id="4703" /> <!-- Gift of Seraphim -->
+		<skill id="1363" /> <!-- Chant of Victory -->
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+		<skill id="825" /> <!-- Sharp Edge -->
+		<skill id="829" /> <!-- Hard Tanning -->
+		<skill id="1461" /> <!-- Chant of Protection -->
+		<skill id="1388" /> <!-- Greater Might -->
+		<skill id="1519" /> <!-- Chant of Blood Awakening -->
+		<skill id="1501" /> <!-- Counter Critical -->
+		<skill id="1232" /> <!-- Blazing Skin -->
+		<skill id="1397" /> <!-- Clarity -->		
+		<skill id="1354" /> <!-- Arcane Protection -->
+		<skill id="1353" /> <!-- Divine Protection -->
+		<skill id="1352" /> <!-- Elemental Protection -->
+		<skill id="827" /> <!-- Restring -->
+		<skill id="271" /> <!-- Dance of the Warrior -->
+		<skill id="274" /> <!-- Dance of Fire -->
+		<skill id="275" /> <!-- Dance of Fury -->
+		<skill id="272" /> <!-- Dance of Inspiration -->
+		<skill id="264" /> <!-- Song of Earth -->
+		<skill id="267" /> <!-- Song of Warding -->
+		<skill id="268" /> <!-- Song of Wind -->
+		<skill id="269" /> <!-- Song of Hunter -->
+		<skill id="304" /> <!-- Song of Vitality -->
+		<skill id="364" /> <!-- Song of Champion -->
+		<skill id="349" /> <!-- Song of Renewal -->
+		<skill id="266" /> <!-- Song of Water -->		
+		<skill id="1323" /> <!-- Noblesse Blessing -->
+	</groups>
+</list>

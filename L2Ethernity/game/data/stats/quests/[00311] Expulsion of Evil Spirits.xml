@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="311" nameEn="Expulsion of Evil Spirits" nameRu="Сражение со злыми духами">
+		<droplist>
+			<npc id="18808">
+				<item id="14882" min="1" chance="70" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="18809">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="18810">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22691">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22692">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22693">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22694">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22695">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22696">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22697">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22698">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+			<npc id="22699">
+				<item id="14882" min="1" chance="1" rateable="true" /> <!--Ragna Orc's Amulet-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

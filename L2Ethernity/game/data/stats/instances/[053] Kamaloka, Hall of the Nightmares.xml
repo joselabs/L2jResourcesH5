@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="53" name="Rim Kamaloka (Level 60)" maxChannels="10" collapseIfEmpty="10" timelimit="30" dispelBuffs="false">
+		<level min="55" max="65" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<teleport x="15943" y="-205740" z="-8008" />
+		<reenter setUponEntry="true" sharedReuseGroup="2">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<spawns>
+			<!-- Massive Kanabion -->
+			<spawn mobId="22473" count="4" respawn="30" type="loc">
+				<coords loc="15960 -206280 -8008 -8008"/>
+				<coords loc="17064 -206280 -8008 -8008"/>
+				<coords loc="17064 -205192 -8008 -8008"/>
+				<coords loc="15960 -205192 -8008 -8008"/>
+			</spawn>
+		</spawns>
+	</instance>
+</list>

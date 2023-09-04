@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="648" nameEn="An Ice Merchant's Dream" nameRu="Мечта торговца льдом">
+		<droplist>
+			<npc id="22080">
+				<item id="8077" min="1" chance="28" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="4" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22081">
+				<item id="8077" min="1" chance="44" rateable="true" /> <!--Silver Ice Crystal-->
+			</npc>
+			<npc id="22082">
+				<item id="8077" min="1" chance="51" rateable="true" /> <!--Silver Ice Crystal-->
+			</npc>
+			<npc id="22083">
+				<item id="8077" min="1" chance="47" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="5" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22084">
+				<item id="8077" min="1" chance="47" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="5" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22085">
+				<item id="8077" min="1" chance="42" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="4" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22086">
+				<item id="8077" min="1" chance="49" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="5" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22087">
+				<item id="8077" min="1" chance="78" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="8" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22088">
+				<item id="8077" min="1" chance="48" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="5" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22089">
+				<item id="8077" min="1" chance="55" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="5" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22090">
+				<item id="8077" min="1" chance="57" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="6" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22091">
+				<item id="8077" min="1" chance="62" rateable="true" /> <!--Silver Ice Crystal-->
+			</npc>
+			<npc id="22092">
+				<item id="8077" min="1" chance="62" rateable="true" /> <!--Silver Ice Crystal-->
+			</npc>
+			<npc id="22093">
+				<item id="8077" min="1" chance="91" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="9" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22094">
+				<item id="8077" min="1" chance="55" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="6" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22096">
+				<item id="8077" min="1" chance="59" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="6" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22097">
+				<item id="8077" min="1" chance="69" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="7" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+			<npc id="22098">
+				<item id="8077" min="1" chance="71" rateable="true" /> <!--Silver Ice Crystal-->
+				<item id="8057" min="1" chance="7" rateable="true" /> <!--Silver Hemocyte-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Reward per one Silver Ice Crystal-->
+				<item id="57" min="300" rateable="false" /> <!--Adena-->
+			</variant>
+			<variant id="2"> <!--Reward per one Silver Hemocyte-->
+				<item id="57" min="1200" rateable="false" /> <!--Adena-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

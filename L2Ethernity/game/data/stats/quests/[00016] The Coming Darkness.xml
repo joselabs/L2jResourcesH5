@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="16" nameEn="The Coming Darkness" nameRu="Приближение Тьмы">
+		<expirience>
+			<rewardExp val="865187" rateable="true" />
+			<rewardSp val="69172" rateable="true" />
+		</expirience>
+	</quest>
+</list>

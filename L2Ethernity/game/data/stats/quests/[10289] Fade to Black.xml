@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10289" nameEn="Fade to Black" nameRu="Переход во Тьму">
+		<expirience>
+			<rewardExp val="55983" rateable="false" />
+			<rewardSp val="136500" rateable="false" />
+		</expirience>
+		<droplist>
+			<npc id="25701">
+				<item id="15527" min="1" chance="100" rateable="false" /> <!--Mark of Splendor-->
+				<item id="15528" min="1" chance="100" rateable="false" /> <!--Mark of Darkness-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="15775">
+				<item id="15775" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Helmet (60%)-->
+			</variant>
+			<variant id="15776">
+				<item id="15776" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Leather Helmet(60%)-->
+			</variant>
+			<variant id="15777">
+				<item id="15777" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Circlet (60%)-->
+			</variant>
+			<variant id="15778">
+				<item id="15778" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Breastplate (60%)-->
+			</variant>
+			<variant id="15779">
+				<item id="15779" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Leather Breastplate (60%)-->
+			</variant>
+			<variant id="15780">
+				<item id="15780" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Tunic (60%)-->
+			</variant>
+			<variant id="15781">
+				<item id="15781" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Gaiter (60%)-->
+			</variant>
+			<variant id="15782">
+				<item id="15782" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Leather Legging (60%)-->
+			</variant>
+			<variant id="15783">
+				<item id="15783" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Stockings (60%)-->
+			</variant>
+			<variant id="15784">
+				<item id="15784" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Gauntlet (60%)-->
+			</variant>
+			<variant id="15785">
+				<item id="15785" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Leather Gloves (60%)-->
+			</variant>
+			<variant id="15786">
+				<item id="15786" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Gloves (60%)-->
+			</variant>
+			<variant id="15787">
+				<item id="15787" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Boots (60%)-->
+			</variant>
+			<variant id="15788">
+				<item id="15788" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Leather Boots (60%)-->
+			</variant>
+			<variant id="15789">
+				<item id="15789" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Shoes (60%)-->
+			</variant>
+			<variant id="15790">
+				<item id="15790" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Sigil (60%)-->
+			</variant>
+			<variant id="15791">
+				<item id="15791" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Shield (60%)-->
+			</variant>
+			<variant id="15812">
+				<item id="15812" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Ring (70%)-->
+			</variant>
+			<variant id="15813">
+				<item id="15813" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Earring (70%)-->
+			</variant>
+			<variant id="15814">
+				<item id="15814" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Necklace (70%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,52 @@
+<html noscrollbar><title>Меню ГМ </title><body>
+<center>
+<table width=288 border=0 bgcolor="444444">
+<tr>
+<td><button value="Меню" action="bypass -h admin_admin" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонаж" action="bypass -h admin_admin6" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass -h admin_admin2" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="ГМ" action="bypass -h admin_admin7" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+<font color="LEVEL">[ Действия Гейм Мастера ]</font><br1>
+<table width=288 bgcolor="444444"><tr>
+<td><button value="Список ON" action="bypass -h admin_gmliston" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Список OFF" action="bypass -h admin_gmlistoff" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Вес ON/OFF" action="bypass -h admin_diet" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ивиз" action="bypass -h admin_invis_menu" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Петиции" action="bypass -h admin_view_petitions" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Молчание" action="bypass -h admin_silence" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Трейд OFF" action="bypass -h admin_tradeoff" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бессмертие" action="bypass -h admin_invul" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Анонсы" action="bypass -h admin_list_announcements" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Авто.Анонс" action="bypass -h admin_list_autoann $qbox" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Заточка" action="bypass -h admin_enchant" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Магазин" action="bypass -h admin_gmshop" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br1>
+<table width=290><tr>
+<td><font color="LEVEL">Super Haste:</font></td>
+<td><button value="1" action="bypass -h admin_gmspeed_menu 1" width=38 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="2" action="bypass -h admin_gmspeed_menu 2" width=38 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="3" action="bypass -h admin_gmspeed_menu 3" width=38 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="4" action="bypass -h admin_gmspeed_menu 4" width=38 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="OFF" action="bypass -h admin_gmspeed_menu 0" width=38 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<center><multiedit var="new_announcement" width=290 height=50></center> <br>
+<table width=288 bgcolor="444444"><tr>
+<td><button value="Объявление" action="bypass -h admin_announce_menu $new_announcement" width=92 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Новость" action="bypass -h admin_critannounce_menu $new_announcement" width=92 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="GM Чат" action="bypass -h admin_gmchat_menu $new_announcement" width=92 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<font color="LEVEL">[ Ездовые ]</font><br1>
+<table width=288><tr>
+<td><button value="Фенрир" action="bypass -h admin_ride_wolf" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Страйдер" action="bypass -h admin_ride_strider" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Виверна" action="bypass -h admin_ride_wyvern" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Лошадь" action="bypass -h admin_ride_horse" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Байк" action="bypass -h admin_ride_bike" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+</center></body></html>

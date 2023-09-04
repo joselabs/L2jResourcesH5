@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/fight_event_maps.xsd">
+	<map name="[Dion Town]">
+		<parameter name="events" value="MonsterAttack"/>
+		<parameter name="teamsCount" value="-1"/>
+		<parameter name="minAllPlayers" value="1"/>
+		<parameter name="maxAllPlayers" value="500"/>
+		<objects name="teamSpawns">
+			<point x="18696" y="145048" z="-3121"/>
+			<point x="18824" y="145144" z="-3130"/>
+			<point x="18872" y="145256" z="-3131"/>
+			<point x="18808" y="145368" z="-3131"/>
+			<point x="18696" y="145400" z="-3129"/>
+			<point x="18568" y="145336" z="-3121"/>
+			<point x="18536" y="145208" z="-3114"/>
+			<point x="18616" y="145080" z="-3116"/>
+		</objects>
+        	<objects name="defLocations">
+			<point x="18712" y="145272" z="-3127"/>
+			<point x="18808" y="145208" z="-3130"/>
+			<point x="18712" y="145160" z="-3127"/>
+		</objects>
+        	<objects name="keyLocations">
+			<point x="18936" y="144024" z="-3044"/>
+			<point x="19016" y="144040" z="-3063"/>
+			<point x="19192" y="144152" z="-3086"/>
+			<point x="19672" y="145560" z="-3120"/>
+			<point x="19624" y="145656" z="-3109"/>
+			<point x="19608" y="145768" z="-3094"/>
+			<point x="17608" y="145736" z="-3082"/>
+			<point x="17704" y="145512" z="-3082"/>
+			<point x="17960" y="146040" z="-3107"/>
+			<point x="18136" y="146168" z="-3086"/>
+		</objects>
+		<objects name="territory">
+			<zone id="11028" />
+		</objects>
+	</map>
+</list>

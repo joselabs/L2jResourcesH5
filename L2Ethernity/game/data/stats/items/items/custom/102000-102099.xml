@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+
+	<item id="102000" type="Weapon" nameRu="Lindvior Caster-Fragment" nameEn="Lindvior Caster-Fragment">
+		<set name="icon" val="dragon_icon.lind_cas_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	
+	<item id="102001" type="Weapon" nameRu="Lindvior Cutter-Fragment" nameEn="Lindvior Cutter-Fragment">
+		<set name="icon" val="dragon_icon.lind_cut_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="102002" type="Weapon" nameRu="Lindvior Dual Dagger-Fragment" nameEn="Lindvior Dual Dagger-Fragment">
+		<set name="icon" val="dragon_icon.lind_ddag_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualdagger" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="140" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="102003" type="Weapon" nameRu="Lindvior Shaper-Fragment" nameEn="Lindvior Shaper-Fragment">
+		<set name="icon" val="dragon_icon.lind_sha_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1457" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="180" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="102004" type="Weapon" nameRu="Lindvior Shooter-Fragment" nameEn="Lindvior Shooter-Fragment">
+		<set name="icon" val="dragon_icon.lind_sho_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2106" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="620" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="555" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="102005" type="Weapon" nameRu="Lindvior Slasher-Fragment" nameEn="Lindvior Slasher-Fragment">
+		<set name="icon" val="dragon_icon.lind_sla_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+
+	<item id="102006" type="Weapon" nameRu="Lindvior Thrower-Fragment" nameEn="Lindvior Thrower-Fragment">
+		<set name="icon" val="dragon_icon.lind_bow_00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2339" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	
+	<item id="102010" type="Weapon" nameRu="Lindvior Caster-Standard" nameEn="Lindvior Caster-Standard">
+<set name="icon" val="dragon_icon.lind_cas_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1950" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	
+	<item id="102011" type="Weapon" nameRu="Lindvior Cutter-Standard" nameEn="Lindvior Cutter-Standard">
+		<set name="icon" val="dragon_icon.lind_cut_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1950" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102012" type="Weapon" nameRu="Lindvior Dual Dagger-Standard" nameEn="Lindvior Dual Dagger-Standard">
+		<set name="icon" val="dragon_icon.lind_ddag_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualdagger" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1588" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="140" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102013" type="Weapon" nameRu="Lindvior Shaper-Standard" nameEn="Lindvior Shaper-Standard">
+		<set name="icon" val="dragon_icon.lind_sha_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1457" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="180" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102014" type="Weapon" nameRu="Lindvior Shooter-Standard" nameEn="Lindvior Shooter-Standard">
+		<set name="icon" val="dragon_icon.lind_sho_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3106" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="620" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="555" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102015" type="Weapon" nameRu="Lindvior Slasher-Standard" nameEn="Lindvior Slasher-Standard">
+		<set name="icon" val="dragon_icon.lind_sla_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102016" type="Weapon" nameRu="Lindvior Thrower-Standard" nameEn="Lindvior Thrower-Standard">
+		<set name="icon" val="dragon_icon.lind_bow_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4898" />
+			<set order="0x08" stat="mAtk" val="1017" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102020" type="Weapon" nameRu="Lindvior Caster-High-Grade" nameEn="Lindvior Caster-High-Grade">
+		<set name="icon" val="dragon_icon.lind_cut_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3050" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	
+	<item id="102021" type="Weapon" nameRu="Lindvior Caster-High-Grade" nameEn="Lindvior Caster-High-Grade">
+		<set name="icon" val="dragon_icon.lind_cut_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3050" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102022" type="Weapon" nameRu="Lindvior Dual Dagger-High-Grade" nameEn="Lindvior Dual Dagger-High-Grade">
+		<set name="icon" val="dragon_icon.lind_ddag_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualdagger" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3188" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102023" type="Weapon" nameRu="Lindvior Shaper-High-Grade" nameEn="Lindvior Shaper-High-Grade">
+		<set name="icon" val="dragon_icon.lind_sha_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3157" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102024" type="Weapon" nameRu="Lindvior Shooter-High-Grade" nameEn="Lindvior Shooter-High-Grade">
+		<set name="icon" val="dragon_icon.lind_sho_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="15039" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102025" type="Weapon" nameRu="Lindvior Slasher-High-Grade" nameEn="Lindvior Slasher-High-Grade">
+		<set name="icon" val="dragon_icon.lind_sla_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3445" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102026" type="Weapon" nameRu="Lindvior Thrower-High-Grade" nameEn="Lindvior Thrower-High-Grade">
+		<set name="icon" val="dragon_icon.lind_bow_02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5336" />
+			<set order="0x08" stat="mAtk" val="1017" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	
+		<item id="102030" type="Weapon" nameRu="Lindvior Caster-ToP-Grade" nameEn="Lindvior Caster-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_cut_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4050" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	
+	<item id="102031" type="Weapon" nameRu="Lindvior Caster-ToP-Grade" nameEn="Lindvior Caster-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_cut_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4050" />
+			<set order="0x08" stat="mAtk" val="4690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102032" type="Weapon" nameRu="Lindvior Dual Dagger-ToP-Grade" nameEn="Lindvior Dual Dagger-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_ddag_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualdagger" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4188" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="479" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102033" type="Weapon" nameRu="Lindvior Shaper-ToP-Grade" nameEn="Lindvior Shaper-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_sha_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4157" />
+			<set order="0x08" stat="mAtk" val="1690" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102034" type="Weapon" nameRu="Lindvior Shooter-ToP-Grade" nameEn="Lindvior Shooter-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_sho_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="35039" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102035" type="Weapon" nameRu="Lindvior Slasher-ToP-Grade" nameEn="Lindvior Slasher-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_sla_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4445" />
+			<set order="0x08" stat="mAtk" val="1517" />
+			<set order="0x08" stat="rCrit" val="80" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+
+	<item id="102036" type="Weapon" nameRu="Lindvior Thrower-ToP-Grade" nameEn="Lindvior Thrower-ToP-Grade">
+		<set name="icon" val="dragon_icon.lind_bow_03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="gold" />
+		<set name="weight" val="1520" />
+		<set name="price" val="143356000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="35336" />
+			<set order="0x08" stat="mAtk" val="1017" />
+			<set order="0x08" stat="rCrit" val="120" />
+			<add order="0x10" stat="accCombat" val="8.00" />
+			<set order="0x08" stat="pAtkSpd" val="525" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<add order="0x40" stat="windPower" val="450" />
+		</for>
+	</item>
+	
+</list>

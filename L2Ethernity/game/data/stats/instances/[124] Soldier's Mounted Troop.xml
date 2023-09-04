@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="124" name="Chamblain's Mounted Troop" maxChannels="5" collapseIfEmpty="10" timelimit="20" dispelBuffs="true">
+		<level min="75" max="85" />
+		<party min="2" max="9" />
+		<allowSummon val="false" />
+		<return x="-248536" y="250072" z="4337" />
+		<teleport x="-242754" y="219982" z="-10011" />
+		<showTimer val="true" />
+		<geodata mapX="12" mapY="24" />
+		<reenter setUponEntry="true" sharedReuseGroup="6">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<doorlist>
+			<door doorId="12240001" />
+			<door doorId="12240002" />
+		</doorlist>
+		<spawns>
+			<spawn mobId="18703" type="point" respawn="0">
+				<coords loc="-238320, 219983, -10112, 0" />
+			</spawn>
+			<spawn mobId="18785" type="point" respawn="0">
+				<coords loc="-239836, 220547, -10135, 49262" />
+			</spawn>
+			<spawn mobId="18785" type="point" respawn="0">
+				<coords loc="-240419, 219423, -10135, 15463" />
+			</spawn>
+			<spawn mobId="18785" type="point" respawn="0">
+				<coords loc="-240420, 220546, -10135, 48510" />
+			</spawn>
+			<spawn mobId="18785" type="point" respawn="0">
+				<coords loc="-239836, 219418, -10135, 15212" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-239504, 219984, -10112, 32767" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-240260, 219975, -10144, 32502" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-240043, 219866, -10144, 33178" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-240060, 220070, -10144, 32578" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-239721, 220195, -10144, 30437" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-239811, 219987, -10144, 32880" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-239744, 219733, -10144, 32424" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-238855, 220154, -10144, 49075" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-238864, 219828, -10144, 16383" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-238604, 220168, -10144, 49952" />
+			</spawn>
+			<spawn mobId="18786" type="point" respawn="0">
+				<coords loc="-238605, 219799, -10144, 16800" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-238684, 219546, -10140, 16304" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-238688, 220428, -10139, 48609" />
+			</spawn>
+			<spawn mobId="18789" type="point" respawn="0">
+				<coords loc="-238580, 219979, -10144, 32767" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

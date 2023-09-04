@@ -1,0 +1,79 @@
+<html noscrollbar><title>Character Selection Panel</title><body>
+<table width=280>
+<tr>
+<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=210><center>Total Online: <font color="LEVEL">%total%</font></center></td>
+<td width=45><button value="Back" action="bypass -h admin_admin6" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br1>
+<center>
+<table width=280>	
+	<tr>
+		<td fixwidth=10>
+		</td>
+		<td fixwidth=110 align=center>
+			Real:<br1> <font color="00FF00">%real%</font>
+		</td>
+		<td fixwidth=110 align=center>
+			Players:<br1> <font color="LEVEL">%players%</font>
+		</td>
+		<td fixwidth=110 align=center>
+			Offline:<br1> <font color="ff6755">%offline%</font>
+		</td>
+		<td fixwidth=110 align=center>
+			Fakes:<br1> <font color="ff6755">%fakes%</font>
+		</td>
+	</tr>
+</table>
+<br1>
+<table width=250>
+	<tr>
+		<td><edit var="character_name" width=150 height=15></td>
+		<td><button value="Find" action="bypass -h admin_find_character $character_name" width=100 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br1>
+<table width=270>	
+	<tr>
+		<td width=70>
+			<button value="All" action="bypass -h admin_total_list" width=68 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td width=70>
+			<button value="Players" action="bypass -h admin_character_list" width=68 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td width=70>
+			<button value="Offline" action="bypass -h admin_offline_list" width=68 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td width=70>
+			<button value="Fakes" action="bypass -h admin_fake_list" width=68 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+</table>
+<br1>
+<table width=280>		
+	<tr>
+		<td width=90>Name</td><td width=120>Class</td><td width=50 align=center>Level</td>
+	</tr>
+</table>
+<img src="L2UI.squaregray" width="280" height="1">
+<table width=280>		
+	<tr>
+		<td height=190>
+			%playerList%
+		</td>
+	</tr>
+</table>
+<table width=270>	
+	<tr>
+		<td valign="top" align="center">
+			<table width=180 height=30>
+				<tr>
+					%pages%
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body></html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10293" nameEn="Seven Signs, Forbidden Book of the Elmore-Aden Kingdom" nameRu="Семь Печатей, Запрещенная Эльмореденом книга">
+		<expirience>
+			<rewardExp val="15000000" rateable="true" />
+			<rewardSp val="1500000" rateable="true" />
+		</expirience>
+	</quest>
+</list>

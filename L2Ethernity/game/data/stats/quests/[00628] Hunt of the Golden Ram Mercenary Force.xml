@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="628" nameEn="Hunt of the Golden Ram Mercenary Force" nameRu="Наемники Золотого Овна">
+		<droplist>
+			<npc id="21508">
+				<item id="7248" min="1" chance="50" rateable="true" /> <!--Splinter Stakato Chitin-->
+			</npc>
+			<npc id="21509">
+				<item id="7248" min="1" chance="43" rateable="true" /> <!--Splinter Stakato Chitin-->
+			</npc>
+			<npc id="21510">
+				<item id="7248" min="1" chance="52" rateable="true" /> <!--Splinter Stakato Chitin-->
+			</npc>
+			<npc id="21511">
+				<item id="7248" min="1" chance="57" rateable="true" /> <!--Splinter Stakato Chitin-->
+			</npc>
+			<npc id="21512">
+				<item id="7248" min="1" chance="74" rateable="true" /> <!--Splinter Stakato Chitin-->
+			</npc>
+			<npc id="21513">
+				<item id="7249" min="1" chance="50" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+			<npc id="21514">
+				<item id="7249" min="1" chance="43" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+			<npc id="21515">
+				<item id="7249" min="1" chance="52" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+			<npc id="21516">
+				<item id="7249" min="1" chance="53" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+			<npc id="21517">
+				<item id="7249" min="1" chance="74" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+			<npc id="21518">
+				<item id="7249" min="1" chance="76" rateable="true" /> <!--Needle Stakato Chitin-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="7247" min="1" rateable="false" /> <!--Golden Ram Badge - Soldier-->
+		</rewardlist>
+	</quest>
+</list>

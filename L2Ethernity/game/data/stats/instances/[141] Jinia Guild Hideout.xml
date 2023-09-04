@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="141" name="Jinia Guild Hideout" maxChannels="20" collapseIfEmpty="0" timelimit="30" dispelBuffs="false">
+		<level min="82" max="85" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<return x="113848" y="-109272" z="-870" />
+		<teleport x="-23768" y="-8968" z="-5412" />
+		<spawns>
+			<spawn mobId="32760" type="point" respawn="0">
+				<coords loc="-24040 -8969 -5360 0" />
+			</spawn>
+			<spawn mobId="32778" type="point" respawn="0">
+				<coords loc="-23970 -9139 -5384 5096" />
+			</spawn>
+			<spawn mobId="32777" type="point" respawn="0">
+				<coords loc="-23993 -9069 -5384 2912" />
+			</spawn>
+			<spawn mobId="32761" type="point" respawn="0">
+				<coords loc="-23993 -8845 -5384 59150" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

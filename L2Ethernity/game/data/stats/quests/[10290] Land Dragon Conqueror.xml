@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10290" nameEn="Land Dragon Conqueror" nameRu="Захватить Дракона Земли">
+		<expirience>
+			<rewardExp val="702557" rateable="true" />
+			<rewardSp val="76334" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="29019">
+				<item id="15523" min="1" chance="100" rateable="false" /> <!--Miracle Necklace-->
+			</npc>
+			<npc id="29066">
+				<item id="15523" min="1" chance="100" rateable="false" /> <!--Miracle Necklace-->
+			</npc>
+			<npc id="29067">
+				<item id="15523" min="1" chance="100" rateable="false" /> <!--Miracle Necklace-->
+			</npc>
+			<npc id="29068">
+				<item id="15523" min="1" chance="100" rateable="false" /> <!--Miracle Necklace-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="131236" rateable="true" /> <!--Adena-->
+			<item id="8568" min="1" rateable="false" /> <!--Antharas Slayer Circlet-->
+		</rewardlist>
+	</quest>
+</list>

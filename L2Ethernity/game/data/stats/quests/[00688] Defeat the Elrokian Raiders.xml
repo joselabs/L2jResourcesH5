@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="688" nameEn="Defeat the Elrokian Raiders!" nameRu="Облава на налетчиков Элроки">
+		<droplist>
+			<npc id="22214">
+				<item id="8785" min="1" chance="45" rateable="true" /> <!--Dinosaur Fang Necklace-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="450000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

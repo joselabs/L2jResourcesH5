@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+
+
+	<item id="57000" type="Armor" nameRu="School Uniform" nameEn="School Uniform A">
+		<set name="icon" val="Uniform_As.Br_schoollook" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57001" type="Armor" nameRu="School Uniform" nameEn="School Uniform B">
+		<set name="icon" val="Uniform_As.Br_schoollook" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57002" type="Armor" nameRu="Christmas Uniform" nameEn="Christmas Uniform">
+		<set name="icon" val="Uniform_As.armor_ev_santas_clothes" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57003" type="Armor" nameRu="Dark Knight" nameEn="Dark Knight Uniform">
+		<set name="icon" val="Uniform_As.Dark_Kninght" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57004" type="Armor" nameRu="Quipao Uniform" nameEn="Quipao Uniform">
+		<set name="icon" val="Uniform_As.qipao_armor_c_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57005" type="Armor" nameRu="Navi Uniform" nameEn="Navi Uniform">
+		<set name="icon" val="Uniform_As.navy_uniform_a_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57006" type="Armor" nameRu="Cloak of Hero" nameEn="Cloak of Hero">
+		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>	
+	<item id="57007" type="Armor" nameRu="Pirat Uniform" nameEn="Pirat Uniform">
+		<set name="icon" val="Uniform_As.captain_a_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57008" type="Armor" nameRu="Musketeer Uniform" nameEn="Musketeer Uniform">
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57009" type="Armor" nameRu="Magician Uniform" nameEn="Magician Uniform">
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57010" type="Armor" nameRu="Magician Uniform Upgraded" nameEn="Magician Uniform Upgraded">
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57011" type="Armor" nameRu="Ninja Suit" nameEn="Ninja Suit">
+		<set name="icon" val="L2AvA.icon1.g_co_ninja_u" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57012" type="Armor" nameRu="Dark Assasin Suit" nameEn="Dark Assasin Suit">
+		<set name="icon" val="L2AvA.ico.Asm_ico" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+	<item id="57013" type="Armor" nameRu="Metal Suit" nameEn="Metal Suit">
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1000" />
+		<set name="price" val="5000000" />
+	</item>
+</list>

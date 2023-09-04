@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="5" nameEn="Miner's Favor" nameRu="Поручение шахтера">
+		<expirience>
+			<rewardExp val="5672" rateable="true" />
+			<rewardSp val="446" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="2466" rateable="true" /> <!--Adena-->
+			<item id="906" min="1" rateable="false" /> <!--Necklace of Knowledge-->
+		</rewardlist>
+	</quest>
+</list>

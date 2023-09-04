@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10287" nameEn="Story of Those Left" nameRu="Рассказ оставшихся">
+		<rewardlist>
+			<variant id="10549">
+				<item id="10549" min="1" rateable="false" /> <!--Forgotten Scroll - Protection of Rune-->
+			</variant>
+			<variant id="10550">
+				<item id="10550" min="1" rateable="false" /> <!--Forgotten Scroll - Protection of Elemental-->
+			</variant>
+			<variant id="10551">
+				<item id="10551" min="1" rateable="false" /> <!--Forgotten Scroll - Protection of Alignment-->
+			</variant>
+			<variant id="10552">
+				<item id="10552" min="1" rateable="false" /> <!--Forgotten Scroll - Fighter's Will-->
+			</variant>
+			<variant id="10553">
+				<item id="10553" min="1" rateable="false" /> <!--Forgotten Scroll - Archer's Will-->
+			</variant>
+			<variant id="14219">
+				<item id="14219" min="1" rateable="false" /> <!--Forgotten Scroll - Magician's Will-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

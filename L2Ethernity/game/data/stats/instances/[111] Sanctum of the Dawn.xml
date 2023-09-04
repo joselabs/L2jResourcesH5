@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<instance id="111" name="Sanctum of the Lords of Dawn" maxChannels="20" collapseIfEmpty="5" timelimit="60" dispelBuffs="false">
+		<level min="79" max="85" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<return x="-12584" y="122328" z="-2992" />
+		<teleport x="-75976" y="213416" z="-7120" />
+		<quest name="_195_SevenSignSecretRitualOfThePriests" type="STARTED" />
+		<geodata mapX="17" mapY="24" />
+		<doorlist>
+			<door doorId="17240001" />
+			<door doorId="17240002" />
+			<door doorId="17240003" />
+			<door doorId="17240004" />
+			<door doorId="17240005" />
+			<door doorId="17240006" />
+		</doorlist>
+		<spawns>
+			<spawn mobId="32578" type="point" respawn="0">
+				<coords loc="-75695 213537 -7120 0" />
+			</spawn>
+			<spawn mobId="32579" type="point" respawn="0">
+				<coords loc="-75988 213411 -7120 0" />
+			</spawn>
+			<spawn mobId="18834" type="point" respawn="0">
+				<coords loc="-74934 213446 -7216 33334" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-74951 211629 -7312 16384" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-75301 209980 -7408 1722" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-74619 209981 -7408 30212" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-74282 208784 -7504 40959" />
+			</spawn>
+			<spawn mobId="18834" type="point" respawn="0">
+				<coords loc="-75654 208112 -7504 2718" />
+			</spawn>
+			<spawn mobId="18834" type="point" respawn="0">
+				<coords loc="-75428 208115 -7504 32768" />
+			</spawn>
+			<spawn mobId="18834" type="point" respawn="0">
+				<coords loc="-74955 207611 -7504 0" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-75454 206740 -7504 34645" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-74558 206625 -7504 65102" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-77703 208320 -7696 16384" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-77718 207512 -7696 24550" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-77703 207275 -7696 49151" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-77558 207138 -7696 17906" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-78346 207146 -7696 8680" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-78113 207384 -7696 41575" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-76962 207802 -7696 35928" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-77216 208297 -7696 35486" />
+			</spawn>
+			<spawn mobId="18835" type="point" respawn="0">
+				<coords loc="-77159 207642 -7696 32460" />
+			</spawn>
+			<spawn mobId="32578" type="point" respawn="0">
+				<coords loc="-78289 205749 -7880 0" />
+			</spawn>
+			<spawn mobId="32577" type="point" respawn="0">
+				<coords loc="-80152 205740 -7888 0" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79230 205935 -7896 36864" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79362 206012 -7896 49152" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79493 205930 -7896 61440" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79495 205774 -7896 4096" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79362 205706 -7896 16383" />
+			</spawn>
+			<spawn mobId="18828" type="point" respawn="0">
+				<coords loc="-79229 205782 -7896 28672" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-78891 206272 -7888 59013" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-79814 206277 -7888 59013" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-79813 205426 -7888 9231" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-78926 205432 -7888 23278" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-81535 205503 -7984 16384" />
+			</spawn>
+			<spawn mobId="27351" type="point" respawn="0">
+				<coords loc="-81536 206223 -7984 49151" />
+			</spawn>
+			<spawn mobId="32581" type="point" respawn="0">
+				<coords loc="-81784 205690 -7960 0" />
+			</spawn>
+			<spawn mobId="32581" type="point" respawn="0">
+				<coords loc="-81393 206152 -7960 0" />
+			</spawn>
+			<spawn mobId="32581" type="point" respawn="0">
+				<coords loc="-81669 206090 -7960 0" />
+			</spawn>
+			<spawn mobId="32581" type="point" respawn="0">
+				<coords loc="-81393 205565 -7960 0" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

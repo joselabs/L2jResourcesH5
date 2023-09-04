@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="362" nameEn="Bard's Mandolin" nameRu="Мандолина Барда">
+		<rewardlist>
+			<item id="57" min="10000" rateable="true" /> <!--Adena-->
+			<item id="4410" min="1" rateable="false" /> <!--Musical Score - Theme of Journey-->
+		</rewardlist>
+	</quest>
+</list>

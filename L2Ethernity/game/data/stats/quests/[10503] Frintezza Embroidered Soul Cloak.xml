@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10503" nameEn="Frintezza Embroidered Soul Cloak" nameRu="Плащ с вышитой душой -3(Фринтеза)">
+		<droplist>
+			<npc id="29047">
+				<item id="21724" min="1" chance="100" rateable="false" /> <!--Frintezza's Soul Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="21721" min="1" rateable="false" /> <!--Soul Cloak of Frintezza-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="112" nameEn="Walk of Fate" nameRu="Путь судьбы">
+		<level min="20" max="36" />
+		<expirience>
+			<rewardExp val="112876" rateable="true" />
+			<rewardSp val="5774" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="22308" rateable="true" /> <!--Adena-->
+			<item id="956" min="1" rateable="false" /> <!--Scroll: Enchant Armor (D-Grade)-->
+		</rewardlist>
+	</quest>
+</list>

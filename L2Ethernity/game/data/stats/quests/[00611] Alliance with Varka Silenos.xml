@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="611" nameEn="Alliance with Varka Silenos" nameRu="Союз с Фавнами Варка">
+		<droplist>
+			<npc id="21324">
+				<item id="7226" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - Soldier-->
+			</npc>
+			<npc id="21325">
+				<item id="7226" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - Soldier-->
+			</npc>
+			<npc id="21327">
+				<item id="7226" min="1" chance="51" rateable="true" /> <!--Ketra's Badge - Soldier-->
+			</npc>
+			<npc id="21328">
+				<item id="7226" min="1" chance="52" rateable="true" /> <!--Ketra's Badge - Soldier-->
+			</npc>
+			<npc id="21329">
+				<item id="7226" min="1" chance="52" rateable="true" /> <!--Ketra's Badge - Soldier-->
+			</npc>
+			<npc id="21331">
+				<item id="7227" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21332">
+				<item id="7227" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21334">
+				<item id="7227" min="1" chance="51" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21335">
+				<item id="7227" min="1" chance="52" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21336">
+				<item id="7227" min="1" chance="52" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21338">
+				<item id="7227" min="1" chance="53" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21339">
+				<item id="7228" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21340">
+				<item id="7228" min="1" chance="50" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21342">
+				<item id="7228" min="1" chance="51" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21343">
+				<item id="7227" min="1" chance="63" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21344">
+				<item id="7227" min="1" chance="60" rateable="true" /> <!--Ketra's Badge - Captain-->
+			</npc>
+			<npc id="21345">
+				<item id="7228" min="1" chance="62" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21346">
+				<item id="7228" min="1" chance="60" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21347">
+				<item id="7228" min="1" chance="64" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21348">
+				<item id="7228" min="1" chance="62" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+			<npc id="21349">
+				<item id="7228" min="1" chance="62" rateable="true" /> <!--Ketra's Badge - General-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

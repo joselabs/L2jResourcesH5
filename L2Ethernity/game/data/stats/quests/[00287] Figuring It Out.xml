@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="287" nameEn="Figuring It Out!" nameRu="Когда-нибудь обязательно узнаешь">
+		<droplist>
+			<npc id="22768">
+				<item id="15499" min="1" chance="50" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22769">
+				<item id="15499" min="1" chance="68" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22770">
+				<item id="15499" min="1" chance="12" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22771">
+				<item id="15499" min="1" chance="15" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22772">
+				<item id="15499" min="1" chance="73" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22773">
+				<item id="15499" min="1" chance="73" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+			<npc id="22774">
+				<item id="15499" min="1" chance="26" rateable="true" /> <!--Vial of Tanta Blood-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="15776" min="1" rateable="false" /><!--Recipe - Sealed Moirai Leather Helmet(60%)-->
+				<item id="15779" min="1" rateable="false" /><!--Recipe - Sealed Moirai Leather Breastplate (60%)-->
+				<item id="15782" min="1" rateable="false" /><!--Recipe - Sealed Moirai Leather Legging (60%)-->
+				<item id="15785" min="1" rateable="false" /><!--Recipe - Sealed Moirai Leather Gloves (60%)-->
+				<item id="15788" min="1" rateable="false" /><!--Recipe - Sealed Moirai Leather Boots (60%)-->
+				<item id="15812" min="1" rateable="false" /><!--Recipe - Sealed Moirai Ring (70%)-->
+				<item id="15813" min="1" rateable="false" /><!--Recipe - Sealed Moirai Earring (70%)-->
+				<item id="15814" min="1" rateable="false" /><!--Recipe - Sealed Moirai Necklace (70%)-->
+				<item id="15646" min="5" rateable="false" /><!--Sealed Moirai Leather Helmet Piece-->
+				<item id="15649" min="5" rateable="false" /><!--Sealed Moirai Leather Breastplate Piece-->
+				<item id="15652" min="5" rateable="false" /><!--Sealed Moirai Leather Legging Piece-->
+				<item id="15655" min="5" rateable="false" /><!--Sealed Moirai Leather Gloves Piece-->
+				<item id="15658" min="5" rateable="false" /><!--Sealed Moirai Leather Boots Piece-->
+				<item id="15772" min="1" rateable="false" /><!--Sealed Moirai Ring Gem-->
+				<item id="15773" min="1" rateable="false" /><!--Sealed Moirai Earring Gem-->
+				<item id="15774" min="1" rateable="false" /><!--Sealed Moirai Necklace Gem-->
+
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="10381" min="1" rateable="false" /><!--Recipe - Icarus Spitter (60%)-->
+				<item id="10405" min="4" rateable="false" /><!--Icarus Spitter Piece-->
+				<item id="10405" min="4" rateable="false" /><!--Icarus Spitter Piece-->
+				<item id="10405" min="6" rateable="false" /><!--Icarus Spitter Piece-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

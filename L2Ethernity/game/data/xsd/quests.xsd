@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="quest" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="level" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="min" type="xs:integer" use="required" />
+									<xs:attribute name="max" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="expirience" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="rewardExp" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="rate" type="xs:decimal" />
+												<xs:attribute name="val" type="xs:integer" use="required" />
+												<xs:attribute name="rateable" type="xs:boolean" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="rewardSp" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="rate" type="xs:decimal" />
+												<xs:attribute name="val" type="xs:integer" use="required" />
+												<xs:attribute name="rateable" type="xs:boolean" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="droplist" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="npc" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="1" maxOccurs="1">
+													<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="id" type="xs:integer" use="required" />
+															<xs:attribute name="rate" type="xs:decimal" />
+															<xs:attribute name="min" type="xs:integer" use="required" />
+															<xs:attribute name="max" type="xs:integer" />
+															<xs:attribute name="chance" type="xs:decimal" use="required" />
+															<xs:attribute name="rateable" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="add_parameters" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="set" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" />
+												<xs:attribute name="value" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="rewardlist" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="variant" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="1" maxOccurs="1">
+													<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="id" type="xs:integer" use="required" />
+															<xs:attribute name="rate" type="xs:decimal" />
+															<xs:attribute name="min" type="xs:integer" use="required" />
+															<xs:attribute name="max" type="xs:integer" />
+															<xs:attribute name="rateable" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:integer" use="required" />
+												<xs:attribute name="rate" type="xs:decimal" />
+												<xs:attribute name="min" type="xs:integer" use="required" />
+												<xs:attribute name="max" type="xs:integer" />
+												<xs:attribute name="rateable" type="xs:boolean" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="nameEn" type="xs:normalizedString" use="required" />
+						<xs:attribute name="nameRu" type="xs:normalizedString" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="66" nameEn="Certified Arbalester" nameRu="Путь Арбалетчика">
+		<expirience>
+			<rewardExp val="214773" rateable="true" />
+			<rewardSp val="14738" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20554">
+				<item id="9778" min="1" chance="100" rateable="true" /> <!--Fragment of Attack Orders-->
+			</npc>
+			<npc id="20563">
+				<item id="9780" min="1" chance="100" rateable="true" /> <!--Manashen's Talisman-->
+			</npc>
+			<npc id="27336">
+				<item id="9781" min="1" chance="100" rateable="true" /> <!--Research on the Giants and the Ancient Race-->
+			</npc>
+			<npc id="21102">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21103">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21104">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21105">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21106">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21107">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="21108">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="20781">
+				<item id="9773" min="1" chance="100" rateable="true" /> <!--Enmity Crystal-->
+			</npc>
+			<npc id="20199">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20200">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20201">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20202">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20203">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20083">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+			<npc id="20144">
+				<item id="9775" min="1" chance="100" rateable="true" /> <!--Manuscript Page-->
+			</npc>
+		</droplist>
+		<add_parameters>
+			<set name="timakAmount" value="20" />  <!--kills amount for spawn Crimson Lady-->
+		</add_parameters>
+		<rewardlist>
+			<item id="57" min="38833" rateable="true" /> <!--Adena-->
+			<item id="9782" min="1" rateable="false" /> <!--Kamael Inquisitor Mark-->
+		</rewardlist>
+	</quest>
+</list>

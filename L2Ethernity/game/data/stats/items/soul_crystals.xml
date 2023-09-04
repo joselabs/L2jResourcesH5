@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/soul_crystals.xsd">
+	<!--Red crystal's-->
+	<crystal level="0" itemId="4629" next_itemId="4630" /> <!--Red 0 - 1-->
+	<crystal level="1" itemId="4630" next_itemId="4631" /> <!--Red 1 - 2-->
+	<crystal level="2" itemId="4631" next_itemId="4632" /> <!--Red 2 - 3-->
+	<crystal level="3" itemId="4632" next_itemId="4633" /> <!--Red 3 - 4-->
+	<crystal level="4" itemId="4633" next_itemId="4634" /> <!--Red 4 - 5-->
+	<crystal level="5" itemId="4634" next_itemId="4635" /> <!--Red 5 - 6-->
+	<crystal level="6" itemId="4635" next_itemId="4636" /> <!--Red 6 - 7-->
+	<crystal level="7"  itemId="4636" next_itemId="4637" /> <!--Red 7 - 8-->
+	<crystal level="8" itemId="4637" next_itemId="4638" /> <!--Red 8 - 9-->
+	<crystal level="9" itemId="4638" next_itemId="4639" /> <!--Red 9 - 10-->
+	<crystal level="10" itemId="4639" next_itemId="5577" /> <!--Red 10 - 11-->
+	<crystal level="11" itemId="5577" next_itemId="5580" /> <!--Red 11 - 12-->
+	<crystal level="12" itemId="5580" next_itemId="5908" /> <!--Red 12 - 13-->
+	<crystal level="13" itemId="5908" next_itemId="9570" cursed_next_itemId="10160"/> <!--Red 13 - 14(C)-->
+	<crystal level="14" itemId="9570" next_itemId="10480" /> <!--Red 14 - 15-->
+	<crystal level="15" itemId="10480" next_itemId="13071" /> <!--Red 15 - 16-->
+	<crystal level="16" itemId="13071" next_itemId="15541" /> <!--Red 16 - 17-->
+	<crystal level="17" itemId="15541" next_itemId="15826" /> <!--Red 17 - 18-->
+	<!--Green crystal's-->
+	<crystal level="0" itemId="4640" next_itemId="4641" /> <!--Green 0 - 1-->
+	<crystal level="1" itemId="4641" next_itemId="4642" /> <!--Green 1 - 2-->
+	<crystal level="2" itemId="4642" next_itemId="4643" /> <!--Green 2 - 3-->
+	<crystal level="3" itemId="4643" next_itemId="4644" /> <!--Green 3 - 4-->
+	<crystal level="4" itemId="4644" next_itemId="4645" /> <!--Green 4 - 5-->
+	<crystal level="5" itemId="4645" next_itemId="4646" /> <!--Green 5 - 6-->
+	<crystal level="6" itemId="4646" next_itemId="4647" /> <!--Green 6 - 7-->
+	<crystal level="7" itemId="4647" next_itemId="4648" /> <!--Green 7 - 8-->
+	<crystal level="8" itemId="4648" next_itemId="4649" /> <!--Green 8 - 9-->
+	<crystal level="9" itemId="4649" next_itemId="4650" /> <!--Green 9 - 10-->
+	<crystal level="10" itemId="4650" next_itemId="5578" /> <!--Green 10 - 11-->
+	<crystal level="11" itemId="5578" next_itemId="5581" /> <!--Green 11 - 12-->
+	<crystal level="12" itemId="5581" next_itemId="5911" /> <!--Green 12 - 13-->
+	<crystal level="13" itemId="5911" next_itemId="9572" cursed_next_itemId="10162"/> <!--Green 13 - 14(C)-->
+	<crystal level="14" itemId="9572" next_itemId="10482" /> <!--Green 14 - 15-->
+	<crystal level="15" itemId="10482" next_itemId="13073" /> <!--Green 15 - 16-->
+	<crystal level="16" itemId="13073" next_itemId="15543" /> <!--Green 16 - 17-->
+	<crystal level="17" itemId="15543" next_itemId="15828" /> <!--Green 17 - 18-->
+	<!--Blue crystal's-->
+	<crystal level="0" itemId="4651" next_itemId="4652" /> <!--Blue 0 - 1-->
+	<crystal level="1" itemId="4652" next_itemId="4653" /> <!--Blue 1 - 2-->
+	<crystal level="2" itemId="4653" next_itemId="4654" /> <!--Blue 2 - 3-->
+	<crystal level="3" itemId="4654" next_itemId="4655" /> <!--Blue 3 - 4-->
+	<crystal level="4" itemId="4655" next_itemId="4656" /> <!--Blue 4 - 5-->
+	<crystal level="5" itemId="4656" next_itemId="4657" /> <!--Blue 5 - 6-->
+	<crystal level="6" itemId="4657" next_itemId="4658" /> <!--Blue 6 - 7-->
+	<crystal level="7" itemId="4658" next_itemId="4659" /> <!--Blue 7 - 8-->
+	<crystal level="8" itemId="4659" next_itemId="4660" /> <!--Blue 8 - 9-->
+	<crystal level="9" itemId="4660" next_itemId="4661" /> <!--Blue 9 - 10-->
+	<crystal level="10" itemId="4661" next_itemId="5579" /> <!--Blue 10 - 11-->
+	<crystal level="11" itemId="5579" next_itemId="5582" /> <!--Blue 11 - 12-->
+	<crystal level="12" itemId="5582" next_itemId="5914" /> <!--Blue 12 - 13-->
+	<crystal level="13" itemId="5914" next_itemId="9571" cursed_next_itemId="10161"/> <!--Blue 13 - 14(C)-->
+	<crystal level="14" itemId="9571" next_itemId="10481" /> <!--Blue 14 - 15-->
+	<crystal level="15" itemId="10481" next_itemId="13072" /> <!--Blue 15 - 16-->
+	<crystal level="16" itemId="13072" next_itemId="15542" /> <!--Blue 16 - 17-->
+	<crystal level="17" itemId="15542" next_itemId="15827" /> <!--Blue 17 - 18-->
+</list>

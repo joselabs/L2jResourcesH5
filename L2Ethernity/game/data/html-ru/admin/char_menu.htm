@@ -1,0 +1,70 @@
+﻿<html noscrollbar><title>Меню Персонажа</title><body>
+<center>
+<table width=288 border=0 bgcolor="444444">
+<tr>
+<td><button value="Меню" action="bypass -h admin_admin" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонаж" action="bypass -h admin_admin6" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass -h admin_admin2" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="ГМ" action="bypass -h admin_admin7" width=68 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+<table width=310>
+	<tr>
+		<td width=50>&nbsp;</td>
+		<td><edit var="qbox" width=160 height=15></td>
+		<td width=50>&nbsp;</td>
+	</tr>
+</table>
+<br><br>
+<font color="LEVEL">[ Действия с Персонажами ]</font><br>
+<table width=288 bgcolor="444444">
+<tr>
+<td><button value="Список" action="bypass -h admin_show_characters 0 1" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Найти Dualbox" action="bypass -h admin_find_dualbox $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Менеджер" action="bypass -h admin_char_manage" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Имя" action="bypass -h admin_changename $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Титул" action="bypass -h admin_settitle $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Рекомендации" action="bypass -h admin_rec $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Репутация" action="bypass -h admin_setfame $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="PVP" action="bypass -h admin_setpvp $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="PK" action="bypass -h admin_setpk $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Виталити" action="bypass -h admin_set_vitality $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ур. виталити" action="bypass -h admin_set_vitality_level $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Макс. виталити" action="bypass -h admin_full_vitality" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Баффы" action="bypass -h admin_getbuffs" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Квесты" action="bypass -h admin_charquestmenu $qbox" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Эффекты" action="bypass -h admin_admin3" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Пати" action="bypass -h admin_partyinfo" width=90 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Премиум" action="bypass -h admin_premium_menu" width=90 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Боты" action="bypass -h admin_fakes" width=90 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td></td>
+</tr>
+</table>
+<br>
+<table width=288 bgcolor="444444"><tr>
+<td><button value="Идти" action="bypass -h admin_goto_char_menu $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Призвать" action="bypass -h admin_recall_char_menu $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Карма" action="bypass -h admin_setkarma $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Карма OFF" action="bypass -h admin_nokarma" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="БанЧата" action="bypass -h admin_ban_chat $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="БЧ OFF" action="bypass -h admin_unban_chat $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="В тюрму" action="bypass -h admin_jail $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Выпустить" action="bypass -h admin_unjail $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="Кикнуть" action="bypass -h admin_kick_menu $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Забанить" action="bypass -h admin_ban_menu $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Найти" action="bypass -h admin_find_character $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Repair" action="bypass -h admin_repair $qbox" width=67 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+</center></body></html>

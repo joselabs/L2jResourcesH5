@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="456" nameEn="Don't Know, Don't Care" nameRu="Рассказ безымянного духа">
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="15558" min="1" rateable="false" /><!--Periel Sword-->
+				<item id="15559" min="1" rateable="false" /><!--Skull Edge--> 
+				<item id="15560" min="1" rateable="false" /><!--Vigwik Axe--> 
+				<item id="15561" min="1" rateable="false" /><!--Devilish Maul--> 
+				<item id="15562" min="1" rateable="false" /><!--Feather Eye Blade--> 
+				<item id="15563" min="1" rateable="false" /><!--Octo Claw--> 
+				<item id="15564" min="1" rateable="false" /><!--Doubletop Spear--> 
+				<item id="15565" min="1" rateable="false" /><!--Rising Star--> 
+				<item id="15566" min="1" rateable="false" /><!--Black Visage--> 
+				<item id="15567" min="1" rateable="false" /><!--Veniplant Sword--> 
+				<item id="15568" min="1" rateable="false" /><!--Skull Carnium Bow--> 
+				<item id="15569" min="1" rateable="false" /><!--Gemtail Rapier--> 
+				<item id="15570" min="1" rateable="false" /><!--Finale Blade--> 
+				<item id="15571" min="1" rateable="false" /><!--Dominion Crossbow-->
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="15743" min="1" rateable="false" /><!--Sealed Vorpal Helmet-->
+				<item id="15744" min="1" rateable="false" /><!--Sealed Vorpal Leather Helmet-->
+				<item id="15745" min="1" rateable="false" /><!--Sealed Vorpal Circlet-->
+				<item id="15746" min="1" rateable="false" /><!--Sealed Vorpal Breastplate-->
+				<item id="15747" min="1" rateable="false" /><!--Sealed Vorpal Leather Breastplate-->
+				<item id="15748" min="1" rateable="false" /><!--Sealed Vorpal Tunic-->
+				<item id="15749" min="1" rateable="false" /><!--Sealed Vorpal Gaiter-->
+				<item id="15750" min="1" rateable="false" /><!--Sealed Vorpal Leather Legging-->
+				<item id="15751" min="1" rateable="false" /><!--Sealed Vorpal Stockings-->
+				<item id="15752" min="1" rateable="false" /><!--Sealed Vorpal Gauntlet-->
+				<item id="15753" min="1" rateable="false" /><!--Sealed Vorpal Leather Gloves-->
+				<item id="15754" min="1" rateable="false" /><!--Sealed Vorpal Gloves-->
+				<item id="15755" min="1" rateable="false" /><!--Sealed Vorpal Boots-->
+				<item id="15756" min="1" rateable="false" /><!--Sealed Vorpal Leather Boots-->
+				<item id="15757" min="1" rateable="false" /><!--Sealed Vorpal Shoes-->
+				<item id="15759" min="1" rateable="false" /><!--Sealed Vorpal Sigil-->
+				<item id="15758" min="1" rateable="false" /><!--Sealed Vorpal Shield-->
+			</variant>
+			<variant id="3"><!--Given one random item-->
+				<item id="15763" min="1" rateable="false" /><!--Sealed Vorpal Ring-->
+				<item id="15764" min="1" rateable="false" /><!--Sealed Vorpal Earring-->
+				<item id="15765" min="1" rateable="false" /><!--Sealed Vorpal Necklace-->
+			</variant>
+			<variant id="4"><!--Given one random item-->
+				<item id="6577" min="1" rateable="true" /><!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+				<item id="6578" min="1" rateable="true" /><!--Blessed Scroll: Enchant Armor (S-Grade)-->
+				<item id="959" min="1" rateable="true" /><!--Scroll: Enchant Weapon (S-Grade)-->
+			</variant>
+			<variant id="5"><!--Given one random item-->
+				<item id="9553" min="1" rateable="true" /><!--Water Crystal-->
+				<item id="9552" min="1" rateable="true" /><!--Fire Crystal-->
+				<item id="9555" min="1" rateable="true" /><!--Wind Crystal-->
+				<item id="9554" min="1" rateable="true" /><!--Earth Crystal-->
+				<item id="9556" min="1" rateable="true" /><!--Dark Crystal-->
+				<item id="9557" min="1" rateable="true" /><!--Divine Crystal-->
+			</variant>
+			<variant id="6"><!--Given always-->
+				<item id="2134" min="3" rateable="true" /> <!--Gemstone S-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

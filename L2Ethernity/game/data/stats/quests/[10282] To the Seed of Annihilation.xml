@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="10282" nameEn="To the Seed of Annihilation" nameRu="К Семени Уничтожения">
+		<expirience>
+			<rewardExp val="1148480" rateable="true" />
+			<rewardSp val="99110" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="212182" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>
