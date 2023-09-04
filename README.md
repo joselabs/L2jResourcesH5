@@ -1,2 +1,2 @@
-# L2Priv
- Repository Of Resources olds sources
+# L2j Sources
+ Repository Of Resources.
