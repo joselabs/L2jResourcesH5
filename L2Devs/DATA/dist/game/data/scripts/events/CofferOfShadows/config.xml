@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Coffer of Shadows" active="24 10 2006-07 11 2006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<spawnlist>
+		<add npc="32091" x="-14823" y="123567" z="-3143" heading="8192"/> <!-- Gludio -->
+		<add npc="32091" x="-83159" y="150914" z="-3155" heading="49152"/> <!-- Gludin -->
+		<add npc="32091" x="18600" y="145971" z="-3095" heading="7400"/> <!-- Dion -->
+		<add npc="32091" x="82158" y="148609" z="-3493" heading="60"/> <!-- Giran -->
+		<add npc="32091" x="110992" y="218753" z="-3568" heading="0"/> <!-- Hiene -->
+		<add npc="32091" x="116339" y="75424" z="-2738" heading="0"/> <!-- Hunter Village -->
+		<add npc="32091" x="81140" y="55218" z="-1551" heading="32768"/> <!-- Oren -->
+		<add npc="32091" x="147148" y="27401" z="-2231" heading="2300"/> <!-- Aden -->
+		<add npc="32091" x="43532" y="-46807" z="-823" heading="57344"/> <!-- Rune -->
+		<add npc="32091" x="87765" y="-141947" z="-1367" heading="6500"/> <!-- Schuttgart -->
+		<add npc="32091" x="147154" y="-55527" z="-2807" heading="61300"/> <!-- Goddard -->
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Coffer of Shadows: Event end!"/>
+		<add type="onEnter" text="Coffer of Shadows: Event ongoing!"/>
+	</messages>
+</event>

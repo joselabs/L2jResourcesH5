@@ -1,0 +1,4 @@
+*.bat eol=crlf
+*.sh eol=lf
+gradlew eol=lf
+*.jar binary

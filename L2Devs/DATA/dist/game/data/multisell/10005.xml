@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>32099</npc> <!-- Tony the Cat (Event Manager) -->
+	</npcs>
+	<item>
+		<!-- Firework -->
+		<ingredient id="6403" count="2"/>
+		<ingredient id="6404" count="2"/>
+		<production id="6406" count="1"/>
+	</item>
+	<item>
+		<!-- Large Firework -->
+		<ingredient id="6403" count="4"/>
+		<ingredient id="6404" count="4"/>
+		<ingredient id="6405" count="1"/>
+		<production id="6407" count="1"/>
+	</item>
+</list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<!-- Halloween -->
+	<npcs>
+		<npc>125</npc> <!-- Halloween Event Manager  -->
+	</npcs>
+	<item>
+		<ingredient count="100" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="13489" /> <!-- Halloween Hat -->
+	</item>
+	<item>
+		<ingredient count="150" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="14091" /> <!-- Teddy Boy Agathion Bracelet -->
+	</item>
+	<item>
+		<ingredient count="150" id="15430"/> <!-- Event - Halloween Candy -->
+		<production count="1" id="14092"/> <!-- Teddy Girl Agathion Bracelet -->
+	</item>
+	<item>
+		<ingredient count="200" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="20743" /> <!-- Shiny Super Strong Giant's Mask -->
+	</item>
+	<item>
+		<ingredient count="200" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="20744" /> <!-- Shiny Mask of Silent Scream -->
+	</item>
+	<item>
+		<ingredient count="200" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="20745" /> <!-- Shiny Spirit of Wrath Mast -->
+	</item>
+	<item>
+		<ingredient count="200" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="20746" /> <!-- Shiny Super Strong Giant's Mask -->
+	</item>
+	<item>
+		<ingredient count="200" id="15430" /> <!-- Event - Halloween Candy -->
+		<production count="1" id="20747" /> <!-- Shiny Planet X235 Alien Mask -->
+	</item>
+</list>

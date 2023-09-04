@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Zaken's Curse Event" active="07 01-10 01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="9140" min="1" max="1" chance="1%" /> <!-- Salvation Bow -->
+	</droplist>
+	<spawnlist>
+		<add npc="32131" x="10693" y="17345" z="-4590" heading="45486" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="115095" y="-178309" z="-917" heading="10631" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="47566" y="51138" z="-3001" heading="33264" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="-45272" y="-112396" z="-245" heading="652" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="-84542" y="244682" z="-3735" heading="53988" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="147855" y="26629" z="-2210" heading="19523" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="16249" y="142870" z="-2711" heading="12022" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="17832" y="170509" z="-3531" heading="48408" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="83057" y="149281" z="-3474" heading="31176" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="-80858" y="149456" z="-3070" heading="16948" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="-12147" y="122760" z="-3102" heading="34490" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="110954" y="218935" z="-3548" heading="0" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="117158" y="75807" z="-2735" heading="25189" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="82494" y="53151" z="-1501" heading="946" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="43556" y="-47626" z="-802" heading="42552" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="147388" y="-55436" z="-2738" heading="62376" /> <!-- Magic Laboratory Worker Event Manager -->
+		<add npc="32131" x="87775" y="-143216" z="-1298" heading="27295" /> <!-- Magic Laboratory Worker Event Manager -->
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Zaken's Curse Event: Zaken's Curse Event has passed!" />
+		<add type="onEnter" text="Zaken's Curse Event: Go talk to an Event Manager!" />
+	</messages>
+</event>

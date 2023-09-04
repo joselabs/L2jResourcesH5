@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Lovers' Jubilee" active="09 02 2010-23 02 2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="20903" min="1" max="1" chance="1%"/> <!-- Rose Petal -->
+		<add item="20904" min="1" max="1" chance="10%"/> <!-- Rose Essense -->
+	</droplist>
+	<spawnlist>
+		<add npc="4305" x="87792" y="-142240" z="-1343" heading="44000" />
+		<add npc="4305" x="87616" y="-140688" z="-1542" heading="16500" />
+		<add npc="4305" x="16622" y="142834" z="-2708" heading="16384" />
+		<add npc="4305" x="18559" y="145920" z="-3075" heading="49152" />
+		<add npc="4305" x="82160" y="148544" z="-3469" heading="0" />
+		<add npc="4305" x="82543" y="149728" z="-3471" heading="49151" />
+		<add npc="4305" x="82173" y="146432" z="-3535" heading="16384" />
+		<add npc="4305" x="-81024" y="149848" z="-3046" heading="0" />
+		<add npc="4305" x="-83169" y="151208" z="-3131" heading="0" />
+		<add npc="4305" x="-13726" y="122416" z="-2990" heading="49151" />
+		<add npc="4305" x="-14192" y="124319" z="-3119" heading="32768" />
+		<add npc="4305" x="-84600" y="244586" z="-3731" heading="57343" />
+		<add npc="4305" x="-84240" y="243255" z="-3731" heading="16000" />
+		<add npc="4305" x="46767" y="51007" z="-2998" heading="8192" />
+		<add npc="4305" x="46070" y="48610" z="-3062" heading="23000" />
+		<add npc="4305" x="9912" y="15307" z="-4577" heading="14000" />
+		<add npc="4305" x="11491" y="17663" z="-4587" heading="46999" />
+		<add npc="4305" x="80304" y="56527" z="-1562" heading="49151" />
+		<add npc="4305" x="82160" y="53255" z="-1498" heading="16384" />
+		<add npc="4305" x="148550" y="26781" z="-2208" heading="32768" />
+		<add npc="4305" x="146224" y="25846" z="-2016" heading="0" />
+		<add npc="4305" x="117354" y="76690" z="-2695" heading="45000" />
+		<add npc="4305" x="116210" y="77084" z="-2728" heading="4096" />
+		<add npc="4305" x="-119420" y="44881" z="368" heading="25500" />
+		<add npc="4305" x="-117265" y="46367" z="367" heading="16384" />
+		<add npc="4305" x="111871" y="219198" z="-3545" heading="49151" />
+		<add npc="4305" x="108303" y="221815" z="-3600" heading="0" />
+		<add npc="4305" x="-44687" y="-113169" z="-241" heading="16384" />
+		<add npc="4305" x="115067" y="-177823" z="-882" heading="0" />
+		<add npc="4305" x="117047" y="-182670" z="-1530" heading="24576" />
+		<add npc="4305" x="149022" y="-56015" z="-2783" heading="45055" />
+		<add npc="4305" x="147471" y="-56834" z="-2782" heading="0" />
+		<add npc="4305" x="42896" y="-48479" z="-798" heading="16384" />
+		<add npc="4305" x="44694" y="-50684" z="-799" heading="22000" />
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Lover's Jubilee: Event end!" />
+		<add type="onEnter" text="Lover's Jubilee: Event ongoing!" />
+	</messages>
+</event>

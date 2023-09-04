@@ -1,0 +1,2 @@
+include ':L2JDevs_Core'
+project(':L2JDevs_Core').projectDir = new File(settingsDir, '../L2JDevs_Core')

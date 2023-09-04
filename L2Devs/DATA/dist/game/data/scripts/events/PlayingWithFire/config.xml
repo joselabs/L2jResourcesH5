@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Playing With Fire" active="03 07 2006-11 07 2006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="6403" min="1" max="1" chance="3%" /> <!-- Star Shard -->
+		<add item="6404" min="1" max="1" chance="2%" /> <!-- Gunpowder -->
+		<add item="6405" min="1" max="1" chance="1%" /> <!-- Magnesium -->
+	</droplist>
+	<spawnlist>
+		<add npc="32099" x="-83856" y="243936" z="-3755" heading="52507" />
+		<add npc="32099" x="-81629" y="150211" z="-3155" heading="11233" />
+		<add npc="32099" x="-44316" y="-112234" z="-240" heading="37604" />
+		<add npc="32099" x="-14543" y="124060" z="-3117" heading="55285" />
+		<add npc="32099" x="12241" y="17071" z="-4574" heading="34826" />
+		<add npc="32099" x="18618" y="145918" z="-3073" heading="47722" />
+		<add npc="32099" x="43551" y="-47691" z="-797" heading="33713" />
+		<add npc="32099" x="45147" y="49916" z="-3060" heading="21750" />
+		<add npc="32099" x="81689" y="148844" z="-3467" heading="22854" />
+		<add npc="32099" x="81963" y="53793" z="-1496" heading="61567" />
+		<add npc="32099" x="86914" y="-143218" z="-1293" heading="17185" />
+		<add npc="32099" x="111501" y="220031" z="-3671" heading="49152" />
+		<add npc="32099" x="115745" y="-178788" z="-965" heading="33635" />
+		<add npc="32099" x="116281" y="75496" z="-2714" heading="11291" />
+		<add npc="32099" x="147222" y="27369" z="-2204" heading="44315" />
+		<add npc="32099" x="148140" y="-55492" z="-2734" heading="44641" />
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Playing With Fire: Event end!" />
+		<add type="onEnter" text="Playing With Fire: Event ongoing!" />
+	</messages>
+</event>

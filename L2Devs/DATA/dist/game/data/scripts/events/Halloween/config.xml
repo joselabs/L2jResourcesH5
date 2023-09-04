@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Halloween" active="23 10-01 11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="15430" min="1" max="1" chance="1%" /> <!-- Event - Halloween Candy Event  -->
+	</droplist>
+	<spawnlist>
+		<add npc="125" x="-84128" y="243258" z="-3735" heading="9707" />
+		<add npc="125" x="45510" y="48364" z="-3065" heading="49859" />
+		<add npc="125" x="11861" y="16173" z="-4568" heading="18289" />
+		<add npc="125" x="115639" y="-178066" z="-921" heading="27485" />
+		<add npc="125" x="-44810" y="-113388" z="-192" heading="15527" />
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Halloween: Event end!" />
+		<add type="onEnter" text="Halloween: Event Active!" />
+	</messages>
+</event>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Angel Cat" active="12 09 2006-19 09 2006" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<spawnlist>
+		<add npc="4308" x="148557" y="26745" z="-2200" heading="32768" />
+		<add npc="4308" x="147476" y="-55385" z="-2728" heading="49151" />
+		<add npc="4308" x="148188" y="-55849" z="-2776" heading="61439" />
+		<add npc="4308" x="85628" y="-142429" z="-1344" heading="0" />
+		<add npc="4308" x="86891" y="-142848" z="-1336" heading="26000" />
+		<add npc="4308" x="43908" y="-47714" z="-792" heading="49999" />
+		<add npc="4308" x="43104" y="-48456" z="-792" heading="17000" />
+		<add npc="4308" x="82002" y="53771" z="-1488" heading="0" />
+		<add npc="4308" x="81086" y="56062" z="-1552" heading="32768" />
+		<add npc="4308" x="81743" y="146431" z="-3528" heading="32768" />
+		<add npc="4308" x="82984" y="149343" z="-3464" heading="44000" />
+		<add npc="4308" x="82156" y="148669" z="-3464" heading="0" />
+		<add npc="4308" x="16117" y="142909" z="-2696" heading="16000" />
+		<add npc="4308" x="17307" y="145044" z="-3040" heading="25000" />
+		<add npc="4308" x="111057" y="218934" z="-3536" heading="16384" />
+		<add npc="4308" x="-13777" y="122114" z="-2984" heading="16384" />
+		<add npc="4308" x="-14081" y="123829" z="-3112" heading="40959" />
+		<add npc="4308" x="-83131" y="150956" z="-3120" heading="0" />
+		<add npc="4308" x="-81006" y="149991" z="-3040" heading="0" />
+		<add npc="4308" x="-84034" y="243107" z="-3728" heading="4096" />
+		<add npc="4308" x="-84365" y="244848" z="-3728" heading="57343" />
+		<add npc="4308" x="9926" y="16263" z="-4568" heading="62999" />
+		<add npc="4308" x="11482" y="17600" z="-4584" heading="46900" />
+		<add npc="4308" x="-45299" y="-114093" z="-240" heading="16384" />
+		<add npc="4308" x="-45272" y="-112700" z="-240" heading="0" />
+		<add npc="4308" x="46869" y="50913" z="-2992" heading="8192" />
+		<add npc="4308" x="115100" y="-178306" z="-880" heading="0" />
+		<add npc="4308" x="147265" y="25624" z="-2008" heading="16384" />
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="Angel Cat: Event end!" />
+		<add type="onEnter" text="Angel Cat: Event ongoing!" />
+	</messages>
+</event>
