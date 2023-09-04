@@ -1,0 +1,5 @@
+<root>
+    <item name='gr.sr.autoFarm.AutofarmManager void onDeath(gr.sr.autoFarm.AutoFarmerData)'>
+        <annotation name='org.jetbrains.annotations.NonBlocking'/>
+    </item>
+</root>

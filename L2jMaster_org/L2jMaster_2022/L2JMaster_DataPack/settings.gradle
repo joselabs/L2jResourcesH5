@@ -1,0 +1,2 @@
+include ':L2NorthHall_Server'
+project(':L2NorthHall_Server').projectDir = new File(settingsDir, '../L2NorthHall_Server')
