@@ -1,0 +1,1 @@
+Se recomienda hacer una compilacion para tener nuevas actualizaciones como fix de npc buffer y quest e instancia
